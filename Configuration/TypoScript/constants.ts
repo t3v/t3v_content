@@ -6,13 +6,13 @@
 
 <INCLUDE_TYPOSCRIPT: source="FILE: EXT:fluid_styled_content/Configuration/TypoScript/Static/constants.txt">
 
-styles {
-  templates {
-    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+lib {
+  fluidContent {
+    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/FluidStyledContent/
 
-    templateRootPath = EXT:t3v_content/Resources/Private/Templates/
+    templateRootPath = EXT:t3v_content/Resources/Private/Templates/FluidStyledContent/
 
-    partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+    partialRootPath = EXT:t3v_content/Resources/Private/Partials/FluidStyledContent/
   }
 }
 

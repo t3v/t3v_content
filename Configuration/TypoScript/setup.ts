@@ -8,19 +8,19 @@
 
 lib {
   fluidContent {
+    layoutRootPaths {
+      # 0 = EXT:fluid_styled_content/Resources/Private/Layouts/
+      10 = {$lib.fluidContent.layoutRootPath}
+    }
+
     templateRootPaths {
       # 0 = EXT:fluid_styled_content/Resources/Private/Templates/
-      10 = {$styles.templates.templateRootPath}
+      10 = {$lib.fluidContent.templateRootPath}
     }
 
     partialRootPaths {
       # 0 = EXT:fluid_styled_content/Resources/Private/Partials/
-      10 = {$styles.templates.partialRootPath}
-    }
-
-    layoutRootPaths {
-      # 0 = EXT:fluid_styled_content/Resources/Private/Layouts/
-      10 = {$styles.templates.layoutRootPath}
+      10 = {$lib.fluidContent.partialRootPath}
     }
   }
 }
