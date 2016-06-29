@@ -1,5 +1,9 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-  <div id="c{data.uid}">
+  <div id="ce-{data.uid}" class="ce--textmedia ce">
+    <f:if condition="{gallery.position.noWrap} != 1">
+      <f:render partial="Textmedia/Header" arguments="{_all}" />
+    </f:if>
+
     <f:render section="Content" />
 
     <f:render partial="Shared/Footer" arguments="{_all}" />
