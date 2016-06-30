@@ -8,23 +8,29 @@
       </f:if>
     </f:if>
 
-    <f:if condition="{data.bodytext}">
-      <div class="ce__bodytext">
-        <f:if condition="{gallery.position.noWrap}">
-          <f:render partial="Header" arguments="{_all}" />
-        </f:if>
-
-        <f:if condition="{gallery.position.vertical} != 'below'">
+    <div class="ce__main">
+      <f:if condition="{gallery.position.vertical} != 'below'">
+        <div class="ce__media">
           <f:render partial="Textmedia/MediaGallery" arguments="{_all}" />
-        </f:if>
+        </div>
+      </f:if>
 
-        <f:format.html>{data.bodytext}</f:format.html>
+      <f:if condition="{data.bodytext}">
+        <div class="ce__bodytext">
+          <f:if condition="{gallery.position.noWrap}">
+            <f:render partial="Shared/Header" arguments="{_all}" />
+          </f:if>
 
-        <f:if condition="{gallery.position.vertical} == 'below'">
+          <f:format.html>{data.bodytext}</f:format.html>
+        </div>
+      </f:if>
+
+      <f:if condition="{gallery.position.vertical} == 'below'">
+        <div class="ce__media">
           <f:render partial="Textmedia/MediaGallery" arguments="{_all}" />
-        </f:if>
-      </div>
-    </f:if>
+        </div>
+      </f:if>
+    </div>
 
     <f:render partial="Shared/Footer" arguments="{_all}" />
   </div>
