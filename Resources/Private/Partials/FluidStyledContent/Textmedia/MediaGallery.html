@@ -1,60 +1,62 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:ce="http://typo3.org/ns/TYPO3/CMS/FluidStyledContent/ViewHelpers" data-namespace-typo3-fluid="true">
   <f:if condition="{gallery.rows}">
-    <div class="media-gallery--{gallery.position.horizontal} media-gallery--{gallery.position.vertical} media-gallery--{gallery.count.columns}-columns {f:if(condition: data.imageborder, then: 'media-gallery--border')} media-gallery" data-media-gallery-columns="{gallery.count.columns}" data-media-gallery-images="{gallery.count.files}">
-      <f:if condition="{gallery.position.horizontal} == 'center'">
-        <div class="media-gallery__outer">
-          <div class="media-gallery__inner">
-      </f:if>
+    <div class="ce__media">
+      <div class="media-gallery--{gallery.position.horizontal} media-gallery--{gallery.position.vertical} media-gallery--{gallery.count.columns}-columns {f:if(condition: data.imageborder, then: 'media-gallery--border')} media-gallery" data-media-gallery-columns="{gallery.count.columns}" data-media-gallery-images="{gallery.count.files}">
+        <f:if condition="{gallery.position.horizontal} == 'center'">
+          <div class="media-gallery__outer">
+            <div class="media-gallery__inner">
+        </f:if>
 
-      <f:for each="{gallery.rows}" as="row">
-        <div class="media-gallery__row">
-          <f:for each="{row.columns}" as="column">
-            <f:if condition="{column.media}">
-              <div class="media-gallery__column">
-                <f:if condition="{column.media.description}">
-                  <f:then>
-                    <figure class="figure">
-                  </f:then>
+        <f:for each="{gallery.rows}" as="row">
+          <div class="media-gallery__row">
+            <f:for each="{row.columns}" as="column">
+              <f:if condition="{column.media}">
+                <div class="media-gallery__column">
+                  <f:if condition="{column.media.description}">
+                    <f:then>
+                      <figure class="figure">
+                    </f:then>
 
-                  <f:else>
-                    <div class="media-gallery__media">
-                  </f:else>
-                </f:if>
+                    <f:else>
+                      <div class="media-gallery__media">
+                    </f:else>
+                  </f:if>
 
-                <f:switch expression="{column.media.type}">
-                  <f:case value="3">
-                    <f:render section="AudioType" arguments="{_all}" />
-                  </f:case>
+                  <f:switch expression="{column.media.type}">
+                    <f:case value="3">
+                      <f:render section="AudioType" arguments="{_all}" />
+                    </f:case>
 
-                  <f:case value="4">
-                    <f:render section="VideoType" arguments="{_all}" />
-                  </f:case>
+                    <f:case value="4">
+                      <f:render section="VideoType" arguments="{_all}" />
+                    </f:case>
 
-                  <f:case default="TRUE">
-                    <f:render section="ImageType" arguments="{_all}" />
-                  </f:case>
-                 </f:switch>
+                    <f:case default="TRUE">
+                      <f:render section="ImageType" arguments="{_all}" />
+                    </f:case>
+                   </f:switch>
 
-                <f:if condition="{column.media.description}">
-                  <f:then>
-                      <figcaption class="figcaption">{column.media.description}</figcaption>
-                    </figure>
-                  </f:then>
+                  <f:if condition="{column.media.description}">
+                    <f:then>
+                        <figcaption class="figcaption">{column.media.description}</figcaption>
+                      </figure>
+                    </f:then>
 
-                  <f:else>
-                    </div>
-                  </f:else>
-                </f:if>
-              </div>
-            </f:if>
-          </f:for>
-        </div>
-      </f:for>
-
-      <f:if condition="{gallery.position.horizontal} == 'center'">
+                    <f:else>
+                      </div>
+                    </f:else>
+                  </f:if>
+                </div>
+              </f:if>
+            </f:for>
           </div>
-        </div>
-      </f:if>
+        </f:for>
+
+        <f:if condition="{gallery.position.horizontal} == 'center'">
+            </div>
+          </div>
+        </f:if>
+      </div>
     </div>
   </f:if>
 

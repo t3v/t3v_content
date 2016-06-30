@@ -10,9 +10,7 @@
 
     <div class="ce__main">
       <f:if condition="{gallery.position.vertical} != 'below'">
-        <div class="ce__media">
-          <f:render partial="Textmedia/MediaGallery" arguments="{_all}" />
-        </div>
+        <f:render partial="Textmedia/MediaGallery" arguments="{_all}" />
       </f:if>
 
       <f:if condition="{data.bodytext}">
@@ -26,9 +24,7 @@
       </f:if>
 
       <f:if condition="{gallery.position.vertical} == 'below'">
-        <div class="ce__media">
-          <f:render partial="Textmedia/MediaGallery" arguments="{_all}" />
-        </div>
+        <f:render partial="Textmedia/MediaGallery" arguments="{_all}" />
       </f:if>
     </div>
 
