@@ -7,6 +7,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 -----
 
 * Implemented `T3vContentColumnLayout2Columns`
+* Cleaned up structure
 
 1.0.0
 -----
