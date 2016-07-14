@@ -3,6 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+1.1.0
+-----
+
+* Implemented `T3vContentColumnLayout2Columns`
+
 1.0.0
 -----
 
