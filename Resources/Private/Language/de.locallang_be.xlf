@@ -4,19 +4,21 @@
     <header/>
 
     <body>
-      <!-- === T3vContentColumnLayout2Columns === -->
+      <!-- === Grid Elements === -->
 
-      <trans-unit id="t3vContentColumnLayout2Columns.title">
+      <!-- T3vContentColumnLayout2Columns -->
+
+      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.title">
         <source>Column Layout (2 Columns)</source>
         <target>Spalten Layout (2 Spalten)</target>
       </trans-unit>
 
-      <trans-unit id="t3vContentColumnLayout2Columns.columns.1.name">
+      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.columns.1.name">
         <source>First column</source>
         <target>1. Spalte</target>
       </trans-unit>
 
-      <trans-unit id="t3vContentColumnLayout2Columns.columns.2.name">
+      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.columns.2.name">
         <source>Second column</source>
         <target>2. Spalte</target>
       </trans-unit>

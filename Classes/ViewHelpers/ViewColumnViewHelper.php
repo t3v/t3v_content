@@ -19,8 +19,6 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   public function render($viewColumn, $data) {
     $content = '';
 
-    // var_dump($data);
-
     $viewColumn                = intval($viewColumn);
     $viewChildren              = $data['tx_gridelements_view_children'];
     $viewChildrenByViewColumn  = $this->filterViewChildrenByViewColumn($viewChildren, $viewColumn);

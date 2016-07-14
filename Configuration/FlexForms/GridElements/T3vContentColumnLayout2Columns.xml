@@ -10,19 +10,19 @@
     <el type="array">
       <spread>
         <TCEforms>
-          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:t3vContentColumnLayout2Columns.settings.spread.label</label>
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.t3vContentColumnLayout2Columns.settings.spread.label</label>
           <config>
             <type>select</type>
             <size>1</size>
             <maxitems>1</maxitems>
             <items type="array">
               <numIndex index="0" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:t3vContentColumnLayout2Columns.settings.spread.5050.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.t3vContentColumnLayout2Columns.settings.spread.5050.label</numIndex>
                 <numIndex index="1">50-50</numIndex>
               </numIndex>
 
               <numIndex index="1" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:t3vContentColumnLayout2Columns.settings.spread.7525.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.t3vContentColumnLayout2Columns.settings.spread.7525.label</numIndex>
                 <numIndex index="1">75-25</numIndex>
               </numIndex>
             </items>
@@ -32,19 +32,19 @@
 
       <breakpoint>
         <TCEforms>
-          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:t3vContentColumnLayout2Columns.settings.spread.label</label>
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.t3vContentColumnLayout2Columns.settings.spread.label</label>
           <config>
             <type>select</type>
             <size>1</size>
             <maxitems>1</maxitems>
             <items type="array">
               <numIndex index="0" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:t3vContentColumnLayout2Columns.settings.breakpoint.medium.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.t3vContentColumnLayout2Columns.settings.breakpoint.medium.label</numIndex>
                 <numIndex index="1">medium</numIndex>
               </numIndex>
 
               <numIndex index="1" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:t3vContentColumnLayout2Columns.settings.breakpoint.large.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.t3vContentColumnLayout2Columns.settings.breakpoint.large.label</numIndex>
                 <numIndex index="1">large</numIndex>
               </numIndex>
             </items>

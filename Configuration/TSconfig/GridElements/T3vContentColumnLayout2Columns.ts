@@ -3,7 +3,7 @@
 tx_gridelements {
   setup {
     t3vContentColumnLayout2Columns {
-      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:t3vContentColumnLayout2Columns.title
+      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContentColumnLayout2Columns.title
 
       flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/T3vContentColumnLayout2Columns.xml
 
@@ -30,7 +30,7 @@ tx_gridelements {
           1 {
             columns {
               1 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:t3vContentColumnLayout2Columns.columns.1.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContentColumnLayout2Columns.columns.1.name
 
                 colPos = 101
 
@@ -38,7 +38,7 @@ tx_gridelements {
               }
 
               2 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:t3vContentColumnLayout2Columns.columns.2.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContentColumnLayout2Columns.columns.2.name
 
                 colPos = 102
 
