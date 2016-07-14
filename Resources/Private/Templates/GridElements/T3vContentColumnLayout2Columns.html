@@ -1,12 +1,12 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t="http://typo3.org/ns/T3v/T3vContent/ViewHelpers" data-namespace-typo3-fluid="true">
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers" data-namespace-typo3-fluid="true">
   <div class="ce--t3v-content-column-layout--2-columns-{data.flexform_spread} ce--t3v-content-column-layout--{data.flexform_breakpoint} ce--t3v-content-column-layout ce">
     <div class="ce__container">
       <div class="ce__column">
-        {t:viewColumn(viewColumn: 101, data: data)}
+        <f:format.raw>{t3v:viewColumn(viewColumn: 101, data: data)}</f:format.raw>
       </div>
 
       <div class="ce__column">
-        {t:viewColumn(viewColumn: 102, data: data)}
+        <f:format.raw>{t3v:viewColumn(viewColumn: 102, data: data)}</f:format.raw>
       </div>
     </div>
   </div>
