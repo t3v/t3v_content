@@ -18,7 +18,8 @@
   "homepage": "https://bitbucket.org/t3v/t3v_content",
   "version": "1.0.0",
   "require": {
-    "typo3/cms-core": ">= 7.6.0, < 8.1.0"
+    "typo3/cms-core": ">= 7.6.0, < 8.1.0",
+    "typo3-ter/gridelements": "~7.0.5"
   },
   "autoload": {
     "psr-4": {
