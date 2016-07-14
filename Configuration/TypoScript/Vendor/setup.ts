@@ -20,3 +20,7 @@ lib {
     }
   }
 }
+
+# === Grid Elements (gridelements) ===
+
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:gridelements/Configuration/TypoScript/setup.ts">

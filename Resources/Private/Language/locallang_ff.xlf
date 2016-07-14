@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+  <file product-name="t3v_content" source-language="en" datatype="plaintext" original="messages" date="2016-7-13T18:00:00Z">
+    <header/>
+
+    <body>
+      <!-- === T3vContentColumnLayout2Columns === -->
+
+      <trans-unit id="t3vContentColumnLayout2Columns.settings">
+        <source>Settings</source>
+      </trans-unit>
+
+      <trans-unit id="t3vContentColumnLayout2Columns.settings.spread.label">
+        <source>Spread</source>
+      </trans-unit>
+
+      <trans-unit id="t3vContentColumnLayout2Columns.settings.spread.5050.label">
+        <source>50% 50%</source>
+      </trans-unit>
+
+      <trans-unit id="t3vContentColumnLayout2Columns.settings.spread.7525.label">
+        <source>75% 25%</source>
+      </trans-unit>
+
+      <trans-unit id="t3vContentColumnLayout2Columns.settings.breakpoint.label">
+        <source>Breakpoint</source>
+      </trans-unit>
+
+      <trans-unit id="t3vContentColumnLayout2Columns.settings.breakpoint.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="t3vContentColumnLayout2Columns.settings.breakpoint.large.label">
+        <source>Large</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

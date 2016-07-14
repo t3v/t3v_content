@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+  <file product-name="t3v_content" source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-7-14T18:00:00Z">
+    <header/>
+
+    <body>
+      <!-- === T3vContentColumnLayout2Columns === -->
+
+      <trans-unit id="t3vContentColumnLayout2Columns.title">
+        <source>Column Layout (2 Columns)</source>
+        <target>Spalten Layout (2 Spalten)</target>
+      </trans-unit>
+
+      <trans-unit id="t3vContentColumnLayout2Columns.columns.1.name">
+        <source>First column</source>
+        <target>1. Spalte</target>
+      </trans-unit>
+
+      <trans-unit id="t3vContentColumnLayout2Columns.columns.2.name">
+        <source>Second column</source>
+        <target>2. Spalte</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

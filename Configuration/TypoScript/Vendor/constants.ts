@@ -11,3 +11,7 @@ lib {
     partialRootPath = EXT:t3v_content/Resources/Private/Partials/FluidStyledContent/
   }
 }
+
+# === Grid Elements (gridelements) ===
+
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:gridelements/Configuration/TypoScript/constants.ts">
