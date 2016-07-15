@@ -32,7 +32,7 @@
 
       <breakpoint>
         <TCEforms>
-          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.t3vContentColumnLayout2Columns.settings.spread.label</label>
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.t3vContentColumnLayout2Columns.settings.breakpoint.label</label>
           <config>
             <type>select</type>
             <size>1</size>
