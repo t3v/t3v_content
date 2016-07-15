@@ -4,11 +4,11 @@ namespace T3v\T3vContent\ViewHelpers;
 use \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHelper;
 
 /**
- * Class HeadLineViewHelper
+ * Class HeadlineViewHelper
  *
  * @package T3v\T3vContent\ViewHelpers
  */
-class HeadLineViewHelper extends AbstractViewHelper {
+class HeadlineViewHelper extends AbstractViewHelper {
   /**
    * Render method
    *
