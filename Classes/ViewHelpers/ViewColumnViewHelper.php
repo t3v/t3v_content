@@ -1,7 +1,7 @@
 <?php
 namespace T3v\T3vContent\ViewHelpers;
 
-use \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHelper;
+use \T3v\T3vCore\ViewHelpers\AbstractViewHelper;
 
 /**
  * Class ViewColumnViewHelper
@@ -13,13 +13,14 @@ class ViewColumnViewHelper extends AbstractViewHelper {
    * Render method
    *
    * @param int $viewColumn The UID of the view column
-   * @param array $data The data
+   * @param array $data The Page data
    * @return string The rendered content of the view column
    */
   public function render($viewColumn, $data) {
-    $content = '';
+    $viewColumn = intval($viewColumn);
 
-    $viewColumn                = intval($viewColumn);
+    $output = '';
+
     $viewChildren              = $data['tx_gridelements_view_children'];
     $viewChildrenByViewColumn  = $this->filterViewChildrenByViewColumn($viewChildren, $viewColumn);
     $viewChildrenBySysLanguage = $this->filterViewChildrenBySysLanguage($viewChildrenByViewColumn);
@@ -30,11 +31,11 @@ class ViewColumnViewHelper extends AbstractViewHelper {
       $viewChildContent = $data[$viewChildId];
 
       if (!empty($viewChildContent)) {
-        $content .= $viewChildContent;
+        $output .= $viewChildContent;
       }
     }
 
-    return $content;
+    return $output;
   }
 
   /**
@@ -65,7 +66,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   private function filterViewChildrenBySysLanguage($viewChildren) {
     $result = [];
 
-    $sysLanguageUid = $GLOBALS['TSFE']->sys_language_uid;
+    $sysLanguageUid = $this->getSysLanguageUid();
 
     foreach($viewChildren as $viewChild) {
       if (intval($viewChild['sys_language_uid']) == $sysLanguageUid) {

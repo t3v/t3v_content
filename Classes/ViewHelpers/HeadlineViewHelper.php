@@ -1,7 +1,7 @@
 <?php
 namespace T3v\T3vContent\ViewHelpers;
 
-use \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHelper;
+use \T3v\T3vCore\ViewHelpers\AbstractViewHelper;
 
 /**
  * Class HeadlineViewHelper
@@ -13,19 +13,19 @@ class HeadlineViewHelper extends AbstractViewHelper {
    * Render method
    *
    * @param string $header The header
-   * @param string $layout The layout
+   * @param int $layout The layout UID
    * @param string $cssClass The CSS class
    * @return string The rendered headline
    */
   public function render($header, $layout = 100, $cssClass = 'ce__title') {
-    $headline = '';
-
     $layout = intval($layout);
 
+    $output = '';
+
     if ($layout != 100 && !empty($header)) {
-      $headline = '<h'. $layout . ' class="' . $cssClass . '">' . $header . '</h' . $layout . '>';
+      $output = '<h'. $layout . ' class="' . $cssClass . '">' . $header . '</h' . $layout . '>';
     }
 
-    return $headline;
+    return $output;
   }
 }

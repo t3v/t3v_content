@@ -6,6 +6,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `FileSizeViewHelper`
+* Updated View Helper to extend from `\T3v\T3vCore\ViewHelpers\AbstractViewHelper`
 * Added `ContentElementController`
 
 1.2.0
