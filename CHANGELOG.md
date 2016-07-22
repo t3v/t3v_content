@@ -6,6 +6,9 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `T3vContentAccordion` and `T3vContentAccord`
+* Added `HeadlineLinkViewHelper`
+* Improved `HeadlineViewHelper`
 * Added `FileSizeViewHelper`
 * Updated View Helper to extend from `\T3v\T3vCore\ViewHelpers\AbstractViewHelper`
 * Added `ContentElementController`

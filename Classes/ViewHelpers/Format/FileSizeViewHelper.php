@@ -12,7 +12,7 @@ class FileSizeViewHelper extends AbstractViewHelper {
   const SUFFIXES = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
 
   /**
-   * Render method
+   * The render method.
    *
    * @param int $fileSize The file size in Bytes
    * @param int $calculatingUnit The calculating unit to calculate the file size, defaults to `1024`

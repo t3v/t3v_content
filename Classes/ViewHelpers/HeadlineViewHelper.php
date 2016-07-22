@@ -1,31 +1,42 @@
 <?php
 namespace T3v\T3vContent\ViewHelpers;
 
-use \T3v\T3vCore\ViewHelpers\AbstractViewHelper;
+use \T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
 
 /**
  * Class HeadlineViewHelper
  *
  * @package T3v\T3vContent\ViewHelpers
  */
-class HeadlineViewHelper extends AbstractViewHelper {
+class HeadlineViewHelper extends AbstractTagBasedViewHelper {
   /**
-   * Render method
+   * @var string
+   */
+  protected $tagName = 'h1';
+
+  /**
+   * The render method.
    *
-   * @param string $header The header
-   * @param int $layout The layout UID
-   * @param string $cssClass The headline CSS class
+   * @param string $content The content of the headline
+   * @param int $layout The layout (UID) of the headline
+   * @param string $cssClass The CSS class of the headline, defaults to `ce__title`
    * @return string The rendered headline
    */
-  public function render($header, $layout = 100, $cssClass = 'ce__title') {
-    $layout = intval($layout);
-
-    $output = '';
-
-    if ($layout != 100 && !empty($header)) {
-      $output = '<h'. $layout . ' class="' . $cssClass . '">' . $header . '</h' . $layout . '>';
+  public function render($content = NULL, $layout = 100, $cssClass = 'ce__title') {
+    if ($content === NULL) {
+      $content = $this->renderChildren();
     }
 
-    return $output;
+    $layout = intval($layout);
+
+    if (!empty($content) && $layout != 100) {
+      $tagName = "h{$layout}";
+
+      $this->tag->setTagName($tagName);
+      $this->tag->addAttribute('class', $cssClass);
+      $this->tag->setContent($content);
+
+      return $this->tag->render();
+    }
   }
 }

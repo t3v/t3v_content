@@ -10,7 +10,7 @@ use \T3v\T3vCore\ViewHelpers\AbstractViewHelper;
  */
 class ViewColumnViewHelper extends AbstractViewHelper {
   /**
-   * Render method
+   * The render method.
    *
    * @param int $viewColumn The UID of the view column
    * @param array $data The Page data
