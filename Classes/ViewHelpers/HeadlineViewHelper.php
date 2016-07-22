@@ -14,7 +14,7 @@ class HeadlineViewHelper extends AbstractViewHelper {
    *
    * @param string $header The header
    * @param int $layout The layout UID
-   * @param string $cssClass The CSS class
+   * @param string $cssClass The headline CSS class
    * @return string The rendered headline
    */
   public function render($header, $layout = 100, $cssClass = 'ce__title') {

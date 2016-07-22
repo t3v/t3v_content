@@ -6,6 +6,40 @@
     <body>
       <!-- === Grid Elements === -->
 
+      <!-- T3vContentAccordion -->
+
+      <trans-unit id="gridElements.t3vContentAccordion.title">
+        <source>Accordion</source>
+        <target>Akkordeon</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.t3vContentAccordion.description">
+        <source>Accordion Element</source>
+        <target>Akkordeon Element</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.t3vContentAccordion.rows.1.columns.1.name">
+        <source>Accordion Elements</source>
+        <target>Akkordeon Elemente</target>
+      </trans-unit>
+
+      <!-- T3vContentAccord -->
+
+      <trans-unit id="gridElements.t3vContentAccord.title">
+        <source>Accord</source>
+        <target>Akkord</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.t3vContentAccord.description">
+        <source>The element for an Accordion.</source>
+        <target>Element für ein Akkordeon.</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.t3vContentAccord.rows.1.columns.1.name">
+        <source>Content</source>
+        <target>Inhaltsbereich</target>
+      </trans-unit>
+
       <!-- T3vContentColumnLayout2Columns -->
 
       <trans-unit id="gridElements.t3vContentColumnLayout2Columns.title">
@@ -13,12 +47,17 @@
         <target>Spalten Layout (2 Spalten)</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.columns.1.name">
+      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.description">
+        <source>2 Columns Column Layout</source>
+        <target>2 Spalten Spalten Layout</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.rows.1.columns.1.name">
         <source>First column</source>
         <target>1. Spalte</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.columns.2.name">
+      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.rows.1.columns.2.name">
         <source>Second column</source>
         <target>2. Spalte</target>
       </trans-unit>

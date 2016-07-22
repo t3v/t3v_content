@@ -10,6 +10,10 @@ tt_content {
             cObject = FLUIDTEMPLATE
             cObject {
               file = EXT:t3v_content/Resources/Private/Templates/GridElements/T3vContentColumnLayout2Columns.html
+
+              layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/GridElements/
+
+              partialRootPath = EXT:t3v_content/Resources/Private/Partials/GridElements/
             }
 
             outerWrap = |
