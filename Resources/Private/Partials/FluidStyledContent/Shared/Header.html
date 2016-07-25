@@ -1,20 +1,6 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
   <f:if condition="{data.header_layout} != 100">
     <f:if condition="{data.header}">
-      <f:comment>
-        <f:if condition="{data.subheader}">
-          <f:then>
-            <header>
-          </f:then>
-
-          <f:else>
-            <f:if condition="{data.date}">
-              <header>
-            </f:if>
-          </f:else>
-        </f:if>
-      </f:comment>
-
       <f:render partial="Shared/Header/Header" arguments="{
         header: data.header,
         layout: data.header_layout,
@@ -29,20 +15,6 @@
       </f:if>
 
       <f:render partial="Shared/Header/Date" arguments="{_all}" />
-
-      <f:comment>
-        <f:if condition="{data.subheader}">
-          <f:then>
-            </header>
-          </f:then>
-
-          <f:else>
-            <f:if condition="{data.date}">
-              </header>
-            </f:if>
-          </f:else>
-        </f:if>
-      </f:comment>
     </f:if>
   </f:if>
 </html>
