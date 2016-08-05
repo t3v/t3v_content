@@ -4,13 +4,13 @@ namespace T3v\T3vContent\ViewHelpers;
 use \T3v\T3vCore\ViewHelpers\AbstractViewHelper;
 
 /**
- * Class ViewColumnViewHelper
+ * View Column View Helper Class
  *
  * @package T3v\T3vContent\ViewHelpers
  */
 class ViewColumnViewHelper extends AbstractViewHelper {
   /**
-   * The render method.
+   * The View Helper render function.
    *
    * @param int $viewColumn The UID of the view column
    * @param array $data The Page data

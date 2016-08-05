@@ -4,7 +4,7 @@ namespace T3v\T3vContent\ViewHelpers\Format;
 use \T3v\T3vCore\ViewHelpers\AbstractViewHelper;
 
 /**
- * Class FileSizeViewHelper
+ * File Size View Helper Class
  *
  * @package T3v\T3vContent\ViewHelpers\Format
  */
@@ -12,7 +12,7 @@ class FileSizeViewHelper extends AbstractViewHelper {
   const SUFFIXES = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
 
   /**
-   * The render method.
+   * The View Helper render function.
    *
    * @param int $fileSize The file size in Bytes
    * @param int $calculatingUnit The calculating unit to calculate the file size, defaults to `1024`

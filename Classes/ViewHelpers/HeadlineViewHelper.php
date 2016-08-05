@@ -4,7 +4,7 @@ namespace T3v\T3vContent\ViewHelpers;
 use \T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
 
 /**
- * Class HeadlineViewHelper
+ * Headline View Helper Class
  *
  * @package T3v\T3vContent\ViewHelpers
  */
@@ -15,7 +15,7 @@ class HeadlineViewHelper extends AbstractTagBasedViewHelper {
   protected $tagName = 'h1';
 
   /**
-   * The render method.
+   * The View Helper render function.
    *
    * @param string $content The content of the headline
    * @param int $layout The layout (UID) of the headline

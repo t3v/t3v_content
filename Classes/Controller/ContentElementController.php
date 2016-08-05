@@ -6,7 +6,7 @@ use \TYPO3\CMS\Extbase\Mvc\View\ViewInterface;
 use \T3v\T3vCore\Controller\AbstractController;
 
 /**
- * Class ContentElementController
+ * Content Element Controller Class
  *
  * @package Dopag\DopagWebsite\Controller\Plugins
  */
