@@ -6,33 +6,33 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- T3vContentColumnLayout2Columns -->
+      <!-- T3v Content Column Layout 2 Columns -->
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.settings">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings">
         <source>Settings</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.settings.spread.label">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.spread.label">
         <source>Spread</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.settings.spread.5050.label">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.spread.5050.label">
         <source>50% 50%</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.settings.spread.7525.label">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.spread.7525.label">
         <source>75% 25%</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.settings.breakpoint.label">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.breakpoint.label">
         <source>Breakpoint</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.settings.breakpoint.medium.label">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.breakpoint.medium.label">
         <source>Medium</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.settings.breakpoint.large.label">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.breakpoint.large.label">
         <source>Large</source>
       </trans-unit>
     </body>

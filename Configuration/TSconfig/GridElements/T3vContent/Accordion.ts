@@ -3,13 +3,13 @@
 tx_gridelements {
   setup {
     t3vContentAccordion {
-      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContentAccordion.title
+      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContent.accordion.title
 
-      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContentAccordion.description
+      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContent.accordion.description
 
-      # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/T3vContentAccordion.xml
+      # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/T3vContent/Accordion.xml
 
-      icon = EXT:t3v_content/Resources/Public/Icons/GridElements/T3vContentAccordion.svg
+      icon = EXT:t3v_content/Resources/Public/Icons/GridElements/T3vContent/Accordion.svg
 
       # Frame settings
       # frame = 1
@@ -31,7 +31,7 @@ tx_gridelements {
           1 {
             columns {
               1 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContentAccordion.rows.1.columns.1.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContent.accordion.rows.1.columns.1.name
 
                 colPos = 10
 
@@ -45,13 +45,13 @@ tx_gridelements {
     }
 
     t3vContentAccord {
-      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContentAccord.title
+      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContent.accord.title
 
-      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContentAccord.description
+      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContent.accord.description
 
-      # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/T3vContentAccord.xml
+      # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/T3vContent/Accord.xml
 
-      icon = EXT:t3v_content/Resources/Public/Icons/GridElements/T3vContentAccord.svg
+      icon = EXT:t3v_content/Resources/Public/Icons/GridElements/T3vContent/Accord.svg
 
       # Frame settings
       # frame = 1
@@ -73,7 +73,7 @@ tx_gridelements {
           1 {
             columns {
               1 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContentAccord.columns.rows.1.columns.1.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.t3vContent.accord.columns.rows.1.columns.1.name
 
                 colPos = 10
 

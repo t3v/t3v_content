@@ -12,6 +12,7 @@ Unreleased
 * Added `FileSizeViewHelper`
 * Updated View Helper to extend from `\T3v\T3vCore\ViewHelpers\AbstractViewHelper`
 * Added `ContentElementController`
+* Namespaced layouts, partials, etc.
 * Cleaned up
 
 1.2.0

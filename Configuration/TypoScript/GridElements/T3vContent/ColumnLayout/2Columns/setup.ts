@@ -9,7 +9,7 @@ tt_content {
           t3vContentColumnLayout2Columns {
             cObject = FLUIDTEMPLATE
             cObject {
-              file = EXT:t3v_content/Resources/Private/Templates/GridElements/T3vContentColumnLayout2Columns.html
+              file = EXT:t3v_content/Resources/Private/Templates/GridElements/T3vContent/ColumnLayout/2Columns.html
 
               layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/GridElements/
 

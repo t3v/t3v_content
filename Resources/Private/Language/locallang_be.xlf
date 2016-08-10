@@ -6,50 +6,50 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- T3vContentAccordion -->
+      <!-- T3v Content Accordion -->
 
-      <trans-unit id="gridElements.t3vContentAccordion.title">
+      <trans-unit id="gridElements.t3vContent.accordion.title">
         <source>Accordion</source>
         <target>Akkordeon</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentAccordion.description">
+      <trans-unit id="gridElements.t3vContent.accordion.description">
         <source>Accordion Element</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentAccordion.rows.1.columns.1.name">
+      <trans-unit id="gridElements.t3vContent.accordion.rows.1.columns.1.name">
         <source>Accordion Elements</source>
       </trans-unit>
 
-      <!-- T3vContentAccord -->
+      <!-- T3v Content Accord -->
 
-      <trans-unit id="gridElements.t3vContentAccord.title">
+      <trans-unit id="gridElements.t3vContent.accord.title">
         <source>Accord</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentAccord.description">
+      <trans-unit id="gridElements.t3vContent.accord.description">
         <source>The element for an Accordion.</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentAccord.rows.1.columns.1.name">
+      <trans-unit id="gridElements.t3vContent.accord.rows.1.columns.1.name">
         <source>Content</source>
       </trans-unit>
 
-      <!-- T3vContentColumnLayout2Columns -->
+      <!-- T3v Content Column Layout 2 Columns -->
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.title">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.title">
         <source>Column Layout (2 Columns)</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.description">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.description">
         <source>2 Columns Column Layout</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.rows.1.columns.1.name">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.rows.1.columns.1.name">
         <source>First column</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContentColumnLayout2Columns.rows.1.columns.2.name">
+      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.rows.1.columns.2.name">
         <source>Second column</source>
       </trans-unit>
     </body>
