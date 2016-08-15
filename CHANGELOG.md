@@ -12,6 +12,8 @@ Unreleased
 * Added `FileSizeViewHelper`
 * Updated View Helper to extend from `\T3v\T3vCore\ViewHelpers\AbstractViewHelper`
 * Added `ContentElementController`
+* Updated `Table` template (`ce__caption`)
+* Updated CSS classes
 * Namespaced layouts, partials, etc.
 * Cleaned up
 
