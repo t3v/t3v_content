@@ -3,7 +3,7 @@
 
   <f:section name="Content">
     <f:if condition="{table}">
-      <table class="table">
+      <table class="ce__table table">
         <f:if condition="{data.table_caption}">
           <caption>{data.table_caption}</caption>
         </f:if>
@@ -60,6 +60,10 @@
           </f:if>
         </f:for>
       </table>
+
+      <f:if condition="{data.table_caption}">
+        <div class="ce__caption">{data.table_caption}</div>
+      </f:if>
     </f:if>
   </f:section>
 </html>
