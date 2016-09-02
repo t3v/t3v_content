@@ -50,7 +50,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
 
     foreach($viewChildren as $viewChild) {
       if (intval($viewChild['tx_gridelements_columns']) == $viewColumn) {
-        array_push($result, $viewChild);
+        $result[] = $viewChild;
       }
     }
 
@@ -70,7 +70,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
 
     foreach($viewChildren as $viewChild) {
       if (intval($viewChild['sys_language_uid']) == $sysLanguageUid) {
-        array_push($result, $viewChild);
+        $result[] = $viewChild;
       }
     }
 
