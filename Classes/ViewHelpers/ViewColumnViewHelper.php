@@ -13,7 +13,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
    * The View Helper render function.
    *
    * @param int $viewColumn The UID of the view column
-   * @param array $data The Page data
+   * @param array $data The page data
    * @return string The rendered content of the view column
    */
   public function render($viewColumn, $data) {
@@ -39,13 +39,13 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   }
 
   /**
-   * Helper method to filter view children by column.
+   * Helper function to filter view children by column.
    *
    * @param array $viewChildren The view children
    * @param int $viewColumn The UID of the view column
    * @return array The filtered view children
    */
-  private function filterViewChildrenByViewColumn($viewChildren, $viewColumn) {
+  protected function filterViewChildrenByViewColumn($viewChildren, $viewColumn) {
     $result = [];
 
     foreach($viewChildren as $viewChild) {
@@ -58,12 +58,12 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   }
 
   /**
-   * Helper method to filter view children by the current sys language.
+   * Helper function to filter view children by the current sys language.
    *
    * @param array $viewChildren The view children
    * @return array The filtered view children
    */
-  private function filterViewChildrenBySysLanguage($viewChildren) {
+  protected function filterViewChildrenBySysLanguage($viewChildren) {
     $result = [];
 
     $sysLanguageUid = $this->getSysLanguageUid();
