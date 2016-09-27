@@ -15,35 +15,67 @@ class FileSizeViewHelper extends AbstractViewHelper {
    * The View Helper render function.
    *
    * @param int $fileSize The file size in Bytes
-   * @param int $calculatingUnit The calculating unit to calculate the file size, defaults to `1024`
-   * @param int $precision The precision, defaults to `2`
+   * @param int $base The optional base unit to calculate the file size, defaults to `1000`
+   * @param int $precision The optional precision, defaults to `2`
+   * @param int $decimalSeparator The optional decimal separator, defaults to `null`
+   * @param int $thousandsSeparator The optional thousands separator, defaults to `null`
    * @return string The formatted / human readable file size
    */
-  public function render($fileSize, $calculatingUnit = 1024, $precision = 2) {
-    $fileSize        = intval($fileSize);
-    $calculatingUnit = intval($calculatingUnit);
-    $precision       = intval($precision);
+  public function render($fileSize, $base = 1000, $precision = 2, $decimalSeparator = null, $thousandsSeparator = null) {
+    $fileSize           = intval($fileSize);
+    $base               = intval($base);
+    $precision          = intval($precision);
+    $decimalSeparator   = $decimalSeparator ?: $this->getDecimalSeparator();
+    $thousandsSeparator = $thousandsSeparator ?: $this->getThousandsSeparator();
 
-    $output = '';
+    $pow      = floor(($fileSize ? log($fileSize) : 0) / log($base));
+    $pow      = min($pow, count(self::SUFFIXES) - 1);
+    $fileSize /= (1 << (10 * $pow));
 
-    if ($fileSize > 0) {
-      $base = log($fileSize, $calculatingUnit);
-      $size = pow($calculatingUnit, $base - floor($base));
+    return sprintf(
+      '%s %s',
+      number_format(round($fileSize, 4 * $precision), $precision, $decimalSeparator, $thousandsSeparator),
+      self::SUFFIXES[$pow]
+    );
+  }
 
-      switch ($this->getLanguage()) {
-        case 'de':
-          $size = number_format($size, $precision, ',', ' ');
+  /**
+   * Helper function to get the decimal separator based on the current language.
+   *
+   * @return string The decimal separator
+   */
+  protected function getDecimalSeparator() {
+    $decimalSeparator = '.';
 
-          break;
-        default:
-          $size = number_format($size, $precision, '.', ' ');
-      }
+    switch ($this->getLanguage()) {
+      case 'de':
+        $decimalSeparator = ',';
 
-      $suffix = self::SUFFIXES[floor($base)];
-
-      $output = "{$size} {$suffix}";
+        break;
+      default:
+        $decimalSeparator = '.';
     }
 
-    return $output;
+    return $decimalSeparator;
+  }
+
+  /**
+   * Helper function to get the thousands separator based on the current language.
+   *
+   * @return string The thousands separator
+   */
+  protected function getThousandsSeparator() {
+    $thousandsSeparator = ',';
+
+    switch ($this->getLanguage()) {
+      case 'de':
+        $thousandsSeparator = '.';
+
+        break;
+      default:
+        $thousandsSeparator = ',';
+    }
+
+    return $thousandsSeparator;
   }
 }
