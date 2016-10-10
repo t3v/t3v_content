@@ -1,4 +1,4 @@
-# === Plugin Configuration ===
+# === T3v Content Configuration ===
 
 plugin {
   tx_t3vcontent {
