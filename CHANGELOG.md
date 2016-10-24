@@ -3,6 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Don't wrap `Shortcut` elements
+
 1.3.0
 -----
 
