@@ -1,4 +1,4 @@
 # === Includes ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./ColumnLayoutGridElement.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./AccordionGridElement.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/ColumnLayoutGridElement.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/AccordionGridElement.ts">
