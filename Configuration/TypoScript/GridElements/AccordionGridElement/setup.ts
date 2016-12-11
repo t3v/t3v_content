@@ -9,7 +9,7 @@ tt_content {
           t3vContentAccordion {
             cObject = FLUIDTEMPLATE
             cObject {
-              file = EXT:t3v_content/Resources/Private/Templates/GridElements/T3vContent/Accordion.html
+              file = EXT:t3v_content/Resources/Private/Templates/GridElements/AccordionGridElement.html
 
               layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/GridElements/
 
@@ -23,7 +23,7 @@ tt_content {
           t3vContentAccord {
             cObject = FLUIDTEMPLATE
             cObject {
-              file = EXT:t3v_content/Resources/Private/Templates/GridElements/T3vContent/Accord.html
+              file = EXT:t3v_content/Resources/Private/Templates/GridElements/AccordGridElement.html
 
               layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/GridElements/
 

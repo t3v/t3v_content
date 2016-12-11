@@ -6,51 +6,50 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- T3v Content Accordion -->
+      <!-- Column Layout Grid Element (2 Columns) -->
 
-      <trans-unit id="gridElements.t3vContent.accordion.title">
-        <source>Accordion</source>
-        <target>Akkordeon</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.t3vContent.accordion.description">
-        <source>Accordion Element</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.t3vContent.accordion.rows.1.columns.1.name">
-        <source>Accordion Elements</source>
-      </trans-unit>
-
-      <!-- T3v Content Accord -->
-
-      <trans-unit id="gridElements.t3vContent.accord.title">
-        <source>Accord</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.t3vContent.accord.description">
-        <source>The element for an Accordion.</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.t3vContent.accord.rows.1.columns.1.name">
-        <source>Content</source>
-      </trans-unit>
-
-      <!-- T3v Content Column Layout 2 Columns -->
-
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.title">
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.title">
         <source>Column Layout (2 Columns)</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.description">
-        <source>2 Columns Column Layout</source>
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.description">
+        <source>Column Layout Grid Element (2 Columns)</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.rows.1.columns.1.name">
-        <source>First column</source>
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.1.name">
+        <source>1. column</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.rows.1.columns.2.name">
-        <source>Second column</source>
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.2.name">
+        <source>2. column</source>
+      </trans-unit>
+
+      <!-- Accordion Grid Element -->
+
+      <trans-unit id="gridElements.accordionGridElement.title">
+        <source>Accordion</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.description">
+        <source>Accordion Grid Element</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.rows.1.columns.1.name">
+        <source>Accordion Elements</source>
+      </trans-unit>
+
+      <!-- Accord Grid Element -->
+
+      <trans-unit id="gridElements.accordGridElement.title">
+        <source>Accord</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.description">
+        <source>The element for an Accordion.</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.rows.1.columns.1.name">
+        <source>Content</source>
       </trans-unit>
     </body>
   </file>

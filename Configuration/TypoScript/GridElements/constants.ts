@@ -1,3 +1,4 @@
 # === Includes ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./T3vContent/constants.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./ColumnLayoutGridElement/constants.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./AccordionGridElement/constants.ts">

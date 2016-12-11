@@ -6,39 +6,39 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- T3v Content Column Layout 2 Columns -->
+      <!-- Column Layout Grid Element (2 Columns) -->
 
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings">
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings">
         <source>Settings</source>
         <target>Einstellungen</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.spread.label">
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.label">
         <source>Spread</source>
         <target>Ausbreitung</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.spread.5050.label">
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.5050.label">
         <source>50% 50%</source>
         <target>50% 50%</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.spread.7525.label">
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.7525.label">
         <source>75% 25%</source>
         <target>75% 25%</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.breakpoint.label">
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.label">
         <source>Breakpoint</source>
         <target>Breakpoint</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.breakpoint.medium.label">
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.medium.label">
         <source>Medium</source>
         <target>Medium</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vContent.columnLayout.2Columns.settings.breakpoint.large.label">
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.large.label">
         <source>Large</source>
         <target>Groß</target>
       </trans-unit>

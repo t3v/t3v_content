@@ -1,7 +1,7 @@
 <?php
 defined('TYPO3_MODE') or die('Access denied.');
 
-# === Textmedia Content Element ===
+// === Textmedia Content Element ===
 
 // if (!is_array($GLOBALS['TCA']['tt_content']['types']['textmedia'])) {
 //   $GLOBALS['TCA']['tt_content']['types']['textmedia'] = [];
@@ -33,7 +33,7 @@ defined('TYPO3_MODE') or die('Access denied.');
 //   ]
 // );
 
-# === Text Content Element (deprecated) ===
+// === Text Content Element (deprecated) ===
 
 // if (!is_array($GLOBALS['TCA']['tt_content']['types']['text'])) {
 //   $GLOBALS['TCA']['tt_content']['types']['text'] = [];
@@ -61,7 +61,7 @@ defined('TYPO3_MODE') or die('Access denied.');
 //   ]
 // );
 
-# === Text & Image Content Element (deprecated) ===
+// === Text & Image Content Element (deprecated) ===
 
 // if (!is_array($GLOBALS['TCA']['tt_content']['types']['textpic'])) {
 //   $GLOBALS['TCA']['tt_content']['types']['textpic'] = [];

@@ -1,12 +1,12 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers" data-namespace-typo3-fluid="true">
-  <f:layout name="T3vContent/ColumnLayout/2Columns" />
+  <f:layout name="ColumnLayoutGridElement/2Columns" />
 
   <f:section name="Container">
-    <div class="ce__column">
+    <div class="ge__column">
       <f:format.raw>{t3v:viewColumn(viewColumn: 101, data: data)}</f:format.raw>
     </div>
 
-    <div class="ce__column">
+    <div class="ge__column">
       <f:format.raw>{t3v:viewColumn(viewColumn: 102, data: data)}</f:format.raw>
     </div>
   </f:section>
