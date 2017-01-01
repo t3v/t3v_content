@@ -14,7 +14,7 @@ class FileSizeViewHelper extends AbstractViewHelper {
   /**
    * The View Helper render function.
    *
-   * @param int $fileSize The file size in Bytes
+   * @param int $fileSize The file size in bytes
    * @param int $base The optional base unit to calculate the file size, defaults to `1000`
    * @param int $precision The optional precision, defaults to `2`
    * @param int $decimalSeparator The optional decimal separator, defaults to `null`

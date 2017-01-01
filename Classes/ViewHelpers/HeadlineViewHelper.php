@@ -10,6 +10,8 @@ use \T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
  */
 class HeadlineViewHelper extends AbstractTagBasedViewHelper {
   /**
+   * The tag name.
+   *
    * @var string
    */
   protected $tagName = 'h1';
@@ -22,8 +24,8 @@ class HeadlineViewHelper extends AbstractTagBasedViewHelper {
    * @param string $cssClass The CSS class of the headline, defaults to `ce__title`
    * @return string The rendered headline
    */
-  public function render($content = NULL, $layout = 100, $cssClass = 'ce__title') {
-    if ($content === NULL) {
+  public function render($content = null, $layout = 100, $cssClass = 'ce__title') {
+    if ($content === null) {
       $content = $this->renderChildren();
     }
 

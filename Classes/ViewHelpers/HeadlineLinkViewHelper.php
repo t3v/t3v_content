@@ -13,6 +13,8 @@ use \T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
  */
 class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
   /**
+   * The tag name.
+   *
    * @var string
    */
   protected $tagName = 'h1';
@@ -25,8 +27,8 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
    * @param string $cssClass The CSS class of the headline, defaults to `ce__title`
    * @return string The rendered headline
    */
-  public function render($content = NULL, $layout = 100, $cssClass = 'ce__title') {
-    if ($content === NULL) {
+  public function render($content = null, $layout = 100, $cssClass = 'ce__title') {
+    if ($content === null) {
       $content = $this->renderChildren();
     }
 
@@ -51,11 +53,11 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
    *
    * @param string $content The content of the link
    * @param string $href The href attribute of the link, defaults to `#`
-   * @param string $title The title attribute of the link, defaults to content
+   * @param string $title The title attribute of the link
    * @return TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder The link
    */
-  protected function createLink($content, $href = '#', $title = NULL) {
-    if ($title === NULL) {
+  protected function createLink($content, $href = '#', $title = null) {
+    if ($title === null) {
       $title = $content;
     }
 
