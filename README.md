@@ -31,6 +31,13 @@ development as part of a development project:
 
 * [Hilger u. Kern GmbH]
 
+Credits
+-------
+
+### Icons
+
+* [Nucleo]
+
 License
 -------
 
@@ -41,6 +48,7 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Hilger u. Kern GmbH]: http://www.hilger-kern.de "Hilger u. Kern GmbH"
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_content/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
+[Nucleo]: https://nucleoapp.com "Nucleo is a library of icons with super powers"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [T3v Content]: https://t3v.github.io/t3v_content/ "The TYPO3voila Content extension."
 [TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
