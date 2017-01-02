@@ -6,22 +6,8 @@
 Installation
 ------------
 
-1. Add `t3v_content` to the [Composer] configuration (`composer.json`):
-
-    ```json
-    {
-      "repositories": [
-        { "type": "git", "url": "git@t3v[at]bitbucket.org:t3v/t3v_content.git" }
-      ],
-
-      "require": {
-        "t3v/t3v_content": "~1.5.0"
-      }
-    }
-    ```
-
+1. Add `t3v_content` to the [Composer] configuration (`composer.json`)
 2. Run `composer install` or `composer update` to install all dependencies with Composer
-
 3. Include the TypoScript for `t3v_content` in the main TypoScript template
 
 Bug Reports
@@ -37,8 +23,24 @@ This library aims to adhere to [Semantic Versioning 2.0.0]. Violations of this s
 Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
 immediately yanked and / or a new version should be immediately released that restores compatibility.
 
+Sponsors
+--------
+
+The following people / organizations have provided sponsorship to this project by way of direct donations or for paid
+development as part of a development project:
+
+* [Hilger u. Kern GmbH]
+
+License
+-------
+
+T3v Content is released under the [MIT License (MIT)], see [LICENSE].
+
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
-[here]: https://bitbucket.org/t3v/t3v_content/issues "Bitbucket Issue Tracker"
+[here]: https://github.com/t3v/t3v_content/issues "GitHub Issue Tracker"
+[Hilger u. Kern GmbH]: http://www.hilger-kern.de "Hilger u. Kern GmbH"
+[LICENSE]: https://raw.githubusercontent.com/t3v/t3v_content/master/LICENSE "License"
+[MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
-[T3v Content]: https://bitbucket.org/t3v/t3v_content "The TYPO3voila Content extension."
-[TYPO3voila]: https://bitbucket.org/t3v "“UH LÁLÁ, TYPO3!”"
+[T3v Content]: https://t3v.github.io/t3v_content/ "The TYPO3voila Content extension."
+[TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
