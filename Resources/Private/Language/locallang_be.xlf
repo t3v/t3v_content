@@ -45,7 +45,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.description">
-        <source>The element for an Accordion.</source>
+        <source>An element for an Accordion</source>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.rows.1.columns.1.name">

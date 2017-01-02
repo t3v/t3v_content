@@ -53,8 +53,8 @@
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.description">
-        <source>The element for an Accordion.</source>
-        <target>Element für ein Akkordeon.</target>
+        <source>An element for an Accordion</source>
+        <target>Element für ein Akkordeon</target>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.rows.1.columns.1.name">
