@@ -13,7 +13,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.description">
-        <source>Column Layout Grid Element (2 Columns)</source>
+        <source>2 Columns Layout Grid Element</source>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.1.name">
