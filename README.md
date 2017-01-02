@@ -36,19 +36,28 @@ Credits
 
 ### Icons
 
-* [Nucleo]
+* [Accordion free icon]
+* [Archive free icon]
+* [Browser free icon]
+
+Icons made by [Madebyoliver] from [Flaticon] is licensed by [CC 3.0 BY].
 
 License
 -------
 
 T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 
+[Accordion free icon]: http://www.flaticon.com/free-icon/accordion_140208 "Accordion free icon"
+[Archive free icon]: http://www.flaticon.com/free-icon/archive_149014 "Archive free icon"
+[Browser free icon]: http://www.flaticon.com/free-icon/browser_140796 "Browser free icon"
+[CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/ "Creative Commons BY 3.0"
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
+[Flaticon]: http://www.flaticon.com "Flaticon"
 [here]: https://github.com/t3v/t3v_content/issues "GitHub Issue Tracker"
 [Hilger u. Kern GmbH]: http://www.hilger-kern.de "Hilger u. Kern GmbH"
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_content/master/LICENSE "License"
+[Madebyoliver]: http://www.flaticon.com/authors/madebyoliver "Madebyoliver"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
-[Nucleo]: https://nucleoapp.com "Nucleo is a library of icons with super powers"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [T3v Content]: https://t3v.github.io/t3v_content/ "The TYPO3voila Content extension."
 [TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
