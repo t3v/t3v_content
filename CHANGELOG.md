@@ -3,8 +3,8 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+1.7.0
+-----
 
 * Allow HTML tags like `<b>` in headers
 * Updated translations
