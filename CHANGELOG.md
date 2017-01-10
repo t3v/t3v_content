@@ -7,6 +7,8 @@ Unreleased
 ----------
 
 * Updated translations
+* Bugfixing
+* Cleaned up
 
 1.6.0
 -----
