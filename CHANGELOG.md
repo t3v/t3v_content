@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Allow HTML tags like `<b>` in headers
 * Updated translations
 * Bugfixing
 * Cleaned up
