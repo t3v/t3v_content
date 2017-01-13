@@ -8,11 +8,9 @@ $EM_CONF[$_EXTKEY] = [
   'category' => 'fe',
   'state' => 'stable',
   'version' => '1.7.0',
-  'shy' => false,
   'createDirs' => '',
   'uploadfolder' => false,
-  'modify_tables' => '',
-  'clearCacheOnLoad' => true,
+  'clearCacheOnLoad' => false,
   'constraints' => [
     'depends' => [
       'typo3' => '7.6.0-8.1.99',
@@ -24,5 +22,15 @@ $EM_CONF[$_EXTKEY] = [
       'css_styled_content' => '7.6.0-8.1.99'
     ],
     'suggests' => []
+  ],
+  'autoload' => [
+    'psr-4' => [
+      'T3v\\T3vContent\\' => 'Classes'
+    ]
+  ],
+  'autoload-dev' => [
+    'psr-4' => [
+      'T3v\\T3vContent\\Tests\\' => 'Tests'
+    ]
   ]
 ];
