@@ -6,8 +6,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Update Composer configuration
-* Update `ext_emconf.php`
+* Updated Composer configuration
+* Updated `ext_emconf.php`
 
 1.7.0
 -----
