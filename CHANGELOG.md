@@ -7,6 +7,7 @@ Unreleased
 ----------
 
 * Use `f:format.raw` instead of `f:format.html` (Fluid Styled Content Headers)
+* Updated Composer dependencies
 
 1.7.1
 -----
