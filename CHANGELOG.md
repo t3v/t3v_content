@@ -3,6 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Use `f:format.raw` instead of `f:format.html` (Fluid Styled Content Headers)
+
 1.7.1
 -----
 
@@ -13,7 +18,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 1.7.0
 -----
 
-* Allow HTML tags like `<b>` in headers
+* Allow HTML tags like `<b>` in Fluid Styled Content Headers
 * Updated translations
 * Bugfixing
 * Cleaned up
