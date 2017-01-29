@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Improved Flexforms
 * Use `lib.parseFunc` as `parseFuncTSPath` (Fluid Styled Content Headers)
 * Updated Composer dependencies
 

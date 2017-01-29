@@ -14,6 +14,7 @@
           <config>
             <type>select</type>
             <size>1</size>
+            <minitems>1</minitems>
             <maxitems>1</maxitems>
             <items type="array">
               <numIndex index="0" type="array">
@@ -36,6 +37,7 @@
           <config>
             <type>select</type>
             <size>1</size>
+            <minitems>1</minitems>
             <maxitems>1</maxitems>
             <items type="array">
               <numIndex index="0" type="array">
