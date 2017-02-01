@@ -8,7 +8,7 @@ use \T3v\T3vCore\Controller\AbstractController;
 /**
  * Content Element Controller Class
  *
- * @package Dopag\DopagWebsite\Controller\ContentElements
+ * @package T3v\T3vContent\Controller\ContentElements
  */
 class ContentElementController extends AbstractController {
   /**
