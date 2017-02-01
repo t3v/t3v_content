@@ -1,5 +1,5 @@
 <?php
-namespace T3v\T3vContent\Controller;
+namespace T3v\T3vContent\Controller\ContentElements;
 
 use \TYPO3\CMS\Extbase\Mvc\View\ViewInterface;
 
@@ -8,7 +8,7 @@ use \T3v\T3vCore\Controller\AbstractController;
 /**
  * Content Element Controller Class
  *
- * @package Dopag\DopagWebsite\Controller\Plugins
+ * @package Dopag\DopagWebsite\Controller\ContentElements
  */
 class ContentElementController extends AbstractController {
   /**
