@@ -46,6 +46,8 @@ class ViewColumnViewHelper extends AbstractViewHelper {
    * @return array The filtered view children
    */
   protected function filterViewChildrenByViewColumn($viewChildren, $viewColumn) {
+    $viewColumn = intval($viewColumn);
+
     $result = [];
 
     foreach($viewChildren as $viewChild) {
