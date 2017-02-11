@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `HeaderIfViewHelper`
 * Improved View Helper
 * Use `call_user_func` in `ext_localconf.php` and `ext_tables.php`
 * New icon
