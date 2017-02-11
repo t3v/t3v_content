@@ -10,8 +10,10 @@
       <div class="ce__bodytext">
         <f:if condition="{gallery.position.noWrap}">
           <f:if condition="{data.header}">
-            <f:if condition="{data.header_layout} != 100">
-              <f:render partial="Shared/Header" arguments="{_all}" />
+            <f:if condition="{data.header_layout} != 0">
+              <f:if condition="{data.header_layout} != 100">
+                <f:render partial="Shared/Header" arguments="{_all}" />
+              </f:if>
             </f:if>
           </f:if>
         </f:if>
