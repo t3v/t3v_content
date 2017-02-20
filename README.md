@@ -1,14 +1,43 @@
 [T3v Content]
 =============
 
+[![Travis CI Status][Travis CI Status]][Travis CI]
+
 **The [TYPO3voila] Content extension.**
+
+Dependencies
+------------
+
+* TYPO3 CMS 7.6 or greater
+* T3v Core extension
 
 Installation
 ------------
 
-1. Add `t3v_content` to the [Composer] configuration (`composer.json`)
+1. Add T3v Content (`t3v_content`) as dependency to the [Composer] configuration (`composer.json`)
 2. Run `composer install` or `composer update` to install all dependencies with Composer
-3. Include the TypoScript for `t3v_content` in the main TypoScript template
+3. Include the TypoScript for T3v Content
+
+Development
+-----------
+
+### Setup
+
+```
+$ ./Scripts/Setup.sh
+```
+
+### Run Unit Tests
+
+```
+$ ./Scripts/Tests/Unit.sh
+```
+
+### Run Functional Tests
+
+```
+$ ./Scripts/Tests/Functional.sh
+```
 
 Bug Reports
 -----------
@@ -60,4 +89,6 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [T3v Content]: https://t3v.github.io/t3v_content/ "The TYPO3voila Content extension."
+[Travis CI Status]: https://img.shields.io/travis/t3v/t3v_content.svg?style=flat "Travis CI Status"
+[Travis CI]: https://travis-ci.org/t3v/t3v_content "T3v Content at Travis CI"
 [TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"

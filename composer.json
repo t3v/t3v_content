@@ -18,7 +18,36 @@
     "UH LÁLÁ"
   ],
   "homepage": "https://t3v.github.io/t3v_content/",
+  "support": {
+    "issues": "https://github.com/t3v/t3v_content/issues"
+  },
   "license": "MIT",
+  "config": {
+    "preferred-install": {
+      "typo3/cms": "source"
+    },
+    "bin-dir": ".Build/bin",
+    "vendor-dir": ".Build/vendor"
+  },
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/t3v/t3v_core.git" }
+  ],
+  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  },
+  "replace": {
+    "t3v_content": "self.version",
+    "typo3-ter/t3v_content": "self.version"
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "mkdir -p .Build/Web/typo3conf/ext/",
+      "[ -L .Build/Web/typo3conf/ext/t3v_content ] || ln -snvf ../../../../. .Build/Web/typo3conf/ext/t3v_content"
+    ]
+  },
   "require": {
     "php": ">= 5.6",
     "typo3/cms-core": ">= 7.6.0, < 8.1.0",
@@ -26,15 +55,20 @@
     "t3v/t3v_core": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "~5.7.6"
-  },
-  "replace": {
-    "t3v_content": "self.version",
-    "typo3-ter/t3v_content": "self.version"
+    "namelesscoder/typo3-repository-client": "~1.3.1",
+    "mikey179/vfsStream": "~1.6.4",
+    "phpunit/phpunit": "~5.7.13"
   },
   "autoload": {
     "psr-4": {
       "T3v\\T3vContent\\": "Classes"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "T3v\\T3vContent\\Tests\\": "Tests",
+      "TYPO3\\CMS\\Core\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/core/Tests/",
+      "TYPO3\\CMS\\Fluid\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/fluid/Tests/"
     }
   }
 }
