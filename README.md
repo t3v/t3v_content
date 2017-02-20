@@ -9,6 +9,7 @@ Dependencies
 ------------
 
 * TYPO3 CMS 7.6 or greater
+* Grid Elements extension
 * T3v Core extension
 
 Installation
