@@ -9,7 +9,11 @@ Unreleased
 * Added `HeaderIfViewHelper`
 * Improved View Helper
 * Use `call_user_func` in `ext_localconf.php` and `ext_tables.php`
+* Configured Travis CI
+* Added unit and functional tests
 * New icon
+* Updated claim
+* Updated comments
 
 1.7.2
 -----
