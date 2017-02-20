@@ -24,18 +24,6 @@ class RenderingTest extends FunctionalTestCase {
   protected $testExtensionsToLoad = ['typo3conf/ext/t3v_content'];
 
   /**
-   * Setup before running tests.
-   *
-   * @return void
-   */
-  public function setUp() {
-    parent::setUp();
-
-    $this->importDataSet(__DIR__ . '/Fixtures/Database/Pages.xml');
-    $this->setUpFrontendRootPage(1, ['EXT:t3v_content/Tests/Functional/Fixtures/Frontend/Basic.ts']);
-  }
-
-  /**
    * Test if template is rendered.
    *
    * @test
@@ -53,6 +41,19 @@ class RenderingTest extends FunctionalTestCase {
   }
 
   /**
+   * Setup before running tests.
+   *
+   * @return void
+   */
+  protected function setUp() {
+    parent::setUp();
+
+    $this->importDataSet(__DIR__ . '/Fixtures/Database/Pages.xml');
+
+    $this->setUpFrontendRootPage(1, ['EXT:t3v_content/Tests/Functional/Fixtures/Frontend/Basic.ts']);
+  }
+
+  /**
    * Helper function to fetch frontend response.
    *
    * @param array $requestArguments The request arguments
@@ -60,6 +61,8 @@ class RenderingTest extends FunctionalTestCase {
    * @return Response The response
    */
   protected function fetchFrontendResponse(array $requestArguments, $failOnFailure = true) {
+    $failOnFailure = (boolean) $failOnFailure;
+
     if (!empty($requestArguments['url'])) {
       $requestUrl = '/' . ltrim($requestArguments['url'], '/');
     } else {
@@ -80,15 +83,15 @@ class RenderingTest extends FunctionalTestCase {
     $template = new \Text_Template(ORIGINAL_ROOT . 'typo3/sysext/core/Tests/Functional/Fixtures/Frontend/request.tpl');
     $template->setVar(['arguments' => var_export($arguments, true), 'originalRoot' => ORIGINAL_ROOT]);
 
-    $php = \PHPUnit_Util_PHP::factory();
-    $response = $php->runJob($template->render());
-    $result = json_decode($response['stdout'], true);
+    $factory  = \PHPUnit_Util_PHP::factory();
+    $response = $factory->runJob($template->render());
+    $result   = json_decode($response['stdout'], true);
 
     if ($result === null) {
-      $this->fail('Frontend Response is empty');
+      $this->fail('Frontend Response is empty.');
     }
 
-    if ($failOnFailure && $result['status'] === Response::STATUS_Failure) {
+    if ($result['status'] === Response::STATUS_Failure && $failOnFailure) {
       $this->fail('Frontend Response has failure:' . LF . $result['error']);
     }
 
