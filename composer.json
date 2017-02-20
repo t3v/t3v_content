@@ -1,7 +1,7 @@
 {
   "name": "t3v/t3v_content",
   "type": "typo3-cms-extension",
-  "description": "The TYPO3voila Content extension.",
+  "description": "The content extension of TYPO3Voila.",
   "authors": [
     {
       "name": "Maik Kempe",
@@ -30,7 +30,7 @@
     "vendor-dir": ".Build/vendor"
   },
   "repositories": [
-    { "type": "composer", "url": "https://composer.typo3.org/" },
+    { "type": "composer", "url": "https://composer.typo3.org" },
     { "type": "vcs",      "url": "https://github.com/t3v/t3v_core.git" }
   ],
   "extra": {

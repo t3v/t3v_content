@@ -88,7 +88,7 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Madebyoliver]: http://www.flaticon.com/authors/madebyoliver "Madebyoliver"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
-[T3v Content]: https://t3v.github.io/t3v_content/ "The TYPO3voila Content extension."
+[T3v Content]: https://t3v.github.io/t3v_content/ "The content extension of TYPO3Voila."
 [Travis CI Status]: https://img.shields.io/travis/t3v/t3v_content.svg?style=flat "Travis CI Status"
 [Travis CI]: https://travis-ci.org/t3v/t3v_content "T3v Content at Travis CI"
 [TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
