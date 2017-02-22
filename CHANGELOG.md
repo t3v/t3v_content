@@ -6,12 +6,12 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Updated Composer configuration / dependencies
 * Added `HeaderIfViewHelper`
 * Improved View Helper
 * Use `call_user_func` in `ext_localconf.php` and `ext_tables.php`
 * Configured Travis CI
 * Added unit and functional tests
+* Updated Composer configuration / dependencies
 * New icon
 * Updated claim
 * Updated comments
