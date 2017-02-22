@@ -3,7 +3,7 @@
 
 [![Travis CI Status][Travis CI Status]][Travis CI]
 
-**The [TYPO3voila] Content extension.**
+**The content extension of [TYPO3Voila].**
 
 Dependencies
 ------------
