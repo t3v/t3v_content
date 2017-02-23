@@ -11,7 +11,7 @@
       <spread>
         <TCEforms>
           <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.spread.label</label>
-          <config>
+          <config type="array">
             <type>select</type>
             <size>1</size>
             <minitems>1</minitems>
@@ -34,7 +34,7 @@
       <breakpoint>
         <TCEforms>
           <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.label</label>
-          <config>
+          <config type="array">
             <type>select</type>
             <size>1</size>
             <minitems>1</minitems>
