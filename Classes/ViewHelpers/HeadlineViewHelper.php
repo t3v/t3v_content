@@ -20,8 +20,8 @@ class HeadlineViewHelper extends AbstractTagBasedViewHelper {
    * The View Helper render function.
    *
    * @param string $content The content of the headline
-   * @param int $layout The layout (UID) of the headline, defaults to `100`
-   * @param string $cssClass The CSS class of the headline, defaults to `ce__title`
+   * @param int $layout The optional layout (UID) of the headline, defaults to `100`
+   * @param string $cssClass The optional CSS class of the headline, defaults to `ce__title`
    * @return string The rendered headline
    */
   public function render($content = null, $layout = 100, $cssClass = 'ce__title') {
@@ -29,7 +29,7 @@ class HeadlineViewHelper extends AbstractTagBasedViewHelper {
     $layout   = intval($layout);
     $cssClass = (string) $cssClass;
 
-    if ($content === null) {
+    if (empty($content)) {
       $content = $this->renderChildren();
     }
 

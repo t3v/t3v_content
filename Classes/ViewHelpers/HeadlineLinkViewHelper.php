@@ -23,8 +23,8 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
    * The View Helper render function.
    *
    * @param string $content The content of the headline
-   * @param int $layout The layout (UID) of the headline, defaults to `100`
-   * @param string $cssClass The CSS class of the headline, defaults to `ce__title`
+   * @param int $layout The optional layout (UID) of the headline, defaults to `100`
+   * @param string $cssClass The optional CSS class of the headline, defaults to `ce__title`
    * @return string The rendered headline
    */
   public function render($content = null, $layout = 100, $cssClass = 'ce__title') {
@@ -32,7 +32,7 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
     $layout   = intval($layout);
     $cssClass = (string) $cssClass;
 
-    if ($content === null) {
+    if (empty($content)) {
       $content = $this->renderChildren();
     }
 
@@ -54,8 +54,8 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
    * Helper function to create / build a link.
    *
    * @param string $content The content of the link
-   * @param string $href The href attribute of the link, defaults to `#`
-   * @param string $title The title attribute of the link
+   * @param string $href The optional href attribute of the link, defaults to `#`
+   * @param string $title The optional title attribute of the link
    * @return \TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder The link
    */
   protected function createLink($content, $href = '#', $title = null) {
@@ -63,7 +63,7 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
     $href    = (string) $href;
     $title   = (string) $title;
 
-    if ($title === null) {
+    if (empty($title)) {
       $title = $content;
     }
 

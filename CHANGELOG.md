@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Fixed `HeadlineLinkViewHelper` and `HeadlineViewHelper`
 * Improved Fluid Styled Content Menus
 * Added T3v DataMapper as dependency
 * Added `HeaderIfViewHelper`
