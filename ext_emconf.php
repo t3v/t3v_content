@@ -16,7 +16,8 @@ $EM_CONF[$_EXTKEY] = [
       'typo3' => '7.6.0-8.6.99',
       'fluid_styled_content' => '7.6.0-8.6.99',
       'gridelements' => '',
-      't3v_core' => ''
+      't3v_core' => '',
+      't3v_datamapper' => ''
     ],
     'conflicts' => [
       'css_styled_content' => '7.6.0-8.6.99'

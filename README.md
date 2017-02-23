@@ -12,6 +12,7 @@ Dependencies
 * Grid Elements (`gridelements`) extension
 * Fluid Styled Content (`fluid_styled_content`) extension
 * T3v Core (`t3v_core`) extension
+* T3v DataMapper (`t3v_datamapper`) extension
 
 Installation
 ------------
