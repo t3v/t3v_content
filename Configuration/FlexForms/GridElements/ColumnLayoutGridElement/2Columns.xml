@@ -9,7 +9,7 @@
     <type>array</type>
     <el type="array">
       <spread>
-        <TCEforms>
+        <TCEforms type="array">
           <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.spread.label</label>
           <config type="array">
             <type>select</type>
@@ -32,7 +32,7 @@
       </spread>
 
       <breakpoint>
-        <TCEforms>
+        <TCEforms type="array">
           <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.label</label>
           <config type="array">
             <type>select</type>

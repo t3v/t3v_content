@@ -12,6 +12,7 @@ Unreleased
 * Added `HeaderIfViewHelper`
 * Improved View Helper
 * Use `call_user_func` in `ext_localconf.php` and `ext_tables.php`
+* Updated FlexForms
 * Configured Travis CI
 * Added unit and functional tests
 * Updated Composer configuration / dependencies
@@ -22,7 +23,7 @@ Unreleased
 1.7.2
 -----
 
-* Improved Flexforms
+* Improved FlexForms
 * Use `lib.parseFunc` as `parseFuncTSPath` (Fluid Styled Content Headers)
 * Updated Composer dependencies
 
