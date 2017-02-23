@@ -31,10 +31,10 @@
                       <f:render section="VideoType" arguments="{_all}" />
                     </f:case>
 
-                    <f:case default="TRUE">
+                    <f:case default="true">
                       <f:render section="ImageType" arguments="{_all}" />
                     </f:case>
-                   </f:switch>
+                  </f:switch>
 
                   <f:if condition="{column.media.description}">
                     <f:then>
@@ -93,12 +93,10 @@
   </f:section>
 
   <f:section name="Media">
-    <f:media
-      file="{column.media}"
-      height="{column.dimensions.height}"
-      width="{column.dimensions.width}"
-      title="{column.media.title}"
-      alt="{column.media.alternative}"
-    />
+    <f:media file="{column.media}"
+             height="{column.dimensions.height}"
+             width="{column.dimensions.width}"
+             title="{column.media.title}"
+             alt="{column.media.alternative}" />
   </f:section>
 </html>

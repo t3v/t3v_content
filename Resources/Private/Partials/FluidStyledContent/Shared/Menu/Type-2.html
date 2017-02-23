@@ -1,23 +1,27 @@
-<html xmlns:ce="http://typo3.org/ns/TYPO3/CMS/FluidStyledContent/ViewHelpers" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<html xmlns:ce="http://typo3.org/ns/TYPO3/CMS/FluidStyledContent/ViewHelpers" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vDataMapper/ViewHelpers" data-namespace-typo3-fluid="true">
   <ce:menu.list entryLevel="0" as="pages" levelAs="level">
     <f:if condition="{pages}">
       <ul class="ce-menu ce-menu-2">
         <f:for each="{pages}" as="page">
-          <li>
-            <f:link.page pageUid="{page.uid}">
-              <f:if condition="{page.nav_title}">
-                <f:then>
-                  {page.nav_title}
-                </f:then>
+          <f:alias map="{leaf: '{t3v:page(uid: page.uid)}'}">
+            <f:if condition="{leaf.hidden} != 1">
+              <li>
+                <f:link.page pageUid="{page.uid}">
+                  <f:if condition="{page.nav_title}">
+                    <f:then>
+                      {page.nav_title}
+                    </f:then>
 
-                <f:else>
-                  {page.title}
-                </f:else>
-              </f:if>
-            </f:link.page>
+                    <f:else>
+                      {page.title}
+                    </f:else>
+                  </f:if>
+                </f:link.page>
 
-            <f:render partial="Shared/Menu/Directory" arguments="{pageUids: {0: page.uid}}" />
-          </li>
+                <f:render partial="Shared/Menu/Directory" arguments="{pageUids: {0: page.uid}}" />
+              </li>
+            </f:if>
+          </f:alias>
         </f:for>
       </ul>
     </f:if>
