@@ -3,8 +3,8 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+1.8.0
+-----
 
 * Fixed `HeadlineLinkViewHelper` and `HeadlineViewHelper`
 * Improved Fluid Styled Content Menus
