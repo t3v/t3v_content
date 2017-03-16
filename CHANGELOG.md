@@ -3,6 +3,13 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+1.9.0
+-----
+
+* Implemented Viewport Grid Element
+* Implemented Spacer Content Element
+* Cleaned up
+
 1.8.0
 -----
 
