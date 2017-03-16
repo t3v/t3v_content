@@ -1,8 +1,32 @@
 <?php
 defined('TYPO3_MODE') or die('Access denied.');
 
-call_user_func(function() {
-  // === Textmedia Content Element ===
+call_user_func(function ($extkey) {
+  $extensionName = strtolower(\TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($extkey));
+
+  // === Content Elements ===
+
+  // --- Spacer Content Element ---
+
+  \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
+    // The extension name (in upper camel case) or the extension key (in lower underscore)
+    'T3v.' . $extkey,
+
+    // A unique name of the content element in upper camel case
+    'Spacer',
+
+    // Description of the content element shown in the backend dropdown field
+    'Spacer Content Element'
+  );
+
+  $contentElementName      = strtolower('Spacer');
+  $contentElementSignature = $extensionName . '_' . $contentElementName;
+
+  $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentElementSignature] = 'layout,select_key,pages,recursive';
+  $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentElementSignature] = 'pi_flexform';
+  \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($contentElementSignature, 'FILE:EXT:' . $extkey . '/Configuration/FlexForms/ContentElements/SpacerContentElement.xml');
+
+  // --- Textmedia Content Element ---
 
   // if (!is_array($GLOBALS['TCA']['tt_content']['types']['textmedia'])) {
   //   $GLOBALS['TCA']['tt_content']['types']['textmedia'] = [];
@@ -34,7 +58,7 @@ call_user_func(function() {
   //   ]
   // );
 
-  // === Text Content Element (deprecated) ===
+  // --- Text Content Element (deprecated) ---
 
   // if (!is_array($GLOBALS['TCA']['tt_content']['types']['text'])) {
   //   $GLOBALS['TCA']['tt_content']['types']['text'] = [];
@@ -62,7 +86,7 @@ call_user_func(function() {
   //   ]
   // );
 
-  // === Text & Image Content Element (deprecated) ===
+  // --- Text & Image Content Element (deprecated) ---
 
   // if (!is_array($GLOBALS['TCA']['tt_content']['types']['textpic'])) {
   //   $GLOBALS['TCA']['tt_content']['types']['textpic'] = [];
@@ -93,4 +117,4 @@ call_user_func(function() {
   //     ]
   //   ]
   // );
-});
+}, 't3v_content');

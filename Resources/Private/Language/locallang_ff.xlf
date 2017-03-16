@@ -35,6 +35,36 @@
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.large.label">
         <source>Large</source>
       </trans-unit>
+
+      <!-- Spacer Content Element -->
+
+      <trans-unit id="contentElements.spacerContentElement.settings.type.label">
+        <source>Type</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.settings.type.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.settings.type.small.label">
+        <source>Small</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.settings.type.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.settings.type.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.settings.type.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.settings.customHeight.label">
+        <source>Custom height in pixel</source>
+      </trans-unit>
     </body>
   </file>
 </xliff>
