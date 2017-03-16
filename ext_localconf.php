@@ -1,14 +1,14 @@
 <?php
 defined('TYPO3_MODE') or die('Access denied.');
 
-call_user_func(function ($extkey) {
+call_user_func(function ($namespace, $extkey) {
   // === Content Elements ===
 
   // --- Spacer Content Element ---
 
   \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
     // The extension name (in upper camel case) or the extension key (in lower underscore)
-    'T3v.' . $extkey,
+    $namespace . $extkey,
 
     // A unique name of the content element in upper camel case
     'Spacer',
@@ -28,4 +28,4 @@ call_user_func(function ($extkey) {
   // === TsConfig ===
 
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:' . $extkey . '/Configuration/TSconfig.ts">');
-}, $_EXTKEY);
+}, 'T3v', $_EXTKEY);
