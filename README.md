@@ -21,6 +21,33 @@ Installation
 2. Run `composer install` or `composer update` to install all dependencies with Composer
 3. Include the TypoScript for T3v Content
 
+Content Elements
+----------------
+
+### Typical page content
+
+* Header Only Content Element
+* Text & Media Content Element
+* Bullet List Content Element
+* Table Content Element
+* File Links Content Element
+
+### Special elements
+
+* Special Menus Content Element
+* Plain HTML Content Element
+* Divider Content Element
+
+### Custom elements
+
+* Spacer Content Element
+
+Grid Elements
+-------------
+
+* Column Layout Grid Element
+* Accordion / Accord Grid Element
+
 Development
 -----------
 
@@ -62,6 +89,7 @@ The following people / organizations have provided sponsorship to this project b
 development as part of a development project:
 
 * [Hilger u. Kern GmbH]
+* [Meter Mix® Systems Ltd.]
 * [Augenzentrum München]
 
 Credits
@@ -92,6 +120,7 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Hilger u. Kern GmbH]: http://www.hilger-kern.de "Hilger u. Kern GmbH"
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_content/master/LICENSE "License"
 [Madebyoliver]: http://www.flaticon.com/authors/madebyoliver "Madebyoliver"
+[Meter Mix® Systems Ltd.]: http://metermixsystems.com "Meter Mix® Systems Ltd."
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [Substract free icon]: "http://www.flaticon.com/free-icon/substract_148776" "Substract free icon"
