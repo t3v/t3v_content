@@ -8,7 +8,7 @@ call_user_func(function ($namespace, $extkey) {
 
   \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
     // The extension name (in upper camel case) or the extension key (in lower underscore)
-    $namespace . $extkey,
+    $namespace . '.' . $extkey,
 
     // A unique name of the content element in upper camel case
     'Spacer',
