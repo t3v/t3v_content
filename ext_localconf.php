@@ -2,12 +2,14 @@
 defined('TYPO3_MODE') or die('Access denied.');
 
 call_user_func(function ($namespace, $extkey) {
+  $extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extkey);
+
   // === Content Elements ===
 
   // --- Spacer Content Element ---
 
   \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-    \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extkey),
+    $extensionSignature,
 
     // A unique name of the content element in upper camel case
     'Spacer',
