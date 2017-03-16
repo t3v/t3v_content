@@ -123,7 +123,7 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Meter Mix® Systems Ltd.]: http://metermixsystems.com "Meter Mix® Systems Ltd."
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
-[Substract free icon]: "http://www.flaticon.com/free-icon/substract_148776" "Substract free icon"
+[Substract free icon]: http://www.flaticon.com/free-icon/substract_148776 "Substract free icon"
 [T3v Content]: https://t3v.github.io/t3v_content/ "The content extension of TYPO3Voila."
 [Travis CI Status]: https://img.shields.io/travis/t3v/t3v_content.svg?style=flat "Travis CI Status"
 [Travis CI]: https://travis-ci.org/t3v/t3v_content "T3v Content at Travis CI"
