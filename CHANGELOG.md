@@ -3,6 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+1.9.1
+-----
+
+* Fixed Spacer Content Element
+
 1.9.0
 -----
 
