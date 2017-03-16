@@ -99,10 +99,10 @@ Credits
 ### Icons
 
 * [Accordion free icon]
+* [Alignment free icon]
 * [Archive free icon]
 * [Browser free icon (1)]
 * [Browser free icon (2)]
-* [Substract free icon]
 
 Icons made by [Madebyoliver] from [Flaticon] is licensed by [CC 3.0 BY].
 
@@ -112,6 +112,7 @@ License
 T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 
 [Accordion free icon]: http://www.flaticon.com/free-icon/accordion_140208 "Accordion free icon"
+[Alignment free icon]: http://www.flaticon.com/free-icon/alignment_140879 "Alignment free icon"
 [Archive free icon]: http://www.flaticon.com/free-icon/archive_149014 "Archive free icon"
 [Augenzentrum München]: http://www.augenzentrum.net "Augenzentrum München"
 [Browser free icon (1)]: http://www.flaticon.com/free-icon/browser_140796 "Browser free icon"
@@ -126,7 +127,6 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Meter Mix® Systems Ltd.]: http://metermixsystems.com "Meter Mix® Systems Ltd."
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
-[Substract free icon]: http://www.flaticon.com/free-icon/substract_148776 "Substract free icon"
 [T3v Content]: https://t3v.github.io/t3v_content/ "The content extension of TYPO3Voila."
 [Travis CI Status]: https://img.shields.io/travis/t3v/t3v_content.svg?style=flat "Travis CI Status"
 [Travis CI]: https://travis-ci.org/t3v/t3v_content "T3v Content at Travis CI"
