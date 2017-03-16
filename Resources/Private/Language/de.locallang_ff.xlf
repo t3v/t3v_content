@@ -43,6 +43,28 @@
         <target>Groß</target>
       </trans-unit>
 
+      <!-- Viewport Grid Element -->
+
+      <trans-unit id="gridElements.viewportGridElement.settings">
+        <source>Settings</source>
+        <target>Einstellungen</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.viewportGridElement.settings.visibility.label">
+        <source>Visibility</source>
+        <target>Sichtbarkeit</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.viewportGridElement.settings.visibility.mobileOnly.label">
+        <source>Mobile only</source>
+        <target>Nur Mobil</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.viewportGridElement.settings.visibility.desktopOnly.label">
+        <source>Desktop only</source>
+        <target>Nur Desktop</target>
+      </trans-unit>
+
       <!-- === Content Elements === -->
 
       <!-- Spacer Content Element -->

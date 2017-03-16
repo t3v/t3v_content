@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+    <langChildren>1</langChildren>
+  </meta>
+
+  <ROOT type="array">
+    <type>array</type>
+    <el type="array">
+      <visibility>
+        <TCEforms type="array">
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.viewportGridElement.settings.visibility.label</label>
+          <config type="array">
+            <type>select</type>
+            <size>1</size>
+            <minitems>1</minitems>
+            <maxitems>1</maxitems>
+            <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.viewportGridElement.settings.visibility.mobileOnly.label</numIndex>
+                <numIndex index="1">mobile-only</numIndex>
+              </numIndex>
+
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.viewportGridElement.settings.visibility.desktopOnly.label</numIndex>
+                <numIndex index="1">desktop-only</numIndex>
+              </numIndex>
+            </items>
+          </config>
+        </TCEforms>
+      </visibility>
+    </el>
+  </ROOT>
+</T3DataStructure>

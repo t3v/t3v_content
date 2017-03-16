@@ -6,24 +6,6 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- Column Layout Grid Element (2 Columns) -->
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.title">
-        <source>Column Layout (2 Columns)</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.description">
-        <source>2 Columns Layout Grid Element</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.1.name">
-        <source>1. column</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.2.name">
-        <source>2. column</source>
-      </trans-unit>
-
       <!-- Accordion Grid Element -->
 
       <trans-unit id="gridElements.accordionGridElement.title">
@@ -50,6 +32,34 @@
 
       <trans-unit id="gridElements.accordGridElement.rows.1.columns.1.name">
         <source>Content</source>
+      </trans-unit>
+
+      <!-- Column Layout Grid Element (2 Columns) -->
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.title">
+        <source>Column Layout (2 Columns)</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.description">
+        <source>2 Columns Layout Grid Element</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.1.name">
+        <source>1. column</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.2.name">
+        <source>2. column</source>
+      </trans-unit>
+
+      <!-- Viewport Grid Element -->
+
+      <trans-unit id="gridElements.viewportGridElement.title">
+        <source>Viewport</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.viewportGridElement.description">
+        <source>Viewport Grid Element</source>
       </trans-unit>
     </body>
   </file>
