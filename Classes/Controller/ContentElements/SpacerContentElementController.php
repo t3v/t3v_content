@@ -16,5 +16,7 @@ class SpacerContentElementController extends ContentElementController {
    */
   public function indexAction() {
     $settings = $this->settings;
+
+    $this->view->assign('settings', $settings);
   }
 }
