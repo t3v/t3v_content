@@ -9,8 +9,7 @@ call_user_func(function ($namespace, $extkey) {
   // --- Spacer Content Element ---
 
   \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-    // The extension name (in upper camel case) or the extension key (in lower underscore)
-    $namespace . '.' . $extkey,
+    \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extkey),
 
     // A unique name of the content element in upper camel case
     'Spacer',
@@ -117,4 +116,4 @@ call_user_func(function ($namespace, $extkey) {
   //     ]
   //   ]
   // );
-}, 'T3v', 't3v_content');
+}, 't3v', 't3v_content');
