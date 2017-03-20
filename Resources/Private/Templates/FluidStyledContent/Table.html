@@ -42,15 +42,18 @@
             <f:then>
               <f:if condition="{data.table_header_position} == 1">
                 </thead>
+
                 <tbody>
               </f:if>
             </f:then>
+
             <f:else>
               <f:if condition="{rowIterator.isLast}">
                 <f:if condition="{data.table_tfoot}">
                   <f:then>
                     </tfoot>
                   </f:then>
+
                   <f:else>
                     </tbody>
                   </f:else>

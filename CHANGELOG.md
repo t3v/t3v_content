@@ -3,6 +3,12 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Set `Top` as default table header position instead of `No header` (Table Content Element)
+* Cleaned up
+
 1.9.2
 -----
 
