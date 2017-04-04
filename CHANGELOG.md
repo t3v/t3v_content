@@ -7,6 +7,8 @@ Unreleased
 ----------
 
 * Set `Top` as default table header position instead of `No header` (Table Content Element)
+* Updated Composer dependencies
+* Updated scripts
 * Cleaned up
 
 1.9.2
