@@ -3,8 +3,8 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+1.9.3
+-----
 
 * Set `Top` as default table header position instead of `No header` (Table Content Element)
 * Updated Composer dependencies
