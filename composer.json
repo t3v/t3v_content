@@ -24,10 +24,6 @@
   },
   "license": "MIT",
   "config": {
-    "preferred-install": {
-      "t3v/t3v_core": "source",
-      "t3v/t3v_datamapper": "source"
-    },
     "bin-dir": ".Build/bin",
     "vendor-dir": ".Build/vendor"
   },
@@ -38,9 +34,7 @@
     "typo3-ter/t3v_content": "self.version"
   },
   "repositories": [
-    { "type": "composer", "url": "https://composer.typo3.org" },
-    { "type": "vcs",      "url": "https://github.com/t3v/t3v_core.git" },
-    { "type": "vcs",      "url": "https://github.com/t3v/t3v_datamapper.git" }
+    { "type": "composer", "url": "https://composer.typo3.org" }
   ],
   "require": {
     "php": ">= 5.6 < 7.2",
