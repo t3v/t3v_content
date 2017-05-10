@@ -42,16 +42,17 @@
     { "type": "vcs",      "url": "https://github.com/t3v/t3v_datamapper.git" }
   ],
   "require": {
-    "php": ">= 5.6",
-    "typo3/cms-core": ">= 7.6.0, < 8.7.0",
-    "typo3-ter/gridelements": "~7.0.5",
+    "php": ">= 5.6 < 7.2",
+    "typo3/cms-core": "^7.6 || ^8.7",
+    "typo3-ter/gridelements": "~7.1.0",
     "t3v/t3v_core": "*",
     "t3v/t3v_datamapper": "*"
   },
   "require-dev": {
-    "namelesscoder/typo3-repository-client": "~1.3.1",
     "mikey179/vfsStream": "~1.6.4",
-    "phpunit/phpunit": "~5.7.19"
+    "namelesscoder/typo3-repository-client": "~1.3.1",
+    "nimut/testing-framework": "~1.1.5",
+    "phpunit/phpunit": "^5.7"
   },
   "autoload": {
     "psr-4": {
