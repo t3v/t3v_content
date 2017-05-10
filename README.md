@@ -9,15 +9,15 @@ Dependencies
 ------------
 
 * TYPO3 CMS 7.6 or greater
-* Grid Elements (`gridelements`) extension
-* Fluid Styled Content (`fluid_styled_content`) extension
-* T3v Core (`t3v_core`) extension
-* T3v DataMapper (`t3v_datamapper`) extension
+* Fluid Styled Content extension
+* Grid Elements extension
+* T3v Core extension
+* T3v DataMapper extension
 
 Installation
 ------------
 
-1. Add T3v Content (`t3v_content`) as dependency to the [Composer] configuration (`composer.json`)
+1. Add T3v Content as dependency to the [Composer] configuration
 2. Run `composer install` or `composer update` to install all dependencies with Composer
 3. Include the TypoScript for T3v Content
 
@@ -83,16 +83,6 @@ This library aims to adhere to [Semantic Versioning 2.0.0]. Violations of this s
 Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
 immediately yanked and / or a new version should be immediately released that restores compatibility.
 
-Sponsors
---------
-
-The following people / organizations have provided sponsorship to this project by way of direct donations or for paid
-development as part of a development project:
-
-* [Hilger u. Kern GmbH]
-* [Meter Mix® Systems Ltd.]
-* [Augenzentrum München]
-
 Credits
 -------
 
@@ -114,17 +104,14 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Accordion free icon]: http://www.flaticon.com/free-icon/accordion_140208 "Accordion free icon"
 [Alignment free icon]: http://www.flaticon.com/free-icon/alignment_140879 "Alignment free icon"
 [Archive free icon]: http://www.flaticon.com/free-icon/archive_149014 "Archive free icon"
-[Augenzentrum München]: http://www.augenzentrum.net "Augenzentrum München"
 [Browser free icon (1)]: http://www.flaticon.com/free-icon/browser_140796 "Browser free icon"
 [Browser free icon (2)]: http://www.flaticon.com/free-icon/browser_140840 "Browser free icon"
 [CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/ "Creative Commons BY 3.0"
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
 [Flaticon]: http://www.flaticon.com "Flaticon"
 [here]: https://github.com/t3v/t3v_content/issues "GitHub Issue Tracker"
-[Hilger u. Kern GmbH]: http://www.hilger-kern.de "Hilger u. Kern GmbH"
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_content/master/LICENSE "License"
 [Madebyoliver]: http://www.flaticon.com/authors/madebyoliver "Madebyoliver"
-[Meter Mix® Systems Ltd.]: http://metermixsystems.com "Meter Mix® Systems Ltd."
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [T3v Content]: https://t3v.github.io/t3v_content/ "The content extension of TYPO3Voila."
