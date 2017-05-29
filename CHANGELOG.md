@@ -3,8 +3,8 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+2.1.0
+-----
 
 * Defined namespace in `ext_localconf` and `ext_tables`
 * Added `default` breakpoint (2 Columns Layout GridElement)
