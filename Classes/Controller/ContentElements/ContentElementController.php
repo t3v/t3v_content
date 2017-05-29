@@ -1,6 +1,7 @@
 <?php
 namespace T3v\T3vContent\Controller\ContentElements;
 
+use \TYPO3\CMS\Extbase\Configuration\ConfigurationManager;
 use \TYPO3\CMS\Extbase\Mvc\View\ViewInterface;
 
 use \T3v\T3vCore\Controller\AbstractController;
@@ -18,8 +19,7 @@ class ContentElementController extends AbstractController {
    */
   protected function initializeView(ViewInterface $view) {
     $configurationManager = $this->objectManager->get('TYPO3\CMS\Extbase\Configuration\ConfigurationManager');
-
-    $data = $configurationManager->getContentObject()->data;
+    $data                 = $configurationManager->getContentObject()->data;
 
     $this->view->assign('data', $data);
   }
