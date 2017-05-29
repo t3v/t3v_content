@@ -28,6 +28,10 @@
         <source>Breakpoint</source>
       </trans-unit>
 
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.default.label">
+        <source>Default</source>
+      </trans-unit>
+
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.medium.label">
         <source>Medium</source>
       </trans-unit>

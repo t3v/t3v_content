@@ -33,6 +33,11 @@
         <target>Breakpoint</target>
       </trans-unit>
 
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.medium.label">
         <source>Medium</source>
         <target>Medium</target>
