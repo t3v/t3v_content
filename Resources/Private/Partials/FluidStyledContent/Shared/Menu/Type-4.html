@@ -3,51 +3,49 @@
     <f:if condition="{pages}">
       <dl class="ce-menu ce-menu-4">
         <f:for each="{pages}" as="page">
-          <f:alias map="{leaf: '{t3v:page(uid: page.uid)}'}">
-            <f:if condition="{leaf.hidden} != 1">
-              <dt>
-                <f:link.page pageUid="{page.uid}">
-                  <f:if condition="{page.nav_title}">
-                    <f:then>
-                      {page.nav_title}
-                    </f:then>
-
-                    <f:else>
-                      {page.title}
-                    </f:else>
-                  </f:if>
-                </f:link.page>
-              </dt>
-
-              <dd>
-                <f:if condition="{page.abstract}">
+          <t3v:page.visible uid="{page.uid}">
+            <dt>
+              <f:link.page pageUid="{page.uid}">
+                <f:if condition="{page.nav_title}">
                   <f:then>
-                    {page.abstract}
+                    {page.nav_title}
                   </f:then>
 
                   <f:else>
-                    <f:if condition="{page.description}">
-                      <f:then>
-                        {page.description}
-                      </f:then>
-
-                      <f:else>
-                        <f:if condition="{page.subtitle}">
-                          <f:then>
-                            {page.subtitle}
-                          </f:then>
-
-                          <f:else>
-                            &nbsp;
-                          </f:else>
-                        </f:if>
-                      </f:else>
-                    </f:if>
+                    {page.title}
                   </f:else>
                 </f:if>
-              </dd>
-            </f:if>
-          </f:alias>
+              </f:link.page>
+            </dt>
+
+            <dd>
+              <f:if condition="{page.abstract}">
+                <f:then>
+                  {page.abstract}
+                </f:then>
+
+                <f:else>
+                  <f:if condition="{page.description}">
+                    <f:then>
+                      {page.description}
+                    </f:then>
+
+                    <f:else>
+                      <f:if condition="{page.subtitle}">
+                        <f:then>
+                          {page.subtitle}
+                        </f:then>
+
+                        <f:else>
+                          &nbsp;
+                        </f:else>
+                      </f:if>
+                    </f:else>
+                  </f:if>
+                </f:else>
+              </f:if>
+            </dd>
+          </t3v:page.visible>
         </f:for>
       </dl>
     </f:if>

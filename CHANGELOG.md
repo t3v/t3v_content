@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Use `t3v:page.visible` view helper
 * Updated scripts
 
 2.0.1

@@ -3,23 +3,21 @@
     <f:if condition="{pages}">
       <ul class="ce-menu ce-menu-1">
         <f:for each="{pages}" as="page">
-          <f:alias map="{leaf: '{t3v:page(uid: page.uid)}'}">
-            <f:if condition="{leaf.hidden} != 1">
-              <li>
-                <f:link.page pageUid="{page.uid}">
-                  <f:if condition="{page.nav_title}">
-                    <f:then>
-                      {page.nav_title}
-                    </f:then>
+          <t3v:page.visible uid="{page.uid}">
+            <li>
+              <f:link.page pageUid="{page.uid}">
+                <f:if condition="{page.nav_title}">
+                  <f:then>
+                    {page.nav_title}
+                  </f:then>
 
-                    <f:else>
-                      {page.title}
-                    </f:else>
-                  </f:if>
-                </f:link.page>
-              </li>
-            </f:if>
-          </f:alias>
+                  <f:else>
+                    {page.title}
+                  </f:else>
+                </f:if>
+              </f:link.page>
+            </li>
+          </t3v:page.visible>
         </f:for>
       </ul>
     </f:if>
