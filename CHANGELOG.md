@@ -10,6 +10,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 * Added `default` breakpoint (2 Columns Layout GridElement)
 * Cleaned up `ContentElementController`
 * Use `t3v:page.visible` view helper
+* Updated extension icon
 * Updated scripts
 
 2.0.1
