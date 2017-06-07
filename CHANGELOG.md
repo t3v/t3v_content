@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added 75% 25% spread (`T3vContentColumnLayout2Columns`)
 * Update Travis CI and AppVeyor configuration
 
 2.1.0

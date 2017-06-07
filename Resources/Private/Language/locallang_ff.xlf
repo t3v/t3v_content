@@ -24,6 +24,10 @@
         <source>75% 25%</source>
       </trans-unit>
 
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.2575.label">
+        <source>75% 25%</source>
+      </trans-unit>
+
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.label">
         <source>Breakpoint</source>
       </trans-unit>
