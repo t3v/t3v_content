@@ -8,6 +8,7 @@ Unreleased
 
 * Added Column Layout Grid Element (3 Columns)
 * Added 75% 25% spread to Column Layout Grid Element (2 Columns)
+* Updated dependencies
 * Update Travis CI and AppVeyor configuration
 
 2.1.0
