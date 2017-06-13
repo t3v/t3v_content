@@ -65,8 +65,8 @@
       <!-- Column Layout Grid Element (3 Columns) -->
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.title">
-        <source>Column Layout (2 Columns)</source>
-        <target>Spalten Layout (2 Spalten)</target>
+        <source>Column Layout (3 Columns)</source>
+        <target>Spalten Layout (3 Spalten)</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.description">
