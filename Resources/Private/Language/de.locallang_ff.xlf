@@ -8,11 +8,6 @@
 
       <!-- Column Layout Grid Element (2 Columns) -->
 
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings">
-        <source>Settings</source>
-        <target>Einstellungen</target>
-      </trans-unit>
-
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.label">
         <source>Spread</source>
         <target>Ausbreitung</target>
@@ -53,12 +48,39 @@
         <target>Groß</target>
       </trans-unit>
 
-      <!-- Viewport Grid Element -->
+      <!-- Column Layout Grid Element (3 Columns) -->
 
-      <trans-unit id="gridElements.viewportGridElement.settings">
-        <source>Settings</source>
-        <target>Einstellungen</target>
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.spread.label">
+        <source>Spread</source>
+        <target>Ausbreitung</target>
       </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.spread.333333.label">
+        <source>33% 33% 33%</source>
+        <target>33% 33% 33%</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.label">
+        <source>Breakpoint</source>
+        <target>Breakpoint</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.medium.label">
+        <source>Medium</source>
+        <target>Medium</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.large.label">
+        <source>Large</source>
+        <target>Groß</target>
+      </trans-unit>
+
+      <!-- Viewport Grid Element -->
 
       <trans-unit id="gridElements.viewportGridElement.settings.visibility.label">
         <source>Visibility</source>
@@ -78,6 +100,11 @@
       <!-- === Content Elements === -->
 
       <!-- Spacer Content Element -->
+
+      <trans-unit id="contentElements.spacerContentElement.settings.sheetTitle">
+        <source>Settings</source>
+        <target>Einstellungen</target>
+      </trans-unit>
 
       <trans-unit id="contentElements.spacerContentElement.settings.type.label">
         <source>Type</source>

@@ -62,6 +62,33 @@
         <target>2. Spalte</target>
       </trans-unit>
 
+      <!-- Column Layout Grid Element (3 Columns) -->
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.title">
+        <source>Column Layout (2 Columns)</source>
+        <target>Spalten Layout (2 Spalten)</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.description">
+        <source>2 Columns Layout Grid Element</source>
+        <target>2 Spalten Layout Grid Element</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.1.name">
+        <source>1. column</source>
+        <target>1. Spalte</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.2.name">
+        <source>2. column</source>
+        <target>2. Spalte</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.3.name">
+        <source>3. column</source>
+        <target>3. Spalte</target>
+      </trans-unit>
+
       <!-- Viewport Grid Element -->
 
       <trans-unit id="gridElements.viewportGridElement.title">

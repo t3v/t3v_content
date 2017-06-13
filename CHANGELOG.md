@@ -6,7 +6,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Added 75% 25% spread (`T3vContentColumnLayout2Columns`)
+* Added Column Layout Grid Element (3 Columns)
+* Added 75% 25% spread to Column Layout Grid Element (2 Columns)
 * Update Travis CI and AppVeyor configuration
 
 2.1.0

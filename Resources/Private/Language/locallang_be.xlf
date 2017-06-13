@@ -52,6 +52,28 @@
         <source>2. column</source>
       </trans-unit>
 
+      <!-- Column Layout Grid Element (3 Columns) -->
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.title">
+        <source>Column Layout (2 Columns)</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.description">
+        <source>2 Columns Layout Grid Element</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.1.name">
+        <source>1. column</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.2.name">
+        <source>2. column</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.3.name">
+        <source>3. column</source>
+      </trans-unit>
+
       <!-- Viewport Grid Element -->
 
       <trans-unit id="gridElements.viewportGridElement.title">
