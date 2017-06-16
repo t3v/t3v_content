@@ -24,8 +24,8 @@
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.2575.label">
-        <source>75% 25%</source>
-        <target>75% 25%</target>
+        <source>25% 75%</source>
+        <target>25% 75%</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.label">
