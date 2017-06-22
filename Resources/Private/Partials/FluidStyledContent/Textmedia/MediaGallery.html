@@ -1,7 +1,9 @@
-<html xmlns:ce="http://typo3.org/ns/TYPO3/CMS/FluidStyledContent/ViewHelpers" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<html xmlns:ce="http://typo3.org/ns/TYPO3/CMS/FluidStyledContent/ViewHelpers" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
   <f:if condition="{gallery.rows}">
     <div class="ce__media">
-      <div class="media-gallery--{gallery.position.horizontal} media-gallery--{gallery.position.vertical} media-gallery--{gallery.count.columns}-columns {f:if(condition: data.imageborder, then: 'media-gallery--border')} media-gallery" data-media-gallery-columns="{gallery.count.columns}" data-media-gallery-images="{gallery.count.files}">
+      <div class="media-gallery--{gallery.position.horizontal} media-gallery--{gallery.position.vertical} media-gallery--{gallery.count.columns}-columns {f:if(condition: data.imageborder, then: 'media-gallery--border')} media-gallery"
+           data-media-gallery-columns="{gallery.count.columns}"
+           data-media-gallery-images="{gallery.count.files}">
         <f:if condition="{gallery.position.horizontal} == 'center'">
           <div class="media-gallery__outer">
             <div class="media-gallery__inner">
@@ -38,7 +40,9 @@
 
                   <f:if condition="{column.media.description}">
                     <f:then>
-                        <figcaption class="figcaption">{column.media.description}</figcaption>
+                        <figcaption class="figcaption">
+                          {column.media.description}
+                        </figcaption>
                       </figure>
                     </f:then>
 
@@ -59,6 +63,10 @@
       </div>
     </div>
   </f:if>
+
+  <f:section name="AudioType">
+    <f:render section="Media" arguments="{_all}" />
+  </f:section>
 
   <f:section name="ImageType">
     <f:if condition="{column.media.link}">
@@ -84,19 +92,49 @@
     </f:if>
   </f:section>
 
-  <f:section name="AudioType">
-    <f:render section="Media" arguments="{_all}" />
-  </f:section>
-
   <f:section name="VideoType">
     <f:render section="Media" arguments="{_all}" />
   </f:section>
 
   <f:section name="Media">
-    <f:media file="{column.media}"
-             height="{column.dimensions.height}"
-             width="{column.dimensions.width}"
-             title="{column.media.title}"
-             alt="{column.media.alternative}" />
+    <v:if stack="{0: data.imageheight, 1: '>=', 2: '1'}">
+      <f:then>
+        <v:if stack="{0: data.imagewidth, 1: '>=', 2: '1'}">
+          <f:then>
+            <f:media file="{column.media}"
+                     height="{data.imageheight}c"
+                     width="{data.imagewidth}c"
+                     title="{column.media.title}"
+                     alt="{column.media.alternative}" />
+          </f:then>
+
+          <f:else>
+            <f:media file="{column.media}"
+                     height="{data.imageheight}c"
+                     title="{column.media.title}"
+                     alt="{column.media.alternative}" />
+          </f:else>
+        </v:if>
+      </f:then>
+
+      <f:else>
+        <v:if stack="{0: data.imagewidth, 1: '>=', 2: '1'}">
+          <f:then>
+            <f:media file="{column.media}"
+                     width="{data.imagewidth}c"
+                     title="{column.media.title}"
+                     alt="{column.media.alternative}" />
+          </f:then>
+
+          <f:else>
+            <f:media file="{column.media}"
+                     height="{column.dimensions.height}"
+                     width="{column.dimensions.width}"
+                     title="{column.media.title}"
+                     alt="{column.media.alternative}" />
+          </f:else>
+        </v:if>
+      </f:else>
+    </v:if>
   </f:section>
 </html>
