@@ -3,12 +3,12 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+2.2.0
+-----
 
 * Improved Media Gallery
 * Added Column Layout Grid Element (3 Columns)
-* Added 75% 25% spread to Column Layout Grid Element (2 Columns)
+* Added `75% 25%` spread to Column Layout Grid Element (2 Columns)
 * Added VHS as dependency
 * Updated dependencies
 * Update Travis CI and AppVeyor configuration
