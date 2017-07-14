@@ -3,6 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+2.2.2
+-----
+
+* Formatted code and cleanup
+
 2.2.1
 -----
 

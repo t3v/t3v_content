@@ -56,7 +56,7 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
    * @param string $content The content of the link
    * @param string $href The optional href attribute of the link, defaults to `#`
    * @param string $title The optional title attribute of the link
-   * @return TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder The built link
+   * @return \TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder The built link
    */
   protected function createLink($content, $href = '#', $title = null) {
     $content = (string) $content;
