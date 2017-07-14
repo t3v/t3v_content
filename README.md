@@ -103,15 +103,18 @@ License
 
 T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 
+[Acceptance testing TYPO3]: https://wiki.typo3.org/Acceptance_testing "Acceptance testing TYPO3"
 [Accordion free icon]: http://www.flaticon.com/free-icon/accordion_140208 "Accordion free icon"
 [Alignment free icon]: http://www.flaticon.com/free-icon/alignment_140879 "Alignment free icon"
 [Archive free icon]: http://www.flaticon.com/free-icon/archive_149014 "Archive free icon"
+[Automated testing TYPO3]: https://wiki.typo3.org/Automated_testing "Automated testing TYPO3"
 [Browser free icon (1)]: http://www.flaticon.com/free-icon/browser_140840 "Browser free icon"
 [Browser free icon (2)]: http://www.flaticon.com/free-icon/browser_140796 "Browser free icon"
 [Browser free icon (3)]: http://www.flaticon.com/free-icon/browser_140797 "Browser free icon"
 [CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/ "Creative Commons BY 3.0"
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
 [Flaticon]: http://www.flaticon.com "Flaticon"
+[Functional testing TYPO3]: https://wiki.typo3.org/Functional_testing "Functional testing TYPO3"
 [here]: https://github.com/t3v/t3v_content/issues "GitHub Issue Tracker"
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_content/master/LICENSE "License"
 [Madebyoliver]: http://www.flaticon.com/authors/madebyoliver "Madebyoliver"
@@ -121,3 +124,4 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Travis CI Status]: https://img.shields.io/travis/t3v/t3v_content.svg?style=flat "Travis CI Status"
 [Travis CI]: https://travis-ci.org/t3v/t3v_content "T3v Content at Travis CI"
 [TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
+[Unit Testing TYPO3]: https://wiki.typo3.org/Unit_Testing_TYPO3 "Unit testing TYPO3"
