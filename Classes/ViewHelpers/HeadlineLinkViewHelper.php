@@ -1,10 +1,10 @@
 <?php
 namespace T3v\T3vContent\ViewHelpers;
 
-use \TYPO3\CMS\Core\Utility\GeneralUtility;
-use \TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder;
 
-use \T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
+use T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
 
 /**
  * Headline Link View Helper Class
@@ -56,7 +56,7 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
    * @param string $content The content of the link
    * @param string $href The optional href attribute of the link, defaults to `#`
    * @param string $title The optional title attribute of the link
-   * @return \TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder The link
+   * @return TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder The built link
    */
   protected function createLink($content, $href = '#', $title = null) {
     $content = (string) $content;

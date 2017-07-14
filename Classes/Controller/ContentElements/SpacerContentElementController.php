@@ -1,7 +1,7 @@
 <?php
 namespace T3v\T3vContent\Controller\ContentElements;
 
-use \T3v\T3vContent\Controller\ContentElements\ContentElementController;
+use T3v\T3vContent\Controller\ContentElements\ContentElementController;
 
 /**
  * Spacer Content Element Controller Class

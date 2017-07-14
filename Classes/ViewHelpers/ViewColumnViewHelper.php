@@ -1,7 +1,7 @@
 <?php
 namespace T3v\T3vContent\ViewHelpers;
 
-use \T3v\T3vCore\ViewHelpers\AbstractViewHelper;
+use T3v\T3vCore\ViewHelpers\AbstractViewHelper;
 
 /**
  * View Column View Helper Class

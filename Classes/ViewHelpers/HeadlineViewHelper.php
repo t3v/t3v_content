@@ -1,7 +1,7 @@
 <?php
 namespace T3v\T3vContent\ViewHelpers;
 
-use \T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
+use T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
 
 /**
  * Headline View Helper Class

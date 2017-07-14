@@ -1,7 +1,7 @@
 <?php
 namespace T3v\T3vContent\ViewHelpers\Header;
 
-use \T3v\T3vCore\ViewHelpers\AbstractConditionViewHelper;
+use T3v\T3vCore\ViewHelpers\AbstractConditionViewHelper;
 
 /**
  * If View Helper Class
