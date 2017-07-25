@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Replaced `v:if stack` with `f:if`
 * Formatted code and cleanup
 * Updated AppVeyor configuration
 
