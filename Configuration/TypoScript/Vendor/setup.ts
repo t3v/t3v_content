@@ -1,6 +1,12 @@
 # === Fluid Styled Content (fluid_styled_content) ===
 
+[compatVersion = 7.6.0]
 <INCLUDE_TYPOSCRIPT: source="FILE: EXT:fluid_styled_content/Configuration/TypoScript/Static/setup.txt">
+[global]
+
+[compatVersion = 8.7.0]
+<INCLUDE_TYPOSCRIPT: source="FILE: EXT:fluid_styled_content/Configuration/TypoScript/setup.txt">
+[global]
 
 lib {
   fluidContent {
