@@ -8,6 +8,7 @@ Unreleased
 
 * Replaced `v:if stack` with `f:if`
 * Formatted code and cleanup
+* Updated Composer configuration
 * Updated AppVeyor configuration
 
 2.2.1
