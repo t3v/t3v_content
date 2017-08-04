@@ -1,0 +1,29 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+  <f:layout name="Textmedia" />
+
+  <f:section name="Content">
+    <f:if condition="{gallery.position.vertical} != 'below'">
+      <f:render partial="Textmedia/MediaGallery" arguments="{_all}" />
+    </f:if>
+
+    <f:if condition="{data.bodytext}">
+      <div class="ce__bodytext">
+        <f:if condition="{gallery.position.noWrap}">
+          <f:if condition="{data.header}">
+            <f:if condition="{data.header_layout} != 0">
+              <f:if condition="{data.header_layout} != 100">
+                <f:render partial="Shared/Header" arguments="{_all}" />
+              </f:if>
+            </f:if>
+          </f:if>
+        </f:if>
+
+        <f:format.html>{data.bodytext}</f:format.html>
+      </div>
+    </f:if>
+
+    <f:if condition="{gallery.position.vertical} == 'below'">
+      <f:render partial="Textmedia/MediaGallery" arguments="{_all}" />
+    </f:if>
+  </f:section>
+</html>
