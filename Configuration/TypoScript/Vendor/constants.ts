@@ -17,16 +17,26 @@ lib {
 [compatVersion = 8.7]
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
 
+lib {
+  contentElement {
+    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/FluidStyledContent/8.7/
+
+    templateRootPath = EXT:t3v_content/Resources/Private/Templates/FluidStyledContent/8.7/
+
+    partialRootPath = EXT:t3v_content/Resources/Private/Partials/FluidStyledContent/8.7/
+  }
+}
+
 # styles {
 #   templates {
+#     # cat=content/templates/b3; type=string; label= Path of Fluid Layouts for all defined content elements
+#     layoutRootPath =
+#
 #     # cat=content/templates/b1; type=string; label= Path of Fluid Templates for all defined content elements
 #     templateRootPath =
 #
 #     # cat=content/templates/b2; type=string; label= Path of Fluid Partials for all defined content elements
 #     partialRootPath =
-#
-#     # cat=content/templates/b3; type=string; label= Path of Fluid Layouts for all defined content elements
-#     layoutRootPath =
 #   }
 #
 #   content {
@@ -66,31 +76,33 @@ lib {
 #       # cat=content/cTextmedia/i3; type=int+; label= Media element border, padding: Padding left and right to the media element, around the border
 #       borderPadding = 0
 #
-#       # cat=content/cTextmedia/c1; type=string; label= Click-enlarge Media Width: This specifies the width of the enlarged media element when click-enlarge is enabled
-#       linkWrap.width = 800m
+#       linkWrap {
+#         # cat=content/cTextmedia/c2; type=string; label= Click-enlarge Media Height: This specifies the height of the enlarged media element when click-enlarge is enabled
+#         height = 600m
 #
-#       # cat=content/cTextmedia/c2; type=string; label= Click-enlarge Media Height: This specifies the height of the enlarged media element when click-enlarge is enabled
-#       linkWrap.height = 600m
+#         # cat=content/cTextmedia/c1; type=string; label= Click-enlarge Media Width: This specifies the width of the enlarged media element when click-enlarge is enabled
+#         width = 800m
 #
-#       # cat=content/cTextmedia/c3; type=boolean; label= Advanced, New window: If set, every click-enlarged media element will open in it's own popup window and not the current popup window (which may have a wrong size for the media element to fit in)
-#       linkWrap.newWindow = 0
+#         # cat=content/cTextmedia/c3; type=boolean; label= Advanced, New window: If set, every click-enlarged media element will open in it's own popup window and not the current popup window (which may have a wrong size for the media element to fit in)
+#         newWindow = 0
 #
-#       # cat=content/cTextmedia/c4; type=boolean; label= Lightbox click-enlarge rendering: Whether media elements with click-enlarge checked should be rendered lightbox-compliant
-#       linkWrap.lightboxEnabled = 0
+#         # cat=content/cTextmedia/c4; type=boolean; label= Lightbox click-enlarge rendering: Whether media elements with click-enlarge checked should be rendered lightbox-compliant
+#         lightboxEnabled = 0
 #
-#       # cat=content/cTextmedia/c5; type=string; label= Lightbox CSS class: Which CSS class to use for lightbox links (only applicable if lightbox rendering is enabled)
-#       linkWrap.lightboxCssClass = lightbox
+#         # cat=content/cTextmedia/c5; type=string; label= Lightbox CSS class: Which CSS class to use for lightbox links (only applicable if lightbox rendering is enabled)
+#         lightboxCssClass = lightbox
 #
-#       # cat=content/cTextmedia/c6; type=string; label= Lightbox rel="" attribute: Which rel="" attribute to use for lightbox links (only applicable if lightbox rendering is enabled)
-#       linkWrap.lightboxRelAttribute = lightbox[{field:uid}]
+#         # cat=content/cTextmedia/c6; type=string; label= Lightbox rel="" attribute: Which rel="" attribute to use for lightbox links (only applicable if lightbox rendering is enabled)
+#         lightboxRelAttribute = lightbox[{field:uid}]
+#       }
 #     }
 #
 #     links {
-#         # cat=content/links/l2; type=small; label= Target for external links
-#         extTarget = _blank
+#       # cat=content/links/l2; type=small; label= Target for external links
+#       extTarget = _blank
 #
-#         # cat=content/links/l3; type=string; label= Parts to keep when building links: Comma separated list of the link parts to show when building the link-text: scheme,path,query. Example: "" (empty) => www.example.com, "scheme,path" => http://www.example.com
-#         keep = path
+#       # cat=content/links/l3; type=string; label= Parts to keep when building links: Comma separated list of the link parts to show when building the link-text: scheme,path,query. Example: "" (empty) => www.example.com, "scheme,path" => http://www.example.com
+#       keep = path
 #     }
 #   }
 # }

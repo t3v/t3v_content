@@ -82,6 +82,28 @@ lib {
 # <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuRelatedPages.txt">
 # <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuSitemap.txt">
 # <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuSitemapPages.txt">
+
+lib {
+  contentElement {
+    layoutRootPaths {
+      0 = EXT:fluid_styled_content/Resources/Private/Layouts/
+
+      10 = {$lib.contentElement.layoutRootPath}
+    }
+
+    templateRootPaths {
+      0 = EXT:fluid_styled_content/Resources/Private/Templates/
+
+      10 = {$lib.contentElement.templateRootPaths}
+    }
+
+    partialRootPaths {
+      0 = EXT:fluid_styled_content/Resources/Private/Partials/
+
+      10 = {$lib.contentElement.partialRootPaths}
+    }
+  }
+}
 [global]
 
 # === Grid Elements (gridelements) ===
