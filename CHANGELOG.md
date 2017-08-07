@@ -3,6 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+2.2.3
+-----
+
+* Fixed `MediaGallery` partial
+
 2.2.2
 -----
 
