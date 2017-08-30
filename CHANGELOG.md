@@ -3,6 +3,13 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Use Icon Identifier for icons
+* Updated database fixtures
+* Updated AppVeyor configuration
+
 2.2.3
 -----
 
