@@ -9,7 +9,7 @@ mod {
 
               description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_wizard.xlf:contentElements.spacerContentElement.description
 
-              icon = EXT:t3v_content/Resources/Public/Icons/ContentElements/SpacerContentElement.svg
+              iconIdentifier = t3v_content-spacer_content_element
 
               tt_content_defValues {
                 CType = list

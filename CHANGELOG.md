@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Use Icon Identifier for icons
 * Updated database fixtures
 * Updated AppVeyor configuration
 
