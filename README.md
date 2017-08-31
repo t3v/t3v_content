@@ -96,7 +96,7 @@ Credits
 * [Browser free icon (2)]
 * [Browser free icon (3)]
 
-Icons made by [Madebyoliver] from [Flaticon] is licensed by [CC 3.0 BY].
+Icons made by [Madebyoliver] from [Flaticon] are licensed by [CC 3.0 BY].
 
 License
 -------
