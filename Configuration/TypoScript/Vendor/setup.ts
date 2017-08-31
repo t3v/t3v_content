@@ -29,8 +29,8 @@ lib {
 [compatVersion = 8.7]
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.txt">
 
-# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Helper/ContentElement.txt">
-# <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Helper/ParseFunc.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Helper/ContentElement.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Helper/ParseFunc.txt">
 
 # --- Content element rendering ---
 
@@ -94,13 +94,13 @@ lib {
     templateRootPaths {
       0 = EXT:fluid_styled_content/Resources/Private/Templates/
 
-      10 = {$lib.contentElement.templateRootPaths}
+      10 = {$lib.contentElement.templateRootPath}
     }
 
     partialRootPaths {
       0 = EXT:fluid_styled_content/Resources/Private/Partials/
 
-      10 = {$lib.contentElement.partialRootPaths}
+      10 = {$lib.contentElement.partialRootPath}
     }
   }
 }
