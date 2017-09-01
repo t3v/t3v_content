@@ -1,4 +1,4 @@
-# === Grid Elements Configuration ===
+# === Accordion / Accord Grid Element Configuration ===
 
 tx_gridelements {
   setup {

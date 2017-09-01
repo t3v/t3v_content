@@ -1,3 +1,5 @@
+# === Spacer Content Element Wizard Configuration ===
+
 mod {
   wizards {
     newContentElement {
