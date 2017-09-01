@@ -1,4 +1,4 @@
-# === Content Records Configuration ===
+# === Accordion / Accord Grid Element Content Records Configuration ===
 
 tt_content {
   gridelements_pi1 {

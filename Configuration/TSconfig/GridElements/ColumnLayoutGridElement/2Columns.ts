@@ -1,4 +1,4 @@
-# === 2 Column Layout Grid Element Configuration ===
+# === 2 Columns Layout Grid Element Configuration ===
 
 tx_gridelements {
   setup {
