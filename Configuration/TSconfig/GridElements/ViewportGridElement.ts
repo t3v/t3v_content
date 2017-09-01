@@ -1,4 +1,4 @@
-# === Grid Elements Configuration ===
+# === Viewport Grid Element Configuration ===
 
 tx_gridelements {
   setup {
