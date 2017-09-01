@@ -96,7 +96,7 @@ Credits
 * [Browser free icon (2)]
 * [Browser free icon (3)]
 
-Icons made by [Madebyoliver] from [Flaticon] are licensed by [CC 3.0 BY].
+Icons made by [Smashicons] from [Flaticon] is licensed by [CC 3.0 BY].
 
 License
 -------
@@ -117,9 +117,9 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Functional testing TYPO3]: https://wiki.typo3.org/Functional_testing "Functional testing TYPO3"
 [here]: https://github.com/t3v/t3v_content/issues "GitHub Issue Tracker"
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_content/master/LICENSE "License"
-[Madebyoliver]: http://www.flaticon.com/authors/madebyoliver "Madebyoliver"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
+[Smashicons]: https://www.flaticon.com/authors/smashicons "Smashicons"
 [T3v Content]: https://t3v.github.io/t3v_content/ "The content extension of TYPO3Voila."
 [Travis CI Status]: https://img.shields.io/travis/t3v/t3v_content.svg?style=flat "Travis CI Status"
 [Travis CI]: https://travis-ci.org/t3v/t3v_content "T3v Content at Travis CI"
