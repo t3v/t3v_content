@@ -9,6 +9,7 @@ Unreleased
 * Improved partials (Fluid Styled Content)
 * Use Icon Identifier for icons
 * Updated database fixtures
+* Updated dependencies
 * Updated AppVeyor configuration
 
 2.2.3
