@@ -3,6 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Updated Travis CI and AppVeyor configuration
+
 2.2.4
 -----
 
@@ -38,7 +43,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 * Added `75% 25%` spread to Column Layout Grid Element (2 Columns)
 * Added VHS as dependency
 * Updated dependencies
-* Update Travis CI and AppVeyor configuration
+* Updated Travis CI and AppVeyor configuration
 
 2.1.0
 -----
