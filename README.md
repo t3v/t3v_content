@@ -28,16 +28,34 @@ Content Elements
 ### Typical page content
 
 * Header Only Content Element
+* Regular Text Content Element
+* Text & Images Content Element
+* Images Only Content Element
 * Text & Media Content Element
 * Bullet List Content Element
 * Table Content Element
 * File Links Content Element
 
+### Menu
+
+* Abstracts Content Element
+* Categorized content Content Element
+* Categorized pages Content Element
+* Pages Content Element
+* Subpages Content Element
+* Recently updated pages Content Element
+* Related pages Content Element
+* Section index Content Element
+* Section index of subpages from selected pages Content Element
+* Sitemap Content Element
+* Sitemaps of selected pages Content Element
+* Special Menus Content Element
+
 ### Special elements
 
-* Special Menus Content Element
 * Plain HTML Content Element
 * Divider Content Element
+* Insert records Content Element
 
 ### Custom elements
 
