@@ -1,7 +1,11 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
   <f:layout name="MenuAbstract" />
 
-  <f:section name="Main">
+  <f:section name="Content">
+    <f:render section="Menu" arguments="{menu: menu}" />
+  </f:section>
+
+  <f:section name="Menu">
     <f:if condition="{menu}">
       <ul>
         <f:for each="{menu}" as="page">

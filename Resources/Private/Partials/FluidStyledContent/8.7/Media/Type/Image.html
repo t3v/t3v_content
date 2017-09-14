@@ -1,5 +1,5 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:ce="http://typo3.org/ns/TYPO3/CMS/FluidStyledContent/ViewHelpers" data-namespace-typo3-fluid="true">
-  <figure class="image">
+  <figure class="figure--image figure">
     <f:if condition="{file.link}">
       <f:then>
         <f:link.typolink parameter="{file.link}" title="{file.title}">
@@ -23,7 +23,7 @@
     </f:if>
 
     <f:if condition="{file.description}">
-      <figcaption class="image-caption">
+      <figcaption class="figcaption--image figcaption">
         {file.description}
       </figcaption>
     </f:if>

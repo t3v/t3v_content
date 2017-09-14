@@ -13,7 +13,9 @@
         <f:render partial="Header/All" arguments="{_all}" />
       </f:render>
 
-      <f:render section="Main" optional="true" />
+      <div class="ce__content">
+        <f:render section="Content" optional="true" />
+      </div>
 
       <f:render section="Footer" optional="true">
         <f:render partial="Footer/All" arguments="{_all}" />
