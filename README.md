@@ -64,9 +64,10 @@ Content Elements
 Grid Elements
 -------------
 
-* Column Layout Grid Element
-* Viewport Grid Element
 * Accordion / Accord Grid Element
+* Column Layout Grid Element
+* Document Section Grid Element
+* Viewport Grid Element
 
 Development
 -----------
