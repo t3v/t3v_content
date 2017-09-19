@@ -38,6 +38,7 @@ Content Elements
 * Special Menus Content Element
 * Plain HTML Content Element
 * Divider Content Element
+* Insert records Content Element
 
 ### Custom elements
 
@@ -46,9 +47,10 @@ Content Elements
 Grid Elements
 -------------
 
-* Column Layout Grid Element
-* Viewport Grid Element
 * Accordion / Accord Grid Element
+* Column Layout Grid Element
+* Document Section Grid Element
+* Viewport Grid Element
 
 Development
 -----------
@@ -95,6 +97,7 @@ Credits
 * [Browser free icon (1)]
 * [Browser free icon (2)]
 * [Browser free icon (3)]
+* [Browser free icon (4)]
 
 Icons made by [Smashicons] from [Flaticon] is licensed by [CC 3.0 BY].
 
@@ -104,16 +107,17 @@ License
 T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 
 [Acceptance testing TYPO3]: https://wiki.typo3.org/Acceptance_testing "Acceptance testing TYPO3"
-[Accordion free icon]: http://www.flaticon.com/free-icon/accordion_140208 "Accordion free icon"
-[Alignment free icon]: http://www.flaticon.com/free-icon/alignment_140879 "Alignment free icon"
-[Archive free icon]: http://www.flaticon.com/free-icon/archive_149014 "Archive free icon"
+[Accordion free icon]: https://www.flaticon.com/free-icon/accordion_140208 "Accordion free icon"
+[Alignment free icon]: https://www.flaticon.com/free-icon/alignment_140879 "Alignment free icon"
+[Archive free icon]: https://www.flaticon.com/free-icon/archive_149014 "Archive free icon"
 [Automated testing TYPO3]: https://wiki.typo3.org/Automated_testing "Automated testing TYPO3"
-[Browser free icon (1)]: http://www.flaticon.com/free-icon/browser_140840 "Browser free icon"
-[Browser free icon (2)]: http://www.flaticon.com/free-icon/browser_140796 "Browser free icon"
-[Browser free icon (3)]: http://www.flaticon.com/free-icon/browser_140797 "Browser free icon"
+[Browser free icon (1)]: https://www.flaticon.com/free-icon/browser_140840 "Browser free icon"
+[Browser free icon (2)]: https://www.flaticon.com/free-icon/browser_140796 "Browser free icon"
+[Browser free icon (3)]: https://www.flaticon.com/free-icon/browser_140797 "Browser free icon"
+[Browser free icon (4)]: https://www.flaticon.com/free-icon/browser_140803 "Browser free icon"
 [CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/ "Creative Commons BY 3.0"
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
-[Flaticon]: http://www.flaticon.com "Flaticon"
+[Flaticon]: https://www.flaticon.com "Flaticon"
 [Functional testing TYPO3]: https://wiki.typo3.org/Functional_testing "Functional testing TYPO3"
 [here]: https://github.com/t3v/t3v_content/issues "GitHub Issue Tracker"
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_content/master/LICENSE "License"

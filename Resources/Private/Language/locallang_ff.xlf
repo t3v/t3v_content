@@ -66,6 +66,12 @@
         <source>Large</source>
       </trans-unit>
 
+      <!-- Document Section Grid Element -->
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.id.label">
+        <source>ID</source>
+      </trans-unit>
+
       <!-- Viewport Grid Element -->
 
       <trans-unit id="gridElements.viewportGridElement.settings.visibility.label">

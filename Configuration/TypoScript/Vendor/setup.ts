@@ -1,6 +1,6 @@
 # === Fluid Styled Content (fluid_styled_content) ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: EXT:fluid_styled_content/Configuration/TypoScript/Static/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Static/setup.txt">
 
 lib {
   fluidContent {
@@ -26,7 +26,7 @@ lib {
 
 # === Grid Elements (gridelements) ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: EXT:gridelements/Configuration/TypoScript/setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/setup.ts">
 
 # tt_content {
 #   gridelements_pi1 >
