@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Implemented Document Section Grid Element
 * Updated Travis CI and AppVeyor configuration
 
 2.2.4

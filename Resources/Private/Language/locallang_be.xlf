@@ -74,6 +74,20 @@
         <source>3. column</source>
       </trans-unit>
 
+      <!-- Document Section Grid Element -->
+
+      <trans-unit id="gridElements.documentSectionGridElement.title">
+        <source>Document Section</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.description">
+        <source>Document Section Grid Element</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.rows.1.columns.1.name">
+        <source>Content</source>
+      </trans-unit>
+
       <!-- Viewport Grid Element -->
 
       <trans-unit id="gridElements.viewportGridElement.title">
@@ -82,6 +96,10 @@
 
       <trans-unit id="gridElements.viewportGridElement.description">
         <source>Viewport Grid Element</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.viewportGridElement.rows.1.columns.1.name">
+        <source>Content</source>
       </trans-unit>
     </body>
   </file>

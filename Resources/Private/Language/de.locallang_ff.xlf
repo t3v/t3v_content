@@ -80,6 +80,13 @@
         <target>Groß</target>
       </trans-unit>
 
+      <!-- Document Section Grid Element -->
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.id.label">
+        <source>ID</source>
+        <target>Identifikation</target>
+      </trans-unit>
+
       <!-- Viewport Grid Element -->
 
       <trans-unit id="gridElements.viewportGridElement.settings.visibility.label">

@@ -1,0 +1,13 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
+  <div id="c{data.uid}" class="document-section--{data.flexform_id} document-section">
+    <v:tag name="div" class="document-section__container container" hideIfEmpty="true">
+      <v:tag name="div" class="document-section__header" hideIfEmpty="true">
+        <f:render section="Header" />
+      </v:tag>
+
+      <v:tag name="div" class="document-section__main" hideIfEmpty="true">
+        <f:render section="Main" />
+      </v:tag>
+    </v:tag>
+  </div>
+</html>

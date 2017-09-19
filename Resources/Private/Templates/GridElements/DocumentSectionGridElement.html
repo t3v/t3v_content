@@ -1,0 +1,19 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers" data-namespace-typo3-fluid="true">
+  <f:layout name="DocumentSectionGridElement" />
+
+  <f:section name="Header">
+    <f:if condition="{data.header}">
+      <f:if condition="{data.header_layout} != 0">
+        <f:if condition="{data.header_layout} != 100">
+          <div class="document-section__header">
+            <t3v:headline layout="{data.header_layout}" cssClass="document-section__title">{data.header}</t3v:headline>
+          </div>
+        </f:if>
+      </f:if>
+    </f:if>
+  </f:section>
+
+  <f:section name="Main">
+    <f:format.raw>{t3v:viewColumn(viewColumn: 10, data: data)}</f:format.raw>
+  </f:section>
+</html>
