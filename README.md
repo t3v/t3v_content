@@ -131,7 +131,7 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Browser free icon (1)]: https://www.flaticon.com/free-icon/browser_140840 "Browser free icon"
 [Browser free icon (2)]: https://www.flaticon.com/free-icon/browser_140796 "Browser free icon"
 [Browser free icon (3)]: https://www.flaticon.com/free-icon/browser_140797 "Browser free icon"
-[Browser free icon (4)]: https://www.flaticon.com/free-icon/browser_140803 "Browser free icon"
+[Browser free icon (4)]: https://www.flaticon.com/free-icon/browser_140795 "Browser free icon"
 [CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/ "Creative Commons BY 3.0"
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
 [Flaticon]: https://www.flaticon.com "Flaticon"
