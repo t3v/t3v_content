@@ -68,8 +68,24 @@
 
       <!-- Document Section Grid Element -->
 
-      <trans-unit id="gridElements.documentSectionGridElement.settings.id.label">
-        <source>ID</source>
+      <trans-unit id="gridElements.documentSectionGridElement.settings.slug.label">
+        <source>Slug</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.containerType.label">
+        <source>Container Type</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.containerType.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.containerType.large.label">
+        <source>Large</source>
       </trans-unit>
 
       <!-- Viewport Grid Element -->

@@ -82,9 +82,29 @@
 
       <!-- Document Section Grid Element -->
 
-      <trans-unit id="gridElements.documentSectionGridElement.settings.id.label">
-        <source>ID</source>
+      <trans-unit id="gridElements.documentSectionGridElement.settings.slug.label">
+        <source>Slug</source>
         <target>Identifikation</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.container.label">
+        <source>Container</source>
+        <target>Container</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.containerType.label">
+        <source>Container Type</source>
+        <target>Container Typ</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.containerType.default.label">
+        <source>Default</source>
+        <target>Default</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.containerType.large.label">
+        <source>Large</source>
+        <target>Groß</target>
       </trans-unit>
 
       <!-- Viewport Grid Element -->

@@ -8,18 +8,51 @@
   <ROOT type="array">
     <type>array</type>
     <el type="array">
-      <id>
+      <slug>
         <TCEforms type="array">
-          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.id.label</label>
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.slug.label</label>
           <config type="array">
             <type>input</type>
             <size>42</size>
             <max>255</max>
-            <eval>trim, required</eval>
+            <eval>alphanum_x, lower, nospace, required</eval>
             <default>default</default>
           </config>
         </TCEforms>
-      </id>
+      </slug>
+
+      <container>
+        <TCEforms type="array">
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.container.label</label>
+          <config type="array">
+            <type>check</type>
+            <default>1</default>
+          </config>
+        </TCEforms>
+      </container>
+
+      <container_type>
+        <TCEforms type="array">
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.containerType.label</label>
+          <config type="array">
+            <type>select</type>
+            <size>1</size>
+            <minitems>1</minitems>
+            <maxitems>1</maxitems>
+            <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.containerType.default.label</numIndex>
+                <numIndex index="1">default</numIndex>
+              </numIndex>
+
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.containerType.large.label</numIndex>
+                <numIndex index="1">large</numIndex>
+              </numIndex>
+            </items>
+          </config>
+        </TCEforms>
+      </container_type>
     </el>
   </ROOT>
 </T3DataStructure>
