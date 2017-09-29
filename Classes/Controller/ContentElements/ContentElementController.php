@@ -18,7 +18,7 @@ class ContentElementController extends AbstractController {
    * @param \TYPO3\CMS\Extbase\Mvc\View\ViewInterface $view The view
    */
   protected function initializeView(ViewInterface $view) {
-    $configurationManager = $this->objectManager->get('TYPO3\CMS\Extbase\Configuration\ConfigurationManager');
+    $configurationManager = $this->objectManager->get(ConfigurationManager::class);
     $data                 = $configurationManager->getContentObject()->data;
 
     $this->view->assign('data', $data);
