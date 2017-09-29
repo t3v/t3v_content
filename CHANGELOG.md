@@ -3,13 +3,14 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+3.0.0
+-----
 
 * Implemented Document Section Grid Element
+* Update Fluid Styled Content layouts, templates and partials (TYPO3 8.7)
 * Fixed translations
-* Updated Travis CI and AppVeyor configuration
 * Updated icons
+* Updated Travis CI and AppVeyor configuration
 
 2.2.4
 -----
@@ -42,8 +43,8 @@ Unreleased
 -----
 
 * Improved Media Gallery
-* Added Column Layout Grid Element (3 Columns)
-* Added `75% 25%` spread to Column Layout Grid Element (2 Columns)
+* Added `3 Columns Layout` Grid Element
+* Added `75% 25%` spread to `2 Columns Layout` Grid Element
 * Added VHS as dependency
 * Updated dependencies
 * Updated Travis CI and AppVeyor configuration
@@ -51,10 +52,10 @@ Unreleased
 2.1.0
 -----
 
-* Defined namespace in `ext_localconf` and `ext_tables`
-* Added `default` breakpoint (2 Columns Layout GridElement)
+* Defined namespace in `ext_localconf.php` and `ext_tables.php`
+* Added `default` breakpoint (`2 Columns Layout` GridElement)
 * Cleaned up `ContentElementController`
-* Use `t3v:page.visible` view helper
+* Improved partials, use `t3v:page.visible`
 * Updated extension icon
 * Updated scripts
 
