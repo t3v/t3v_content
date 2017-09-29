@@ -7,7 +7,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 -----
 
 * Implemented Document Section Grid Element
-* Update Fluid Styled Content layouts, templates and partials (TYPO3 8.7)
+* Updated Fluid Styled Content layouts, templates and partials (TYPO3 8.7)
 * Fixed translations
 * Updated icons
 * Updated Travis CI and AppVeyor configuration
