@@ -9,6 +9,7 @@ Unreleased
 * Implemented Document Section Grid Element
 * Fixed translations
 * Updated Travis CI and AppVeyor configuration
+* Updated icons
 
 2.2.4
 -----
