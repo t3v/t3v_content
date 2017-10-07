@@ -9,7 +9,7 @@ call_user_func(function ($namespace, $extkey) {
 
   // --- Table Content Element ---
 
-  // Set `Top` as default table header position instead of `No header`.
+  // Set `Top` as default table header position instead of `No header`
   $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['default'] = 1;
 
   // === Custom Content Elements ===
