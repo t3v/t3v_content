@@ -6,8 +6,11 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Merged Extensions and Vendor TypoScript
+* Shuffled vendor layouts, templates and partials around
 * Updated dependencies
 * Updated AppVeyor configuration
+* Cleaned up
 
 3.0.0
 -----
