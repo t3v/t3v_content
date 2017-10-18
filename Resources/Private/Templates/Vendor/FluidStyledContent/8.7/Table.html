@@ -5,7 +5,7 @@
     <f:if condition="{table}">
       <table class="ce__table {f:if(condition: data.table_class, then: 'table--{data.table_class}')} table">
         <f:if condition="{data.table_caption}">
-          <caption class="ce__caption caption--table caption">{data.table_caption}</caption>
+          <caption class="ce__caption caption">{data.table_caption}</caption>
         </f:if>
 
         <f:for each="{table}" as="row" iteration="rowIterator">
@@ -62,10 +62,6 @@
           </f:if>
         </f:for>
       </table>
-
-      <f:if condition="{data.table_caption}">
-        <div class="ce__caption caption--bottom caption">{data.table_caption}</div>
-      </f:if>
     </f:if>
   </f:section>
 </html>

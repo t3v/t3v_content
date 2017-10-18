@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Updated `Table` layouts and partials
 * Merged Extensions and Vendor TypoScript
 * Shuffled vendor layouts, templates and partials around
 * Updated dependencies
@@ -168,7 +169,7 @@ Unreleased
 * Added `HeadlineLinkViewHelper`
 * Improved `HeadlineViewHelper`
 * Added `FileSizeViewHelper`
-* Updated View Helper to extend from `\T3v\T3vCore\ViewHelpers\AbstractViewHelper`
+* Updated View Helpers to extend from `\T3v\T3vCore\ViewHelpers\AbstractViewHelper`
 * Added `ContentElementController`
 * Updated `Table` template (`ce__caption`)
 * Updated CSS classes

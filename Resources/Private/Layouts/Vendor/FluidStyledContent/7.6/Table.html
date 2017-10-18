@@ -14,6 +14,10 @@
       <f:render section="Content" />
     </div>
 
+    <f:if condition="{data.table_caption}">
+      <div class="ce__caption caption">{data.table_caption}</div>
+    </f:if>
+
     <f:render partial="Shared/Footer" arguments="{_all}" />
   </div>
 </html>

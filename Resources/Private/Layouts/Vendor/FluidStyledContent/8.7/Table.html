@@ -17,6 +17,10 @@
         <f:render section="Content" optional="true" />
       </div>
 
+      <f:if condition="{data.table_caption}">
+        <div class="ce__caption caption">{data.table_caption}</div>
+      </f:if>
+
       <f:render section="Footer" optional="true">
         <f:render partial="Footer/All" arguments="{_all}" />
       </f:render>
