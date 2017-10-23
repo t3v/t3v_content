@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Updated CSS class of Grid Element Headers
 * Updated `Table` layouts and partials
 * Merged Extensions and Vendor TypoScript
 * Shuffled vendor layouts, templates and partials around
