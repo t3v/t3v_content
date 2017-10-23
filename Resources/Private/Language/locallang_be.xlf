@@ -6,7 +6,7 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- Accordion Grid Element -->
+      <!-- Accordion / Accord Grid Element -->
 
       <trans-unit id="gridElements.accordionGridElement.title">
         <source>Accordion</source>
@@ -19,8 +19,6 @@
       <trans-unit id="gridElements.accordionGridElement.rows.1.columns.1.name">
         <source>Accordion Elements</source>
       </trans-unit>
-
-      <!-- Accord Grid Element -->
 
       <trans-unit id="gridElements.accordGridElement.title">
         <source>Accord</source>
@@ -85,6 +83,36 @@
       </trans-unit>
 
       <trans-unit id="gridElements.documentSectionGridElement.rows.1.columns.1.name">
+        <source>Content</source>
+      </trans-unit>
+
+      <!-- Timeline / Event Grid Element -->
+
+      <trans-unit id="gridElements.timelineGridElement.title">
+        <source>Timeline</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timelineGridElement.description">
+        <source>Timeline Grid Element</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timelineGridElement.rows.1.columns.1.name">
+        <source>Content</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.title">
+        <source>Event</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.description">
+        <source>Event Grid Element</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.rows.1.columns.1.name">
+        <source>Abstract</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.rows.2.columns.1.name">
         <source>Content</source>
       </trans-unit>
 

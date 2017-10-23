@@ -6,7 +6,7 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- Accordion Grid Element -->
+      <!-- Accordion / Accord Grid Element -->
 
       <trans-unit id="gridElements.accordionGridElement.title">
         <source>Accordion</source>
@@ -22,8 +22,6 @@
         <source>Accordion Elements</source>
         <target>Akkordeon Elemente</target>
       </trans-unit>
-
-      <!-- Accord Grid Element -->
 
       <trans-unit id="gridElements.accordGridElement.title">
         <source>Accord</source>
@@ -102,6 +100,43 @@
       </trans-unit>
 
       <trans-unit id="gridElements.documentSectionGridElement.rows.1.columns.1.name">
+        <source>Content</source>
+        <target>Inhaltsbereich</target>
+      </trans-unit>
+
+      <!-- Timeline / Event Grid Element -->
+
+      <trans-unit id="gridElements.timelineGridElement.title">
+        <source>Timeline</source>
+        <target>Zeitleiste</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timelineGridElement.description">
+        <source>Timeline Grid Element</source>
+        <target>Zeitleiste Grid Element</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timelineGridElement.rows.1.columns.1.name">
+        <source>Content</source>
+        <target>Inhaltsbereich</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.title">
+        <source>Event</source>
+        <target>Ereignis</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.description">
+        <source>Event Grid Element</source>
+        <target>Ereignis Grid Element</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.rows.1.columns.1.name">
+        <source>Abstract</source>
+        <target>Auszug</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.rows.2.columns.1.name">
         <source>Content</source>
         <target>Inhaltsbereich</target>
       </trans-unit>

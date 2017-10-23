@@ -73,7 +73,7 @@ tx_gridelements {
           1 {
             columns {
               1 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.accordGridElement.columns.rows.1.columns.1.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.accordGridElement.rows.1.columns.1.name
 
                 colPos = 10
 

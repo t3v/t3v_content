@@ -6,10 +6,12 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `Timeline` and `Event` Grid Element
 * Updated CSS class of Grid Element Headers
 * Updated `Table` layouts and partials
 * Merged Extensions and Vendor TypoScript
 * Shuffled vendor layouts, templates and partials around
+* Bugfixing
 * Updated dependencies
 * Updated AppVeyor configuration
 * Cleaned up
@@ -17,7 +19,7 @@ Unreleased
 3.0.0
 -----
 
-* Implemented Document Section Grid Element
+* Implemented `Document Section` Grid Element
 * Updated Fluid Styled Content layouts, templates and partials (TYPO3 8.7)
 * Fixed translations
 * Updated icons
@@ -64,7 +66,7 @@ Unreleased
 -----
 
 * Defined namespace in `ext_localconf.php` and `ext_tables.php`
-* Added `default` breakpoint (`2 Columns Layout` GridElement)
+* Added `default` breakpoint to `2 Columns Layout` Grid Element
 * Cleaned up `ContentElementController`
 * Improved partials, use `t3v:page.visible`
 * Updated extension icon
@@ -161,12 +163,12 @@ Unreleased
 1.4.0
 -----
 
-* Don't wrap `Shortcut` content elements
+* Don't wrap `Shortcut` Content Elements
 
 1.3.0
 -----
 
-* Added `T3vContentAccordion` and `T3vContentAccord`
+* Added `Accordion` and `Accord` Grid Element
 * Added `HeadlineLinkViewHelper`
 * Improved `HeadlineViewHelper`
 * Added `FileSizeViewHelper`
@@ -187,7 +189,7 @@ Unreleased
 1.1.0
 -----
 
-* Implemented `T3vContentColumnLayout2Columns`
+* Implemented `ColumnLayout` Grid Element
 * Cleaned up structure
 
 1.0.0

@@ -67,6 +67,7 @@ Grid Elements
 * Accordion / Accord Grid Element
 * Column Layout Grid Element
 * Document Section Grid Element
+* Timeline / Event Grid Element
 * Viewport Grid Element
 
 Development
