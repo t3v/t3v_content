@@ -104,6 +104,23 @@
         <target>Inhaltsbereich</target>
       </trans-unit>
 
+      <!-- Panel Grid Element -->
+
+      <trans-unit id="gridElements.panelGridElement.title">
+        <source>Panel</source>
+        <target>Panel</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.description">
+        <source>Panel Grid Element</source>
+        <target>Panel Grid Element</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.rows.1.columns.1.name">
+        <source>Content</source>
+        <target>Inhaltsbereich</target>
+      </trans-unit>
+
       <!-- Timeline / Event Grid Element -->
 
       <trans-unit id="gridElements.timelineGridElement.title">

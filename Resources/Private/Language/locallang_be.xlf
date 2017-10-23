@@ -86,6 +86,20 @@
         <source>Content</source>
       </trans-unit>
 
+      <!-- Panel Grid Element -->
+
+      <trans-unit id="gridElements.panelGridElement.title">
+        <source>Panel</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.description">
+        <source>Panel Grid Element</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.rows.1.columns.1.name">
+        <source>Content</source>
+      </trans-unit>
+
       <!-- Timeline / Event Grid Element -->
 
       <trans-unit id="gridElements.timelineGridElement.title">
