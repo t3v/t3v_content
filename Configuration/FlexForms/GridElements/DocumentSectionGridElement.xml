@@ -25,16 +25,6 @@
         <TCEforms type="array">
           <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.container.label</label>
           <config type="array">
-            <type>check</type>
-            <default>1</default>
-          </config>
-        </TCEforms>
-      </container>
-
-      <container_type>
-        <TCEforms type="array">
-          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.containerType.label</label>
-          <config type="array">
             <type>select</type>
             <renderType>selectSingle</renderType>
             <size>1</size>
@@ -42,18 +32,34 @@
             <maxitems>1</maxitems>
             <items type="array">
               <numIndex index="0" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.containerType.default.label</numIndex>
-                <numIndex index="1">default</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.container.none.label</numIndex>
+                <numIndex index="1"></numIndex>
               </numIndex>
 
               <numIndex index="1" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.containerType.large.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.container.default.label</numIndex>
+                <numIndex index="1">default</numIndex>
+              </numIndex>
+
+              <numIndex index="2" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.container.medium.label</numIndex>
+                <numIndex index="1">medium</numIndex>
+              </numIndex>
+
+              <numIndex index="3" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.container.large.label</numIndex>
                 <numIndex index="1">large</numIndex>
               </numIndex>
+
+              <numIndex index="4" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.container.custom.label</numIndex>
+                <numIndex index="1">custom</numIndex>
+              </numIndex>
             </items>
+            <default>default</default>
           </config>
         </TCEforms>
-      </container_type>
+      </container>
     </el>
   </ROOT>
 </T3DataStructure>
