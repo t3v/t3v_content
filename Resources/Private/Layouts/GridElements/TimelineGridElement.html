@@ -1,9 +1,9 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
   <div id="c{data.uid}" class="ge--t3v-content-timeline ge">
     <f:render partial="Shared/Header" arguments="{data: data}" />
 
-    <div class="ge__main">
+    <v:tag name="div" class="ge__main" hideIfEmpty="true">
       <f:render section="Main" />
-    </div>
+    </v:tag>
   </div>
 </html>
