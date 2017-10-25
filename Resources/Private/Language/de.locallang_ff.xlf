@@ -48,6 +48,11 @@
         <target>Groß</target>
       </trans-unit>
 
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
+      </trans-unit>
+
       <!-- Column Layout Grid Element (3 Columns) -->
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.spread.label">
@@ -78,6 +83,11 @@
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.large.label">
         <source>Large</source>
         <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
       </trans-unit>
 
       <!-- Document Section Grid Element -->

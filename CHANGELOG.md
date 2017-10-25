@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Updated Flexforms (`Columns Layout` Grid Element)
 * Improved `Document Section` Grid Element
 * Improved Flexforms
 * Improved Grid Elements layouts

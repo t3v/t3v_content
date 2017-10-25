@@ -51,6 +51,11 @@
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.large.label</numIndex>
                 <numIndex index="1">large</numIndex>
               </numIndex>
+
+              <numIndex index="3" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.custom.label</numIndex>
+                <numIndex index="1">custom</numIndex>
+              </numIndex>
             </items>
           </config>
         </TCEforms>
