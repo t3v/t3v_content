@@ -90,10 +90,10 @@ styles {
         lightboxEnabled = 1
 
         # cat=content/cTextmedia/c5; type=string; label=Lightbox CSS class: Which CSS class to use for lightbox links (only applicable if lightbox rendering is enabled)
-        # lightboxCssClass = lightbox
+        lightboxCssClass = link--media link
 
         # cat=content/cTextmedia/c6; type=string; label=Lightbox rel attribute: Which rel attribute to use for lightbox links (only applicable if lightbox rendering is enabled)
-        # lightboxRelAttribute = lightbox[{field:uid}]
+        lightboxRelAttribute = media[{field:uid}]
       }
     }
 
