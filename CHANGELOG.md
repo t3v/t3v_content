@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Improved Flexforms
 * Improved Grid Elements layouts
 * Added `Panel` Grid Element
 * Added `Timeline` and `Event` Grid Element

@@ -13,6 +13,7 @@
           <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.viewportGridElement.settings.visibility.label</label>
           <config type="array">
             <type>select</type>
+            <renderType>selectSingle</renderType>
             <size>1</size>
             <minitems>1</minitems>
             <maxitems>1</maxitems>
