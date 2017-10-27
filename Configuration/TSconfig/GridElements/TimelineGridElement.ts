@@ -11,16 +11,20 @@ tx_gridelements {
 
       icon = EXT:t3v_content/Resources/Public/Icons/GridElements/TimelineGridElement.svg
 
-      # Frame settings
-      # frame = 1
+      # Use a colored frame as in the record form:
+      # `0` = no color
+      # `1` = red
+      # `2` = green
+      # `3` = blue
+      # frame = 0
 
-      # Top Level Layout
+      # If this option is set the Grid Element can be set as top level only.
       # topLevelLayout = 1
 
-      # Denied elements
+      # A list of IDs of layouts that should not be available in this branch of the page tree.
       # excludeLayoutIds = 1,2,3
 
-      # TSConfig winning
+      # Set this value to `1`, when you want TSconfig settings to have precendence over layout records with the same ID.
       # overruleRecords = 1
 
       config {
