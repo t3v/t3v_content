@@ -9,7 +9,7 @@ tx_gridelements {
 
       # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/AccordionGridElement.xml
 
-      icon = EXT:t3v_content/Resources/Public/Icons/GridElements/AccordionGridElement.svg
+      iconIdentifier = t3v_content-accordion_grid_element
 
       # Use a colored frame as in the record form:
       # `0` = no color
@@ -55,7 +55,7 @@ tx_gridelements {
 
       # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/AccordGridElement.xml
 
-      icon = EXT:t3v_content/Resources/Public/Icons/GridElements/AccordGridElement.svg
+      iconIdentifier = t3v_content-accord_grid_element
 
       # Use a colored frame as in the record form:
       # `0` = no color

@@ -9,7 +9,7 @@ tx_gridelements {
 
       # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/TimelineGridElement.xml
 
-      icon = EXT:t3v_content/Resources/Public/Icons/GridElements/TimelineGridElement.svg
+      iconIdentifier = t3v_content-timeline_grid_element
 
       # Use a colored frame as in the record form:
       # `0` = no color
@@ -55,7 +55,7 @@ tx_gridelements {
 
       # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/EventGridElement.xml
 
-      icon = EXT:t3v_content/Resources/Public/Icons/GridElements/EventGridElement.svg
+      iconIdentifier = t3v_content-event_grid_element
 
       # Frame settings
       # frame = 1

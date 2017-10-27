@@ -9,7 +9,7 @@ tx_gridelements {
 
       flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/ColumnLayoutGridElement/3Columns.xml
 
-      icon = EXT:t3v_content/Resources/Public/Icons/GridElements/ColumnLayoutGridElement/3Columns.svg
+      iconIdentifier = t3v_content-3_columns_layout_grid_element
 
       # Use a colored frame as in the record form:
       # `0` = no color
