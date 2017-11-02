@@ -6,6 +6,9 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Replace `contenttable` CSS class with `content-table`
+* Added Replace Content extension as dependency
+* Updated constants (Fluid Styled Content)
 * Use Icon Registry for Grid Element icons
 * Updated Grid Elements TSconfig
 * Updated `lightboxCssClass` and `lightboxRelAttribute` constant
