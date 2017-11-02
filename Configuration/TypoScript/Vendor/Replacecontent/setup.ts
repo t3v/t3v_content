@@ -7,7 +7,7 @@ config {
     }
 
     replace {
-      99 = <table class="content-table">
+      99 = <table class="table--content table">
     }
   }
 }
