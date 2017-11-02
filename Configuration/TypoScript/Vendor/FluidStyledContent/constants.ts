@@ -78,13 +78,13 @@ styles {
 
       linkWrap {
         # cat=content/cTextmedia/c1; type=string; label=Click-enlarge Media Width: This specifies the width of the enlarged media element when click-enlarge is enabled
-        # height = 600m
+        height = 768m
 
         # cat=content/cTextmedia/c2; type=string; label=Click-enlarge Media Height: This specifies the height of the enlarged media element when click-enlarge is enabled
-        # width = 800m
+        width = 1024m
 
         # cat=content/cTextmedia/c3; type=boolean; label=Advanced, New window: If set, every click-enlarged media element will open in it's own popup window and not the current popup window (which may have a wrong size for the media element to fit in)
-        # newWindow = 0
+        newWindow = 0
 
         # cat=content/cTextmedia/c4; type=boolean; label=Lightbox click-enlarge rendering: Whether media elements with click-enlarge checked should be rendered lightbox-compliant
         lightboxEnabled = 1
