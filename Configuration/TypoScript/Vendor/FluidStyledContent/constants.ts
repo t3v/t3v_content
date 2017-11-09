@@ -1,4 +1,6 @@
-# === Fluid Styled Content Constants ===
+# ----------------------------------
+# | Fluid Styled Content Constants |
+# ----------------------------------
 
 [compatVersion = 7.6]
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Static/constants.txt">

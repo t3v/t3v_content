@@ -1,4 +1,6 @@
-# === Grid Elements Configuration ===
+# -------------------------------
+# | Grid Elements Configuration |
+# -------------------------------
 
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/setup.ts">
 

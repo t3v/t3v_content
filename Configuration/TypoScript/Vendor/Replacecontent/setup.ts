@@ -1,4 +1,6 @@
-# === Replace content Configuration ===
+# ---------------------------------
+# | Replace Content Configuration |
+# ---------------------------------
 
 config {
   tx_replacecontent {

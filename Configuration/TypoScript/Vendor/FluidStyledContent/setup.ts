@@ -1,4 +1,6 @@
-# === Fluid Styled Content Configuration ===
+# --------------------------------------
+# | Fluid Styled Content Configuration |
+# --------------------------------------
 
 [compatVersion = 7.6]
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Static/setup.txt">
