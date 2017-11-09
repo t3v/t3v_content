@@ -6,7 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Updated constants and configuration
+* Updated constants and configurations
 * Replace `contenttable` CSS class with `content-table`
 * Added Replace Content extension as dependency
 * Updated constants (Fluid Styled Content)
