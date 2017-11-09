@@ -14,15 +14,15 @@
           <config type="array">
             <type>select</type>
             <renderType>selectSingle</renderType>
-            <size>1</size>
-            <minitems>1</minitems>
-            <maxitems>1</maxitems>
             <items type="array">
               <numIndex index="0" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.3Columns.settings.spread.333333.label</numIndex>
                 <numIndex index="1">33-33-33</numIndex>
               </numIndex>
             </items>
+            <size>1</size>
+            <minitems>1</minitems>
+            <maxitems>1</maxitems>
           </config>
         </TCEforms>
       </spread>
@@ -33,9 +33,6 @@
           <config type="array">
             <type>select</type>
             <renderType>selectSingle</renderType>
-            <size>1</size>
-            <minitems>1</minitems>
-            <maxitems>1</maxitems>
             <items type="array">
               <numIndex index="0" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.default.label</numIndex>
@@ -57,6 +54,9 @@
                 <numIndex index="1">custom</numIndex>
               </numIndex>
             </items>
+            <size>1</size>
+            <minitems>1</minitems>
+            <maxitems>1</maxitems>
           </config>
         </TCEforms>
       </breakpoint>

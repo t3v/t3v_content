@@ -27,9 +27,6 @@
           <config type="array">
             <type>select</type>
             <renderType>selectSingle</renderType>
-            <size>1</size>
-            <minitems>1</minitems>
-            <maxitems>1</maxitems>
             <items type="array">
               <numIndex index="0" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.container.none.label</numIndex>
@@ -56,6 +53,9 @@
                 <numIndex index="1">custom</numIndex>
               </numIndex>
             </items>
+            <size>1</size>
+            <minitems>1</minitems>
+            <maxitems>1</maxitems>
             <default>default</default>
           </config>
         </TCEforms>
