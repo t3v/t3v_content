@@ -2,7 +2,11 @@
   <v:variable.set name="visibility" value="{data.flexform_visibility}" />
 
   <div id="c{data.uid}" class="ge--t3v-content-viewport--{visibility} ge--t3v-content-viewport ge">
-    <v:variable.set name="container" value="{data.flexform_container}" />
+    <v:variable.set name="container" value="{f:cObject(typoscriptObjectPath: 'lib.t3v.content.defaults.gridElements.viewportGridElement.container')}" />
+
+    <f:if condition="{data.flexform_container}">
+      <v:variable.set name="container" value="{data.flexform_container}" />
+    </f:if>
 
     <f:if condition="{container}">
       <f:then>

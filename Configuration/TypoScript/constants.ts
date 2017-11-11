@@ -2,6 +2,19 @@
 # | T3v Content Constants |
 # -------------------------
 
+t3v {
+  content {
+    defaults {
+      gridElements {
+        viewportGridElement {
+          # cat=t3v/content/defaults/gridElements/viewportGridElement; type=string; label=The default container type
+          container =
+        }
+      }
+    }
+  }
+}
+
 # === Plugin Constants ===
 
 plugin {
@@ -35,4 +48,5 @@ plugin {
 }
 
 <INCLUDE_TYPOSCRIPT: source="FILE: ./Vendor/constants.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./Library/constants.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/constants.ts">
