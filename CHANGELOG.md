@@ -6,7 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Added `container` setting to `Timeline` Grid Element
+* Added `container` setting to `Timeline` / `Event` Grid Element
 * Added `container` setting to `Viewport` Grid Element
 * Refactored TypoScript
 * Updated constants and configurations

@@ -1,13 +1,17 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
   <div id="c{data.uid}" class="ge--t3v-content-event ge">
-    <f:render partial="Shared/Header" arguments="{data: data}" />
+    <v:variable.set name="container" value="{data.flexform_container}" />
 
-    <v:tag name="div" class="ge__abstract" hideIfEmpty="true">
-      <f:render section="Abstract" />
-    </v:tag>
+    <f:if condition="{container}">
+      <f:then>
+        <v:tag name="div" class="ge__container container--{container} container" hideIfEmpty="true">
+          <f:render section="GridElement" arguments="{data: data}" />
+        </v:tag>
+      </f:then>
 
-    <v:tag name="div" class="ge__main" hideIfEmpty="true">
-      <f:render section="Main" />
-    </v:tag>
+      <f:else>
+        <f:render section="GridElement" arguments="{data: data}" />
+      </f:else>
+    </f:if>
   </div>
 </html>

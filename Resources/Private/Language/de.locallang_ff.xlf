@@ -127,7 +127,7 @@
         <target>Benutzerdefiniert</target>
       </trans-unit>
 
-      <!-- Timeline Grid Element -->
+      <!-- Timeline / Event Grid Element -->
 
       <trans-unit id="gridElements.timelineGridElement.settings.container.label">
         <source>Container</source>
@@ -155,6 +155,36 @@
       </trans-unit>
 
       <trans-unit id="gridElements.timelineGridElement.settings.container.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.settings.container.label">
+        <source>Container</source>
+        <target>Container</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.settings.container.none.label">
+        <source>None</source>
+        <target>Ohne</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.settings.container.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.settings.container.medium.label">
+        <source>Medium</source>
+        <target>Medium</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.settings.container.large.label">
+        <source>Large</source>
+        <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.eventGridElement.settings.container.custom.label">
         <source>Custom</source>
         <target>Benutzerdefiniert</target>
       </trans-unit>

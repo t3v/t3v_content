@@ -53,7 +53,7 @@ tx_gridelements {
 
       description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.eventGridElement.description
 
-      # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/EventGridElement.xml
+      flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/EventGridElement.xml
 
       iconIdentifier = t3v_content-event_grid_element
 
