@@ -1,5 +1,5 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
-  <v:variable.set name="slug" value="{data.flexform_slug}" />
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vCore/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
+  <v:variable.set name="slug" value="{t3v:slug(value: data.flexform_slug)}" />
 
   <div id="c{data.uid}" class="document-section--{slug} document-section">
     <v:variable.set name="container" value="{f:cObject(typoscriptObjectPath: 'lib.t3v.content.defaults.gridElements.documentSectionGridElement.container')}" />

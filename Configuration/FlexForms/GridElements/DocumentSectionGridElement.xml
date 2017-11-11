@@ -15,7 +15,7 @@
             <type>input</type>
             <size>42</size>
             <max>255</max>
-            <eval>alphanum_x, lower, nospace, required</eval>
+            <eval>required</eval>
             <default>default</default>
           </config>
         </TCEforms>
