@@ -9,6 +9,7 @@ Dependencies
 ------------
 
 * TYPO3 CMS 7.6 or greater
+* Cocur/Slugify
 * Fluid Styled Content extension
 * Grid Elements extension
 * Replace Content extension
