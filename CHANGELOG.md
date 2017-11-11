@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Dropped support for PHP 5.x
 * Refactored TypoScript
 * Updated constants and configurations
 * Replace `contenttable` CSS class with `content-table`
