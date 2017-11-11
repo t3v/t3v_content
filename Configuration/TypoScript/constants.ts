@@ -6,6 +6,11 @@ t3v {
   content {
     defaults {
       gridElements {
+        documentSectionGridElement {
+          # cat=t3v/content/defaults/gridElements/documentSectionGridElement; type=string; label=The default container type
+          container = default
+        }
+
         panelGridElement {
           # cat=t3v/content/defaults/gridElements/panelGridElement; type=string; label=The default container type
           container =

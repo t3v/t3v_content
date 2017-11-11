@@ -3,6 +3,13 @@ lib {
     content {
       defaults {
         gridElements {
+          documentSectionGridElement {
+            container = TEXT
+            container {
+              value = {$t3v.content.defaults.gridElements.documentSectionGridElement.container}
+            }
+          }
+
           panelGridElement {
             container = TEXT
             container {

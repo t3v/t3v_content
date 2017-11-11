@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `container` setting to `Document Section` Grid Element
 * Added `container` setting to `Panel` Grid Element
 * Added `container` setting to `Timeline` / `Event` Grid Element
 * Added `container` setting to `Viewport` Grid Element
