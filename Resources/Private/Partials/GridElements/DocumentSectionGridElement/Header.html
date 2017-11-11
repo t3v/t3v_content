@@ -2,8 +2,8 @@
   <f:if condition="{data.header}">
     <f:if condition="{data.header_layout} != 0">
       <f:if condition="{data.header_layout} != 100">
-        <v:tag name="div" class="ge__header" hideIfEmpty="true">
-          <t3v:headlineLink layout="{data.header_layout}" cssClass="ge__title">{data.header}</t3v:headlineLink>
+        <v:tag name="div" class="document-section__header" hideIfEmpty="true">
+          <t3v:headline layout="{data.header_layout}" cssClass="document-section__title">{data.header}</t3v:headline>
         </v:tag>
       </f:if>
     </f:if>
