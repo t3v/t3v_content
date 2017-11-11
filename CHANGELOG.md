@@ -6,7 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Dropped support for PHP 5.x
+* Added `container` setting to `Viewport` Grid Element
 * Refactored TypoScript
 * Updated constants and configurations
 * Replace `contenttable` CSS class with `content-table`
@@ -26,9 +26,10 @@ Unreleased
 * Merged Extensions and Vendor TypoScript
 * Shuffled vendor layouts, templates and partials around
 * Bugfixing
-* Updated dependencies
-* Updated AppVeyor configuration
 * Cleaned up
+* Updated AppVeyor configuration
+* Updated dependencies
+* Dropped support for PHP 5.x
 
 3.0.0
 -----

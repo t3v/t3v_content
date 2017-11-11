@@ -1,7 +1,19 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
-  <div id="c{data.uid}" class="ge--t3v-content-viewport--{data.flexform_visibility} ge--t3v-content-viewport ge">
-    <v:tag name="div" class="ge__main" hideIfEmpty="true">
-      <f:render section="Main" />
-    </v:tag>
+  <v:variable.set name="visibility" value="{data.flexform_visibility}" />
+
+  <div id="c{data.uid}" class="ge--t3v-content-viewport--{visibility} ge--t3v-content-viewport ge">
+    <v:variable.set name="container" value="{data.flexform_container}" />
+
+    <f:if condition="{container}">
+      <f:then>
+        <v:tag name="div" class="ge__container container--{container} container" hideIfEmpty="true">
+          <f:render section="GridElement" arguments="{data: data}" />
+        </v:tag>
+      </f:then>
+
+      <f:else>
+        <f:render section="GridElement" arguments="{data: data}" />
+      </f:else>
+    </f:if>
   </div>
 </html>

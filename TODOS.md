@@ -1,7 +1,7 @@
 TODOS
 =====
 
-- [ ] Add `container` Flexform setting to all Grid Elements
+- [ ] Add `container` setting to all Grid Elements
 
 TYPO3 v9 LTS
 ------------

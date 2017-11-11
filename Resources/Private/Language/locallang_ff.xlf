@@ -123,6 +123,30 @@
         <source>Desktop only</source>
       </trans-unit>
 
+      <trans-unit id="gridElements.viewportGridElement.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.viewportGridElement.settings.container.none.label">
+        <source>None</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.viewportGridElement.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.viewportGridElement.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.viewportGridElement.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.viewportGridElement.settings.container.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
       <!-- === Content Elements === -->
 
       <!-- Spacer Content Element -->
