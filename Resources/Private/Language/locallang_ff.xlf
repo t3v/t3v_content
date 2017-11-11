@@ -109,6 +109,32 @@
         <source>Custom</source>
       </trans-unit>
 
+      <!-- Timeline Grid Element -->
+
+      <trans-unit id="gridElements.timelineGridElement.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timelineGridElement.settings.container.none.label">
+        <source>None</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timelineGridElement.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timelineGridElement.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timelineGridElement.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timelineGridElement.settings.container.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
       <!-- Viewport Grid Element -->
 
       <trans-unit id="gridElements.viewportGridElement.settings.visibility.label">

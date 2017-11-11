@@ -7,7 +7,7 @@ tx_gridelements {
 
       description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.timelineGridElement.description
 
-      # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/TimelineGridElement.xml
+      flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/TimelineGridElement.xml
 
       iconIdentifier = t3v_content-timeline_grid_element
 
