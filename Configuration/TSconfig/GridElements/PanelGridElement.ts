@@ -7,7 +7,7 @@ tx_gridelements {
 
       description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.panelGridElement.description
 
-      # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/PanelGridElement.xml
+      flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/PanelGridElement.xml
 
       iconIdentifier = t3v_content-panel_grid_element
 

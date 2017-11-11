@@ -6,6 +6,11 @@ t3v {
   content {
     defaults {
       gridElements {
+        panelGridElement {
+          # cat=t3v/content/defaults/gridElements/panelGridElement; type=string; label=The default container type
+          container =
+        }
+
         timelineGridElement {
           # cat=t3v/content/defaults/gridElements/timelineGridElement; type=string; label=The default container type
           container =

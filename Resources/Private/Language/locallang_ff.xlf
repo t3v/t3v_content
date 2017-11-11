@@ -109,6 +109,32 @@
         <source>Custom</source>
       </trans-unit>
 
+      <!-- Panel Grid Element -->
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.none.label">
+        <source>None</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
       <!-- Timeline / Event Grid Element -->
 
       <trans-unit id="gridElements.timelineGridElement.settings.container.label">

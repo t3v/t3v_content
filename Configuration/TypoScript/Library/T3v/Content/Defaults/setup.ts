@@ -3,6 +3,13 @@ lib {
     content {
       defaults {
         gridElements {
+          panelGridElement {
+            container = TEXT
+            container {
+              value = {$t3v.content.defaults.gridElements.panelGridElement.container}
+            }
+          }
+
           timelineGridElement {
             container = TEXT
             container {

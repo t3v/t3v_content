@@ -127,6 +127,38 @@
         <target>Benutzerdefiniert</target>
       </trans-unit>
 
+      <!-- Panel Grid Element -->
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.label">
+        <source>Container</source>
+        <target>Container</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.none.label">
+        <source>None</source>
+        <target>Ohne</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.medium.label">
+        <source>Medium</source>
+        <target>Medium</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.large.label">
+        <source>Large</source>
+        <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.panelGridElement.settings.container.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
+      </trans-unit>
+
       <!-- Timeline / Event Grid Element -->
 
       <trans-unit id="gridElements.timelineGridElement.settings.container.label">
