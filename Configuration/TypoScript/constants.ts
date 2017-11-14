@@ -4,30 +4,30 @@
 
 t3v {
   content {
-    defaults {
+    config {
       gridElements {
         documentSectionGridElement {
-          # cat=t3v/content/defaults/gridElements/documentSectionGridElement; type=string; label=The default container type
+          # cat=t3v/content/config/gridElements/documentSectionGridElement; type=string; label=The Grid Element's container
           container = default
         }
 
         panelGridElement {
-          # cat=t3v/content/defaults/gridElements/panelGridElement; type=string; label=The default container type
+          # cat=t3v/content/config/gridElements/panelGridElement; type=string; label=The Grid Element's container
           container =
         }
 
         timelineGridElement {
-          # cat=t3v/content/defaults/gridElements/timelineGridElement; type=string; label=The default container type
+          # cat=t3v/content/config/gridElements/timelineGridElement; type=string; label=The Grid Element's container
           container =
         }
 
         eventGridElement {
-          # cat=t3v/content/defaults/gridElements/eventGridElement; type=string; label=The default container type
+          # cat=t3v/content/config/gridElements/eventGridElement; type=string; label=The Grid Element's container
           container =
         }
 
         viewportGridElement {
-          # cat=t3v/content/defaults/gridElements/viewportGridElement; type=string; label=The default container type
+          # cat=t3v/content/config/gridElements/viewportGridElement; type=string; label=The Grid Element's container
           container =
         }
       }
