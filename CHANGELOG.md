@@ -3,15 +3,10 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+4.0.0
+-----
 
-* Added `container` setting to `Column Layout` Grid Elements
-* Added `container` setting to `Accordion` / `Accord` Grid Element
-* Added `container` setting to `Document Section` Grid Element
-* Added `container` setting to `Panel` Grid Element
-* Added `container` setting to `Timeline` / `Event` Grid Element
-* Added `container` setting to `Viewport` Grid Element
+* Added `container` setting to Grid Elements
 * Refactored TypoScript
 * Updated constants and configurations
 * Merged Extensions and Vendor TypoScript
@@ -30,8 +25,7 @@ Unreleased
 * Updated CSS class of Grid Element Headers
 * Updated `Table` layouts and partials
 * Shuffled vendor layouts, templates and partials around
-* Bugfixing
-* Cleaned up
+* Bugfixing / Cleaned up
 * Updated AppVeyor configuration
 * Updated dependencies
 * Dropped support for PHP 5.x
