@@ -1,9 +1,8 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
-  <div id="c{data.uid}" class="ge--t3v-content-column-layout--{data.flexform_spread} ge--t3v-content-column-layout--{data.flexform_breakpoint} ge--t3v-content-column-layout ge">
-    <f:render partial="Shared/Header" arguments="{data: data}" />
+  <v:variable.set name="spread"     value="{data.flexform_spread}" />
+  <v:variable.set name="breakpoint" value="{data.flexform_breakpoint}" />
 
-    <v:tag name="div" class="ge__container" hideIfEmpty="true">
-      <f:render section="Container" />
-    </v:tag>
+  <div id="c{data.uid}" class="ge--t3v-content-column-layout--{spread} ge--t3v-content-column-layout--{breakpoint} ge--t3v-content-column-layout ge">
+    <f:render section="GridElement" arguments="{data: data}" />
   </div>
 </html>

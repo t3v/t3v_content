@@ -44,6 +44,26 @@
         <source>Custom</source>
       </trans-unit>
 
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.spread.label">
         <source>Spread</source>
       </trans-unit>
@@ -69,6 +89,26 @@
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.custom.label">
         <source>Custom</source>
       </trans-unit>
 
@@ -130,10 +170,6 @@
 
       <trans-unit id="gridElements.documentSectionGridElement.settings.container.label">
         <source>Container</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.none.label">
-        <source>None</source>
       </trans-unit>
 
       <trans-unit id="gridElements.documentSectionGridElement.settings.container.default.label">

@@ -9,15 +9,9 @@
     </f:if>
 
     <f:if condition="{container}">
-      <f:then>
-        <v:tag name="div" class="document-section__container container--{container} container" hideIfEmpty="true">
-          <f:render section="GridElement" arguments="{data: data}" />
-        </v:tag>
-      </f:then>
-
-      <f:else>
+      <v:tag name="div" class="document-section__container container--{container} container" hideIfEmpty="true">
         <f:render section="GridElement" arguments="{data: data}" />
-      </f:else>
+      </v:tag>
     </f:if>
   </div>
 </html>

@@ -6,6 +6,18 @@ t3v {
   content {
     config {
       gridElements {
+        columnLayoutGridElement {
+          2Columns {
+            # cat=t3v/content/config/gridElements/columnLayoutGridElement/2Columns; type=string; label=The Grid Element's container
+            container = default
+          }
+
+          3Columns {
+            # cat=t3v/content/config/gridElements/columnLayoutGridElement/3Columns; type=string; label=The Grid Element's container
+            container = default
+          }
+        }
+
         accordionGridElement {
           # cat=t3v/content/config/gridElements/accordionGridElement; type=string; label=The Grid Element's container
           container =

@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `container` setting to `Column Layout` Grid Elements
 * Added `container` setting to `Accordion` / `Accord` Grid Element
 * Added `container` setting to `Document Section` Grid Element
 * Added `container` setting to `Panel` Grid Element

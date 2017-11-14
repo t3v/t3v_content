@@ -53,6 +53,31 @@
         <target>Benutzerdefiniert</target>
       </trans-unit>
 
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.label">
+        <source>Container</source>
+        <target>Container</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.medium.label">
+        <source>Medium</source>
+        <target>Medium</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.large.label">
+        <source>Large</source>
+        <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
+      </trans-unit>
+
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.spread.label">
         <source>Spread</source>
         <target>Ausbreitung</target>
@@ -84,6 +109,31 @@
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.label">
+        <source>Container</source>
+        <target>Container</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.medium.label">
+        <source>Medium</source>
+        <target>Medium</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.large.label">
+        <source>Large</source>
+        <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.custom.label">
         <source>Custom</source>
         <target>Benutzerdefiniert</target>
       </trans-unit>
@@ -160,11 +210,6 @@
       <trans-unit id="gridElements.documentSectionGridElement.settings.container.label">
         <source>Container</source>
         <target>Container</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.none.label">
-        <source>None</source>
-        <target>Ohne</target>
       </trans-unit>
 
       <trans-unit id="gridElements.documentSectionGridElement.settings.container.default.label">

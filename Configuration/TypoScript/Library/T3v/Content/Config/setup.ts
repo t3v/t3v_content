@@ -3,6 +3,22 @@ lib {
     content {
       config {
         gridElements {
+          columnLayoutGridElement {
+            2Columns {
+              container = TEXT
+              container {
+                value = {$t3v.content.config.gridElements.columnLayoutGridElement.2Columns.container}
+              }
+            }
+
+            3Columns {
+              container = TEXT
+              container {
+                value = {$t3v.content.config.gridElements.columnLayoutGridElement.3Columns.container}
+              }
+            }
+          }
+
           accordionGridElement {
             container = TEXT
             container {
