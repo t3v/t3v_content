@@ -6,12 +6,14 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `container` setting to `Accordion` / `Accord` Grid Element
 * Added `container` setting to `Document Section` Grid Element
 * Added `container` setting to `Panel` Grid Element
 * Added `container` setting to `Timeline` / `Event` Grid Element
 * Added `container` setting to `Viewport` Grid Element
 * Refactored TypoScript
 * Updated constants and configurations
+* Merged Extensions and Vendor TypoScript
 * Replace `contenttable` CSS class with `content-table`
 * Added Replace Content extension as dependency
 * Updated constants (Fluid Styled Content)
@@ -26,7 +28,6 @@ Unreleased
 * Added `Timeline` and `Event` Grid Element
 * Updated CSS class of Grid Element Headers
 * Updated `Table` layouts and partials
-* Merged Extensions and Vendor TypoScript
 * Shuffled vendor layouts, templates and partials around
 * Bugfixing
 * Cleaned up

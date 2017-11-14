@@ -6,6 +6,16 @@ t3v {
   content {
     config {
       gridElements {
+        accordionGridElement {
+          # cat=t3v/content/config/gridElements/accordionGridElement; type=string; label=The Grid Element's container
+          container =
+        }
+
+        accordGridElement {
+          # cat=t3v/content/config/gridElements/accordGridElement; type=string; label=The Grid Element's container
+          container =
+        }
+
         documentSectionGridElement {
           # cat=t3v/content/config/gridElements/documentSectionGridElement; type=string; label=The Grid Element's container
           container = default

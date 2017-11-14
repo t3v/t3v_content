@@ -7,7 +7,7 @@ tx_gridelements {
 
       description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.accordionGridElement.description
 
-      # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/AccordionGridElement.xml
+      flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/AccordionGridElement.xml
 
       iconIdentifier = t3v_content-accordion_grid_element
 
@@ -53,7 +53,7 @@ tx_gridelements {
 
       description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.accordGridElement.description
 
-      # flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/AccordGridElement.xml
+      flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/AccordGridElement.xml
 
       iconIdentifier = t3v_content-accord_grid_element
 

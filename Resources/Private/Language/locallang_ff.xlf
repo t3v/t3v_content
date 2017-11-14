@@ -6,7 +6,7 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- Column Layout Grid Element (2 Columns) -->
+      <!-- Column Layout Grid Elements -->
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.label">
         <source>Spread</source>
@@ -44,8 +44,6 @@
         <source>Custom</source>
       </trans-unit>
 
-      <!-- Column Layout Grid Element (3 Columns) -->
-
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.spread.label">
         <source>Spread</source>
       </trans-unit>
@@ -74,15 +72,60 @@
         <source>Custom</source>
       </trans-unit>
 
+      <!-- Accordion / Accord Grid Element -->
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.none.label">
+        <source>None</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.none.label">
+        <source>None</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
       <!-- Document Section Grid Element -->
 
       <trans-unit id="gridElements.documentSectionGridElement.settings.slug.label">
         <source>Slug</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.slug.label">
-        <source>Slug</source>
-        <target>Identifikation</target>
       </trans-unit>
 
       <trans-unit id="gridElements.documentSectionGridElement.settings.container.label">

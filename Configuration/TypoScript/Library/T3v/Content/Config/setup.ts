@@ -3,6 +3,20 @@ lib {
     content {
       config {
         gridElements {
+          accordionGridElement {
+            container = TEXT
+            container {
+              value = {$t3v.content.config.gridElements.accordionGridElement.container}
+            }
+          }
+
+          accordGridElement {
+            container = TEXT
+            container {
+              value = {$t3v.content.config.gridElements.accordGridElement.container}
+            }
+          }
+
           documentSectionGridElement {
             container = TEXT
             container {

@@ -6,7 +6,7 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- Column Layout Grid Element (2 Columns) -->
+      <!-- Column Layout Grid Elements -->
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.label">
         <source>Spread</source>
@@ -53,8 +53,6 @@
         <target>Benutzerdefiniert</target>
       </trans-unit>
 
-      <!-- Column Layout Grid Element (3 Columns) -->
-
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.spread.label">
         <source>Spread</source>
         <target>Ausbreitung</target>
@@ -86,6 +84,68 @@
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
+      </trans-unit>
+
+      <!-- Accordion / Accord Grid Element -->
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.label">
+        <source>Container</source>
+        <target>Container</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.none.label">
+        <source>None</source>
+        <target>Ohne</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.medium.label">
+        <source>Medium</source>
+        <target>Medium</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.large.label">
+        <source>Large</source>
+        <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordionGridElement.settings.container.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.label">
+        <source>Container</source>
+        <target>Container</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.none.label">
+        <source>None</source>
+        <target>Ohne</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.medium.label">
+        <source>Medium</source>
+        <target>Medium</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.large.label">
+        <source>Large</source>
+        <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.accordGridElement.settings.container.custom.label">
         <source>Custom</source>
         <target>Benutzerdefiniert</target>
       </trans-unit>
