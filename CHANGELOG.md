@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Fixed Flexforms
 * Fixed functional tests
 
 4.0.0
