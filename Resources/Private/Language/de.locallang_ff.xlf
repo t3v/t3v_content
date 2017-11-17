@@ -202,6 +202,11 @@
 
       <!-- Document Section Grid Element -->
 
+      <trans-unit id="gridElements.documentSectionGridElement.settings.abstract.label">
+        <source>Abstract</source>
+        <target>Zusammenfassung</target>
+      </trans-unit>
+
       <trans-unit id="gridElements.documentSectionGridElement.settings.slug.label">
         <source>Slug</source>
         <target>Identifikation</target>

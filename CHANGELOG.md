@@ -6,6 +6,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `abstract` setting to `Document Section` Grid Element
+* Updated template for `Event` Grid Element
 * Fixed Flexforms
 * Fixed functional tests
 

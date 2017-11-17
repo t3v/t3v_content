@@ -8,6 +8,17 @@
   <ROOT type="array">
     <type>array</type>
     <el type="array">
+      <abstract>
+        <TCEforms type="array">
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.abstract.label</label>
+          <config type="array">
+            <type>text</type>
+            <eval>trim</eval>
+          </config>
+          <defaultExtras>richtext:rte_transform[flag=rte_enabled|mode=ts_css]</defaultExtras>
+        </TCEforms>
+      </abstract>
+
       <slug>
         <TCEforms type="array">
           <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.documentSectionGridElement.settings.slug.label</label>
