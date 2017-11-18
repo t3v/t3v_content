@@ -19,13 +19,19 @@ plugin {
     }
 
     view {
+      layoutRootPath = {$plugin.tx_t3vcontent.view.layoutRootPath}
+
       layoutRootPaths {
         0 = {$plugin.tx_t3vcontent.view.layoutRootPath}
       }
 
+      templateRootPath = {$plugin.tx_t3vcontent.view.templateRootPath}
+
       templateRootPaths {
         0 = {$plugin.tx_t3vcontent.view.templateRootPath}
       }
+
+      partialRootPath = {$plugin.tx_t3vcontent.view.partialRootPath}
 
       partialRootPaths {
         0 = {$plugin.tx_t3vcontent.view.partialRootPath}
