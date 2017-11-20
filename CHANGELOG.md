@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Updated template (`Document Section` Grid Element)
 * Updated Flexform (`Document Section` Grid Element)
 * Updated TypoScript
 * Added `abstract` setting to `Document Section` Grid Element
