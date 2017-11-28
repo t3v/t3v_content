@@ -10,11 +10,9 @@
       <v:variable.set name="container" value="{data.flexform_container}" />
     </f:if>
 
-    <f:if condition="{container}">
-      <v:tag name="div" class="ge__container container--{container} container" hideIfEmpty="true">
-        <f:render section="Container" arguments="{data: data}" />
-      </v:tag>
-    </f:if>
+    <v:tag name="div" class="ge__container container--{container} container" hideIfEmpty="true">
+      <f:render section="Container" arguments="{data: data}" />
+    </v:tag>
   </f:section>
 
   <f:section name="Container">

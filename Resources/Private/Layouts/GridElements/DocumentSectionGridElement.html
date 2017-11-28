@@ -8,10 +8,8 @@
       <v:variable.set name="container" value="{data.flexform_container}" />
     </f:if>
 
-    <f:if condition="{container}">
-      <v:tag name="div" class="document-section__container container--{container} container" hideIfEmpty="true">
-        <f:render section="GridElement" arguments="{data: data}" />
-      </v:tag>
-    </f:if>
+    <v:tag name="div" class="document-section__container container--{container} container" hideIfEmpty="true">
+      <f:render section="GridElement" arguments="{data: data}" />
+    </v:tag>
   </div>
 </html>
