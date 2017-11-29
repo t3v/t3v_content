@@ -13,6 +13,7 @@ Unreleased
 * Updated template for `Event` Grid Element
 * Fixed Flexforms
 * Fixed functional tests
+* Updated AppVeyor configuration
 
 4.0.0
 -----
