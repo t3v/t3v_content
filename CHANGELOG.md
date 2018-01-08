@@ -7,6 +7,8 @@ Unreleased
 ----------
 
 * Updated Fluid Styled Content layouts and partials
+* Updated Travis CI and AppVeyor configuration
+* Updated dependencies
 
 4.1.0
 -----
