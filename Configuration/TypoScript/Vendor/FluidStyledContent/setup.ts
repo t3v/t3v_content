@@ -7,6 +7,8 @@
 
 lib {
   fluidContent {
+    layoutRootPath = {$lib.fluidContent.layoutRootPath}
+
     # Used to define several paths for layouts, which will be tried in reversed order (the paths are searched from
     # bottom to top). The first folder where the desired layout is found, is used. If the array keys are numeric,
     # they are first sorted and then tried in reversed order.
@@ -16,6 +18,8 @@ lib {
       10 = {$lib.fluidContent.layoutRootPath}
     }
 
+    templateRootPath = {$lib.fluidContent.templateRootPath}
+
     # Used to define several paths for templates, which will be tried in reversed order (the paths are searched from
     # bottom to top). The first folder where the desired layout is found, is used. If the array keys are numeric,
     # they are first sorted and then tried in reversed order.
@@ -24,6 +28,8 @@ lib {
 
       10 = {$lib.fluidContent.templateRootPath}
     }
+
+    partialRootPath = {$lib.fluidContent.partialRootPath}
 
     # Used to define several paths for partials, which will be tried in reversed order. The first folder where the
     # desired partial is found, is used. The keys of the array define the order.
@@ -95,6 +101,8 @@ lib {
 
 lib {
   contentElement {
+    layoutRootPath = {$lib.contentElement.layoutRootPath}
+
     # Used to define several paths for layouts, which will be tried in reversed order (the paths are searched from
     # bottom to top). The first folder where the desired layout is found, is used. If the array keys are numeric,
     # they are first sorted and then tried in reversed order.
@@ -104,6 +112,8 @@ lib {
       10 = {$lib.contentElement.layoutRootPath}
     }
 
+    templateRootPath = {$lib.contentElement.templateRootPath}
+
     # Used to define several paths for templates, which will be tried in reversed order (the paths are searched from
     # bottom to top). The first folder where the desired layout is found, is used. If the array keys are numeric,
     # they are first sorted and then tried in reversed order.
@@ -112,6 +122,8 @@ lib {
 
       10 = {$lib.contentElement.templateRootPath}
     }
+
+    partialRootPath = {$lib.contentElement.partialRootPath}
 
     # Used to define several paths for partials, which will be tried in reversed order. The first folder where the
     # desired partial is found, is used. The keys of the array define the order.
