@@ -69,6 +69,7 @@ Grid Elements
 * Column Layout Grid Element
 * Document Section Grid Element
 * Timeline / Event Grid Element
+* Panel Grid Element
 * Viewport Grid Element
 
 Development
