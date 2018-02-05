@@ -11,6 +11,8 @@
     <v:tag name="div" class="ge__main" hideIfEmpty="true">
       <f:render section="Main" arguments="{data: data}" />
     </v:tag>
+
+    <f:render section="Toggle" />
   </f:section>
 
   <f:section name="Abstract">
@@ -19,5 +21,11 @@
 
   <f:section name="Main">
     <f:format.raw>{t3v:viewColumn(viewColumn: 20, data: data)}</f:format.raw>
+  </f:section>
+
+  <f:section name="Toggle">
+    <a class="ge__toggle" href="#" title="{f:translate(key: 'gridElements.eventGridElement.toggle.title', default: 'Toggle')}">
+      <f:translate key="gridElements.eventGridElement.toggle.label" default="Toogle" />
+    </a>
   </f:section>
 </html>
