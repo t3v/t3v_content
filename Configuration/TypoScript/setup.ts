@@ -15,7 +15,9 @@ plugin {
     }
 
     settings {
-      # ...
+      extbase {
+        controllerExtensionName = {$plugin.tx_t3vcontent.settings.extbase.controllerExtensionName}
+      }
     }
 
     view {
