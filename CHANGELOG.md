@@ -8,6 +8,7 @@ Unreleased
 
 * Improved `Event` Grid Element
 * Updated TypoScript (Fluid Styled Content)
+* Cleaned up
 
 4.2.0
 -----
