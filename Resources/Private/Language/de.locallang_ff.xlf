@@ -38,6 +38,16 @@
         <target>Standard</target>
       </trans-unit>
 
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.small.label">
+        <source>Small</source>
+        <target>Klein</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.moderate.label">
+        <source>Moderate</source>
+        <target>Moderat</target>
+      </trans-unit>
+
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.medium.label">
         <source>Medium</source>
         <target>Medium</target>
@@ -46,6 +56,16 @@
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.large.label">
         <source>Large</source>
         <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.big.label">
+        <source>Big</source>
+        <target>Beträchtlich</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.great.label">
+        <source>Great</source>
+        <target>Riesig</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.custom.label">
@@ -63,6 +83,16 @@
         <target>Standard</target>
       </trans-unit>
 
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.small.label">
+        <source>Small</source>
+        <target>Klein</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.moderate.label">
+        <source>Moderate</source>
+        <target>Moderat</target>
+      </trans-unit>
+
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.medium.label">
         <source>Medium</source>
         <target>Medium</target>
@@ -71,6 +101,16 @@
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.large.label">
         <source>Large</source>
         <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.big.label">
+        <source>Big</source>
+        <target>Beträchtlich</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.great.label">
+        <source>Great</source>
+        <target>Riesig</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.custom.label">
@@ -98,6 +138,16 @@
         <target>Standard</target>
       </trans-unit>
 
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.small.label">
+        <source>Small</source>
+        <target>Klein</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.moderate.label">
+        <source>Moderate</source>
+        <target>Moderat</target>
+      </trans-unit>
+
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.medium.label">
         <source>Medium</source>
         <target>Medium</target>
@@ -106,6 +156,16 @@
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.large.label">
         <source>Large</source>
         <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.big.label">
+        <source>Big</source>
+        <target>Beträchtlich</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.great.label">
+        <source>Great</source>
+        <target>Riesig</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.custom.label">
@@ -123,6 +183,16 @@
         <target>Standard</target>
       </trans-unit>
 
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.small.label">
+        <source>Small</source>
+        <target>Klein</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.moderate.label">
+        <source>Moderate</source>
+        <target>Moderat</target>
+      </trans-unit>
+
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.medium.label">
         <source>Medium</source>
         <target>Medium</target>
@@ -131,6 +201,16 @@
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.large.label">
         <source>Large</source>
         <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.big.label">
+        <source>Big</source>
+        <target>Beträchtlich</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.great.label">
+        <source>Great</source>
+        <target>Riesig</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.custom.label">
@@ -222,6 +302,16 @@
         <target>Standard</target>
       </trans-unit>
 
+      <trans-unit id="gridElements.documentSectionGridElement.settings.container.small.label">
+        <source>Small</source>
+        <target>Klein</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.container.moderate.label">
+        <source>Moderate</source>
+        <target>Moderat</target>
+      </trans-unit>
+
       <trans-unit id="gridElements.documentSectionGridElement.settings.container.medium.label">
         <source>Medium</source>
         <target>Medium</target>
@@ -230,6 +320,16 @@
       <trans-unit id="gridElements.documentSectionGridElement.settings.container.large.label">
         <source>Large</source>
         <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.container.big.label">
+        <source>Big</source>
+        <target>Beträchtlich</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.documentSectionGridElement.settings.container.great.label">
+        <source>Great</source>
+        <target>Riesig</target>
       </trans-unit>
 
       <trans-unit id="gridElements.documentSectionGridElement.settings.container.custom.label">
@@ -402,6 +502,11 @@
         <target>Klein</target>
       </trans-unit>
 
+      <trans-unit id="contentElements.spacerContentElement.settings.type.moderate.label">
+        <source>Moderate</source>
+        <target>Moderat</target>
+      </trans-unit>
+
       <trans-unit id="contentElements.spacerContentElement.settings.type.medium.label">
         <source>Medium</source>
         <target>Medium</target>
@@ -410,6 +515,16 @@
       <trans-unit id="contentElements.spacerContentElement.settings.type.large.label">
         <source>Large</source>
         <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.settings.type.big.label">
+        <source>Big</source>
+        <target>Beträchtlich</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.settings.type.great.label">
+        <source>Great</source>
+        <target>Riesig</target>
       </trans-unit>
 
       <trans-unit id="contentElements.spacerContentElement.settings.type.custom.label">

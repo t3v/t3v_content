@@ -50,16 +50,36 @@
               </numIndex>
 
               <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.small.label</numIndex>
+                <numIndex index="1">small</numIndex>
+              </numIndex>
+
+              <numIndex index="2" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.moderate.label</numIndex>
+                <numIndex index="1">moderate</numIndex>
+              </numIndex>
+
+              <numIndex index="3" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.medium.label</numIndex>
                 <numIndex index="1">medium</numIndex>
               </numIndex>
 
-              <numIndex index="2" type="array">
+              <numIndex index="4" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.large.label</numIndex>
                 <numIndex index="1">large</numIndex>
               </numIndex>
 
-              <numIndex index="3" type="array">
+              <numIndex index="5" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.big.label</numIndex>
+                <numIndex index="1">big</numIndex>
+              </numIndex>
+
+              <numIndex index="6" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.great.label</numIndex>
+                <numIndex index="1">great</numIndex>
+              </numIndex>
+
+              <numIndex index="7" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.custom.label</numIndex>
                 <numIndex index="1">custom</numIndex>
               </numIndex>
@@ -84,16 +104,36 @@
               </numIndex>
 
               <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.container.small.label</numIndex>
+                <numIndex index="1">small</numIndex>
+              </numIndex>
+
+              <numIndex index="2" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.container.moderate.label</numIndex>
+                <numIndex index="1">moderate</numIndex>
+              </numIndex>
+
+              <numIndex index="3" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.container.medium.label</numIndex>
                 <numIndex index="1">medium</numIndex>
               </numIndex>
 
-              <numIndex index="2" type="array">
+              <numIndex index="4" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.container.large.label</numIndex>
                 <numIndex index="1">large</numIndex>
               </numIndex>
 
-              <numIndex index="3" type="array">
+              <numIndex index="5" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.container.big.label</numIndex>
+                <numIndex index="1">big</numIndex>
+              </numIndex>
+
+              <numIndex index="6" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.container.great.label</numIndex>
+                <numIndex index="1">great</numIndex>
+              </numIndex>
+
+              <numIndex index="7" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.columnLayoutGridElement.2Columns.settings.container.custom.label</numIndex>
                 <numIndex index="1">custom</numIndex>
               </numIndex>
