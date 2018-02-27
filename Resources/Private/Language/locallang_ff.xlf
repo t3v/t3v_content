@@ -6,226 +6,6 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- Column Layout Grid Elements -->
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.label">
-        <source>Spread</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.5050.label">
-        <source>50% 50%</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.7525.label">
-        <source>75% 25%</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.spread.2575.label">
-        <source>25% 75%</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.label">
-        <source>Breakpoint</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.default.label">
-        <source>Default</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.small.label">
-        <source>Small</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.moderate.label">
-        <source>Moderate</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.medium.label">
-        <source>Medium</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.large.label">
-        <source>Large</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.big.label">
-        <source>Big</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.great.label">
-        <source>Great</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.breakpoint.custom.label">
-        <source>Custom</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.label">
-        <source>Container</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.default.label">
-        <source>Default</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.small.label">
-        <source>Small</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.moderate.label">
-        <source>Moderate</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.medium.label">
-        <source>Medium</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.large.label">
-        <source>Large</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.big.label">
-        <source>Big</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.great.label">
-        <source>Great</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.settings.container.custom.label">
-        <source>Custom</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.spread.label">
-        <source>Spread</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.spread.333333.label">
-        <source>33% 33% 33%</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.label">
-        <source>Breakpoint</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.default.label">
-        <source>Default</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.small.label">
-        <source>Small</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.moderate.label">
-        <source>Moderate</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.medium.label">
-        <source>Medium</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.large.label">
-        <source>Large</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.big.label">
-        <source>Big</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.great.label">
-        <source>Great</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.breakpoint.custom.label">
-        <source>Custom</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.label">
-        <source>Container</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.default.label">
-        <source>Default</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.small.label">
-        <source>Small</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.moderate.label">
-        <source>Moderate</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.medium.label">
-        <source>Medium</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.large.label">
-        <source>Large</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.big.label">
-        <source>Big</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.great.label">
-        <source>Great</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.settings.container.custom.label">
-        <source>Custom</source>
-      </trans-unit>
-
-      <!-- Accordion / Accord Grid Element -->
-
-      <trans-unit id="gridElements.accordionGridElement.settings.container.label">
-        <source>Container</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordionGridElement.settings.container.none.label">
-        <source>None</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordionGridElement.settings.container.default.label">
-        <source>Default</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordionGridElement.settings.container.medium.label">
-        <source>Medium</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordionGridElement.settings.container.large.label">
-        <source>Large</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordionGridElement.settings.container.custom.label">
-        <source>Custom</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordGridElement.settings.container.label">
-        <source>Container</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordGridElement.settings.container.none.label">
-        <source>None</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordGridElement.settings.container.default.label">
-        <source>Default</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordGridElement.settings.container.medium.label">
-        <source>Medium</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordGridElement.settings.container.large.label">
-        <source>Large</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.accordGridElement.settings.container.custom.label">
-        <source>Custom</source>
-      </trans-unit>
-
       <!-- Document Section Grid Element -->
 
       <trans-unit id="gridElements.documentSectionGridElement.settings.abstract.label">
@@ -234,118 +14,6 @@
 
       <trans-unit id="gridElements.documentSectionGridElement.settings.slug.label">
         <source>Slug</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.label">
-        <source>Container</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.default.label">
-        <source>Default</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.small.label">
-        <source>Small</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.moderate.label">
-        <source>Moderate</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.medium.label">
-        <source>Medium</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.large.label">
-        <source>Large</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.big.label">
-        <source>Big</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.great.label">
-        <source>Great</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.container.custom.label">
-        <source>Benutzerdefiniert</source>
-      </trans-unit>
-
-      <!-- Panel Grid Element -->
-
-      <trans-unit id="gridElements.panelGridElement.settings.container.label">
-        <source>Container</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.panelGridElement.settings.container.none.label">
-        <source>None</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.panelGridElement.settings.container.default.label">
-        <source>Default</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.panelGridElement.settings.container.medium.label">
-        <source>Medium</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.panelGridElement.settings.container.large.label">
-        <source>Large</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.panelGridElement.settings.container.custom.label">
-        <source>Custom</source>
-      </trans-unit>
-
-      <!-- Timeline / Event Grid Element -->
-
-      <trans-unit id="gridElements.timelineGridElement.settings.container.label">
-        <source>Container</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.timelineGridElement.settings.container.none.label">
-        <source>None</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.timelineGridElement.settings.container.default.label">
-        <source>Default</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.timelineGridElement.settings.container.medium.label">
-        <source>Medium</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.timelineGridElement.settings.container.large.label">
-        <source>Large</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.timelineGridElement.settings.container.custom.label">
-        <source>Custom</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.eventGridElement.settings.container.label">
-        <source>Container</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.eventGridElement.settings.container.none.label">
-        <source>None</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.eventGridElement.settings.container.default.label">
-        <source>Default</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.eventGridElement.settings.container.medium.label">
-        <source>Medium</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.eventGridElement.settings.container.large.label">
-        <source>Large</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.eventGridElement.settings.container.custom.label">
-        <source>Custom</source>
       </trans-unit>
 
       <!-- Viewport Grid Element -->
@@ -362,37 +30,107 @@
         <source>Desktop only</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.viewportGridElement.settings.container.label">
-        <source>Container</source>
+      <!-- Shared -->
+
+      <trans-unit id="gridElements.shared.settings.breakpoint.label">
+        <source>Breakpoint</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.viewportGridElement.settings.container.none.label">
-        <source>None</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.viewportGridElement.settings.container.default.label">
+      <trans-unit id="gridElements.shared.settings.breakpoint.default.label">
         <source>Default</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.viewportGridElement.settings.container.medium.label">
+      <trans-unit id="gridElements.shared.settings.breakpoint.small.label">
+        <source>Small</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.breakpoint.moderate.label">
+        <source>Moderate</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.breakpoint.medium.label">
         <source>Medium</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.viewportGridElement.settings.container.large.label">
+      <trans-unit id="gridElements.shared.settings.breakpoint.large.label">
         <source>Large</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.viewportGridElement.settings.container.custom.label">
+      <trans-unit id="gridElements.shared.settings.breakpoint.big.label">
+        <source>Big</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.breakpoint.great.label">
+        <source>Great</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.breakpoint.custom.label">
         <source>Custom</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.container.none.label">
+        <source>None</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.container.small.label">
+        <source>Small</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.container.moderate.label">
+        <source>Moderate</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.container.big.label">
+        <source>Big</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.container.great.label">
+        <source>Great</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.container.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.spread.label">
+        <source>Spread</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.spread.5050.label">
+        <source>50% 50%</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.spread.7525.label">
+        <source>75% 25%</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.spread.2575.label">
+        <source>25% 75%</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.spread.333333.label">
+        <source>33% 33% 33%</source>
       </trans-unit>
 
       <!-- === Content Elements === -->
 
       <!-- Spacer Content Element -->
-
-      <trans-unit id="contentElements.spacerContentElement.settings.sheetTitle">
-        <source>Settings</source>
-      </trans-unit>
 
       <trans-unit id="contentElements.spacerContentElement.settings.type.label">
         <source>Type</source>
@@ -428,6 +166,12 @@
 
       <trans-unit id="contentElements.spacerContentElement.settings.customHeight.label">
         <source>Custom height in pixel</source>
+      </trans-unit>
+
+      <!-- Shared -->
+
+      <trans-unit id="contentElements.shared.settings.sheetTitle">
+        <source>Settings</source>
       </trans-unit>
     </body>
   </file>

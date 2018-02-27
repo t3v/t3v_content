@@ -6,7 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Extended Flexforms
+* Refactored / extended Flexforms
 * Updated TypoScript
 * Improved `Event` Grid Element
 * Updated TypoScript (Fluid Styled Content)

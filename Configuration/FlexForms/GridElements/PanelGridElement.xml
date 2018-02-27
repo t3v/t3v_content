@@ -5,38 +5,58 @@
     <langChildren>1</langChildren>
   </meta>
 
-  <ROOT type="array">
+  <ROOT>
     <type>array</type>
-    <el type="array">
+    <el>
       <container>
         <TCEforms type="array">
-          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.panelGridElement.settings.container.label</label>
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.label</label>
           <config type="array">
             <type>select</type>
             <renderType>selectSingle</renderType>
             <items type="array">
               <numIndex index="0" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.panelGridElement.settings.container.none.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.none.label</numIndex>
                 <numIndex index="1"></numIndex>
               </numIndex>
 
               <numIndex index="1" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.panelGridElement.settings.container.default.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.default.label</numIndex>
                 <numIndex index="1">default</numIndex>
               </numIndex>
 
               <numIndex index="2" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.panelGridElement.settings.container.medium.label</numIndex>
-                <numIndex index="1">medium</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.small.label</numIndex>
+                <numIndex index="1">small</numIndex>
               </numIndex>
 
               <numIndex index="3" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.panelGridElement.settings.container.large.label</numIndex>
-                <numIndex index="1">large</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.moderate.label</numIndex>
+                <numIndex index="1">moderate</numIndex>
               </numIndex>
 
               <numIndex index="4" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.panelGridElement.settings.container.custom.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.medium.label</numIndex>
+                <numIndex index="1">medium</numIndex>
+              </numIndex>
+
+              <numIndex index="5" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.large.label</numIndex>
+                <numIndex index="1">large</numIndex>
+              </numIndex>
+
+              <numIndex index="6" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.big.label</numIndex>
+                <numIndex index="1">big</numIndex>
+              </numIndex>
+
+              <numIndex index="7" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.great.label</numIndex>
+                <numIndex index="1">great</numIndex>
+              </numIndex>
+
+              <numIndex index="8" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.custom.label</numIndex>
                 <numIndex index="1">custom</numIndex>
               </numIndex>
             </items>

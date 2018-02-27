@@ -9,7 +9,7 @@
     <sDEF>
       <ROOT>
         <TCEforms type="array">
-          <sheetTitle>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.sheetTitle</sheetTitle>
+          <sheetTitle>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.settings.sheetTitle</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
