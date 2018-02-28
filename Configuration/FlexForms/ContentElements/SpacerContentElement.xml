@@ -15,48 +15,48 @@
         <el>
           <settings.type>
             <TCEforms type="array">
-              <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.type.label</label>
+              <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.settings.type.label</label>
               <config type="array">
                 <type>select</type>
                 <renderType>selectSingle</renderType>
                 <items type="array">
                   <numIndex index="0" type="array">
-                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.type.default.label</numIndex>
+                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.settings.type.default.label</numIndex>
                     <numIndex index="1">default</numIndex>
                   </numIndex>
 
                   <numIndex index="1" type="array">
-                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.type.small.label</numIndex>
+                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.settings.type.small.label</numIndex>
                     <numIndex index="1">small</numIndex>
                   </numIndex>
 
                   <numIndex index="2" type="array">
-                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.type.moderate.label</numIndex>
+                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.settings.type.moderate.label</numIndex>
                     <numIndex index="1">moderate</numIndex>
                   </numIndex>
 
                   <numIndex index="3" type="array">
-                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.type.medium.label</numIndex>
+                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.settings.type.medium.label</numIndex>
                     <numIndex index="1">medium</numIndex>
                   </numIndex>
 
                   <numIndex index="4" type="array">
-                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.type.large.label</numIndex>
+                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.settings.type.large.label</numIndex>
                     <numIndex index="1">large</numIndex>
                   </numIndex>
 
                   <numIndex index="5" type="array">
-                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.type.big.label</numIndex>
+                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.settings.type.big.label</numIndex>
                     <numIndex index="1">big</numIndex>
                   </numIndex>
 
                   <numIndex index="6" type="array">
-                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.type.great.label</numIndex>
+                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.settings.type.great.label</numIndex>
                     <numIndex index="1">great</numIndex>
                   </numIndex>
 
                   <numIndex index="7" type="array">
-                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.type.custom.label</numIndex>
+                    <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.shared.settings.type.custom.label</numIndex>
                     <numIndex index="1">custom</numIndex>
                   </numIndex>
                 </items>

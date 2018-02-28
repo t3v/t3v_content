@@ -161,51 +161,6 @@
 
       <!-- Spacer Content Element -->
 
-      <trans-unit id="contentElements.spacerContentElement.settings.type.label">
-        <source>Type</source>
-        <target>Typ</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.settings.type.default.label">
-        <source>Default</source>
-        <target>Standard</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.settings.type.small.label">
-        <source>Small</source>
-        <target>Klein</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.settings.type.moderate.label">
-        <source>Moderate</source>
-        <target>Moderat</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.settings.type.medium.label">
-        <source>Medium</source>
-        <target>Medium</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.settings.type.large.label">
-        <source>Large</source>
-        <target>Groß</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.settings.type.big.label">
-        <source>Big</source>
-        <target>Beträchtlich</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.settings.type.great.label">
-        <source>Great</source>
-        <target>Riesig</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.settings.type.custom.label">
-        <source>Custom</source>
-        <target>Benutzerdefiniert</target>
-      </trans-unit>
-
       <trans-unit id="contentElements.spacerContentElement.settings.customHeight.label">
         <source>Custom height in pixel</source>
         <target>Benutzerdefinierte Höhe in Pixel</target>
@@ -216,6 +171,51 @@
       <trans-unit id="contentElements.shared.settings.sheetTitle">
         <source>Settings</source>
         <target>Einstellungen</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.shared.settings.type.label">
+        <source>Type</source>
+        <target>Typ</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.shared.settings.type.default.label">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.shared.settings.type.small.label">
+        <source>Small</source>
+        <target>Klein</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.shared.settings.type.moderate.label">
+        <source>Moderate</source>
+        <target>Moderat</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.shared.settings.type.medium.label">
+        <source>Medium</source>
+        <target>Medium</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.shared.settings.type.large.label">
+        <source>Large</source>
+        <target>Groß</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.shared.settings.type.big.label">
+        <source>Big</source>
+        <target>Beträchtlich</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.shared.settings.type.great.label">
+        <source>Great</source>
+        <target>Riesig</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.shared.settings.type.custom.label">
+        <source>Custom</source>
+        <target>Benutzerdefiniert</target>
       </trans-unit>
     </body>
   </file>
