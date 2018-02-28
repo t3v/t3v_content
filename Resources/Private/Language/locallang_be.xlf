@@ -119,7 +119,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.description">
-        <source>Event Grid Element</source>
+        <source>An element for a Timeline</source>
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.rows.1.columns.1.name">
