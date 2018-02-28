@@ -19,10 +19,10 @@ call_user_func(function ($namespace, $extkey) {
   \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
     $extensionSignature,
 
-    // A unique name of the content element in upper camel case
+    // The unique name of the content element in upper camel case
     'Spacer',
 
-    // Description of the content element shown in the backend dropdown field
+    // The description of the content element shown in the backend dropdown field
     'Spacer Content Element'
   );
 
