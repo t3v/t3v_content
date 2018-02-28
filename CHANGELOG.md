@@ -10,6 +10,8 @@ Unreleased
 * Updated TypoScript
 * Improved `Event` Grid Element
 * Updated TypoScript (Fluid Styled Content)
+* Updated translations
+* Updated icons for Panel, Timeline and Event Grid Element
 * Cleaned up
 
 4.2.0
