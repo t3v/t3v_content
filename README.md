@@ -118,6 +118,7 @@ Credits
 * [Browser free icon (2)]
 * [Browser free icon (3)]
 * [Browser free icon (4)]
+* [Browser free icon (5)]
 
 Icons made by [Smashicons] from [Flaticon] is licensed by [CC 3.0 BY].
 
@@ -135,6 +136,7 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Browser free icon (2)]: https://www.flaticon.com/free-icon/browser_140796 "Browser free icon"
 [Browser free icon (3)]: https://www.flaticon.com/free-icon/browser_140797 "Browser free icon"
 [Browser free icon (4)]: https://www.flaticon.com/free-icon/browser_140795 "Browser free icon"
+[Browser free icon (5)]: https://www.flaticon.com/free-icon/browser_140844 "Browser free icon"
 [CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/ "Creative Commons BY 3.0"
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
 [Flaticon]: https://www.flaticon.com "Flaticon"
