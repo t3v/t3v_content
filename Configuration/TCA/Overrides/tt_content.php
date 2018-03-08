@@ -7,7 +7,7 @@ $namespace           = 't3v';
 $extensionKey        = 't3v_content';
 $extensionIdentifier = strtolower(\TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($extensionKey));
 $extensionSignature  = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
-$configuration      = "EXT:{$extensionKey}/Configuration";
+$configuration       = "EXT:{$extensionKey}/Configuration";
 
 // === Standard Content Elements ===
 
@@ -20,6 +20,9 @@ $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['def
 
 // --- Spacer Content Element ---
 
+$contentElementIdentifier = strtolower('Spacer');
+$contentElementSignature  = $extensionIdentifier . '_' . $contentElementIdentifier;
+
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
   $extensionSignature,
 
@@ -29,9 +32,6 @@ $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['def
   // The description of the content element shown in the backend dropdown field
   'Spacer Content Element'
 );
-
-$contentElementName      = strtolower('Spacer');
-$contentElementSignature = $extensionIdentifier . '_' . $contentElementName;
 
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentElementSignature] = 'layout,select_key,pages,recursive';
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentElementSignature] = 'pi_flexform';
