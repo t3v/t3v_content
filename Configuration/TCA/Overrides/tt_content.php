@@ -7,8 +7,8 @@ $namespace           = 't3v';
 $extensionKey        = 't3v_content';
 $extensionIdentifier = strtolower(\TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($extensionKey));
 $extensionSignature  = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
-$configuration       = "EXT:{$extensionKey}/Configuration";
-$flexForms           = "FILE:{$configuration}/FlexForms";
+$configuration       = "FILE:EXT:{$extensionKey}/Configuration";
+$flexForms           = "{$configuration}/FlexForms";
 
 // === Standard Content Elements ===
 

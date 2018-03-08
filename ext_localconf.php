@@ -6,7 +6,7 @@ defined('TYPO3_MODE') or die();
 $namespace          = 't3v';
 $extensionKey       = $_EXTKEY;
 $extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
-$configuration      = "EXT:{$extensionKey}/Configuration";
+$configuration      = "FILE:EXT:{$extensionKey}/Configuration";
 $resources          = "EXT:{$extensionKey}/Resources";
 
 // === Content Elements ===
@@ -33,7 +33,7 @@ $resources          = "EXT:{$extensionKey}/Resources";
 
 // === Page TSconfig ===
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"FILE:{$configuration}/TSconfig.ts\">");
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"{$configuration}/TSconfig.ts\">");
 
 if (TYPO3_MODE === 'BE') {
   // === Icons ===
