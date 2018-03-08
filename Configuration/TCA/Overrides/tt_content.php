@@ -8,6 +8,7 @@ $extensionKey        = 't3v_content';
 $extensionIdentifier = strtolower(\TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($extensionKey));
 $extensionSignature  = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
 $configuration       = "EXT:{$extensionKey}/Configuration";
+$flexForms           = "FILE:{$configuration}/FlexForms";
 
 // === Standard Content Elements ===
 
@@ -35,4 +36,4 @@ $contentElementSignature  = $extensionIdentifier . '_' . $contentElementIdentifi
 
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentElementSignature] = 'layout,select_key,pages,recursive';
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentElementSignature] = 'pi_flexform';
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($contentElementSignature, "FILE:{$configuration}/ContentElements/SpacerContentElement.xml");
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($contentElementSignature, "{$flexForms}/ContentElements/SpacerContentElement.xml");
