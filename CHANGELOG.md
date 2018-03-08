@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Updated AppVeyor configuration
 * Fixed translations
 
 4.3.0
