@@ -7,7 +7,7 @@ use TYPO3\CMS\Extbase\Mvc\View\ViewInterface;
 use T3v\T3vCore\Controller\AbstractController;
 
 /**
- * Content Element Controller Class
+ * The content element controller class.
  *
  * @package T3v\T3vContent\Controller\ContentElements
  */

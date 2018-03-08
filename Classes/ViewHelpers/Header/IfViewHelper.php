@@ -4,13 +4,13 @@ namespace T3v\T3vContent\ViewHelpers\Header;
 use T3v\T3vCore\ViewHelpers\AbstractConditionViewHelper;
 
 /**
- * If View Helper Class
+ * The if view helper class.
  *
  * @package T3v\T3vContent\ViewHelpers\Header
  */
 class IfViewHelper extends AbstractConditionViewHelper {
   /**
-   * The View Helper render function.
+   * The view helper render function.
    *
    * @param array $data The data
    * @return string The rendered child

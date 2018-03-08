@@ -7,7 +7,7 @@ use TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder;
 use T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
 
 /**
- * Headline Link View Helper Class
+ * The headline link view helper class.
  *
  * @package T3v\T3vContent\ViewHelpers
  */
@@ -20,7 +20,7 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
   protected $tagName = 'h1';
 
   /**
-   * The View Helper render function.
+   * The view helper render function.
    *
    * @param string $content The content of the headline
    * @param int $layout The optional layout (UID) of the headline, defaults to `100`
@@ -51,7 +51,7 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
   }
 
   /**
-   * Helper function to create / build a link.
+   * Creates / builds a link.
    *
    * @param string $content The content of the link
    * @param string $href The optional href attribute of the link, defaults to `#`

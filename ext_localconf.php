@@ -1,32 +1,138 @@
 <?php
-defined('TYPO3_MODE') or die('Access denied.');
+defined('TYPO3_MODE') or die();
 
-call_user_func(function($namespace, $extkey) {
-  $extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extkey);
+// === Variables ===
 
-  // === Content Elements ===
+$namespace          = 't3v';
+$extensionKey       = $_EXTKEY;
+$extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
+$configuration      = "EXT:{$extensionKey}/Configuration";
+$resources          = "EXT:{$extensionKey}/Resources";
+
+// === Content Elements ===
+
+// --- Spacer Content Element ---
+
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+  $extensionSignature,
+
+  // The unique name of the content element in upper camel case
+  'Spacer',
+
+  // The array holding the controller-action-combinations that are accessible
+  [
+    // The first controller and its first action will be the default
+    'ContentElements\SpacerContentElement' => 'index'
+  ],
+
+  // The array of non-cachable controller-action-combinations (they must already be enabled)
+  [
+    // 'ContentElements\SpacerContentElement' => 'index'
+  ]
+);
+
+// === Page TSconfig ===
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"FILE:{$configuration}/TSconfig.ts\">");
+
+if (TYPO3_MODE === 'BE') {
+  // === Icons ===
+
+  $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
+    \TYPO3\CMS\Core\Imaging\IconRegistry::class
+  );
 
   // --- Spacer Content Element ---
 
-  \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-    $extensionSignature,
+  $iconIdentifier = 'spacer_content_element';
 
-    // A unique name of the content element in upper camel case
-    'Spacer',
-
-    // An array holding the controller-action-combinations that are accessible
-    [
-      // The first controller and its first action will be the default
-      'ContentElements\SpacerContentElement' => 'index'
-    ],
-
-    // An array of non-cachable controller-action-combinations (they must already be enabled)
-    [
-      // 'ContentElements\SpacerContentElement' => 'index'
-    ]
+  $iconRegistry->registerIcon(
+    "{$extensionKey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$resources}/Public/Icons/ContentElements/SpacerContentElement.svg"]
   );
 
-  // === TsConfig ===
+  // --- Accordion / Accord Grid Element ---
 
-  \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:' . $extkey . '/Configuration/TSconfig.ts">');
-}, 't3v', $_EXTKEY);
+  $iconIdentifier = 'accordion_grid_element';
+
+  $iconRegistry->registerIcon(
+    "{$extensionKey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$resources}/Public/Icons/GridElements/AccordionGridElement.svg"]
+  );
+
+  $iconIdentifier = 'accord_grid_element';
+
+  $iconRegistry->registerIcon(
+    "{$extensionKey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$resources}/Public/Icons/GridElements/AccordGridElement.svg"]
+  );
+
+  // --- Column Layout Grid Element ---
+
+  $iconIdentifier = '2_columns_layout_grid_element';
+
+  $iconRegistry->registerIcon(
+    "{$extensionKey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$resources}/Public/Icons/GridElements/ColumnLayoutGridElement/2Columns.svg"]
+  );
+
+  $iconIdentifier = '3_columns_layout_grid_element';
+
+  $iconRegistry->registerIcon(
+    "{$extensionKey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$resources}/Public/Icons/GridElements/ColumnLayoutGridElement/3Columns.svg"]
+  );
+
+  // --- Document Section Grid Element ---
+
+  $iconIdentifier = 'document_section_grid_element';
+
+  $iconRegistry->registerIcon(
+    "{$extensionKey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$resources}/Public/Icons/GridElements/DocumentSectionGridElement.svg"]
+  );
+
+  // --- Panel Grid Element ---
+
+  $iconIdentifier = 'panel_grid_element';
+
+  $iconRegistry->registerIcon(
+    "{$extensionKey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$resources}/Public/Icons/GridElements/PanelGridElement.svg"]
+  );
+
+  // --- Timeline / Event Grid Element ---
+
+  $iconIdentifier = 'timeline_grid_element';
+
+  $iconRegistry->registerIcon(
+    "{$extensionKey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$resources}/Public/Icons/GridElements/TimelineGridElement.svg"]
+  );
+
+  $iconIdentifier = 'event_grid_element';
+
+  $iconRegistry->registerIcon(
+    "{$extensionKey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$resources}/Public/Icons/GridElements/EventGridElement.svg"]
+  );
+
+  // --- Viewport Grid Element ---
+
+  $iconIdentifier = 'viewport_grid_element';
+
+  $iconRegistry->registerIcon(
+    "{$extensionKey}-{$iconIdentifier}",
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$resources}/Public/Icons/GridElements/ViewportGridElement.svg"]
+  );
+}

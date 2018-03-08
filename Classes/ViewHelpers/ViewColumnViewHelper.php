@@ -4,13 +4,13 @@ namespace T3v\T3vContent\ViewHelpers;
 use T3v\T3vCore\ViewHelpers\AbstractViewHelper;
 
 /**
- * View Column View Helper Class
+ * The view column view helper class.
  *
  * @package T3v\T3vContent\ViewHelpers
  */
 class ViewColumnViewHelper extends AbstractViewHelper {
   /**
-   * The View Helper render function.
+   * The view helper render function.
    *
    * @param int $viewColumn The UID of the view column
    * @param array $data The page data
@@ -39,7 +39,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   }
 
   /**
-   * Helper function to filter view children by column.
+   * Filters view children by view column.
    *
    * @param array $viewChildren The view children
    * @param int $viewColumn The UID of the view column
@@ -60,7 +60,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   }
 
   /**
-   * Helper function to filter view children by the current sys language.
+   * Filters view children by the current language.
    *
    * @param array $viewChildren The view children
    * @return array The filtered view children

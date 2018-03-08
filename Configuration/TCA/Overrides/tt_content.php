@@ -1,35 +1,38 @@
 <?php
-defined('TYPO3_MODE') or die('Access denied.');
+defined('TYPO3_MODE') or die();
 
-call_user_func(function ($namespace, $extkey) {
-  $extensionName      = strtolower(\TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($extkey));
-  $extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extkey);
+// === Variables ===
 
-  // === Standard Content Elements ===
+$namespace           = 't3v';
+$extensionKey        = 't3v_content';
+$extensionIdentifier = strtolower(\TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($extensionKey));
+$extensionSignature  = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
+$configuration      = "EXT:{$extensionKey}/Configuration";
 
-  // --- Table Content Element ---
+// === Standard Content Elements ===
 
-  // Set `Top` as default table header position instead of `No header`
-  $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['default'] = 1;
+// --- Table Content Element ---
 
-  // === Custom Content Elements ===
+// Set `Top` as default table header position instead of `No header`
+$GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['default'] = 1;
 
-  // --- Spacer Content Element ---
+// === Custom Content Elements ===
 
-  \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-    $extensionSignature,
+// --- Spacer Content Element ---
 
-    // The unique name of the content element in upper camel case
-    'Spacer',
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
+  $extensionSignature,
 
-    // The description of the content element shown in the backend dropdown field
-    'Spacer Content Element'
-  );
+  // The unique name of the content element in upper camel case
+  'Spacer',
 
-  $contentElementName      = strtolower('Spacer');
-  $contentElementSignature = $extensionName . '_' . $contentElementName;
+  // The description of the content element shown in the backend dropdown field
+  'Spacer Content Element'
+);
 
-  $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentElementSignature] = 'layout,select_key,pages,recursive';
-  $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentElementSignature] = 'pi_flexform';
-  \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($contentElementSignature, 'FILE:EXT:' . $extkey . '/Configuration/FlexForms/ContentElements/SpacerContentElement.xml');
-}, 't3v', 't3v_content');
+$contentElementName      = strtolower('Spacer');
+$contentElementSignature = $extensionIdentifier . '_' . $contentElementName;
+
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentElementSignature] = 'layout,select_key,pages,recursive';
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentElementSignature] = 'pi_flexform';
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($contentElementSignature, "FILE:{$configuration}/ContentElements/SpacerContentElement.xml");

@@ -4,7 +4,7 @@ namespace T3v\T3vContent\ViewHelpers\Format;
 use T3v\T3vCore\ViewHelpers\AbstractViewHelper;
 
 /**
- * File Size View Helper Class
+ * The file size view helper class.
  *
  * @package T3v\T3vContent\ViewHelpers\Format
  */
@@ -12,7 +12,7 @@ class FileSizeViewHelper extends AbstractViewHelper {
   const SUFFIXES = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
 
   /**
-   * The View Helper render function.
+   * The view helper render function.
    *
    * @param int $fileSize The file size in bytes
    * @param int $base The optional base unit to calculate the file size, defaults to `1000`
@@ -40,7 +40,7 @@ class FileSizeViewHelper extends AbstractViewHelper {
   }
 
   /**
-   * Helper function to get the decimal separator based on the current language.
+   * Gets the decimal separator based on the current language.
    *
    * @return string The decimal separator
    */
@@ -60,7 +60,7 @@ class FileSizeViewHelper extends AbstractViewHelper {
   }
 
   /**
-   * Helper function to get the thousands separator based on the current language.
+   * Gets the thousands separator based on the current language.
    *
    * @return string The thousands separator
    */

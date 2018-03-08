@@ -6,8 +6,10 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Updated AppVeyor configuration
+* TCA Migrations
 * Fixed translations
+* Updated AppVeyor configuration
+* Cleaned up
 
 4.3.0
 -----

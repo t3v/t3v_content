@@ -4,7 +4,7 @@ namespace T3v\T3vContent\Controller\ContentElements;
 use T3v\T3vContent\Controller\ContentElements\ContentElementController;
 
 /**
- * Spacer Content Element Controller Class
+ * The spacer content element controller class.
  *
  * @package T3v\T3vContent\Controller\ContentElements
  */
