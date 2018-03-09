@@ -21,19 +21,17 @@ $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['def
 
 // --- Spacer Content Element ---
 
-$contentElementIdentifier = strtolower('Spacer');
-$contentElementSignature  = $extensionIdentifier . '_' . $contentElementIdentifier;
+$contentElementName        = 'Spacer';
+$contentElementDescription = 'Spacer Content Element';
+$contentElementIdentifier  = strtolower($contentElementName);
+$contentElementSignature   = $extensionIdentifier . '_' . $contentElementIdentifier;
 
-\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-  $extensionSignature,
+// Register the content element
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin($extensionSignature, $contentElementName, $contentElementDescription);
 
-  // The unique name of the content element in upper camel case
-  'Spacer',
+// Disable the display of `layout`, `pages` and `select_key` field
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentElementSignature] = 'layout,pages,select_key';
 
-  // The description of the content element shown in the backend dropdown field
-  'Spacer Content Element'
-);
-
-$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentElementSignature] = 'layout,select_key,pages,recursive';
+// Activate the display of the `flexform` field and set the FlexForm definition
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentElementSignature] = 'pi_flexform';
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($contentElementSignature, "{$flexForms}/ContentElements/SpacerContentElement.xml");
