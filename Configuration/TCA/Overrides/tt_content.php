@@ -3,12 +3,11 @@ defined('TYPO3_MODE') or die();
 
 // === Variables ===
 
-$namespace           = 't3v';
+$namespace           = 'T3v';
 $extensionKey        = 't3v_content';
-$extensionIdentifier = strtolower(\TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($extensionKey));
-$extensionSignature  = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
-$configuration       = "FILE:EXT:{$extensionKey}/Configuration";
-$flexForms           = "{$configuration}/FlexForms";
+$extensionIdentifier = \T3v\T3vCore\Utility\ExtensionUtility::extensionIdentifier($extensionKey);
+$extensionSignature  = \T3v\T3vCore\Utility\ExtensionUtility::extensionSignature($namespace, $extensionKey);
+$flexFormsFolder     = \T3v\T3vCore\Utility\ExtensionUtility::flexFormsFolder($extensionKey);
 
 // === Standard Content Elements ===
 
@@ -23,15 +22,15 @@ $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['def
 
 $contentElementName        = 'Spacer';
 $contentElementDescription = 'Spacer Content Element';
-$contentElementIdentifier  = strtolower($contentElementName);
-$contentElementSignature   = $extensionIdentifier . '_' . $contentElementIdentifier;
+$contentElementIdentifier  = \T3v\T3vContent\Utility\ContentElementUtility::contentElementIdentifier($contentElementKey);
+$contentElementSignature   = \T3v\T3vContent\Utility\ContentElementUtility::contentElementSignature($extensionIdentifier, $contentElementIdentifier);
 
 // Register the content element
-\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin($extensionSignature, $contentElementName, $contentElementDescription);
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin($extensionSignature, $contentElementIdentifier, $contentElementDescription);
 
 // Disable the display of `layout`, `pages` and `select_key` field
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentElementSignature] = 'layout,pages,select_key';
 
 // Activate the display of the `flexform` field and set the FlexForm definition
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentElementSignature] = 'pi_flexform';
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($contentElementSignature, "{$flexForms}/ContentElements/SpacerContentElement.xml");
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($contentElementSignature, "{$flexFormsFolder}/ContentElements/SpacerContentElement.xml");

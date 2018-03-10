@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `ContentElementUtility`
 * TCA Migrations
 * Fixed translations
 * Updated AppVeyor configuration
