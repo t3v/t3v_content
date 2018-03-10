@@ -20,7 +20,7 @@ $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['def
 
 // --- Spacer Content Element ---
 
-$contentElementName        = 'Spacer';
+$contentElementKey         = 'Spacer';
 $contentElementDescription = 'Spacer Content Element';
 $contentElementIdentifier  = \T3v\T3vContent\Utility\ContentElementUtility::contentElementIdentifier($contentElementKey);
 $contentElementSignature   = \T3v\T3vContent\Utility\ContentElementUtility::contentElementSignature($extensionIdentifier, $contentElementIdentifier);
