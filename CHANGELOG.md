@@ -12,7 +12,7 @@ Unreleased
 * Added `ContentElementUtility`
 * TCA Migrations
 * Fixed translations
-* Updated AppVeyor configuration
+* Updated Travis CI and AppVeyor configuration
 * Cleaned up
 
 4.3.0
