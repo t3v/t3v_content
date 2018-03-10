@@ -34,3 +34,13 @@ $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentE
 // Activate the display of the `flexform` field and set the FlexForm definition
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentElementSignature] = 'pi_flexform';
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($contentElementSignature, "{$flexFormsFolder}/ContentElements/SpacerContentElement.xml");
+
+// === Palettes ===
+
+// Add `subheader` field after `header_link` field to the `header` palette
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
+  'tt_content',
+  'header',
+  '--linebreak--,subheader;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:subheader_formlabel',
+  'after:header_link'
+);
