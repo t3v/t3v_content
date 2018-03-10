@@ -5,9 +5,9 @@ defined('TYPO3_MODE') or die();
 
 $namespace          = 't3v';
 $extensionKey       = $_EXTKEY;
-$extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
-$configuration      = "FILE:EXT:{$extensionKey}/Configuration";
-$resources          = "EXT:{$extensionKey}/Resources";
+$extensionSignature  = \T3v\T3vCore\Utility\ExtensionUtility::extensionSignature($namespace, $extensionKey);
+$configurationFolder = \T3v\T3vCore\Utility\ExtensionUtility::configurationFolder($extensionKey);
+$iconsFolder         = \T3v\T3vCore\Utility\ExtensionUtility::iconsFolder($extensionKey);
 
 // === Content Elements ===
 
@@ -33,7 +33,7 @@ $resources          = "EXT:{$extensionKey}/Resources";
 
 // === Page TSconfig ===
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"{$configuration}/TSconfig.ts\">");
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"{$configurationFolder}/TSconfig.ts\">");
 
 if (TYPO3_MODE === 'BE') {
   // === Icons ===
@@ -49,7 +49,7 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry->registerIcon(
     "{$extensionKey}-{$iconIdentifier}",
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$resources}/Public/Icons/ContentElements/SpacerContentElement.svg"]
+    ['source' => "{$iconsFolder}/ContentElements/SpacerContentElement.svg"]
   );
 
   // --- Accordion / Accord Grid Element ---
@@ -59,7 +59,7 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry->registerIcon(
     "{$extensionKey}-{$iconIdentifier}",
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$resources}/Public/Icons/GridElements/AccordionGridElement.svg"]
+    ['source' => "{$iconsFolder}/GridElements/AccordionGridElement.svg"]
   );
 
   $iconIdentifier = 'accord_grid_element';
@@ -67,7 +67,7 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry->registerIcon(
     "{$extensionKey}-{$iconIdentifier}",
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$resources}/Public/Icons/GridElements/AccordGridElement.svg"]
+    ['source' => "{$iconsFolder}/GridElements/AccordGridElement.svg"]
   );
 
   // --- Column Layout Grid Element ---
@@ -77,7 +77,7 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry->registerIcon(
     "{$extensionKey}-{$iconIdentifier}",
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$resources}/Public/Icons/GridElements/ColumnLayoutGridElement/2Columns.svg"]
+    ['source' => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/2Columns.svg"]
   );
 
   $iconIdentifier = '3_columns_layout_grid_element';
@@ -85,7 +85,7 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry->registerIcon(
     "{$extensionKey}-{$iconIdentifier}",
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$resources}/Public/Icons/GridElements/ColumnLayoutGridElement/3Columns.svg"]
+    ['source' => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/3Columns.svg"]
   );
 
   // --- Document Section Grid Element ---
@@ -95,7 +95,7 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry->registerIcon(
     "{$extensionKey}-{$iconIdentifier}",
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$resources}/Public/Icons/GridElements/DocumentSectionGridElement.svg"]
+    ['source' => "{$iconsFolder}/GridElements/DocumentSectionGridElement.svg"]
   );
 
   // --- Panel Grid Element ---
@@ -105,7 +105,7 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry->registerIcon(
     "{$extensionKey}-{$iconIdentifier}",
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$resources}/Public/Icons/GridElements/PanelGridElement.svg"]
+    ['source' => "{$iconsFolder}/GridElements/PanelGridElement.svg"]
   );
 
   // --- Timeline / Event Grid Element ---
@@ -115,7 +115,7 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry->registerIcon(
     "{$extensionKey}-{$iconIdentifier}",
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$resources}/Public/Icons/GridElements/TimelineGridElement.svg"]
+    ['source' => "{$iconsFolder}/GridElements/TimelineGridElement.svg"]
   );
 
   $iconIdentifier = 'event_grid_element';
@@ -123,7 +123,7 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry->registerIcon(
     "{$extensionKey}-{$iconIdentifier}",
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$resources}/Public/Icons/GridElements/EventGridElement.svg"]
+    ['source' => "{$iconsFolder}/GridElements/EventGridElement.svg"]
   );
 
   // --- Viewport Grid Element ---
@@ -133,6 +133,6 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry->registerIcon(
     "{$extensionKey}-{$iconIdentifier}",
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$resources}/Public/Icons/GridElements/ViewportGridElement.svg"]
+    ['source' => "{$iconsFolder}/GridElements/ViewportGridElement.svg"]
   );
 }
