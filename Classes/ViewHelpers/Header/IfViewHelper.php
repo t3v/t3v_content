@@ -10,21 +10,30 @@ use T3v\T3vCore\ViewHelpers\AbstractConditionViewHelper;
  */
 class IfViewHelper extends AbstractConditionViewHelper {
   /**
-   * The view helper render function.
-   *
-   * @param array $data The data
-   * @return string The rendered child
+   * The view helper arguments initialization.
    */
-  public function render($data) {
-    $header       = $data['header'];
-    $header       = (string) $header;
-    $headerLayout = $data['header_layout'];
-    $headerLayout = intval($headerLayout);
+  public function initializeArguments() {
+    parent::initializeArguments();
 
-    if ($header && $headerLayout != 0 && $headerLayout != 100) {
-      return $this->renderThenChild();
-    } else {
-      return $this->renderElseChild();
-    }
+    $this->registerArgument('data', 'array', 'The data array', true, null);
+  }
+
+  /**
+   * The view helper render function.
+   */
+  public function render() {
+    return self::evaluateCondition($this->arguments) ? $this->renderThenChild() : $this->renderElseChild();
+  }
+
+  /**
+   * Evaluates the condition.
+   *
+   * @param array $arguments The arguments
+   * @return boolean If the condition is fulfilled
+   */
+  protected static function evaluateCondition($arguments = null) {
+    $data = $arguments['data'];
+
+    return $data['header'] && $data['header_layout'] !== 0 && $data['header_layout'] !== 100;
   }
 }

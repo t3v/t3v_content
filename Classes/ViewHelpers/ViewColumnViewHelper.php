@@ -39,7 +39,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   }
 
   /**
-   * Filters view children by view column.
+   * Filters the view children by a view column.
    *
    * @param array $viewChildren The view children
    * @param int $viewColumn The UID of the view column
@@ -60,7 +60,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   }
 
   /**
-   * Filters view children by the current language.
+   * Filters the view children by the current language.
    *
    * @param array $viewChildren The view children
    * @return array The filtered view children

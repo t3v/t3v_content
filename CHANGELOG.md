@@ -6,6 +6,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Updated partials
+* Rewrote `HeaderIfViewHelper`
 * Add `subheader` field after `header_link` field to the `header` palette
 * Added `ContentElementUtility`
 * TCA Migrations
