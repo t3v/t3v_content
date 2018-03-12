@@ -8,7 +8,7 @@
 Dependencies
 ------------
 
-* TYPO3 CMS 7.6 or greater
+* TYPO3 CMS 7.6
 * Fluid Styled Content extension
 * Grid Elements extension
 * Replace Content extension
