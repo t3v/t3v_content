@@ -42,7 +42,7 @@ if (TYPO3_MODE === 'BE') {
 
   $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
 
-  // +++ Spacer Content Element +++
+  // +++ Spacer Content Element Icon +++
 
   $iconKey        = 'Spacer Content Element';
   $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
@@ -54,7 +54,7 @@ if (TYPO3_MODE === 'BE') {
     ['source' => "{$iconsFolder}/ContentElements/SpacerContentElement.svg"]
   );
 
-  // +++ Accordion / Accord Grid Element +++
+  // +++ Accordion / Accord Grid Element Icons +++
 
   $iconKey        = 'Accordion Grid Element';
   $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
@@ -76,7 +76,7 @@ if (TYPO3_MODE === 'BE') {
     ['source' => "{$iconsFolder}/GridElements/AccordGridElement.svg"]
   );
 
-  // +++ Column Layout Grid Element +++
+  // +++ Column Layout Grid Element Icons +++
 
   $iconKey        = '2 Columns Layout Grid Element';
   $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
@@ -98,7 +98,7 @@ if (TYPO3_MODE === 'BE') {
     ['source' => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/3Columns.svg"]
   );
 
-  // +++ Document Section Grid Element +++
+  // +++ Document Section Grid Element Icon +++
 
   $iconKey        = 'Document Section Grid Element';
   $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
@@ -110,7 +110,7 @@ if (TYPO3_MODE === 'BE') {
     ['source' => "{$iconsFolder}/GridElements/DocumentSectionGridElement.svg"]
   );
 
-  // +++ Panel Grid Element +++
+  // +++ Panel Grid Element Icon +++
 
   $iconKey        = 'Panel Grid Element';
   $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
@@ -122,7 +122,7 @@ if (TYPO3_MODE === 'BE') {
     ['source' => "{$iconsFolder}/GridElements/PanelGridElement.svg"]
   );
 
-  // +++ Timeline / Event Grid Element +++
+  // +++ Timeline / Event Grid Element Icons +++
 
   $iconKey        = 'Timeline Grid Element';
   $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
@@ -144,7 +144,7 @@ if (TYPO3_MODE === 'BE') {
     ['source' => "{$iconsFolder}/GridElements/EventGridElement.svg"]
   );
 
-  // +++ Viewport Grid Element +++
+  // +++ Viewport Grid Element Icon +++
 
   $iconKey        = 'Viewport Grid Element';
   $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
