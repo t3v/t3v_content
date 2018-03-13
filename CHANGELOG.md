@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 -----------
 
+* Cleaned up
 * Updated dependencies
 * Updated constraints to TYPO3 7.6
 
