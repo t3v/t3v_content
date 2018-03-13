@@ -6,10 +6,10 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 5.0.0
 -----
 
-* Updated Tests
-* Updated Travis CI and AppVeyor configuration
-* Updated dependencies
 * Cleaned up
+* Updated Tests
+* Updated dependencies
+* Updated Travis CI and AppVeyor configuration
 * Dropped support for TYPO3 7.x
 
 4.4.0
