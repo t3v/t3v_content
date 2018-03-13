@@ -9,6 +9,7 @@ Unreleased
 * Updated Tests
 * Updated Travis CI and AppVeyor configuration
 * Updated dependencies
+* Cleaned up
 * Dropped support for TYPO3 7.x
 
 4.4.0

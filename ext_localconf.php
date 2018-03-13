@@ -35,103 +35,123 @@ $iconsFolder         = \T3v\T3vCore\Utility\ExtensionUtility::iconsFolder($exten
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"{$configurationFolder}/TSconfig.ts\">");
 
+// === Backend ===
+
 if (TYPO3_MODE === 'BE') {
-  // === Icons ===
+  // --- Icons ---
 
-  $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
-    \TYPO3\CMS\Core\Imaging\IconRegistry::class
-  );
+  $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
 
-  // --- Spacer Content Element ---
+  // +++ Spacer Content Element +++
 
-  $iconIdentifier = 'spacer_content_element';
+  $iconKey        = 'Spacer Content Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
   $iconRegistry->registerIcon(
-    "{$extensionKey}-{$iconIdentifier}",
+    $iconSignature,
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
     ['source' => "{$iconsFolder}/ContentElements/SpacerContentElement.svg"]
   );
 
-  // --- Accordion / Accord Grid Element ---
+  // +++ Accordion / Accord Grid Element +++
 
-  $iconIdentifier = 'accordion_grid_element';
+  $iconKey        = 'Accordion Grid Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
   $iconRegistry->registerIcon(
-    "{$extensionKey}-{$iconIdentifier}",
+    $iconSignature,
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
     ['source' => "{$iconsFolder}/GridElements/AccordionGridElement.svg"]
   );
 
-  $iconIdentifier = 'accord_grid_element';
+  $iconKey        = 'Accord Grid Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
   $iconRegistry->registerIcon(
-    "{$extensionKey}-{$iconIdentifier}",
+    $iconSignature,
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
     ['source' => "{$iconsFolder}/GridElements/AccordGridElement.svg"]
   );
 
-  // --- Column Layout Grid Element ---
+  // +++ Column Layout Grid Element +++
 
-  $iconIdentifier = '2_columns_layout_grid_element';
+  $iconKey        = '2 Columns Layout Grid Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
   $iconRegistry->registerIcon(
-    "{$extensionKey}-{$iconIdentifier}",
+    $iconSignature,
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
     ['source' => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/2Columns.svg"]
   );
 
-  $iconIdentifier = '3_columns_layout_grid_element';
+  $iconKey        = '3 Columns Layout Grid Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
   $iconRegistry->registerIcon(
-    "{$extensionKey}-{$iconIdentifier}",
+    $iconSignature,
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
     ['source' => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/3Columns.svg"]
   );
 
-  // --- Document Section Grid Element ---
+  // +++ Document Section Grid Element +++
 
-  $iconIdentifier = 'document_section_grid_element';
+  $iconKey        = 'Document Section Grid Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
   $iconRegistry->registerIcon(
-    "{$extensionKey}-{$iconIdentifier}",
+    $iconSignature,
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
     ['source' => "{$iconsFolder}/GridElements/DocumentSectionGridElement.svg"]
   );
 
-  // --- Panel Grid Element ---
+  // +++ Panel Grid Element +++
 
-  $iconIdentifier = 'panel_grid_element';
+  $iconKey        = 'Panel Grid Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
   $iconRegistry->registerIcon(
-    "{$extensionKey}-{$iconIdentifier}",
+    $iconSignature,
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
     ['source' => "{$iconsFolder}/GridElements/PanelGridElement.svg"]
   );
 
-  // --- Timeline / Event Grid Element ---
+  // +++ Timeline / Event Grid Element +++
 
-  $iconIdentifier = 'timeline_grid_element';
+  $iconKey        = 'Timeline Grid Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
   $iconRegistry->registerIcon(
-    "{$extensionKey}-{$iconIdentifier}",
+    $iconSignature,
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
     ['source' => "{$iconsFolder}/GridElements/TimelineGridElement.svg"]
   );
 
-  $iconIdentifier = 'event_grid_element';
+  $iconKey        = 'Event Grid Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
   $iconRegistry->registerIcon(
-    "{$extensionKey}-{$iconIdentifier}",
+    $iconSignature,
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
     ['source' => "{$iconsFolder}/GridElements/EventGridElement.svg"]
   );
 
-  // --- Viewport Grid Element ---
+  // +++ Viewport Grid Element +++
 
-  $iconIdentifier = 'viewport_grid_element';
+  $iconKey        = 'Viewport Grid Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
   $iconRegistry->registerIcon(
-    "{$extensionKey}-{$iconIdentifier}",
+    $iconSignature,
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
     ['source' => "{$iconsFolder}/GridElements/ViewportGridElement.svg"]
   );
