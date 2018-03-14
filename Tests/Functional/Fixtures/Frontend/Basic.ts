@@ -46,7 +46,7 @@ config {
   # Disable prefix comments
   disablePrefixComment = 1
 
-  # Spam prodection for email addresses
+  # Spam protection for email addresses
   spamProtectEmailAddresses         = 2
   spamProtectEmailAddresses_atSubst = (at)
 }

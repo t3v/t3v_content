@@ -50,9 +50,11 @@ class ViewColumnViewHelper extends AbstractViewHelper {
 
     $result = [];
 
-    foreach($viewChildren as $viewChild) {
-      if (intval($viewChild['tx_gridelements_columns']) == $viewColumn) {
-        $result[] = $viewChild;
+    if ($viewChildren) {
+      foreach($viewChildren as $viewChild) {
+        if (intval($viewChild['tx_gridelements_columns']) == $viewColumn) {
+          $result[] = $viewChild;
+        }
       }
     }
 
@@ -68,11 +70,13 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   protected function filterViewChildrenBySysLanguage($viewChildren) {
     $result = [];
 
-    $sysLanguageUid = $this->getSysLanguageUid();
+    if ($viewChildren) {
+      $sysLanguageUid = $this->getSysLanguageUid();
 
-    foreach($viewChildren as $viewChild) {
-      if (intval($viewChild['sys_language_uid']) == $sysLanguageUid) {
-        $result[] = $viewChild;
+      foreach($viewChildren as $viewChild) {
+        if (intval($viewChild['sys_language_uid']) == $sysLanguageUid) {
+          $result[] = $viewChild;
+        }
       }
     }
 

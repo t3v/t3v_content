@@ -1,7 +1,9 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
   <t3v:header.if data="{data}">
     <v:tag name="div" class="ge__header" hideIfEmpty="true">
-      <t3v:headline layout="{data.header_layout}" cssClass="ge__title">{data.header}</t3v:headline>
+      <t3v:headline layout="{data.header_layout}" cssClass="ge__title">
+        {data.header}
+      </t3v:headline>
     </v:tag>
   </t3v:header.if>
 </html>
