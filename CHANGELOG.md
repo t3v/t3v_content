@@ -6,6 +6,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Improved partials
+* Added `SubheadlineViewHelper` and `SubheadlineLinkViewHelper`
 * Cleaned up
 
 5.0.0
