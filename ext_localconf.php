@@ -44,16 +44,16 @@ if (TYPO3_MODE === 'BE') {
   $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
 
   $icons = [
-    'Spacer Content Element'             => "{$iconsFolder}/ContentElements/SpacerContentElement.svg",
-    'Accordion Grid Element'             => "{$iconsFolder}/ContentElements/AccordionGridElement.svg",
-    'Accord Grid Element'                => "{$iconsFolder}/ContentElements/AccordGridElement.svg",
-    '2 Columns Layout Grid Element'      => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/2Columns.svg",
-    '3 Columns Layout Grid Element'      => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/3Columns.svg",
-    'Document Section Grid Element Icon' => "{$iconsFolder}/GridElements/DocumentSectionGridElement.svg",
-    'Panel Grid Element'                 => "{$iconsFolder}/GridElements/PanelGridElement.svg",
-    'Timeline Grid Element'              => "{$iconsFolder}/GridElements/TimelineGridElement.svg",
-    'Event Grid Element'                 => "{$iconsFolder}/GridElements/EventGridElement.svg",
-    'Viewport Grid Element'              => "{$iconsFolder}/GridElements/ViewportGridElement.svg"
+    'Spacer Content Element'        => "{$iconsFolder}/ContentElements/SpacerContentElement.svg",
+    'Accordion Grid Element'        => "{$iconsFolder}/GridElements/AccordionGridElement.svg",
+    'Accord Grid Element'           => "{$iconsFolder}/GridElements/AccordGridElement.svg",
+    '2 Columns Layout Grid Element' => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/2Columns.svg",
+    '3 Columns Layout Grid Element' => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/3Columns.svg",
+    'Document Section Grid Element' => "{$iconsFolder}/GridElements/DocumentSectionGridElement.svg",
+    'Panel Grid Element'            => "{$iconsFolder}/GridElements/PanelGridElement.svg",
+    'Timeline Grid Element'         => "{$iconsFolder}/GridElements/TimelineGridElement.svg",
+    'Event Grid Element'            => "{$iconsFolder}/GridElements/EventGridElement.svg",
+    'Viewport Grid Element'         => "{$iconsFolder}/GridElements/ViewportGridElement.svg"
   ];
 
   foreach ($icons as $name => $source) {
