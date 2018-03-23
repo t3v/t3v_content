@@ -60,7 +60,6 @@
                     <numIndex index="1">custom</numIndex>
                   </numIndex>
                 </items>
-                <size>1</size>
                 <minitems>1</minitems>
                 <maxitems>1</maxitems>
               </config>
@@ -72,10 +71,10 @@
               <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:contentElements.spacerContentElement.settings.customHeight.label</label>
               <config type="array">
                 <type>input</type>
-                <size>42</size>
                 <max>255</max>
                 <eval>int, trim</eval>
                 <default>0</default>
+                <size>10</size>
               </config>
             </TCEforms>
           </settings.customHeight>

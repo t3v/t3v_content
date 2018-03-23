@@ -1,7 +1,15 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
   <f:switch expression="{settings.type}">
     <f:case value="custom">
-      <hr id="c{data.uid}" class="ce--t3v-content-spacer--custom ce--t3v-content-spacer ce" style="height: {settings.customHeight}px;" />
+      <f:if condition="{settings.customHeight}">
+        <f:then>
+          <hr id="c{data.uid}" class="ce--t3v-content-spacer--custom ce--t3v-content-spacer ce" style="height: {settings.customHeight}px;" />
+        </f:then>
+
+        <f:else>
+          <hr id="c{data.uid}" class="ce--t3v-content-spacer--custom ce--t3v-content-spacer ce" />
+        </f:else>
+      </f:if>
     </f:case>
 
     <f:case default="true">

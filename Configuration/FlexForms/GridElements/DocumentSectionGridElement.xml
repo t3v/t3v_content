@@ -28,6 +28,7 @@
             <max>255</max>
             <eval>required</eval>
             <default>Default</default>
+            <size>10</size>
           </config>
         </TCEforms>
       </slug>
@@ -79,7 +80,6 @@
                 <numIndex index="1">custom</numIndex>
               </numIndex>
             </items>
-            <size>1</size>
             <minitems>1</minitems>
             <maxitems>1</maxitems>
           </config>
