@@ -3,9 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+4.6.0
+-----
 
+* Improved partials
+* Added `SubheadlineViewHelper` and `SubheadlineLinkViewHelper`
 * Cleaned up
 
 4.5.0
