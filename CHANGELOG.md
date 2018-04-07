@@ -3,9 +3,10 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+5.1.1
+-----
 
+* Updated extension configuration
 * Updated AppVeyor configuration
 
 5.1.0
