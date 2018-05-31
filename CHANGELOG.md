@@ -6,7 +6,9 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Improved `MediaGallery` partial
+* Updated `MediaGallery` partial (breaking change)
+* Updated AppVeyor configuration
+* Cleaned up
 
 4.6.1
 -----

@@ -18,43 +18,43 @@ class ContentElementUtilityTest extends UnitTestCase {
    */
   public function contentElementIdentifier() {
     $this->assertEquals(
-      ContentElementUtility::contentElementIdentifier('Announcements'),
-      'Announcements'
+      'Announcements',
+      ContentElementUtility::contentElementIdentifier('Announcements')
     );
 
     $this->assertEquals(
-      ContentElementUtility::contentElementIdentifier('Announcements Latest Announcements'),
-      'AnnouncementsLatestAnnouncements'
+      'AnnouncementsLatestAnnouncements',
+      ContentElementUtility::contentElementIdentifier('Announcements Latest Announcements')
     );
 
     $this->assertEquals(
-      ContentElementUtility::contentElementIdentifier('announcements latest announcements'),
-      'AnnouncementsLatestAnnouncements'
+      'AnnouncementsLatestAnnouncements',
+      ContentElementUtility::contentElementIdentifier('announcements latest announcements')
     );
 
     $this->assertEquals(
-      ContentElementUtility::contentElementIdentifier('announcements Latest Announcements'),
-      'AnnouncementsLatestAnnouncements'
+      'AnnouncementsLatestAnnouncements',
+      ContentElementUtility::contentElementIdentifier('announcements Latest Announcements')
     );
 
     $this->assertEquals(
-      ContentElementUtility::contentElementIdentifier('announcements_latest_announcements'),
-      'AnnouncementsLatestAnnouncements'
+      'AnnouncementsLatestAnnouncements',
+      ContentElementUtility::contentElementIdentifier('announcements_latest_announcements')
     );
 
     $this->assertEquals(
-      ContentElementUtility::contentElementIdentifier('announcements-latest-announcements'),
-      'AnnouncementsLatestAnnouncements'
+      'AnnouncementsLatestAnnouncements',
+      ContentElementUtility::contentElementIdentifier('announcements-latest-announcements')
     );
 
     $this->assertEquals(
-      ContentElementUtility::contentElementIdentifier('AnnouncementsLatestAnnouncements'),
-      'AnnouncementsLatestAnnouncements'
+      'AnnouncementsLatestAnnouncements',
+      ContentElementUtility::contentElementIdentifier('AnnouncementsLatestAnnouncements')
     );
 
     $this->assertEquals(
-      ContentElementUtility::contentElementIdentifier('announcementsLatestAnnouncements'),
-      'AnnouncementsLatestAnnouncements'
+      'AnnouncementsLatestAnnouncements',
+      ContentElementUtility::contentElementIdentifier('announcementsLatestAnnouncements')
     );
   }
 
@@ -65,13 +65,13 @@ class ContentElementUtilityTest extends UnitTestCase {
    */
   public function contentElementSignature() {
     $this->assertEquals(
-      ContentElementUtility::contentElementSignature('t3vcore', 'Announcements'),
-      't3vcore_announcements'
+      't3vcore_announcements',
+      ContentElementUtility::contentElementSignature('t3vcore', 'Announcements')
     );
 
     $this->assertEquals(
-      ContentElementUtility::contentElementSignature('t3vcore', 'AnnouncementsLatestAnnouncements'),
-      't3vcore_announcementslatestannouncements'
+      't3vcore_announcementslatestannouncements',
+      ContentElementUtility::contentElementSignature('t3vcore', 'AnnouncementsLatestAnnouncements')
     );
   }
 }
