@@ -29,7 +29,7 @@ class IfViewHelper extends AbstractConditionViewHelper {
    * Evaluates the condition.
    *
    * @param array $arguments The arguments
-   * @return boolean If the condition is fulfilled
+   * @return bool If the condition is fulfilled
    */
   protected static function evaluateCondition($arguments = null) {
     $data = $arguments['data'];
