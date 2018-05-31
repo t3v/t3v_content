@@ -13,9 +13,7 @@ class ContentElementUtility {
    * @param string $contentElementKey The content element key
    * @return string The content element identifier
    */
-  public static function contentElementIdentifier($contentElementKey): string {
-    $contentElementIdentifier = (string) $contentElementKey;
-
+  public static function contentElementIdentifier(string $contentElementKey): string {
     if (strpos($contentElementIdentifier, '_') ||
         strpos($contentElementIdentifier, '-') ||
         strpos($contentElementIdentifier, ' ')) {
@@ -39,9 +37,7 @@ class ContentElementUtility {
    * @param string $contentElementIdentifier The content element identifier
    * @return string The content element signature
    */
-  public static function contentElementSignature($extensionIdentifier, $contentElementIdentifier): string {
-    $extensionIdentifier      = (string) $extensionIdentifier;
-    $contentElementIdentifier = (string) $contentElementIdentifier;
+  public static function contentElementSignature(string $extensionIdentifier, string $contentElementIdentifier): string {
     $contentElementSignature  = mb_strtolower($extensionIdentifier . '_' . $contentElementIdentifier);
 
     return $contentElementSignature;
