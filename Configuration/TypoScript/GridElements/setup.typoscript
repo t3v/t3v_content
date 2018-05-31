@@ -1,0 +1,8 @@
+# === Includes ===
+
+<INCLUDE_TYPOSCRIPT: source="FILE: ./AccordionGridElement/setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./ColumnLayoutGridElement/setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./DocumentSectionGridElement/setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./PanelGridElement/setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./TimelineGridElement/setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./ViewportGridElement/setup.typoscript">

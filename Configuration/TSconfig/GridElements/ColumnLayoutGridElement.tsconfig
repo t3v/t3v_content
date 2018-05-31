@@ -1,0 +1,4 @@
+# === Includes ===
+
+<INCLUDE_TYPOSCRIPT: source="FILE: ./ColumnLayoutGridElement/2Columns.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./ColumnLayoutGridElement/3Columns.tsconfig">

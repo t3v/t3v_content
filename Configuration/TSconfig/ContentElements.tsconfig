@@ -20,4 +20,4 @@ mod {
 
 # === Includes ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./ContentElements/SpacerContentElement.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./ContentElements/SpacerContentElement.tsconfig">

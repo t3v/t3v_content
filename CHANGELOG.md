@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Updated TypoScript and TSconfig structure
 * Updated `MediaGallery` partial (breaking change)
 * Removed T3v DataMapper as dependency
 * Updated AppVeyor configuration

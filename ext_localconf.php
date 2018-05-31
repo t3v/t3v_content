@@ -33,7 +33,7 @@ $iconsFolder         = \T3v\T3vCore\Utility\ExtensionUtility::iconsFolder($exten
 
 // === Frontend ===
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"{$configurationFolder}/TSconfig.ts\">");
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"{$configurationFolder}/TSconfig.tsconfig\">");
 
 // === Backend ===
 
