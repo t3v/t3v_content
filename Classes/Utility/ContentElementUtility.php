@@ -14,6 +14,8 @@ class ContentElementUtility {
    * @return string The content element identifier
    */
   public static function contentElementIdentifier(string $contentElementKey): string {
+    $contentElementIdentifier = $contentElementKey;
+
     if (strpos($contentElementIdentifier, '_') ||
         strpos($contentElementIdentifier, '-') ||
         strpos($contentElementIdentifier, ' ')) {
