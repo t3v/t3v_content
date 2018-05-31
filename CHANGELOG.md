@@ -3,6 +3,14 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Updated `MediaGallery` partial (breaking change)
+* Removed T3v DataMapper as dependency
+* Updated AppVeyor configuration
+* Cleaned up
+
 5.1.1
 -----
 

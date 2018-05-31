@@ -43,8 +43,7 @@
     "gridelementsteam/gridelements": "dev-8-0 || dev-master",
     "maxserv/replacecontent": "~2.0.5",
     "fluidtypo3/vhs": "^4.2",
-    "t3v/t3v_core": "*",
-    "t3v/t3v_datamapper": "*"
+    "t3v/t3v_core": "*"
   },
   "require-dev": {
     "mikey179/vfsStream": "^1.6",

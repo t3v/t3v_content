@@ -14,7 +14,6 @@ Dependencies
 * Replace Content extension
 * VHS extension
 * T3v Core extension
-* T3v DataMapper extension
 
 Installation
 ------------

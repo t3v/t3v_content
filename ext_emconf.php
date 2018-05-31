@@ -18,8 +18,7 @@ $EM_CONF[$_EXTKEY] = [
       'gridelements' => '',
       'replacecontent' => '',
       'vhs' => '',
-      't3v_core' => '',
-      't3v_datamapper' => ''
+      't3v_core' => ''
     ],
     'conflicts' => [
       'css_styled_content' => '8.7.0-9.5.99'

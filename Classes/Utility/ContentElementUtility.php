@@ -8,12 +8,12 @@ namespace T3v\T3vContent\Utility;
  */
 class ContentElementUtility {
   /**
-   * Gets the content element identifier from a content element key.
+   * Gets the content element identifier from an content element key.
    *
    * @param string $contentElementKey The content element key
    * @return string The content element identifier
    */
-  public static function contentElementIdentifier($contentElementKey) {
+  public static function contentElementIdentifier($contentElementKey): string {
     $contentElementIdentifier = (string) $contentElementKey;
 
     if (strpos($contentElementIdentifier, '_') ||
@@ -33,13 +33,13 @@ class ContentElementUtility {
   }
 
   /**
-   * Gets the content element signature from a extension and content element identifier.
+   * Gets the content element signature from an extension and content element identifier.
    *
    * @param string $extensionIdentifier The extension identifier
    * @param string $contentElementIdentifier The content element identifier
    * @return string The content element signature
    */
-  public static function contentElementSignature($extensionIdentifier, $contentElementIdentifier) {
+  public static function contentElementSignature($extensionIdentifier, $contentElementIdentifier): string {
     $extensionIdentifier      = (string) $extensionIdentifier;
     $contentElementIdentifier = (string) $contentElementIdentifier;
     $contentElementSignature  = mb_strtolower($extensionIdentifier . '_' . $contentElementIdentifier);
