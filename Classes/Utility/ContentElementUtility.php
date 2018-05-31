@@ -8,7 +8,7 @@ namespace T3v\T3vContent\Utility;
  */
 class ContentElementUtility {
   /**
-   * Gets the content element identifier from an content element key.
+   * Gets a content element identifier from an content element key.
    *
    * @param string $contentElementKey The content element key
    * @return string The content element identifier
@@ -33,7 +33,7 @@ class ContentElementUtility {
   }
 
   /**
-   * Gets the content element signature from an extension and content element identifier.
+   * Gets a content element signature from an extension and content element identifier.
    *
    * @param string $extensionIdentifier The extension identifier
    * @param string $contentElementIdentifier The content element identifier
