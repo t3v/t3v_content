@@ -3,11 +3,16 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Updated `MediaGallery` partial(s)
+
 6.0.0
 -----
 
 * Updated TypoScript and TSconfig structure
-* Updated `MediaGallery` partial (breaking change)
+* Updated `MediaGallery` partial(s) (breaking change)
 * Removed T3v DataMapper as dependency
 * Updated AppVeyor configuration
 * Cleaned up

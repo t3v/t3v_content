@@ -1,6 +1,6 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:ce="http://typo3.org/ns/TYPO3/CMS/FluidStyledContent/ViewHelpers" data-namespace-typo3-fluid="true">
   <f:if condition="{gallery.rows}">
-    <div class="media-gallery--{gallery.position.horizontal} media-gallery--{gallery.position.vertical} media-gallery--{gallery.count.columns}-columns {f:if(condition: data.imageheight, then: 'media-gallery--image-height')} {f:if(condition: data.imagewidth, then: 'media-gallery--image-width')} {f:if(condition: data.imageborder, then: 'media-gallery--border')} media-gallery"
+    <div class="media-gallery--{gallery.position.horizontal} media-gallery--{gallery.position.vertical} media-gallery--{gallery.count.columns}-columns {f:if(condition: data.imageheight, then: 'media-gallery--image-height', else: 'media-gallery--no-image-height')} {f:if(condition: data.imagewidth, then: 'media-gallery--image-width', else: 'media-gallery--no-image-width')} {f:if(condition: data.imageborder, then: 'media-gallery--border')} media-gallery"
          data-media-gallery-columns="{gallery.count.columns}"
          data-media-gallery-files="{gallery.count.files}">
       <f:if condition="{gallery.position.horizontal} == 'center'">
