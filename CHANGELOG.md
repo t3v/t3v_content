@@ -7,6 +7,7 @@ Unreleased
 ----------
 
 * Updated `MediaGallery` partial
+* Updated dependencies
 * Cleaned up
 
 4.7.0
