@@ -96,14 +96,14 @@ lib {
 }
 [global]
 
-[compatVersion = 9.1]
+[compatVersion = 9.3]
 lib {
   contentElement {
-    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/FluidStyledContent/9.1/
+    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/FluidStyledContent/9.3/
 
-    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/FluidStyledContent/9.1/
+    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/FluidStyledContent/9.3/
 
-    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/9.1/
+    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/9.3/
   }
 }
 [global]

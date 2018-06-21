@@ -7,6 +7,7 @@ Unreleased
 ----------
 
 * Updated `MediaGallery` partial(s)
+* Updated dependencies
 * Cleaned up
 
 6.0.0
