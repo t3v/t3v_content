@@ -10,7 +10,7 @@ before_install:
 before_script:
   - TYPO3_VERSION_DIGITS=${TYPO3_VERSION//[^[:digit:]]/}
   - TYPO3_MAJOR_VERSION="${TYPO3_VERSION_DIGITS::1}"
-  - if [ $TYPO3_MAJOR_VERSION -ge 9 ]; then composer require typo3/minimal="$TYPO3_VERSION"; else composer require typo3/cms="$TYPO3_VERSION"; fi
+  - composer require typo3/cms-core="$TYPO3_VERSION"
   - export BUILD_PATH="$PWD/.build"
   - export BIN_PATH="$BUILD_PATH/bin"
   - export VENDOR_PATH="$BUILD_PATH/vendor"
