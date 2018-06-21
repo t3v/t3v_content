@@ -6,11 +6,11 @@
 
 lib {
   fluidContent {
-    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/FluidStyledContent/7.6/
+    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/TYPO3/FluidStyledContent/7.6/
 
-    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/FluidStyledContent/7.6/
+    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/TYPO3/FluidStyledContent/7.6/
 
-    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/7.6/
+    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/TYPO3/FluidStyledContent/7.6/
   }
 }
 

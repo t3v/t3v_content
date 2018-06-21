@@ -1,178 +1,163 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
-  <file product-name="t3v_content" source-language="en" target-language="de" datatype="plaintext" original="messages">
+  <file product-name="t3v_content" source-language="en" datatype="plaintext" original="messages">
     <header />
 
     <body>
+      <!-- === Content Elements === -->
+
+      <trans-unit id="mod.wizards.newContentElement.wizardItems.contentElements.header">
+        <source>Content Elements</source>
+      </trans-unit>
+
+      <!-- Spacer Content Element -->
+
+      <trans-unit id="contentElements.spacerContentElement.title">
+        <source>Spacer</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.description">
+        <source>Spacer Content Element</source>
+      </trans-unit>
+
       <!-- === Grid Elements === -->
 
       <!-- Accordion / Accord Grid Element -->
 
       <trans-unit id="gridElements.accordionGridElement.title">
         <source>Accordion</source>
-        <target>Akkordeon</target>
       </trans-unit>
 
       <trans-unit id="gridElements.accordionGridElement.description">
         <source>Accordion Grid Element</source>
-        <target>Akkordeon Grid Element</target>
       </trans-unit>
 
       <trans-unit id="gridElements.accordionGridElement.rows.1.columns.1.name">
         <source>Accordion Elements</source>
-        <target>Akkordeon Elemente</target>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.title">
         <source>Accord</source>
-        <target>Akkord</target>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.description">
         <source>An element for an Accordion</source>
-        <target>Element für ein Akkordeon</target>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.rows.1.columns.1.name">
         <source>Content</source>
-        <target>Inhaltsbereich</target>
       </trans-unit>
 
       <!-- Column Layout Grid Element (2 Columns) -->
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.title">
         <source>Column Layout (2 Columns)</source>
-        <target>Spalten Layout (2 Spalten)</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.description">
         <source>2 Columns Layout Grid Element</source>
-        <target>2 Spalten Layout Grid Element</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.1.name">
         <source>1. column</source>
-        <target>1. Spalte</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.2.name">
         <source>2. column</source>
-        <target>2. Spalte</target>
       </trans-unit>
 
       <!-- Column Layout Grid Element (3 Columns) -->
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.title">
         <source>Column Layout (3 Columns)</source>
-        <target>Spalten Layout (3 Spalten)</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.description">
-        <source>2 Columns Layout Grid Element</source>
-        <target>2 Spalten Layout Grid Element</target>
+        <source>3 Columns Layout Grid Element</source>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.1.name">
         <source>1. column</source>
-        <target>1. Spalte</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.2.name">
         <source>2. column</source>
-        <target>2. Spalte</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.3.name">
         <source>3. column</source>
-        <target>3. Spalte</target>
       </trans-unit>
 
       <!-- Document Section Grid Element -->
 
       <trans-unit id="gridElements.documentSectionGridElement.title">
         <source>Document Section</source>
-        <target>Dokumentabschnitt</target>
       </trans-unit>
 
       <trans-unit id="gridElements.documentSectionGridElement.description">
         <source>Document Section Grid Element</source>
-        <target>Dokumentabschnitt Grid Element</target>
       </trans-unit>
 
       <trans-unit id="gridElements.documentSectionGridElement.rows.1.columns.1.name">
         <source>Content</source>
-        <target>Inhaltsbereich</target>
       </trans-unit>
 
       <!-- Panel Grid Element -->
 
       <trans-unit id="gridElements.panelGridElement.title">
         <source>Panel</source>
-        <target>Panel</target>
       </trans-unit>
 
       <trans-unit id="gridElements.panelGridElement.description">
         <source>Panel Grid Element</source>
-        <target>Panel Grid Element</target>
       </trans-unit>
 
       <trans-unit id="gridElements.panelGridElement.rows.1.columns.1.name">
         <source>Content</source>
-        <target>Inhaltsbereich</target>
       </trans-unit>
 
       <!-- Timeline / Event Grid Element -->
 
       <trans-unit id="gridElements.timelineGridElement.title">
         <source>Timeline</source>
-        <target>Zeitleiste</target>
       </trans-unit>
 
       <trans-unit id="gridElements.timelineGridElement.description">
         <source>Timeline Grid Element</source>
-        <target>Zeitleiste Grid Element</target>
       </trans-unit>
 
       <trans-unit id="gridElements.timelineGridElement.rows.1.columns.1.name">
         <source>Content</source>
-        <target>Inhaltsbereich</target>
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.title">
         <source>Event</source>
-        <target>Ereignis</target>
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.description">
         <source>An element for a Timeline</source>
-        <target>Element für eine Zeitleiste</target>
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.rows.1.columns.1.name">
         <source>Abstract</source>
-        <target>Auszug</target>
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.rows.2.columns.1.name">
         <source>Content</source>
-        <target>Inhaltsbereich</target>
       </trans-unit>
 
       <!-- Viewport Grid Element -->
 
       <trans-unit id="gridElements.viewportGridElement.title">
         <source>Viewport</source>
-        <target>Viewport</target>
       </trans-unit>
 
       <trans-unit id="gridElements.viewportGridElement.description">
         <source>Viewport Grid Element</source>
-        <target>Viewport Grid Element</target>
       </trans-unit>
 
       <trans-unit id="gridElements.viewportGridElement.rows.1.columns.1.name">
         <source>Content</source>
-        <target>Inhaltsbereich</target>
       </trans-unit>
     </body>
   </file>

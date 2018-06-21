@@ -8,6 +8,7 @@ $extensionKey        = 't3v_content';
 $extensionIdentifier = \T3v\T3vCore\Utility\ExtensionUtility::extensionIdentifier($extensionKey);
 $extensionSignature  = \T3v\T3vCore\Utility\ExtensionUtility::extensionSignature($namespace, $extensionKey);
 $flexFormsFolder     = \T3v\T3vCore\Utility\ExtensionUtility::flexFormsFolder($extensionKey);
+$lll                 = \T3v\T3vCore\Utility\ExtensionUtility::lll($extensionKey, 'locallang_ttc.xlf');
 
 // === Standard Content Elements ===
 
@@ -21,7 +22,7 @@ $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['def
 // --- Spacer Content Element ---
 
 $contentElementKey         = 'Spacer';
-$contentElementDescription = 'Spacer Content Element';
+$contentElementDescription = $lll . 'contentElements.spacerContentElement.description';
 $contentElementIdentifier  = \T3v\T3vContent\Utility\ContentElementUtility::contentElementIdentifier($contentElementKey);
 $contentElementSignature   = \T3v\T3vContent\Utility\ContentElementUtility::contentElementSignature($extensionIdentifier, $contentElementIdentifier);
 
@@ -37,7 +38,7 @@ $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentEleme
 
 // === Palettes ===
 
-// Add `subheader` field after `header_link` field to the `header` palette
+// Add `subheader` field after `header_link` field in the `header` palette
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
   'tt_content',
   'header',

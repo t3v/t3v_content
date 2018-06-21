@@ -12,7 +12,7 @@ use T3v\T3vContent\Utility\ContentElementUtility;
  */
 class ContentElementUtilityTest extends UnitTestCase {
   /**
-   * Test the content element identifier function.
+   * Tests the content element identifier function.
    *
    * @test
    */
@@ -59,7 +59,7 @@ class ContentElementUtilityTest extends UnitTestCase {
   }
 
   /**
-   * Test the content element signature function.
+   * Tests the content element signature function.
    *
    * @test
    */

@@ -3,9 +3,9 @@
 tx_gridelements {
   setup {
     t3vContentDocumentSection {
-      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.documentSectionGridElement.title
+      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.documentSectionGridElement.title
 
-      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.documentSectionGridElement.description
+      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.documentSectionGridElement.description
 
       flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/DocumentSectionGridElement.xml
 
@@ -35,7 +35,7 @@ tx_gridelements {
           1 {
             columns {
               1 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.documentSectionGridElement.rows.1.columns.1.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.documentSectionGridElement.rows.1.columns.1.name
 
                 colPos = 10
 
