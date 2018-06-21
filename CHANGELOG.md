@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Improved `ContentElementUtility`
 * Updated `MediaGallery` partial
 * Updated dependencies
 * Cleaned up
