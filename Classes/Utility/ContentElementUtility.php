@@ -33,6 +33,16 @@ class ContentElementUtility {
   }
 
   /**
+   * Alias for the `contentElementIdentifier` function.
+   *
+   * @param string $contentElementKey The content element key
+   * @return string The content element identifier
+   */
+  public static function getContentElementIdentifier(string $contentElementKey): string {
+    return self::contentElementIdentifier($contentElementKey);
+  }
+
+  /**
    * Gets a content element signature from an extension and content element identifier.
    *
    * @param string $extensionIdentifier The extension identifier
@@ -40,8 +50,19 @@ class ContentElementUtility {
    * @return string The content element signature
    */
   public static function contentElementSignature(string $extensionIdentifier, string $contentElementIdentifier): string {
-    $contentElementSignature  = mb_strtolower($extensionIdentifier . '_' . $contentElementIdentifier);
+    $contentElementSignature = mb_strtolower($extensionIdentifier . '_' . $contentElementIdentifier);
 
     return $contentElementSignature;
+  }
+
+  /**
+   * Alias for the `contentElementSignature` function.
+   *
+   * @param string $extensionIdentifier The extension identifier
+   * @param string $contentElementIdentifier The content element identifier
+   * @return string The content element signature
+   */
+  public static function getContentElementSignature(string $extensionIdentifier, string $contentElementIdentifier): string {
+    return self::contentElementSignature($extensionIdentifier, $contentElementIdentifier);
   }
 }
