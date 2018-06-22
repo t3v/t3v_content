@@ -10,7 +10,7 @@
       <ul>
         <f:for each="{menu}" as="page">
           <li>
-            <a href="{page.link}" title="{page.title}" target="{page.target}">
+            <a href="{page.link}" title="{page.title}" {f:if(condition: page.target, then: 'target="{page.target}"')}>
               <span>{page.title}</span>
             </a>
 
@@ -18,7 +18,7 @@
               <ul>
                 <f:for each="{page.content}" as="element">
                   <li>
-                    <a href="{page.link}#c{element.data.uid}" title="{element.data.header}" target="{page.target}">
+                    <a href="{page.link}#c{element.data.uid}" title="{element.data.header}" {f:if(condition: page.target, then: 'target="{page.target}"')}>
                       <span>{element.data.header}</span>
                     </a>
                   </li>
