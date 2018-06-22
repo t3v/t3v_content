@@ -3,10 +3,10 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+6.1.1
+-----
 
-* Updated TypoScript
+* Fixed / updated TypoScript
 
 6.1.0
 -----
