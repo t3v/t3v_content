@@ -3,9 +3,9 @@
 tx_gridelements {
   setup {
     t3vContentColumnLayout2Columns {
-      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.columnLayoutGridElement.2Columns.title
+      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.columnLayoutGridElement.2Columns.title
 
-      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.columnLayoutGridElement.2Columns.description
+      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.columnLayoutGridElement.2Columns.description
 
       flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/ColumnLayoutGridElement/2Columns.xml
 
@@ -35,7 +35,7 @@ tx_gridelements {
           1 {
             columns {
               1 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.columnLayoutGridElement.2Columns.rows.1.columns.1.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.columnLayoutGridElement.2Columns.rows.1.columns.1.name
 
                 colPos = 101
 
@@ -44,7 +44,7 @@ tx_gridelements {
               }
 
               2 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.columnLayoutGridElement.2Columns.rows.1.columns.2.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.columnLayoutGridElement.2Columns.rows.1.columns.2.name
 
                 colPos = 102
 

@@ -3,9 +3,9 @@
 tx_gridelements {
   setup {
     t3vContentViewport {
-      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.viewportGridElement.title
+      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.viewportGridElement.title
 
-      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.viewportGridElement.description
+      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.viewportGridElement.description
 
       flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/ViewportGridElement.xml
 
@@ -35,7 +35,7 @@ tx_gridelements {
           1 {
             columns {
               1 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.viewportGridElement.rows.1.columns.1.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.viewportGridElement.rows.1.columns.1.name
 
                 colPos = 10
 

@@ -5,7 +5,7 @@ mod {
     newContentElement {
       wizardItems {
         contentElements {
-          header = LLL:EXT:t3v_content/Resources/Private/Language/locallang_wizard.xlf:mod.wizards.newContentElement.wizardItems.contentElements.header
+          header = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:mod.wizards.newContentElement.wizardItems.contentElements.header
 
           elements {
             # ...

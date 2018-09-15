@@ -3,9 +3,9 @@
 tx_gridelements {
   setup {
     t3vContentAccordion {
-      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.accordionGridElement.title
+      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.accordionGridElement.title
 
-      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.accordionGridElement.description
+      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.accordionGridElement.description
 
       flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/AccordionGridElement.xml
 
@@ -35,7 +35,7 @@ tx_gridelements {
           1 {
             columns {
               1 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.accordionGridElement.rows.1.columns.1.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.accordionGridElement.rows.1.columns.1.name
 
                 colPos = 10
 
@@ -49,9 +49,9 @@ tx_gridelements {
     }
 
     t3vContentAccord {
-      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.accordGridElement.title
+      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.accordGridElement.title
 
-      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.accordGridElement.description
+      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.accordGridElement.description
 
       flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/AccordGridElement.xml
 
@@ -81,7 +81,7 @@ tx_gridelements {
           1 {
             columns {
               1 {
-                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_be.xlf:gridElements.accordGridElement.rows.1.columns.1.name
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.accordGridElement.rows.1.columns.1.name
 
                 colPos = 10
 
