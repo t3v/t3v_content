@@ -1,12 +1,16 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
   <div id="c{data.uid}" class="ge--t3v-content-accord ge">
-    <v:variable.set name="container" value="{f:cObject(typoscriptObjectPath: 'lib.t3v.content.config.gridElements.accordGridElement.container')}" />
-
     <f:if condition="{data.flexform_container}">
-      <v:variable.set name="container" value="{data.flexform_container}" />
+      <f:then>
+        <v:variable.set name="container" value="{data.flexform_container}" />
+      </f:then>
+
+      <f:else>
+        <v:variable.set name="container" value="{f:cObject(typoscriptObjectPath: 'lib.plugin.tx_t3vcontent.defaults.gridElements.accordGridElement.container')}" />
+      </f:else>
     </f:if>
 
-    <f:if condition="{container}">
+    <f:if condition="{container} != 'none'">
       <f:then>
         <v:tag name="div" class="ge__container container--{container} container" hideIfEmpty="true">
           <f:render section="GridElement" arguments="{data: data}" />

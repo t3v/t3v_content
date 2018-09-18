@@ -1,10 +1,11 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
   <f:layout name="ColumnLayoutGridElement/2Columns" />
 
   <f:section name="GridElement">
     <f:render partial="Shared/Header" arguments="{data: data}" />
 
-    <v:variable.set name="container" value="{f:cObject(typoscriptObjectPath: 'lib.t3v.content.config.gridElements.columnLayoutGridElement.2Columns.container')}" />
+    <v:variable.set name="container" value="{f:cObject(typoscriptObjectPath: 'lib.plugin.tx_t3vcontent.defaults.gridElements.columnLayoutGridElement.2Columns.container')}" />
 
     <f:if condition="{data.flexform_container}">
       <v:variable.set name="container" value="{data.flexform_container}" />
