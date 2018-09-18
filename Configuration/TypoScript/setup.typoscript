@@ -50,6 +50,8 @@ plugin {
   }
 }
 
+# === Includes ===
+
 <INCLUDE_TYPOSCRIPT: source="FILE: ./Vendor/setup.typoscript">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./Library/setup.typoscript">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/setup.typoscript">

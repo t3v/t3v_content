@@ -87,23 +87,23 @@ styles {
 [compatVersion = 8.7]
 lib {
   contentElement {
-    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/FluidStyledContent/8.7/
+    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/TYPO3/FluidStyledContent/8.7/
 
-    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/FluidStyledContent/8.7/
+    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/TYPO3/FluidStyledContent/8.7/
 
-    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/8.7/
+    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/TYPO3/FluidStyledContent/8.7/
   }
 }
 [global]
 
-[compatVersion = 9.3]
+[compatVersion = 9.4]
 lib {
   contentElement {
-    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/FluidStyledContent/9.3/
+    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/TYPO3/FluidStyledContent/9.4/
 
-    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/FluidStyledContent/9.3/
+    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/TYPO3/FluidStyledContent/9.4/
 
-    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/9.3/
+    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/TYPO3/FluidStyledContent/9.4/
   }
 }
 [global]
