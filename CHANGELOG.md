@@ -7,6 +7,7 @@ Unreleased
 ----------
 
 * Clean up TypoScript, move all to `plugin.tx_t3vcontent`
+* Cleaned up
 
 7.0.0
 -----
