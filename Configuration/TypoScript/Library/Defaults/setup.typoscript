@@ -1,20 +1,20 @@
 lib {
-  t3v {
-    content {
-      config {
+  plugin {
+    tx_t3vcontent {
+      defaults {
         gridElements {
           columnLayoutGridElement {
             2Columns {
               container = TEXT
               container {
-                value = {$t3v.content.config.gridElements.columnLayoutGridElement.2Columns.container}
+                value = {$plugin.tx_t3vcontent.defaults.gridElements.columnLayoutGridElement.2Columns.container}
               }
             }
 
             3Columns {
               container = TEXT
               container {
-                value = {$t3v.content.config.gridElements.columnLayoutGridElement.3Columns.container}
+                value = {$plugin.tx_t3vcontent.defaults.gridElements.columnLayoutGridElement.3Columns.container}
               }
             }
           }
@@ -22,49 +22,49 @@ lib {
           accordionGridElement {
             container = TEXT
             container {
-              value = {$t3v.content.config.gridElements.accordionGridElement.container}
+              value = {$plugin.tx_t3vcontent.defaults.gridElements.accordionGridElement.container}
             }
           }
 
           accordGridElement {
             container = TEXT
             container {
-              value = {$t3v.content.config.gridElements.accordGridElement.container}
+              value = {$plugin.tx_t3vcontent.defaults.gridElements.accordGridElement.container}
             }
           }
 
           documentSectionGridElement {
             container = TEXT
             container {
-              value = {$t3v.content.config.gridElements.documentSectionGridElement.container}
+              value = {$plugin.tx_t3vcontent.defaults.gridElements.documentSectionGridElement.container}
             }
           }
 
           panelGridElement {
             container = TEXT
             container {
-              value = {$t3v.content.config.gridElements.panelGridElement.container}
+              value = {$plugin.tx_t3vcontent.defaults.gridElements.panelGridElement.container}
             }
           }
 
           timelineGridElement {
             container = TEXT
             container {
-              value = {$t3v.content.config.gridElements.timelineGridElement.container}
+              value = {$plugin.tx_t3vcontent.defaults.gridElements.timelineGridElement.container}
             }
           }
 
           eventGridElement {
             container = TEXT
             container {
-              value = {$t3v.content.config.gridElements.eventGridElement.container}
+              value = {$plugin.tx_t3vcontent.defaults.gridElements.eventGridElement.container}
             }
           }
 
           viewportGridElement {
             container = TEXT
             container {
-              value = {$t3v.content.config.gridElements.viewportGridElement.container}
+              value = {$plugin.tx_t3vcontent.defaults.gridElements.viewportGridElement.container}
             }
           }
         }

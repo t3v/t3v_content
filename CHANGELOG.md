@@ -3,6 +3,11 @@ CHANGELOG
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Clean up TypoScript, move all to `plugin.tx_t3vcontent`
+
 7.0.0
 -----
 
