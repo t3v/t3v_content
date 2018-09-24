@@ -68,8 +68,8 @@
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.description">
-        <source>2 Columns Layout Grid Element</source>
-        <target>2 Spalten Layout Grid Element</target>
+        <source>3 Columns Layout Grid Element</source>
+        <target>3 Spalten Layout Grid Element</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.1.name">
