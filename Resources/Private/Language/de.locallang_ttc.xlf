@@ -29,8 +29,8 @@
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.description">
-        <source>An element for an Accordion Grid Element</source>
-        <target>Ein Element für ein Akkordeon Grid Element</target>
+        <source>An element for an Accordion Grid Element.</source>
+        <target>Ein Element für ein Akkordeon Grid Element.</target>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.rows.1.columns.1.name">
@@ -144,8 +144,8 @@
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.description">
-        <source>An element for a Timeline Grid Element</source>
-        <target>Ein Element für ein Zeitleiste Grid Element</target>
+        <source>An element for a Timeline Grid Element.</source>
+        <target>Ein Element für ein Zeitleiste Grid Element.</target>
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.rows.1.columns.1.name">
