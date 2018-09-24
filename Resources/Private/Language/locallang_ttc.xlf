@@ -4,22 +4,6 @@
     <header />
 
     <body>
-      <!-- === Content Elements === -->
-
-      <trans-unit id="mod.wizards.newContentElement.wizardItems.contentElements.header">
-        <source>Content Elements</source>
-      </trans-unit>
-
-      <!-- Spacer Content Element -->
-
-      <trans-unit id="contentElements.spacerContentElement.title">
-        <source>Spacer</source>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.description">
-        <source>Spacer Content Element</source>
-      </trans-unit>
-
       <!-- === Grid Elements === -->
 
       <!-- Accordion / Accord Grid Element -->
@@ -33,7 +17,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.accordionGridElement.rows.1.columns.1.name">
-        <source>Accordion Elements</source>
+        <source>Accord Elements</source>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.title">
@@ -41,17 +25,17 @@
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.description">
-        <source>An element for an Accordion</source>
+        <source>An element for an Accordion Grid Element</source>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.rows.1.columns.1.name">
         <source>Content</source>
       </trans-unit>
 
-      <!-- Column Layout Grid Element (2 Columns) -->
+      <!-- 2 Columns Layout Grid Element -->
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.title">
-        <source>Column Layout (2 Columns)</source>
+        <source>2 Columns Layout</source>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.description">
@@ -66,10 +50,10 @@
         <source>2. column</source>
       </trans-unit>
 
-      <!-- Column Layout Grid Element (3 Columns) -->
+      <!-- 3 Columns Layout Grid Element -->
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.title">
-        <source>Column Layout (3 Columns)</source>
+        <source>3 Columns Layout</source>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.description">
@@ -158,6 +142,22 @@
 
       <trans-unit id="gridElements.viewportGridElement.rows.1.columns.1.name">
         <source>Content</source>
+      </trans-unit>
+
+      <!-- === Content Elements === -->
+
+      <trans-unit id="mod.wizards.newContentElement.wizardItems.contentElements.header">
+        <source>Content Elements</source>
+      </trans-unit>
+
+      <!-- Spacer Content Element -->
+
+      <trans-unit id="contentElements.spacerContentElement.title">
+        <source>Spacer</source>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.description">
+        <source>Spacer Content Element</source>
       </trans-unit>
     </body>
   </file>

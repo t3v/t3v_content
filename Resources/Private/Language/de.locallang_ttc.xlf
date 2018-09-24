@@ -4,25 +4,6 @@
     <header />
 
     <body>
-      <!-- === Content Elements === -->
-
-      <trans-unit id="mod.wizards.newContentElement.wizardItems.contentElements.header">
-        <source>Content Elements</source>
-        <target>Content Elements</target>
-      </trans-unit>
-
-      <!-- Spacer Content Element -->
-
-      <trans-unit id="contentElements.spacerContentElement.title">
-        <source>Spacer</source>
-        <target>Abstandhalter</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.description">
-        <source>Spacer Content Element</source>
-        <target>Abstandhalter Content Element</target>
-      </trans-unit>
-
       <!-- === Grid Elements === -->
 
       <!-- Accordion / Accord Grid Element -->
@@ -38,8 +19,8 @@
       </trans-unit>
 
       <trans-unit id="gridElements.accordionGridElement.rows.1.columns.1.name">
-        <source>Accordion Elements</source>
-        <target>Akkordeon Elemente</target>
+        <source>Accord Elements</source>
+        <target>Akkord Elemente</target>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.title">
@@ -48,8 +29,8 @@
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.description">
-        <source>An element for an Accordion</source>
-        <target>Element für ein Akkordeon</target>
+        <source>An element for an Accordion Grid Element</source>
+        <target>Ein Element für ein Akkordeon Grid Element</target>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.rows.1.columns.1.name">
@@ -57,11 +38,11 @@
         <target>Inhaltsbereich</target>
       </trans-unit>
 
-      <!-- Column Layout Grid Element (2 Columns) -->
+      <!-- 2 Columns Layout Grid Element -->
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.title">
-        <source>Column Layout (2 Columns)</source>
-        <target>Spalten Layout (2 Spalten)</target>
+        <source>2 Columns Layout</source>
+        <target>2 Spalten Layout</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.description">
@@ -79,11 +60,11 @@
         <target>2. Spalte</target>
       </trans-unit>
 
-      <!-- Column Layout Grid Element (3 Columns) -->
+      <!-- 3 Columns Layout Grid Element -->
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.title">
-        <source>Column Layout (3 Columns)</source>
-        <target>Spalten Layout (3 Spalten)</target>
+        <source>3 Columns Layout</source>
+        <target>3 Spalten Layout</target>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.description">
@@ -163,8 +144,8 @@
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.description">
-        <source>An element for a Timeline</source>
-        <target>Element für eine Zeitleiste</target>
+        <source>An element for a Timeline Grid Element</source>
+        <target>Ein Element für ein Zeitleiste Grid Element</target>
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.rows.1.columns.1.name">
@@ -192,6 +173,25 @@
       <trans-unit id="gridElements.viewportGridElement.rows.1.columns.1.name">
         <source>Content</source>
         <target>Inhaltsbereich</target>
+      </trans-unit>
+
+      <!-- === Content Elements === -->
+
+      <trans-unit id="mod.wizards.newContentElement.wizardItems.contentElements.header">
+        <source>Content Elements</source>
+        <target>Content Elements</target>
+      </trans-unit>
+
+      <!-- Spacer Content Element -->
+
+      <trans-unit id="contentElements.spacerContentElement.title">
+        <source>Spacer</source>
+        <target>Abstandhalter</target>
+      </trans-unit>
+
+      <trans-unit id="contentElements.spacerContentElement.description">
+        <source>Spacer Content Element</source>
+        <target>Abstandhalter Content Element</target>
       </trans-unit>
     </body>
   </file>

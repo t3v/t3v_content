@@ -10,7 +10,7 @@ $extensionSignature  = \T3v\T3vCore\Utility\ExtensionUtility::extensionSignature
 $flexFormsFolder     = \T3v\T3vCore\Utility\ExtensionUtility::flexFormsFolder($extensionKey);
 $lll                 = \T3v\T3vCore\Utility\ExtensionUtility::lll($extensionKey, 'locallang_ttc.xlf');
 
-// === Standard Content Elements ===
+// === Standard TYPO3 Content Elements ===
 
 // --- Table Content Element ---
 
