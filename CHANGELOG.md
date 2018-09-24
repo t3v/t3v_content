@@ -3,6 +3,19 @@ CHANGELOG
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Updated defaults
+* Added `Conditionally` Grid Element
+* Improved `ViewColumnViewHelper`
+* Added `ExtensionService`, introduced `strict` and `fallback` mode (breaking change)
+* Updated translations
+* Updated icons
+* Updated Travis CI and AppVeyor configuration
+* Updated dependencies
+* Cleaned up
+
 4.10.0
 ------
 

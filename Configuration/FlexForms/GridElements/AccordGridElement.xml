@@ -17,7 +17,7 @@
             <items type="array">
               <numIndex index="0" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.container.none.label</numIndex>
-                <numIndex index="1"></numIndex>
+                <numIndex index="1">none</numIndex>
               </numIndex>
 
               <numIndex index="1" type="array">
@@ -62,6 +62,7 @@
             </items>
             <minitems>1</minitems>
             <maxitems>1</maxitems>
+            <default>none</default>
           </config>
         </TCEforms>
       </container>

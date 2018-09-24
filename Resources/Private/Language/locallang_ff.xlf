@@ -108,6 +108,14 @@
         <source>Custom</source>
       </trans-unit>
 
+      <trans-unit id="gridElements.shared.settings.languageUid.label">
+        <source>Language</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.languageUid.default.label">
+        <source>Choose a language</source>
+      </trans-unit>
+
       <trans-unit id="gridElements.shared.settings.spread.label">
         <source>Spread</source>
       </trans-unit>

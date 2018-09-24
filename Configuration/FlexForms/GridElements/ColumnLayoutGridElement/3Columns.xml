@@ -22,6 +22,7 @@
             </items>
             <minitems>1</minitems>
             <maxitems>1</maxitems>
+            <default>33-33-33</default>
           </config>
         </TCEforms>
       </spread>
@@ -75,6 +76,7 @@
             </items>
             <minitems>1</minitems>
             <maxitems>1</maxitems>
+            <default>default</default>
           </config>
         </TCEforms>
       </breakpoint>
@@ -128,6 +130,7 @@
             </items>
             <minitems>1</minitems>
             <maxitems>1</maxitems>
+            <default>default</default>
           </config>
         </TCEforms>
       </container>

@@ -82,6 +82,7 @@
             </items>
             <minitems>1</minitems>
             <maxitems>1</maxitems>
+            <default>default</default>
           </config>
         </TCEforms>
       </container>

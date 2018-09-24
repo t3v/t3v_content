@@ -3,6 +3,8 @@ namespace T3v\T3vContent\ViewHelpers;
 
 use T3v\T3vCore\ViewHelpers\AbstractViewHelper;
 
+use T3v\T3vContent\Service\ExtensionService;
+
 /**
  * The view column view helper class.
  *
@@ -10,24 +12,32 @@ use T3v\T3vCore\ViewHelpers\AbstractViewHelper;
  */
 class ViewColumnViewHelper extends AbstractViewHelper {
   /**
+   * The extension service.
+   *
+   * @var \T3v\T3vContent\Service\ExtensionService
+   * @inject
+   */
+  protected $extensionService;
+
+  /**
    * The view helper render function.
    *
    * @param int $viewColumn The UID of the view column
    * @param array $data The page data
    * @return string The rendered content of the view column
    */
-  public function render($viewColumn, $data) {
-    $viewColumn = intval($viewColumn);
+  public function render(int $viewColumn, $data) {
+    $output       = '';
+    $viewChildren = $data['tx_gridelements_view_children'];
+    $viewChildren = $this->filterViewChildrenByViewColumn($viewChildren, $viewColumn);
 
-    $output = '';
+    if ($this->extensionService->runningInStrictMode()) {
+      $viewChildren = $this->filterViewChildrenBySysLanguage($viewChildren);
+    }
 
-    $viewChildren              = $data['tx_gridelements_view_children'];
-    $viewChildrenByViewColumn  = $this->filterViewChildrenByViewColumn($viewChildren, $viewColumn);
-    $viewChildrenBySysLanguage = $this->filterViewChildrenBySysLanguage($viewChildrenByViewColumn);
-
-    foreach($viewChildrenBySysLanguage as $viewChild) {
+    foreach($viewChildren as $viewChild) {
       $uid              = $viewChild['uid'];
-      $viewChildId      = 'tx_gridelements_view_child_' . $uid;
+      $viewChildId      = "tx_gridelements_view_child_{$uid}";
       $viewChildContent = $data[$viewChildId];
 
       if (!empty($viewChildContent)) {
@@ -45,9 +55,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
    * @param int $viewColumn The UID of the view column
    * @return array The filtered view children
    */
-  protected function filterViewChildrenByViewColumn($viewChildren, $viewColumn) {
-    $viewColumn = intval($viewColumn);
-
+  protected function filterViewChildrenByViewColumn(array $viewChildren, int $viewColumn) {
     $result = [];
 
     if ($viewChildren) {
@@ -62,7 +70,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   }
 
   /**
-   * Filters the view children by the current language.
+   * Filters the view children by the current system language.
    *
    * @param array $viewChildren The view children
    * @return array The filtered view children

@@ -48,6 +48,7 @@ if (TYPO3_MODE === 'BE') {
     'Accord Grid Element'           => "{$iconsFolder}/GridElements/AccordGridElement.svg",
     '2 Columns Layout Grid Element' => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/2Columns.svg",
     '3 Columns Layout Grid Element' => "{$iconsFolder}/GridElements/ColumnLayoutGridElement/3Columns.svg",
+    'Conditionally Grid Element'    => "{$iconsFolder}/GridElements/ConditionallyGridElement.svg",
     'Document Section Grid Element' => "{$iconsFolder}/GridElements/DocumentSectionGridElement.svg",
     'Panel Grid Element'            => "{$iconsFolder}/GridElements/PanelGridElement.svg",
     'Timeline Grid Element'         => "{$iconsFolder}/GridElements/TimelineGridElement.svg",
