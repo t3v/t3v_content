@@ -6,6 +6,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Improved `ViewColumnViewHelper`
+* Added `ExtensionService`, introduced `strict` and `fallback` mode (breaking change)
 * Updated translations
 * Updated icons
 

@@ -73,6 +73,9 @@ plugin {
         # cat=plugin/tx_t3vcontent/settings/extbase; type=string; label=The controller extension name
         controllerExtensionName = T3vContent
       }
+
+      # cat=plugin/tx_t3vcontent/settings; type=options[Strict=strict,Fallback=fallback]; label=The mode in which T3v Content runs
+      mode = strict
     }
 
     view {

@@ -18,6 +18,8 @@ plugin {
       extbase {
         controllerExtensionName = {$plugin.tx_t3vcontent.settings.extbase.controllerExtensionName}
       }
+
+      mode = {$plugin.tx_t3vcontent.settings.mode}
     }
 
     view {
