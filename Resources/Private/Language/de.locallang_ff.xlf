@@ -132,6 +132,16 @@
         <target>Benutzerdefiniert</target>
       </trans-unit>
 
+      <trans-unit id="gridElements.shared.settings.language.label">
+        <source>Language</source>
+        <target>Sprache</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.settings.language.default.label">
+        <source>Choose a language</source>
+        <target>Bitte wählen Sie eine Sprache aus</target>
+      </trans-unit>
+
       <trans-unit id="gridElements.shared.settings.spread.label">
         <source>Spread</source>
         <target>Verteilung</target>

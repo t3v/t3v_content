@@ -87,6 +87,28 @@
         <target>3. Spalte</target>
       </trans-unit>
 
+      <!-- Conditionally Grid Element -->
+
+      <trans-unit id="gridElements.conditionallyGridElement.title">
+        <source>Conditionally</source>
+        <target>Konditional</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.conditionallyGridElement.description">
+        <source>Conditionally Grid Element</source>
+        <target>Konditional Grid Element</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.conditionallyGridElement.rows.1.columns.1.name">
+        <source>If</source>
+        <target>Wenn</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.conditionallyGridElement.rows.1.columns.2.name">
+        <source>Else</source>
+        <target>Ansonsten</target>
+      </trans-unit>
+
       <!-- Document Section Grid Element -->
 
       <trans-unit id="gridElements.documentSectionGridElement.title">

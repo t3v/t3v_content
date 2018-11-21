@@ -72,6 +72,24 @@
         <source>3. column</source>
       </trans-unit>
 
+      <!-- Conditionally Grid Element -->
+
+      <trans-unit id="gridElements.conditionallyGridElement.title">
+        <source>Conditionally</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.conditionallyGridElement.description">
+        <source>Conditionally Grid Element</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.conditionallyGridElement.rows.1.columns.1.name">
+        <source>If</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.conditionallyGridElement.rows.1.columns.2.name">
+        <source>Else</source>
+      </trans-unit>
+
       <!-- Document Section Grid Element -->
 
       <trans-unit id="gridElements.documentSectionGridElement.title">

@@ -2,6 +2,7 @@
 
 <INCLUDE_TYPOSCRIPT: source="FILE: ./AccordionGridElement/constants.typoscript">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./ColumnLayoutGridElement/constants.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./ConditionallyGridElement/constants.typoscript">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./DocumentSectionGridElement/constants.typoscript">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./PanelGridElement/constants.typoscript">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./TimelineGridElement/constants.typoscript">
