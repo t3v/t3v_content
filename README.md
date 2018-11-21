@@ -66,6 +66,7 @@ Grid Elements
 
 * Accordion / Accord Grid Element
 * Column Layout Grid Element
+* Conditionally Grid Element
 * Document Section Grid Element
 * Timeline / Event Grid Element
 * Panel Grid Element
@@ -111,6 +112,7 @@ Credits
 ### Icons
 
 * [Accordion free icon]
+* [Air conditioner free icon]
 * [Alignment free icon]
 * [Archive free icon]
 * [Browser free icon (1)]
@@ -121,7 +123,7 @@ Credits
 * [Calendar event free icon]
 * [Timeline free icon]
 
-Icons made by [Alfredo Hernandez], [Freepik] and [Smashicons] from [Flaticon] is licensed by [CC 3.0 BY].
+Icons made by [Alfredo Hernandez], [Freepik], [Smashicons] and [Vectors Market] from [Flaticon] is licensed by [CC 3.0 BY].
 
 License
 -------
@@ -130,6 +132,7 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 
 [Acceptance testing TYPO3]: https://wiki.typo3.org/Acceptance_testing "Acceptance testing TYPO3"
 [Accordion free icon]: https://www.flaticon.com/free-icon/accordion_140208 "Accordion free icon"
+[Air conditioner free icon]: https://www.flaticon.com/free-icon/air-conditioner_237070 "Air conditioner free icon"
 [Alfredo Hernandez]: https://www.flaticon.com/authors/alfredo-hernandez "Alfredo Hernandez"
 [Alignment free icon]: https://www.flaticon.com/free-icon/alignment_140879 "Alignment free icon"
 [Archive free icon]: https://www.flaticon.com/free-icon/archive_149014 "Archive free icon"
@@ -156,3 +159,4 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Travis CI Status]: https://img.shields.io/travis/t3v/t3v_content.svg?style=flat "Travis CI Status"
 [TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
 [Unit Testing TYPO3]: https://wiki.typo3.org/Unit_Testing_TYPO3 "Unit testing TYPO3"
+[Vectors Market]: https://www.flaticon.com/authors/vectors-market "Vectors Market"
