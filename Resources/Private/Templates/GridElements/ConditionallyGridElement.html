@@ -7,7 +7,7 @@
 
     <f:if condition="{languageUid} > 0">
       <f:then>
-        <f:if condition="{languageUid} == {data.flexform_language}">
+        <f:if condition="{languageUid} == {data.flexform_languageUid}">
           <f:format.raw>{t3vContent:viewColumn(viewColumn: 101, data: data)}</f:format.raw>
         </f:if>
       </f:then>
