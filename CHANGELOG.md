@@ -11,6 +11,9 @@ Unreleased
 * Added `ExtensionService`, introduced `strict` and `fallback` mode (breaking change)
 * Updated translations
 * Updated icons
+* Updated Travis CI and AppVeyor configuration
+* Updated dependencies
+* Cleaned up
 
 7.1.0
 -----
