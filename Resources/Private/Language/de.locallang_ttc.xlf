@@ -211,6 +211,11 @@
         <target>Abstandhalter</target>
       </trans-unit>
 
+      <trans-unit id="contentElements.spacerContentElement.label">
+        <source>Spacer Content Element</source>
+        <target>Abstandhalter Content Element</target>
+      </trans-unit>
+
       <trans-unit id="contentElements.spacerContentElement.description">
         <source>Spacer Content Element</source>
         <target>Abstandhalter Content Element</target>

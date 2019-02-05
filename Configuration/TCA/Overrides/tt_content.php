@@ -21,16 +21,16 @@ $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['def
 
 // --- Spacer Content Element ---
 
-$contentElementKey         = 'Spacer';
-$contentElementDescription = $lll . 'contentElements.spacerContentElement.description';
-$contentElementIdentifier  = \T3v\T3vContent\Utility\ContentElementUtility::contentElementIdentifier($contentElementKey);
-$contentElementSignature   = \T3v\T3vContent\Utility\ContentElementUtility::contentElementSignature($extensionIdentifier, $contentElementIdentifier);
+$contentElementKey        = 'Spacer';
+$contentElementLabel      = $lll . 'contentElements.spacerContentElement.label';
+$contentElementIdentifier = \T3v\T3vContent\Utility\ContentElementUtility::contentElementIdentifier($contentElementKey);
+$contentElementSignature  = \T3v\T3vContent\Utility\ContentElementUtility::contentElementSignature($extensionIdentifier, $contentElementIdentifier);
 
 // Register the content element
-\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin($extensionSignature, $contentElementIdentifier, $contentElementDescription);
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin($extensionSignature, $contentElementIdentifier, $contentElementLabel);
 
-// Disable the display of `layout`, `pages` and `select_key` field
-$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentElementSignature] = 'layout,pages,select_key';
+// Disable the display of `layout`, `pages`, `select_key` and `recursive` field
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$contentElementSignature] = 'layout,pages,select_key,recursive';
 
 // Activate the display of the `flexform` field and set the FlexForm definition
 $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentElementSignature] = 'pi_flexform';
