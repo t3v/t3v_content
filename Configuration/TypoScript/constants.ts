@@ -6,54 +6,52 @@
 
 plugin {
   tx_t3vcontent {
-    defaults {
-      gridElements {
-        columnLayoutGridElement {
-          2Columns {
-            # plugin/tx_t3vcontent/defaults/gridElements/columnLayoutGridElement/2Columns; type=string; label=The grid element's container
-            container = default
-          }
-
-          3Columns {
-            # plugin/tx_t3vcontent/defaults/gridElements/columnLayoutGridElement/3Columns; type=string; label=The grid element's container
-            container = default
-          }
-        }
-
-        accordionGridElement {
-          # plugin/tx_t3vcontent/defaults/gridElements/accordionGridElement; type=string; label=The grid element's container
-          container = none
-        }
-
-        accordGridElement {
-          # plugin/tx_t3vcontent/defaults/gridElements/accordGridElement; type=string; label=The grid element's container
-          container = none
-        }
-
-        documentSectionGridElement {
-          # plugin/tx_t3vcontent/defaults/gridElements/documentSectionGridElement; type=string; label=The grid element's container
+    gridElements {
+      columnLayoutGridElement {
+        2Columns {
+          # plugin/tx_t3vcontent/gridElements/columnLayoutGridElement/2Columns; type=string; label=The grid element's container.
           container = default
         }
 
-        panelGridElement {
-          # plugin/tx_t3vcontent/defaults/gridElements/panelGridElement; type=string; label=The grid element's container
-          container = none
+        3Columns {
+          # plugin/tx_t3vcontent/gridElements/columnLayoutGridElement/3Columns; type=string; label=The grid element's container.
+          container = default
         }
+      }
 
-        timelineGridElement {
-          # plugin/tx_t3vcontent/defaults/gridElements/timelineGridElement; type=string; label=The grid element's container
-          container = none
-        }
+      accordionGridElement {
+        # plugin/tx_t3vcontent/gridElements/accordionGridElement; type=string; label=The grid element's container.
+        container = none
+      }
 
-        eventGridElement {
-          # plugin/tx_t3vcontent/defaults/gridElements/eventGridElement; type=string; label=The grid element's container
-          container = none
-        }
+      accordGridElement {
+        # plugin/tx_t3vcontent/gridElements/accordGridElement; type=string; label=The grid element's container.
+        container = none
+      }
 
-        viewportGridElement {
-          # plugin/tx_t3vcontent/defaults/gridElements/viewportGridElement; type=string; label=The grid element's container
-          container = none
-        }
+      documentSectionGridElement {
+        # plugin/tx_t3vcontent/gridElements/documentSectionGridElement; type=string; label=The grid element's container.
+        container = default
+      }
+
+      panelGridElement {
+        # plugin/tx_t3vcontent/gridElements/panelGridElement; type=string; label=The grid element's container.
+        container = none
+      }
+
+      timelineGridElement {
+        # plugin/tx_t3vcontent/gridElements/timelineGridElement; type=string; label=The grid element's container.
+        container = none
+      }
+
+      eventGridElement {
+        # plugin/tx_t3vcontent/gridElements/eventGridElement; type=string; label=The grid element's container.
+        container = none
+      }
+
+      viewportGridElement {
+        # plugin/tx_t3vcontent/gridElements/viewportGridElement; type=string; label=The grid element's container.
+        container = none
       }
     }
 

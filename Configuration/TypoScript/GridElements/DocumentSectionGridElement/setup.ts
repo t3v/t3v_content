@@ -1,4 +1,4 @@
-# === Document Section Grid Element Content Records Configuration ===
+# === Document Section Grid Element Configuration ===
 
 tt_content {
   gridelements_pi1 {

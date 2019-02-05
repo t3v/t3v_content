@@ -1,4 +1,4 @@
-# === Conditionally Grid Element Content Records Configuration ===
+# === Conditionally Grid Element Configuration ===
 
 tt_content {
   gridelements_pi1 {

@@ -1,4 +1,4 @@
-# === 3 Columns Layout Grid Element Content Records Configuration ===
+# === 3 Columns Layout Grid Element Configuration ===
 
 tt_content {
   gridelements_pi1 {
