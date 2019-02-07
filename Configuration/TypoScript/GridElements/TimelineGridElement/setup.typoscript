@@ -1,4 +1,4 @@
-# === Timeline / Event Grid Element Content Records Configuration ===
+# === Timeline / Event Grid Element Configuration ===
 
 tt_content {
   gridelements_pi1 {

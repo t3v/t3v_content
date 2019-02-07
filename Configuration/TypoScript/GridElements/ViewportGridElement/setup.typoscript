@@ -1,4 +1,4 @@
-# === Viewport Grid Element Content Records Configuration ===
+# === Viewport Grid Element Configuration ===
 
 tt_content {
   gridelements_pi1 {

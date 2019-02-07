@@ -1,4 +1,4 @@
-# === Panel Grid Element Content Records Configuration ===
+# === Panel Grid Element Configuration ===
 
 tt_content {
   gridelements_pi1 {

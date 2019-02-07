@@ -26,7 +26,7 @@ $contentElementLabel      = $lll . 'contentElements.spacerContentElement.label';
 $contentElementIdentifier = \T3v\T3vContent\Utility\ContentElementUtility::contentElementIdentifier($contentElementKey);
 $contentElementSignature  = \T3v\T3vContent\Utility\ContentElementUtility::contentElementSignature($extensionIdentifier, $contentElementIdentifier);
 
-// Register the content element
+// Register the Content Element
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin($extensionSignature, $contentElementIdentifier, $contentElementLabel);
 
 // Disable the display of `layout`, `pages`, `select_key` and `recursive` field

@@ -5,20 +5,17 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
 
 styles {
-  templates {
-    # cat=content/templates/b3; type=string; label=Path of Fluid Layouts for all defined content elements.
-    # layoutRootPath =
-
-    # cat=content/templates/b1; type=string; label=Path of Fluid Templates for all defined content elements.
-    # templateRootPath =
-
-    # cat=content/templates/b2; type=string; label=Path of Fluid Partials for all defined content elements.
-    # partialRootPath =
-  }
-
   content {
-    # cat=content/cHeader/h0; type=int[1-5]; label=Default Header type: The number of the header layout to be used by default.
+    # cat=content/cHeader/h0; type=int[1-5]; label=The default header type: The number of the header layout to be used by default.
     # defaultHeaderType = 2
+
+    links {
+      # cat=content/links/l2; type=small; label=The target for external links.
+      # extTarget = _blank
+
+      # cat=content/links/l3; type=string; label=The parts to keep when building links: Comma separated list of the link parts to show when building the link-text: `scheme`, `path` or `query`. Example: `` (empty) => `www.example.com`, `scheme, path` => `http://www.example.com`.
+      # keep = path
+    }
 
     shortcut {
       # cat=content/cShortcut/t0; type=string; label=List of accepted tables.
@@ -29,10 +26,10 @@ styles {
     # allowTags = a, abbr, acronym, address, article, aside, b, bdo, big, blockquote, br, caption, center, cite, code, col, colgroup, dd, del, dfn, dl, div, dt, em, font, footer, header, h1, h2, h3, h4, h5, h6, hr, i, img, ins, kbd, label, li, link, meta, nav, ol, p, pre, q, samp, sdfield, section, small, span, strike, strong, style, sub, sup, table, thead, tbody, tfoot, td, th, tr, title, tt, u, ul, var
 
     textmedia {
-      # cat=content/cTextmedia/b1; type=int+; label=Max Image/Media Width: This indicates that maximum number of pixels (width) a block of media elements inserted as content is allowed to consume.
+      # cat=content/cTextmedia/b1; type=int+; label=Maximum media / image width: This indicates that maximum number of pixels (width) a block of media elements inserted as content is allowed to consume.
       # maxW = 600
 
-      # cat=content/cTextmedia/b2; type=int+; label=Max Image/Media Width (Text): Same as above, but this is the maximum width when text is wrapped around an block of media elements. The default is 50% of the normal max media item width.
+      # cat=content/cTextmedia/b2; type=int+; label=Maximum media / image width (text): Same as above, but this is the maximum width when text is wrapped around an block of media elements. The default is 50% of the normal max media item width.
       # maxWInText = 300
 
       # cat=content/cTextmedia/g1; type=int[0-100]; label=Advanced, Column space: Horizontal distance between media elements in a block in content elements of type `Media & Images`. If you change this manually in your CSS, you need to adjust this setting accordingly.
@@ -54,10 +51,10 @@ styles {
       # borderPadding = 0
 
       linkWrap {
-        # cat=content/cTextmedia/c2; type=string; label=Click-enlarge Media Height: This specifies the height of the enlarged media element when click-enlarge is enabled.
+        # cat=content/cTextmedia/c2; type=string; label=Click-enlarge Media height: This specifies the height of the enlarged media element when click-enlarge is enabled.
         height = 768m
 
-        # cat=content/cTextmedia/c1; type=string; label=Click-enlarge Media Width: This specifies the width of the enlarged media element when click-enlarge is enabled.
+        # cat=content/cTextmedia/c1; type=string; label=Click-enlarge Media width: This specifies the width of the enlarged media element when click-enlarge is enabled.
         width = 1024m
 
         # cat=content/cTextmedia/c3; type=boolean; label=Advanced, New window: If set, every click-enlarged media element will open in it's own popup window and not the current popup window (which may have a wrong size for the media element to fit in).
@@ -73,14 +70,17 @@ styles {
         lightboxRelAttribute = lightbox[{field:uid}]
       }
     }
+  }
 
-    links {
-      # cat=content/links/l2; type=small; label=Target for external links.
-      # extTarget = _blank
+  templates {
+    # cat=content/templates/b3; type=string; label=The path of Fluid layouts for all defined content elements.
+    # layoutRootPath =
 
-      # cat=content/links/l3; type=string; label= Parts to keep when building links: Comma separated list of the link parts to show when building the link-text: `scheme`, `path` or `query`. Example: `` (empty) => `www.example.com`, `scheme, path` => `http://www.example.com`.
-      # keep = path
-    }
+    # cat=content/templates/b1; type=string; label=The path of Fluid templates for all defined content elements.
+    # templateRootPath =
+
+    # cat=content/templates/b2; type=string; label=The path of Fluid partials for all defined content elements.
+    # partialRootPath =
   }
 }
 
