@@ -1,0 +1,23 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+  <f:switch expression="{settings.type}">
+    <f:case value="custom">
+      <f:if condition="{settings.customHeight}">
+        <f:then>
+          <t3v-content-spacer-content-element id="c{data.uid}" class="t3v-content-spacer-content-element--custom t3v-content-spacer-content-element content-element"
+                                              style="height: {settings.customHeight}px;">
+          </t3v-content-spacer-content-element>
+        </f:then>
+
+        <f:else>
+          <t3v-content-spacer-content-element id="c{data.uid}" class="t3v-content-spacer-content-element--custom t3v-content-spacer-content-element content-element">
+          </t3v-content-spacer-content-element>
+        </f:else>
+      </f:if>
+    </f:case>
+
+    <f:case default="true">
+      <t3v-content-spacer-content-element id="c{data.uid}" class="t3v-content-spacer-content-element--{settings.type} t3v-content-spacer-content-element content-element">
+      </t3v-content-spacer-content-element>
+    </f:case>
+  </f:switch>
+</html>
