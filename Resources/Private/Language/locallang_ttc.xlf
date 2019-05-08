@@ -171,7 +171,7 @@
       </trans-unit>
 
       <trans-unit id="contentElements.spacerContentElement.label">
-        <source>Spacer Content Element</source>
+        <source>Spacer</source>
       </trans-unit>
 
       <trans-unit id="contentElements.spacerContentElement.description">

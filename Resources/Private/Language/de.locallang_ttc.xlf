@@ -203,17 +203,17 @@
 
       <trans-unit id="contentElements.spacerContentElement.title">
         <source>Spacer</source>
-        <target>Abstandhalter</target>
+        <target>Abstandshalter</target>
       </trans-unit>
 
       <trans-unit id="contentElements.spacerContentElement.label">
-        <source>Spacer Content Element</source>
-        <target>Abstandhalter-Inhaltselement</target>
+        <source>Spacer</source>
+        <target>Abstandshalter</target>
       </trans-unit>
 
       <trans-unit id="contentElements.spacerContentElement.description">
         <source>A Spacer Content Element.</source>
-        <target>Ein Abstandhalter-Inhaltselement.</target>
+        <target>Ein Abstandshalter-Inhaltselement.</target>
       </trans-unit>
 
       <!-- === Modules === -->
