@@ -7,6 +7,7 @@ Unreleased
 ----------
 
 * Updated translations
+* Updated Travis CI configuration
 
 7.3.0
 -----
