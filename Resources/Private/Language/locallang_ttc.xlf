@@ -13,7 +13,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.accordionGridElement.description">
-        <source>Accordion Grid Element</source>
+        <source>An Accordion Grid Element.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.accordionGridElement.rows.1.columns.1.name">
@@ -25,7 +25,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.description">
-        <source>An element for an Accordion Grid Element.</source>
+        <source>A child element for an Accordion Grid Element.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.rows.1.columns.1.name">
@@ -39,15 +39,15 @@
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.description">
-        <source>2 Columns Layout Grid Element</source>
+        <source>A Columns Layout Grid Element with two columns.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.1.name">
-        <source>1. column</source>
+        <source>First column</source>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.2.name">
-        <source>2. column</source>
+        <source>Second column</source>
       </trans-unit>
 
       <!-- 3 Columns Layout Grid Element -->
@@ -57,19 +57,19 @@
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.description">
-        <source>3 Columns Layout Grid Element</source>
+        <source>A Columns Layout Grid Element with three columns.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.1.name">
-        <source>1. column</source>
+        <source>First column</source>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.2.name">
-        <source>2. column</source>
+        <source>Second column</source>
       </trans-unit>
 
       <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.3.name">
-        <source>3. column</source>
+        <source>Third column</source>
       </trans-unit>
 
       <!-- Conditionally Grid Element -->
@@ -79,7 +79,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.conditionallyGridElement.description">
-        <source>Conditionally Grid Element</source>
+        <source>A Conditionally Grid Element.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.conditionallyGridElement.rows.1.columns.1.name">
@@ -97,7 +97,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.documentSectionGridElement.description">
-        <source>Document Section Grid Element</source>
+        <source>A Document Section Grid Element.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.documentSectionGridElement.rows.1.columns.1.name">
@@ -111,7 +111,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.panelGridElement.description">
-        <source>Panel Grid Element</source>
+        <source>A Panel Grid Element.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.panelGridElement.rows.1.columns.1.name">
@@ -125,7 +125,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.timelineGridElement.description">
-        <source>Timeline Grid Element</source>
+        <source>A Timeline Grid Element.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.timelineGridElement.rows.1.columns.1.name">
@@ -137,7 +137,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.description">
-        <source>An element for a Timeline Grid Element.</source>
+        <source>A child element for a Timeline Grid Element.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.rows.1.columns.1.name">
@@ -155,7 +155,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.viewportGridElement.description">
-        <source>Viewport Grid Element</source>
+        <source>A Viewport Grid Element.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.viewportGridElement.rows.1.columns.1.name">
@@ -179,7 +179,7 @@
       </trans-unit>
 
       <trans-unit id="contentElements.spacerContentElement.description">
-        <source>Spacer Content Element</source>
+        <source>A Spacer Content Element.</source>
       </trans-unit>
     </body>
   </file>
