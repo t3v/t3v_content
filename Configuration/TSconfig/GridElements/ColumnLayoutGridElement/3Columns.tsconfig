@@ -1,4 +1,6 @@
-# === 3 Columns Layout Grid Element Configuration ===
+# -----------------------------------------------
+# | 3 Columns Layout Grid Element Configuration |
+# -----------------------------------------------
 
 tx_gridelements {
   setup {

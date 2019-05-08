@@ -1,4 +1,6 @@
-# === Viewport Grid Element Configuration ===
+# ---------------------------------------
+# | Viewport Grid Element Configuration |
+# ---------------------------------------
 
 tx_gridelements {
   setup {

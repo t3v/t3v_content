@@ -1,15 +1,13 @@
-# === New Content Element Wizard Configuration ===
+# --------------------------------------------
+# | New Content Element Wizard Configuration |
+# --------------------------------------------
 
 mod {
   wizards {
     newContentElement {
       wizardItems {
-        contentElements {
-          header = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:mod.wizards.newContentElement.wizardItems.contentElements.header
-
-          elements {
-            # ...
-          }
+        custom {
+          header = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:mod.wizards.newContentElement.wizardItems.custom.header
 
           show = *
         }
@@ -17,6 +15,10 @@ mod {
     }
   }
 }
+
+# -----------------------------
+# | Content Elements TSconfig |
+# -----------------------------
 
 # === Includes ===
 

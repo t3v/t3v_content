@@ -164,10 +164,6 @@
 
       <!-- === Content Elements === -->
 
-      <trans-unit id="mod.wizards.newContentElement.wizardItems.contentElements.header">
-        <source>Content Elements</source>
-      </trans-unit>
-
       <!-- Spacer Content Element -->
 
       <trans-unit id="contentElements.spacerContentElement.title">
@@ -180,6 +176,12 @@
 
       <trans-unit id="contentElements.spacerContentElement.description">
         <source>A Spacer Content Element.</source>
+      </trans-unit>
+
+      <!-- === Modules === -->
+
+      <trans-unit id="mod.wizards.newContentElement.wizardItems.custom.header">
+        <source>Custom Elements</source>
       </trans-unit>
     </body>
   </file>

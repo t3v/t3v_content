@@ -1,4 +1,6 @@
-# === Panel Grid Element Configuration ===
+# ------------------------------------
+# | Panel Grid Element Configuration |
+# ------------------------------------
 
 tx_gridelements {
   setup {

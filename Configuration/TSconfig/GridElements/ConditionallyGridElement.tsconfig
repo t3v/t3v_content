@@ -1,4 +1,6 @@
-# === Conditionally Grid Element Configuration ===
+# --------------------------------------------
+# | Conditionally Grid Element Configuration |
+# --------------------------------------------
 
 tx_gridelements {
   setup {

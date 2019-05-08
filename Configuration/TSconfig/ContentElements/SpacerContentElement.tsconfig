@@ -1,10 +1,12 @@
-# === Spacer Content Element Wizard Configuration ===
+# -----------------------------------------------
+# | Spacer Content Element Wizard Configuration |
+# -----------------------------------------------
 
 mod {
   wizards {
     newContentElement {
       wizardItems {
-        contentElements {
+        custom {
           elements {
             t3vContentSpacer {
               title          = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:contentElements.spacerContentElement.title

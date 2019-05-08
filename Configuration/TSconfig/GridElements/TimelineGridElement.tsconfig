@@ -1,4 +1,6 @@
-# === Timeline / Event Grid Element Configuration ===
+# -----------------------------------------------
+# | Timeline / Event Grid Element Configuration |
+# -----------------------------------------------
 
 tx_gridelements {
   setup {

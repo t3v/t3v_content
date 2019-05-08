@@ -1,4 +1,6 @@
-# === Document Section Grid Element Configuration ===
+# -----------------------------------------------
+# | Document Section Grid Element Configuration |
+# -----------------------------------------------
 
 tx_gridelements {
   setup {

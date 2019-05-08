@@ -1,3 +1,7 @@
+# --------------------------------------------
+# | Column Layout Grid Element Configuration |
+# --------------------------------------------
+
 # === Includes ===
 
 <INCLUDE_TYPOSCRIPT: source="FILE: ./ColumnLayoutGridElement/2Columns.tsconfig">
