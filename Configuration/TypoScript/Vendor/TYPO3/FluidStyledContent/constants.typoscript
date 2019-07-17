@@ -4,6 +4,30 @@
 
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.txt">
 
+[compatVersion = 9.5]
+lib {
+  contentElement {
+    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/TYPO3/FluidStyledContent/9.5/
+
+    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/TYPO3/FluidStyledContent/9.5/
+
+    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/TYPO3/FluidStyledContent/9.5/
+  }
+}
+[global]
+
+[compatVersion = 10.4]
+lib {
+  contentElement {
+    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/TYPO3/FluidStyledContent/10.4/
+
+    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/TYPO3/FluidStyledContent/10.4/
+
+    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/TYPO3/FluidStyledContent/10.4/
+  }
+}
+[global]
+
 styles {
   content {
     # cat=content/cHeader/h0; type=int[1-5]; label=The default header type: The number of the header layout to be used by default.
@@ -83,27 +107,3 @@ styles {
     # partialRootPath =
   }
 }
-
-[compatVersion = 8.7]
-lib {
-  contentElement {
-    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/TYPO3/FluidStyledContent/8.7/
-
-    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/TYPO3/FluidStyledContent/8.7/
-
-    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/TYPO3/FluidStyledContent/8.7/
-  }
-}
-[global]
-
-[compatVersion = 9.5]
-lib {
-  contentElement {
-    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/TYPO3/FluidStyledContent/9.5/
-
-    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/TYPO3/FluidStyledContent/9.5/
-
-    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/TYPO3/FluidStyledContent/9.5/
-  }
-}
-[global]
