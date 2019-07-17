@@ -7,6 +7,8 @@ Unreleased
 ----------
 
 * Updated translations
+* Support only TYPO3 8.x
+* Updated dependencies
 * Updated Travis CI configuration
 * Cleaned up
 

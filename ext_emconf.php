@@ -13,15 +13,15 @@ $EM_CONF[$_EXTKEY] = [
   'clearCacheOnLoad' => false,
   'constraints' => [
     'depends' => [
-      'typo3' => '8.7.0-9.5.99',
-      'fluid_styled_content' => '8.7.0-9.5.99',
+      'typo3' => '8.7.0-8.7.99',
+      'fluid_styled_content' => '8.7.0-8.7.99',
       'gridelements' => '',
       'replacecontent' => '',
       'vhs' => '',
       't3v_core' => ''
     ],
     'conflicts' => [
-      'css_styled_content' => '8.7.0-9.5.99'
+      'css_styled_content' => '8.7.0-8.7.99'
     ],
     'suggests' => []
   ],
