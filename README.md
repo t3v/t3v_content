@@ -5,17 +5,7 @@
 
 **The content extension of [TYPO3Voila].**
 
-A set of Grid-/ and Content Elements based on Grid Elements and Fluid for Front-End output.
-
-Dependencies
-------------
-
-* TYPO3 CMS 9.5 or greater
-* Fluid Styled Content extension
-* Grid Elements extension
-* Replace Content extension
-* VHS extension
-* T3v Core extension
+A set of Grid-/ and Content Elements based on Grid Elements and Fluid template engine for Front-End output.
 
 Installation
 ------------
@@ -74,6 +64,16 @@ Content Elements
 
 * Spacer Content Element
 
+Dependencies
+------------
+
+* TYPO3 CMS 9.5 or greater
+* Fluid Styled Content extension
+* Grid Elements extension
+* Replace Content extension
+* VHS extension
+* T3v Core extension
+
 Development
 -----------
 
@@ -112,6 +112,8 @@ Credits
 -------
 
 ### Icons
+
+Icons were created from the work of [Alfredo Hernandez], [Freepik], [Smashicons] and [Vectors Market] from [Flaticon].
 
 * [Accordion free icon]
 * [Air conditioner free icon]
