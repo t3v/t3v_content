@@ -5,6 +5,8 @@
 
 **The content extension of [TYPO3Voila].**
 
+A set of Grid-/ and Content Elements based on Grid Elements and Fluid for Front-End output.
+
 Dependencies
 ------------
 
@@ -21,6 +23,17 @@ Installation
 1. Add T3v Content as dependency to the [Composer] configuration
 2. Run `composer install` or `composer update` to install all dependencies with Composer
 3. Include the TypoScript for T3v Content
+
+Grid Elements
+-------------
+
+* Accordion / Accord Grid Element
+* Column Layout Grid Element
+* Conditionally Grid Element
+* Document Section Grid Element
+* Timeline / Event Grid Element
+* Panel Grid Element
+* Viewport Grid Element
 
 Content Elements
 ----------------
@@ -60,17 +73,6 @@ Content Elements
 ### Custom elements
 
 * Spacer Content Element
-
-Grid Elements
--------------
-
-* Accordion / Accord Grid Element
-* Column Layout Grid Element
-* Conditionally Grid Element
-* Document Section Grid Element
-* Timeline / Event Grid Element
-* Panel Grid Element
-* Viewport Grid Element
 
 Development
 -----------
