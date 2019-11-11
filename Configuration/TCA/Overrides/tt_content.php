@@ -23,8 +23,8 @@ $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['def
 
 $contentElementKey        = 'Spacer';
 $contentElementLabel      = $lll . 'contentElements.spacerContentElement.label';
-$contentElementIdentifier = \T3v\T3vContent\Utility\ContentElementUtility::identifier($contentElementKey);
-$contentElementSignature  = \T3v\T3vContent\Utility\ContentElementUtility::signature($extensionIdentifier, $contentElementIdentifier);
+$contentElementIdentifier = \T3v\T3vCore\Utility\ContentElementUtility::identifier($contentElementKey);
+$contentElementSignature  = \T3v\T3vCore\Utility\ContentElementUtility::signature($extensionIdentifier, $contentElementIdentifier);
 
 // Register the Content Element.
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin($extensionSignature, $contentElementIdentifier, $contentElementLabel);

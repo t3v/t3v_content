@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Moved `ContentElementUtility` to T3v Core
 * Updated translations
 * Dropped support for TYPO3 8.x
 * Updated Travis CI and AppVeyor configuration

@@ -70,7 +70,6 @@ Dependencies
 * TYPO3 CMS 9.5 or greater
 * Fluid Styled Content extension
 * Grid Elements extension
-* Replace Content extension
 * VHS extension
 * T3v Core extension
 
