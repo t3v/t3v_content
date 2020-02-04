@@ -137,7 +137,7 @@
         <target>Sprache</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.languageUid.empty.label">
+      <trans-unit id="gridElements.shared.settings.languageUid.none.label">
         <source>Choose a language</source>
         <target>Bitte wählen Sie eine Sprache aus</target>
       </trans-unit>

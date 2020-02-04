@@ -18,7 +18,7 @@
             <foreign_table_where>ORDER BY sys_language.title</foreign_table_where>
             <items type="array">
               <numIndex index="0" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.languageUid.empty.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.languageUid.none.label</numIndex>
                 <numIndex index="1"></numIndex>
               </numIndex>
 
@@ -27,6 +27,7 @@
                 <numIndex index="1">0</numIndex>
               </numIndex>
             </items>
+            <eval>int, required</eval>
             <default></default>
             <fieldWizard type="array">
               <selectIcons type="array">

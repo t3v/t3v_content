@@ -112,7 +112,7 @@
         <source>Language</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.languageUid.empty.label">
+      <trans-unit id="gridElements.shared.settings.languageUid.none.label">
         <source>Choose a language</source>
       </trans-unit>
 
