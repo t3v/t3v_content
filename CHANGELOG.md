@@ -6,12 +6,12 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Moved `Spacer` Content Element to T3v Base
-* Moved `ExtensionService` to T3v Core
-* Moved `ContentElementController` to T3v Core
-* Moved `ContentElementUtility` to T3v Core
+* Moved `Spacer` Content Element to T3v Base (breaking change)
+* Moved `ExtensionService` to T3v Core (breaking change)
+* Moved `ContentElementController` to T3v Core (breaking change)
+* Moved `ContentElementUtility` to T3v Core (breaking change)
 * Updated translations
-* Dropped support for TYPO3 8.x
+* Dropped support for TYPO3 8.x (breaking change)
 * Updated Travis CI and AppVeyor configuration
 * Updated dependencies
 * Refactoring
