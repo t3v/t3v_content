@@ -33,6 +33,7 @@ class RenderingTest extends FunctionalTestCase {
    */
   protected $testExtensionsToLoad = [
     'typo3conf/ext/gridelements',
+    'typo3conf/ext/sms_responsive_images',
     'typo3conf/ext/vhs',
     'typo3conf/ext/t3v_core',
     'typo3conf/ext/t3v_content'
