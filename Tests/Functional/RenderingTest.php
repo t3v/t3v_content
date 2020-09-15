@@ -36,6 +36,7 @@ class RenderingTest extends FunctionalTestCase {
     'typo3conf/ext/sms_responsive_images',
     'typo3conf/ext/vhs',
     'typo3conf/ext/t3v_core',
+    'typo3conf/ext/t3v_translations',
     'typo3conf/ext/t3v_content'
   ];
 

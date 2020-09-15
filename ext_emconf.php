@@ -20,7 +20,8 @@ $EM_CONF[$_EXTKEY] = [
             'gridelements' => '',
             'sms_responsive_images' => '',
             'vhs' => '',
-            't3v_core' => ''
+            't3v_core' => '',
+            't3v_translations' => ''
         ],
         'conflicts' => [
             'css_styled_content' => '9.5.0-10.4.99'
