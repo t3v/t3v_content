@@ -1,8 +1,9 @@
 <?php
+
 namespace T3v\T3vContent\ViewHelpers;
 
 use TYPO3\CMS\Core\Utility\GeneralUtility;
-use TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder;
+use \TYPO3Fluid\Fluid\Core\ViewHelper\TagBuilder;
 
 use T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
 
@@ -11,7 +12,8 @@ use T3v\T3vCore\ViewHelpers\AbstractTagBasedViewHelper;
  *
  * @package T3v\T3vContent\ViewHelpers
  */
-class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
+class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper
+{
   /**
    * The tag name.
    *
@@ -19,24 +21,31 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
    */
   protected $tagName = 'h1';
 
+
+  public function initializeArguments()
+  {
+    parent::initializeArguments();
+    $this->registerArgument('content', 'string', 'The content of the subheadline', false, null);
+    $this->registerArgument('layout', 'int', 'The optional layout (UID) of the headline, defaults to 100', false, 100);
+    $this->registerArgument('cssClass', 'string', 'The optional CSS class of the headline, defaults to `content-element__title`', false, 'content-element__title');
+  }
+
   /**
    * The view helper render function.
    *
-   * @param string $content The content of the headline
-   * @param int $layout The optional layout (UID) of the headline, defaults to `100`
-   * @param string $cssClass The optional CSS class of the headline, defaults to `ce__title`
    * @return string The rendered headline
    */
-  public function render($content = null, $layout = 100, $cssClass = 'ce__title') {
-    $content  = (string) $content;
-    $layout   = intval($layout);
-    $cssClass = (string) $cssClass;
+  public function render()
+  {
+    $content = (string)$this->arguments['content'];
+    $layout = (int)$this->arguments['layout'];
+    $cssClass = (string)$this->arguments['cssClass'];
 
     if (empty($content)) {
       $content = $this->renderChildren();
     }
 
-    if (!empty($content) && $layout != 0 && $layout != 100) {
+    if (!empty($content) && $layout !== 0 && $layout !== 100) {
       $tagName = "h{$layout}";
 
       $this->tag->setTagName($tagName);
@@ -56,18 +65,19 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper {
    * @param string $content The content of the link
    * @param string $href The optional href attribute of the link, defaults to `#`
    * @param string $title The optional title attribute of the link
-   * @return \TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder The link
+   * @return \TYPO3Fluid\Fluid\Core\ViewHelper\TagBuilder The link
    */
-  protected function createLink($content, $href = '#', $title = null) {
-    $content = (string) $content;
-    $href    = (string) $href;
-    $title   = (string) $title;
+  protected function createLink($content, $href = '#', $title = null)
+  {
+    $content = (string)$content;
+    $href = (string)$href;
+    $title = (string)$title;
 
     if (empty($title)) {
       $title = $content;
     }
 
-    $link = GeneralUtility::makeInstance('TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder');
+    $link = GeneralUtility::makeInstance(TagBuilder::class);
     $link->setTagName('a');
     $link->addAttribute('href', $href);
     $link->addAttribute('title', $title);

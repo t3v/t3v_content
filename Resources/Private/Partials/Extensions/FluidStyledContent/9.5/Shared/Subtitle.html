@@ -1,0 +1,35 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
+  <f:if condition="{subtitle}">
+    <f:switch expression="{layout}">
+      <f:case value="1">
+        <v:tag name="h2" class="{contentElement}__subtitle content-element__subtitle" data="{position: position}" hideIfEmpty="true">
+          <f:format.html parseFuncTSPath="lib.parseFunc">{subtitle}</f:format.html>
+        </v:tag>
+      </f:case>
+
+      <f:case value="2">
+        <v:tag name="h3" class="{contentElement}__subtitle content-element__subtitle" data="{position: position}" hideIfEmpty="true">
+          <f:format.html parseFuncTSPath="lib.parseFunc">{subtitle}</f:format.html>
+        </v:tag>
+      </f:case>
+
+      <f:case value="3">
+        <v:tag name="h4" class="{contentElement}__subtitle content-element__subtitle" data="{position: position}" hideIfEmpty="true">
+          <f:format.html parseFuncTSPath="lib.parseFunc">{subtitle}</f:format.html>
+        </v:tag>
+      </f:case>
+
+      <f:case value="4">
+        <v:tag name="h5" class="{contentElement}__subtitle content-element__subtitle" data="{position: position}" hideIfEmpty="true">
+          <f:format.html parseFuncTSPath="lib.parseFunc">{subtitle}</f:format.html>
+        </v:tag>
+      </f:case>
+
+      <f:case value="5">
+        <v:tag name="h6" class="{contentElement}__subtitle content-element__subtitle" data="{position: position}" hideIfEmpty="true">
+          <f:format.html parseFuncTSPath="lib.parseFunc">{subtitle}</f:format.html>
+        </v:tag>
+      </f:case>
+    </f:switch>
+  </f:if>
+</html>

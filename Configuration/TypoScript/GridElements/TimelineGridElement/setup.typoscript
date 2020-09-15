@@ -1,4 +1,6 @@
-# === Timeline / Event Grid Element Configuration ===
+# ---------------------------------------
+# | Timeline Grid Element Configuration |
+# ---------------------------------------
 
 tt_content {
   gridelements_pi1 {
@@ -11,23 +13,18 @@ tt_content {
             cObject {
               file = EXT:t3v_content/Resources/Private/Templates/GridElements/TimelineGridElement.html
 
-              layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/GridElements/
+              layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
 
-              partialRootPath = EXT:t3v_content/Resources/Private/Partials/GridElements/
-            }
+              partialRootPath = EXT:t3v_content/Resources/Private/Partials/
 
-            outerWrap = |
-          }
-
-          t3vContentEvent < lib.gridelements.defaultGridSetup
-          t3vContentEvent {
-            cObject = FLUIDTEMPLATE
-            cObject {
-              file = EXT:t3v_content/Resources/Private/Templates/GridElements/EventGridElement.html
-
-              layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/GridElements/
-
-              partialRootPath = EXT:t3v_content/Resources/Private/Partials/GridElements/
+              dataProcessing {
+                10 = T3v\T3vBase\DataProcessing\GridElement\StyleProcessor
+                10 {
+                  default {
+                    as = styles
+                  }
+                }
+              }
             }
 
             outerWrap = |

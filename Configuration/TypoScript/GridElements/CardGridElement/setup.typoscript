@@ -1,0 +1,43 @@
+# -----------------------------------
+# | Card Grid Element Configuration |
+# -----------------------------------
+
+tt_content {
+  gridelements_pi1 {
+    20 {
+      10 {
+        setup {
+          t3vContentCard < lib.gridelements.defaultGridSetup
+          t3vContentCard {
+            cObject = FLUIDTEMPLATE
+            cObject {
+              file = EXT:t3v_content/Resources/Private/Templates/GridElements/CardGridElement.html
+
+              layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+
+              partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+
+              dataProcessing {
+                10 = T3v\T3vBase\DataProcessing\GridElement\ThemeProcessor
+                10 {
+                  default {
+                    as = theme
+                  }
+                }
+
+                20 = T3v\T3vBase\DataProcessing\GridElement\StyleProcessor
+                20 {
+                  default {
+                    as = styles
+                  }
+                }
+              }
+            }
+
+            outerWrap = |
+          }
+        }
+      }
+    }
+  }
+}

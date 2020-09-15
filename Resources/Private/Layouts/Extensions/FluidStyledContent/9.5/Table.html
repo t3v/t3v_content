@@ -1,0 +1,36 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
+  <v:variable.set name="contentElement" value="t3v-content-table-content-element" />
+  <v:variable.set name="uid" value="{data.uid}" />
+
+  <f:spaceless>
+    <v:tag name="{contentElement}" id="c{uid}" class="{contentElement} content-element">
+      <f:if condition="{data._LOCALIZED_UID}">
+        <a id="c{data._LOCALIZED_UID}"></a>
+      </f:if>
+
+      <f:render section="Before" optional="true">
+        <f:render partial="Shared/DropIn/Before" arguments="{_all}" />
+      </f:render>
+
+      <f:render section="Header" optional="true">
+        <f:render partial="Shared/Header" arguments="{_all}" />
+      </f:render>
+
+      <v:tag name="div" class="{contentElement}__content content-element__content" hideIfEmpty="true">
+        <f:render section="Content" optional="true" />
+      </v:tag>
+
+      <v:tag name="div" class="{contentElement}__caption content-element__caption" hideIfEmpty="true">
+        {data.table_caption}
+      </v:tag>
+
+      <f:render section="Footer" optional="true">
+        <f:render partial="Shared/Footer" arguments="{_all}" />
+      </f:render>
+
+      <f:render section="After" optional="true">
+        <f:render partial="Shared/DropIn/After" arguments="{_all}" />
+      </f:render>
+    </v:tag>
+  </f:spaceless>
+</html>

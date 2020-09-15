@@ -1,32 +1,11 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers"
-      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
-  <f:layout name="EventGridElement" />
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+  <f:layout name="GridElements/EventGridElement" />
 
   <f:section name="GridElement">
-    <f:render partial="EventGridElement/Header" arguments="{data: data}" />
+    <f:render partial="GridElements/EventGridElement/Header" arguments="{gridElement: gridElement, data: data}" />
 
-    <v:tag name="div" class="ge__abstract" hideIfEmpty="true">
-      <f:render section="Abstract" arguments="{data: data}" />
-    </v:tag>
+    <f:render partial="GridElements/Shared/Main" arguments="{gridElement: gridElement, data: data}" />
 
-    <v:tag name="div" class="ge__main" hideIfEmpty="true">
-      <f:render section="Main" arguments="{data: data}" />
-    </v:tag>
-
-    <f:render section="Toggle" />
-  </f:section>
-
-  <f:section name="Abstract">
-    <f:format.raw>{t3v:viewColumn(viewColumn: 10, data: data)}</f:format.raw>
-  </f:section>
-
-  <f:section name="Main">
-    <f:format.raw>{t3v:viewColumn(viewColumn: 20, data: data)}</f:format.raw>
-  </f:section>
-
-  <f:section name="Toggle">
-    <a class="ge__toggle" href="#" title="{f:translate(key: 'gridElements.eventGridElement.toggle.title', default: 'Toggle')}">
-      <f:translate key="gridElements.eventGridElement.toggle.label" default="Toogle" />
-    </a>
+    <f:render partial="GridElements/Shared/Footer" arguments="{gridElement: gridElement, data: data}" />
   </f:section>
 </html>

@@ -1,0 +1,53 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+  <v:variable.set name="timeSpan" value="{data.flexform_timeSpan}" />
+  <v:variable.set name="visuals" value="{data.tx_gridelements_view_column_19}" />
+
+  <table class="t3v-content-time-slot-grid-element__details grid-element__details">
+    <tbody>
+      <tr>
+        <td class="t3v-content-time-slot-grid-element__time-span grid-element__time-span">{timeSpan}</td>
+
+        <f:if condition="{visuals}">
+          <f:then>
+            <td class="t3v-content-time-slot-grid-element__visuals grid-element__visuals">
+              <f:format.raw>{visuals}</f:format.raw>
+            </td>
+
+            <td class="t3v-content-time-slot-grid-element__data grid-element__data">
+              <f:render section="Title" arguments="{_all}" />
+
+              <f:render section="Description" arguments="{_all}" />
+            </td>
+          </f:then>
+
+          <f:else>
+            <td class="t3v-content-time-slot-grid-element__data grid-element__data" colspan="2">
+              <f:render section="Title" arguments="{_all}" />
+
+              <f:render section="Description" arguments="{_all}" />
+            </td>
+          </f:else>
+        </f:if>
+      </tr>
+    </tbody>
+  </table>
+
+  <f:section name="Title">
+    <v:variable.set name="title" value="{data.header}" />
+
+    <f:if condition="{title}">
+      <v:variable.set name="layout" value="{data.header_layout}" />
+
+      <f:if condition="{layout} != 0 && {layout} != 100">
+        <div class="t3v-content-time-slot-grid-element__title grid-element__title">{title}</div>
+      </f:if>
+    </f:if>
+  </f:section>
+
+  <f:section name="Description">
+    <v:tag name="div" class="{gridElement}__description grid-element__description" hideIfEmpty="true">
+      <f:format.raw>{data.tx_gridelements_view_column_20}</f:format.raw>
+    </v:tag>
+  </f:section>
+</html>

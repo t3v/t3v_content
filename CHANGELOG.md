@@ -6,6 +6,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Moved `Spacer` Content Element to T3v Base
+* Moved `ExtensionService` to T3v Core
 * Moved `ContentElementController` to T3v Core
 * Moved `ContentElementUtility` to T3v Core
 * Updated translations

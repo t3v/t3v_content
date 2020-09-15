@@ -1,0 +1,38 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+  <f:if condition="{data.tx_gridelements_view_children}">
+    <v:variable.set name="contentObject" value="t3v-content-slider" />
+    <v:variable.set name="autoplay" value="{v:variable.convert(value: data.flexform_autoplay, type: 'integer', default: 0)}" />
+    <v:variable.set name="autoplay" value="{autoplay * 1000}" />
+
+    <v:tag name="{contentObject}" class="{contentObject} content-object" additionalAttributes="{autoplay: autoplay}" hideIfEmpty="true">
+      <v:tag name="div" class="{contentObject}__glide glide" hideIfEmpty="true">
+        <v:tag name="div" class="{contentObject}__glide__track glide__track" data="{glide-el: 'track'}" hideIfEmpty="true">
+          <v:tag name="ul" class="{contentObject}__glide__slides glide__slides" hideIfEmpty="true">
+            <f:for each="{data.tx_gridelements_view_children}" as="viewChild">
+              <v:variable.set name="uid" value="{viewChild.uid}" />
+
+              <v:tag name="li" class="{contentObject}__glide__slide glide__slide" hideIfEmpty="true">
+                <f:format.raw>{data.tx_gridelements_view_child_{uid}}</f:format.raw>
+              </v:tag>
+            </f:for>
+          </v:tag>
+        </v:tag>
+
+        <v:tag name="div" class="{contentObject}__glide__arrows glide__arrows" data="{glide-el: 'controls'}" hideIfEmpty="true">
+          <v:tag name="button" class="{contentObject}__glide__arrow--left {contentObject}__glide__arrow glide__arrow--left glide__arrow"
+                 title="{f:translate(key: 'gridElements.sliderGridElement.controls.previous.title', default: 'Previous', extensionName: 'T3vContent')}"
+                 data="{glide-dir: '<'}" hideIfEmpty="true">
+            {f:translate(key: 'gridElements.sliderGridElement.controls.previous.label', default: 'Previous', extensionName: 'T3vContent')}
+          </v:tag>
+
+          <v:tag name="button" class="{contentObject}__glide__arrow--right {contentObject}__glide__arrow glide__arrow--right glide__arrow"
+                 title="{f:translate(key: 'gridElements.sliderGridElement.controls.next.title', default: 'Next')}, extensionName: 'T3vContent'"
+                 data="{glide-dir: '>'}" hideIfEmpty="true">
+            {f:translate(key: 'gridElements.sliderGridElement.controls.next.label', default: 'Next', extensionName: 'T3vContent')}
+          </v:tag>
+        </v:tag>
+      </v:tag>
+    </v:tag>
+  </f:if>
+</html>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+<xliff version="1.0">
   <file product-name="t3v_content" source-language="en" target-language="de" datatype="plaintext" original="messages">
     <header />
 
     <body>
+      <!-- _XXX_CE_CREATOR_XXX_ -->
+
       <!-- === Grid Elements === -->
 
-      <!-- Accordion / Accord Grid Element -->
+      <!-- Accordion Grid Element -->
 
       <trans-unit id="gridElements.accordionGridElement.title">
         <source>Accordion</source>
@@ -18,10 +20,7 @@
         <target>Ein Akkordeon-Raster-Element.</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.accordionGridElement.rows.1.columns.1.name">
-        <source>Accord Elements</source>
-        <target>Akkord Elemente</target>
-      </trans-unit>
+      <!-- Accord Grid Element -->
 
       <trans-unit id="gridElements.accordGridElement.title">
         <source>Accord</source>
@@ -33,117 +32,43 @@
         <target>Ein Kind-Element für ein Akkordeon-Raster-Element.</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.accordGridElement.rows.1.columns.1.name">
-        <source>Content</source>
-        <target>Inhaltsbereich</target>
+      <!-- Card Grid Element -->
+
+      <trans-unit id="gridElements.cardGridElement.title">
+        <source>Card</source>
+        <target>Card</target>
       </trans-unit>
 
-      <!-- 2 Columns Layout Grid Element -->
-
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.title">
-        <source>2 Columns Layout</source>
-        <target>2-Spaltenlayout</target>
+      <trans-unit id="gridElements.cardGridElement.description">
+        <source>A Card Grid Element.</source>
+        <target>Ein Card-Raster-Element.</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.description">
-        <source>A Columns Layout Grid Element with two columns.</source>
-        <target>Ein Spaltenlayout-Raster-Element mit zwei Spalten.</target>
+      <!-- Carousel Grid Element -->
+
+      <trans-unit id="gridElements.carouselGridElement.title">
+        <source>Carousel</source>
+        <target>Karussell</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.1.name">
-        <source>First column</source>
-        <target>Erste Spalte</target>
+      <trans-unit id="gridElements.carouselGridElement.description">
+        <source>A Carousel Grid Element.</source>
+        <target>Ein Karussell-Raster-Element.</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.columnLayoutGridElement.2Columns.rows.1.columns.2.name">
-        <source>Second column</source>
-        <target>Zweite Spalte</target>
+      <!-- Slider Grid Element -->
+
+      <trans-unit id="gridElements.sliderGridElement.title">
+        <source>Slider</source>
+        <target>Slider</target>
       </trans-unit>
 
-      <!-- 3 Columns Layout Grid Element -->
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.title">
-        <source>3 Columns Layout</source>
-        <target>3-Spaltenlayout</target>
+      <trans-unit id="gridElements.sliderGridElement.description">
+        <source>A Slider Grid Element.</source>
+        <target>Ein Slider-Raster-Element.</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.description">
-        <source>A Columns Layout Grid Element with three columns.</source>
-        <target>Ein Spaltenlayout-Raster-Element mit drei Spalten.</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.1.name">
-        <source>First column</source>
-        <target>Erste Spalte</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.2.name">
-        <source>Second column</source>
-        <target>Zweite Spalte</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.columnLayoutGridElement.3Columns.rows.1.columns.3.name">
-        <source>Third column</source>
-        <target>Dritte Spalte</target>
-      </trans-unit>
-
-      <!-- Conditionally Grid Element -->
-
-      <trans-unit id="gridElements.conditionallyGridElement.title">
-        <source>Conditionally</source>
-        <target>Konditional</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.conditionallyGridElement.description">
-        <source>A Conditionally Grid Element.</source>
-        <target>Ein Konditional-Raster-Element.</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.conditionallyGridElement.rows.1.columns.1.name">
-        <source>If</source>
-        <target>Wenn</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.conditionallyGridElement.rows.1.columns.2.name">
-        <source>Else</source>
-        <target>Ansonsten</target>
-      </trans-unit>
-
-      <!-- Document Section Grid Element -->
-
-      <trans-unit id="gridElements.documentSectionGridElement.title">
-        <source>Document Section</source>
-        <target>Dokumentabschnitt</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.description">
-        <source>A Document Section Grid Element.</source>
-        <target>Ein Dokumentabschnitt-Raster-Element.</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.documentSectionGridElement.rows.1.columns.1.name">
-        <source>Content</source>
-        <target>Inhaltsbereich</target>
-      </trans-unit>
-
-      <!-- Panel Grid Element -->
-
-      <trans-unit id="gridElements.panelGridElement.title">
-        <source>Panel</source>
-        <target>Panel</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.panelGridElement.description">
-        <source>A Panel Grid Element.</source>
-        <target>Ein Panel-Raster-Element.</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.panelGridElement.rows.1.columns.1.name">
-        <source>Content</source>
-        <target>Inhaltsbereich</target>
-      </trans-unit>
-
-      <!-- Timeline / Event Grid Element -->
+      <!-- Timeline Grid Element -->
 
       <trans-unit id="gridElements.timelineGridElement.title">
         <source>Timeline</source>
@@ -155,10 +80,31 @@
         <target>Ein Zeitleiste-Raster-Element.</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.timelineGridElement.rows.1.columns.1.name">
-        <source>Content</source>
-        <target>Inhaltsbereich</target>
+      <!-- Session Grid Element -->
+
+      <trans-unit id="gridElements.sessionGridElement.title">
+        <source>Session</source>
+        <target>Session</target>
       </trans-unit>
+
+      <trans-unit id="gridElements.sessionGridElement.description">
+        <source>A child element for a Timeline Grid Element.</source>
+        <target>Ein Kind-Element für ein Zeitleiste-Raster-Element.</target>
+      </trans-unit>
+
+      <!-- Time Slot Grid Element -->
+
+      <trans-unit id="gridElements.timeSlotGridElement.title">
+        <source>Time slot</source>
+        <target>Zeitfenster</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timeSlotGridElement.description">
+        <source>A child element for an Event Grid Element.</source>
+        <target>Ein Kind-Element für ein Ereignis-Raster-Element.</target>
+      </trans-unit>
+
+      <!-- Event Grid Element -->
 
       <trans-unit id="gridElements.eventGridElement.title">
         <source>Event</source>
@@ -170,57 +116,31 @@
         <target>Ein Kind-Element für ein Zeitleiste-Raster-Element.</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.eventGridElement.rows.1.columns.1.name">
-        <source>Abstract</source>
-        <target>Auszug</target>
+      <!-- Shared -->
+
+      <trans-unit id="gridElements.shared.columns.header.name">
+        <source>Header</source>
+        <target>Kopfbereich</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.eventGridElement.rows.2.columns.1.name">
-        <source>Content</source>
-        <target>Inhaltsbereich</target>
+      <trans-unit id="gridElements.shared.columns.main.name">
+        <source>Main</source>
+        <target>Hauptbereich</target>
       </trans-unit>
 
-      <!-- Viewport Grid Element -->
-
-      <trans-unit id="gridElements.viewportGridElement.title">
-        <source>Viewport</source>
-        <target>Viewport</target>
+      <trans-unit id="gridElements.shared.columns.footer.name">
+        <source>Footer</source>
+        <target>Fußbereich</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.viewportGridElement.description">
-        <source>A Viewport Grid Element.</source>
-        <target>Ein Viewport-Raster-Element.</target>
+      <trans-unit id="gridElements.shared.columns.description.name">
+        <source>Description</source>
+        <target>Beschreibung</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.viewportGridElement.rows.1.columns.1.name">
-        <source>Content</source>
-        <target>Inhaltsbereich</target>
-      </trans-unit>
-
-      <!-- === Content Elements === -->
-
-      <!-- Spacer Content Element -->
-
-      <trans-unit id="contentElements.spacerContentElement.title">
-        <source>Spacer</source>
-        <target>Abstandshalter</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.label">
-        <source>Spacer</source>
-        <target>Abstandshalter</target>
-      </trans-unit>
-
-      <trans-unit id="contentElements.spacerContentElement.description">
-        <source>A Spacer Content Element.</source>
-        <target>Ein Abstandshalter-Inhaltselement.</target>
-      </trans-unit>
-
-      <!-- === Modules === -->
-
-      <trans-unit id="mod.wizards.newContentElement.wizardItems.custom.header">
-        <source>Custom Elements</source>
-        <target>Benutzerdefinierte Elemente</target>
+      <trans-unit id="gridElements.shared.columns.visuals.name">
+        <source>Visuals</source>
+        <target>Bildmaterial</target>
       </trans-unit>
     </body>
   </file>

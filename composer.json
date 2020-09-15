@@ -6,10 +6,23 @@
     {
       "name": "Maik Kempe",
       "email": "mkempe@bitaculous.com",
-      "homepage": "https://bitaculous.com"
+      "role": "Developer"
+    },
+    {
+      "name": "Jochen Greiner",
+      "email": "greiner@monobloc.de",
+      "role": "Developer"
     }
   ],
-  "keywords": ["CMS", "Content", "Extension", "T3v", "TYPO3", "TYPO3voila", "UH LÁLÁ"],
+  "keywords": [
+    "CMS",
+    "Content",
+    "Extension",
+    "T3v",
+    "TYPO3",
+    "TYPO3voila",
+    "UH LÁLÁ"
+  ],
   "homepage": "https://t3v.github.io/t3v_content/",
   "support": {
     "issues": "https://github.com/t3v/t3v_content/issues"
@@ -25,13 +38,16 @@
     "typo3-ter/t3v_content": "self.version"
   },
   "repositories": [
-    { "type": "composer", "url": "https://composer.typo3.org" }
+    {
+      "type": "composer",
+      "url": "https://composer.typo3.org"
+    }
   ],
   "require": {
     "php": ">= 7.2 < 7.4",
     "typo3/cms-core": "^9.5 || dev-master",
     "typo3/cms-fluid-styled-content": "^9.5 || dev-master",
-    "gridelementsteam/gridelements": "dev-9-0 || dev-master",
+    "gridelementsteam/gridelements": "^9.3 || dev-9-0",
     "fluidtypo3/vhs": "^5.2",
     "t3v/t3v_core": "*"
   },
@@ -48,14 +64,13 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "T3v\\T3vContent\\Tests\\": "Tests",
-      "TYPO3\\CMS\\Core\\Tests\\": ".build/vendor/typo3/cms/typo3/sysext/core/Tests",
-      "TYPO3\\CMS\\Fluid\\Tests\\": ".build/vendor/typo3/cms/typo3/sysext/fluid/Tests"
+      "T3v\\T3vContent\\Tests\\": "Tests"
     }
   },
   "extra": {
     "typo3/cms": {
       "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "extension-key": "t3v_content",
       "web-dir": ".build/web"
     }
   },

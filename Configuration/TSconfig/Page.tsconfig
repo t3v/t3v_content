@@ -1,0 +1,7 @@
+# -----------------
+# | Page TSconfig |
+# -----------------
+
+# === Imports ===
+
+@import './Page/GridElements.tsconfig'

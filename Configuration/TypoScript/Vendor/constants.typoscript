@@ -1,6 +1,0 @@
-# === Includes ===
-
-<INCLUDE_TYPOSCRIPT: source="FILE: ./TYPO3/constants.typoscript">
-
-<INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/constants.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./Replacecontent/constants.typoscript">

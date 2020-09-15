@@ -18,8 +18,6 @@ plugin {
       extbase {
         controllerExtensionName = {$plugin.tx_t3vcontent.settings.extbase.controllerExtensionName}
       }
-
-      mode = {$plugin.tx_t3vcontent.settings.mode}
     }
 
     view {
@@ -52,8 +50,7 @@ plugin {
   }
 }
 
-# === Includes ===
+# === Imports ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./Vendor/setup.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./Library/setup.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/setup.typoscript">
+@import './Extensions/setup.typoscript'
+@import './GridElements/setup.typoscript'

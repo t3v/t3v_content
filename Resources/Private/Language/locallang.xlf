@@ -1,19 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+<xliff version="1.0">
   <file product-name="t3v_content" source-language="en" datatype="plaintext" original="messages">
     <header />
 
     <body>
+      <!-- _XXX_CE_CREATOR_XXX_ -->
+
       <!-- === Grid Elements === -->
+
+      <!-- Carousel Grid Element -->
+
+      <trans-unit id="gridElements.carouselGridElement.controls.previous.label">
+        <source>Previous</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.carouselGridElement.controls.previous.title">
+        <source>Previous element</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.carouselGridElement.controls.next.label">
+        <source>Next</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.carouselGridElement.controls.next.title">
+        <source>Next element</source>
+      </trans-unit>
 
       <!-- Event Grid Element -->
 
-      <trans-unit id="gridElements.eventGridElement.toggle.label">
+      <trans-unit id="gridElements.eventGridElement.controls.toggle.label">
         <source>Toggle</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.eventGridElement.toggle.title">
+      <trans-unit id="gridElements.eventGridElement.controls.toggle.title">
         <source>Toggle</source>
+      </trans-unit>
+
+      <!-- Slider Grid Element -->
+
+      <trans-unit id="gridElements.sliderGridElement.controls.previous.label">
+        <source>Previous</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.sliderGridElement.controls.previous.title">
+        <source>Previous slide</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.sliderGridElement.controls.next.label">
+        <source>Next</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.sliderGridElement.controls.next.title">
+        <source>Next slide</source>
       </trans-unit>
     </body>
   </file>

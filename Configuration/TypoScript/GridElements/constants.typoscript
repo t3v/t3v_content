@@ -1,9 +1,14 @@
-# === Includes ===
+# === Imports ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./AccordionGridElement/constants.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./ColumnLayoutGridElement/constants.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./ConditionallyGridElement/constants.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./DocumentSectionGridElement/constants.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./PanelGridElement/constants.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./TimelineGridElement/constants.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./ViewportGridElement/constants.typoscript">
+@import './AccordionGridElement/constants.typoscript'
+@import './AccordGridElement/constants.typoscript'
+
+@import './CardGridElement/constants.typoscript'
+
+@import './SliderGridElement/constants.typoscript'
+@import './CarouselGridElement/constants.typoscript'
+
+@import './TimelineGridElement/constants.typoscript'
+@import './SessionGridElement/constants.typoscript'
+@import './TimeSlotGridElement/constants.typoscript'
+@import './EventGridElement/constants.typoscript'

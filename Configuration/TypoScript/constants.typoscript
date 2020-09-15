@@ -6,55 +6,6 @@
 
 plugin {
   tx_t3vcontent {
-    gridElements {
-      columnLayoutGridElement {
-        2Columns {
-          # plugin/tx_t3vcontent/gridElements/columnLayoutGridElement/2Columns; type=string; label=The grid element's container.
-          container = default
-        }
-
-        3Columns {
-          # plugin/tx_t3vcontent/gridElements/columnLayoutGridElement/3Columns; type=string; label=The grid element's container.
-          container = default
-        }
-      }
-
-      accordionGridElement {
-        # plugin/tx_t3vcontent/gridElements/accordionGridElement; type=string; label=The grid element's container.
-        container = none
-      }
-
-      accordGridElement {
-        # plugin/tx_t3vcontent/gridElements/accordGridElement; type=string; label=The grid element's container.
-        container = none
-      }
-
-      documentSectionGridElement {
-        # plugin/tx_t3vcontent/gridElements/documentSectionGridElement; type=string; label=The grid element's container.
-        container = default
-      }
-
-      panelGridElement {
-        # plugin/tx_t3vcontent/gridElements/panelGridElement; type=string; label=The grid element's container.
-        container = none
-      }
-
-      timelineGridElement {
-        # plugin/tx_t3vcontent/gridElements/timelineGridElement; type=string; label=The grid element's container.
-        container = none
-      }
-
-      eventGridElement {
-        # plugin/tx_t3vcontent/gridElements/eventGridElement; type=string; label=The grid element's container.
-        container = none
-      }
-
-      viewportGridElement {
-        # plugin/tx_t3vcontent/gridElements/viewportGridElement; type=string; label=The grid element's container.
-        container = none
-      }
-    }
-
     persistence {
       # cat=plugin/tx_t3vcontent/persistence; type=boolean; label=Enables the automatic cache clearing when changing data sets.
       enableAutomaticCacheClearing = 1
@@ -71,9 +22,6 @@ plugin {
         # cat=plugin/tx_t3vcontent/settings/extbase; type=string; label=The controller extension name.
         controllerExtensionName = T3vContent
       }
-
-      # cat=plugin/tx_t3vcontent/settings; type=options[Strict=strict,Fallback=fallback]; label=The mode in which T3v Content runs.
-      mode = strict
     }
 
     view {
@@ -89,8 +37,7 @@ plugin {
   }
 }
 
-# === Includes ===
+# === Imports ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./Vendor/constants.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./Library/constants.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/constants.typoscript">
+@import './Extensions/constants.typoscript'
+@import './GridElements/constants.typoscript'

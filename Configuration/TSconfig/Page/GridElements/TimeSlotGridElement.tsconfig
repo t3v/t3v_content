@@ -1,0 +1,87 @@
+# -----------------------------------
+# | Time Slot Grid Element TSconfig |
+# -----------------------------------
+
+# === Grid Element Configuration ===
+
+tx_gridelements {
+  setup {
+    t3vContentTimeSlot {
+      title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.timeSlotGridElement.title
+      description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.timeSlotGridElement.description
+      flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/TimeSlotGridElement.xml
+      iconIdentifier = t3v_content-time_slot_grid_element
+
+      # Use a colored frame as in the record form:
+      # `0` = no color
+      # `1` = red
+      # `2` = green
+      # `3` = blue
+      # frame = 0
+
+      # If this option is set, the Grid Element can be set as top level only.
+      # topLevelLayout = 1
+
+      # A list of IDs of layouts that should not be available in this branch of the page tree.
+      # excludeLayoutIds = 1,2,3
+
+      # Set this value to `1`, when you want TSconfig settings to have precedence over layout records with the same ID.
+      # overruleRecords = 1
+
+      config {
+        colCount = 2
+        rowCount = 3
+
+        rows {
+          # 1 {
+          #   columns {
+          #     1 {
+          #       name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.shared.columns.header.name
+          #       colspan = 2
+          #       colPos = 10
+          #
+          #       # allowed  =
+          #       # allowedGridTypes =
+          #     }
+          #   }
+          # }
+
+          2 {
+            columns {
+              1 {
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.shared.columns.visuals.name
+                colspan = 1
+                colPos = 19
+
+                # allowed =
+                # allowedGridTypes =
+              }
+
+              2 {
+                name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.shared.columns.description.name
+                colspan = 1
+                colPos = 20
+
+                # allowed =
+                # allowedGridTypes =
+              }
+            }
+          }
+
+          # 3 {
+          #   columns {
+          #     1 {
+          #       name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.shared.columns.footer.name
+          #       colspan = 2
+          #       colPos = 30
+          #
+          #       # allowed =
+          #       # allowedGridTypes =
+          #     }
+          #   }
+          # }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+# -------------------------------------
+# | Accord Grid Element Configuration |
+# -------------------------------------
+
+tt_content {
+  gridelements_pi1 {
+    20 {
+      10 {
+        setup {
+          t3vContentAccord < lib.gridelements.defaultGridSetup
+          t3vContentAccord {
+            cObject = FLUIDTEMPLATE
+            cObject {
+              file = EXT:t3v_content/Resources/Private/Templates/GridElements/AccordGridElement.html
+
+              layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+
+              partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+
+              dataProcessing {
+                10 = T3v\T3vBase\DataProcessing\GridElement\StyleProcessor
+                10 {
+                  default {
+                    as = styles
+                  }
+                }
+              }
+            }
+
+            outerWrap = |
+          }
+        }
+      }
+    }
+  }
+}

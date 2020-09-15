@@ -1,0 +1,36 @@
+# --------------------------------------
+# | Session Grid Element Configuration |
+# --------------------------------------
+
+tt_content {
+  gridelements_pi1 {
+    20 {
+      10 {
+        setup {
+          t3vContentSession < lib.gridelements.defaultGridSetup
+          t3vContentSession {
+            cObject = FLUIDTEMPLATE
+            cObject {
+              file = EXT:t3v_content/Resources/Private/Templates/GridElements/SessionGridElement.html
+
+              layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+
+              partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+
+              dataProcessing {
+                10 = T3v\T3vBase\DataProcessing\GridElement\StyleProcessor
+                10 {
+                  default {
+                    as = styles
+                  }
+                }
+              }
+            }
+
+            outerWrap = |
+          }
+        }
+      }
+    }
+  }
+}
