@@ -11,9 +11,9 @@ defined('TYPO3_MODE') or die();
 
 $namespace = 'T3v';
 $extensionKey = 't3v_content';
-$extensionSignature = \T3v\T3vCore\Utility\ExtensionUtility::signature($namespace, $extensionKey);
-$tsConfigFolder = \T3v\T3vCore\Utility\ExtensionUtility::tsConfigFolder($extensionKey);
-$iconsFolder = \T3v\T3vCore\Utility\ExtensionUtility::iconsFolder($extensionKey);
+$extensionSignature = \T3v\T3vCore\Utility\ExtensionUtility::getSignature($namespace, $extensionKey);
+$tsConfigFolder = \T3v\T3vCore\Utility\ExtensionUtility::getTSConfigFolder($extensionKey);
+$iconsFolder = \T3v\T3vCore\Utility\ExtensionUtility::getIconsFolder($extensionKey);
 
 // === TSconfig ===
 
@@ -41,8 +41,8 @@ if (TYPO3_MODE === 'BE') {
     ];
 
     foreach ($icons as $name => $source) {
-        $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::identifier($name);
-        $iconSignature = \T3v\T3vCore\Utility\IconUtility::signature($extensionKey, $iconIdentifier);
+        $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::getIdentifier($name);
+        $iconSignature = \T3v\T3vCore\Utility\IconUtility::getSignature($extensionKey, $iconIdentifier);
 
         $iconRegistry->registerIcon(
             $iconSignature,
