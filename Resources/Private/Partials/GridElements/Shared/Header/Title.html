@@ -1,5 +1,5 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-  <f:if condition="{title}">
+<html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+  <f:if condition="{gridElement} && {title} && {layout}">
     <f:switch expression="{layout}">
       <f:case value="1">
         <h1 class="{gridElement}__title grid-element__title">
@@ -50,7 +50,7 @@
       </f:case>
 
       <f:case value="100">
-        <f:comment>Hidden Title</f:comment>
+        <f:comment><!-- Hidden Title --></f:comment>
       </f:case>
     </f:switch>
   </f:if>

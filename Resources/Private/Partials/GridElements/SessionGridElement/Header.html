@@ -1,26 +1,25 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
-      data-namespace-typo3-fluid="true">
-  <v:variable.set name="title" value="{data.header}" />
-  <v:variable.set name="subtitle" value="{data.subheader}" />
-  <v:variable.set name="link" value="{data.header_link}" />
-  <v:variable.set name="date" value="{data.date}" />
-  <v:variable.set name="layout" value="{data.header_layout}" />
-  <v:variable.set name="position" value="{f:if(condition: data.header_position, then: '{data.header_position}', else: 'default')}" />
+<html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <v:variable.set name="title" value="{v:variable.convert(value: data.header, type: 'string')}" />
+  <v:variable.set name="subtitle" value="{v:variable.convert(value: data.subheader, type: 'string')}" />
+  <v:variable.set name="link" value="{v:variable.convert(value: data.header_link, type: 'string')}" />
+  <v:variable.set name="date" value="{v:variable.convert(value: data.date, type: 'string')}" />
+  <v:variable.set name="layout" value="{v:variable.convert(value: data.header_layout, type: 'integer', default: 0)}" />
+  <v:variable.set name="position" value="{v:variable.convert(value: data.header_position, type: 'string', default: 'default')}" />
+  <v:variable.set name="timeSpan" value="{v:variable.convert(value: data.flexform_timeSpan, type: 'string')}" />
 
   <v:tag name="div" class="{gridElement}__header grid-element__header" data="{position: position}" hideIfEmpty="true">
-    <v:tag name="div" class="{gridElement}__time-span grid-element__time-span" hideIfEmpty="true">
-      {data.flexform_timeSpan}
-    </v:tag>
+    <v:tag name="div" class="{gridElement}__time-span grid-element__time-span" hideIfEmpty="true">{timeSpan}</v:tag>
 
     <v:tag name="div" class="{gridElement}__subject grid-element__subject" hideIfEmpty="true">
       <f:render partial="GridElements/Shared/Header/Title"
-                arguments="{gridElement: gridElement, title: title, link: link, layout: layout, position: position}" />
+                arguments="{gridElement: gridElement, title: title, link: link, layout: layout}" />
 
       <f:render partial="GridElements/Shared/Header/Subtitle"
-                arguments="{gridElement: gridElement, subtitle: subtitle, layout: layout, position: position}" />
+                arguments="{gridElement: gridElement, subtitle: subtitle, layout: layout}" />
 
       <f:render partial="GridElements/Shared/Header/Date"
-                arguments="{gridElement: gridElement, date: date, position: position}" />
+                arguments="{gridElement: gridElement, date: date}" />
     </v:tag>
   </v:tag>
 </html>
