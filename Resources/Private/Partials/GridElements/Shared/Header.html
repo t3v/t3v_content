@@ -11,7 +11,6 @@
   <v:tag name="div" class="{gridElement}__header grid-element__header" data="{position: position}" hideIfEmpty="true">
     <f:if condition="{title} || {subtitle} || {date}">
       <f:if condition="{layout} != 0 && {layout} != 100">
-
         <f:render partial="GridElements/Shared/Header/Title"
                   arguments="{gridElement: gridElement, title: title, link: link, layout: layout}" />
 
