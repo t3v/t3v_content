@@ -6,7 +6,7 @@
 
 @import 'EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript'
 
-# === Styles ===
+# === Overrides ===
 
 styles {
   content {
@@ -80,14 +80,14 @@ styles {
 [compatVersion = 9.5]
 styles {
   templates {
-    # cat=content/templates/b3; type=string; label=The path of Fluid layouts for all defined content elements.
-    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Extensions/FluidStyledContent/9.5/
+    # cat=content/templates/b3; type=string; label=The root path where the layouts are stored
+    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/FluidStyledContent/9.5/
 
-    # cat=content/templates/b1; type=string; label=The path of Fluid templates for all defined content elements.
-    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Extensions/FluidStyledContent/9.5/
+    # cat=content/templates/b1; type=string; label=The root path where the templates are stored
+    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/FluidStyledContent/9.5/
 
-    # cat=content/templates/b2; type=string; label=The path of Fluid partials for all defined content elements.
-    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Extensions/FluidStyledContent/9.5/
+    # cat=content/templates/b2; type=string; label=The root path where the partials are stored
+    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/9.5/
   }
 }
 [global]
@@ -95,14 +95,14 @@ styles {
 [compatVersion = 10.4]
 styles {
   templates {
-    # cat=content/templates/b3; type=string; label=The path of Fluid layouts for all defined content elements.
-    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Extensions/FluidStyledContent/10.4/
+    # cat=content/templates/b3; type=string; label=The root path where the layouts are stored
+    layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/FluidStyledContent/10.4/
 
-    # cat=content/templates/b1; type=string; label=The path of Fluid templates for all defined content elements.
-    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Extensions/FluidStyledContent/10.4/
+    # cat=content/templates/b1; type=string; label=The root path where the templates are stored
+    templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/FluidStyledContent/10.4/
 
-    # cat=content/templates/b2; type=string; label=The path of Fluid partials for all defined content elements.
-    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Extensions/FluidStyledContent/10.4/
+    # cat=content/templates/b2; type=string; label=The root path where the partials are stored
+    partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/10.4/
   }
 }
 [global]

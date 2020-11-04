@@ -1,3 +1,7 @@
+# --------------------
+# | Vendor Constants |
+# --------------------
+
 # === Imports ===
 
 @import './FluidStyledContent/constants.typoscript'
