@@ -1,3 +1,7 @@
+# -----------------------
+# | Grid Elements Setup |
+# -----------------------
+
 # === Imports ===
 
 @import './AccordionGridElement/setup.typoscript'

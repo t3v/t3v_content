@@ -1,3 +1,7 @@
+# ---------------------------
+# | Grid Elements Constants |
+# ---------------------------
+
 # === Imports ===
 
 @import './AccordionGridElement/constants.typoscript'
