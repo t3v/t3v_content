@@ -1,6 +1,6 @@
-# ------------------------------------
-# | Event Grid Element Configuration |
-# ------------------------------------
+# ----------------------------
+# | Event Grid Element Setup |
+# ----------------------------
 
 tt_content {
   gridelements_pi1 {

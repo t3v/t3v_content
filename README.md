@@ -5,13 +5,6 @@
 
 **The content extension of [TYPO3voilà].**
 
-Installation
-------------
-
-1. Add T3v Content as dependency to the [Composer] configuration
-2. Run `composer install` or `composer update` to install all dependencies with Composer
-3. Include the TypoScript for T3v Content
-
 Grid Elements
 -------------
 
@@ -59,6 +52,13 @@ Content Elements
 * Plain HTML Content Element
 * Divider Content Element
 * Insert records Content Element
+
+Installation
+------------
+
+1. Add T3v Content as dependency to the [Composer] configuration
+2. Run `composer install` or `composer update` to install all dependencies with Composer
+3. Include the TypoScript for T3v Content
 
 Dependencies
 ------------

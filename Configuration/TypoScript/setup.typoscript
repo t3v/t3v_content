@@ -1,6 +1,6 @@
-# -----------------------------
-# | T3v Content Configuration |
-# -----------------------------
+# ---------------------
+# | T3v Content Setup |
+# ---------------------
 
 # === Plugin Configuration ===
 
@@ -14,6 +14,18 @@ plugin {
       updateReferenceIndex = {$plugin.tx_t3vcontent.persistence.updateReferenceIndex}
     }
 
+    resources {
+      rootPath = {$plugin.tx_t3vcontent.resources.rootPath}
+
+      private {
+        rootPath = {$plugin.tx_t3vcontent.resources.private.rootPath}
+      }
+
+      public {
+        rootPath = {$plugin.tx_t3vcontent.resources.public.rootPath}
+      }
+    }
+
     settings {
       extbase {
         controllerExtensionName = {$plugin.tx_t3vcontent.settings.extbase.controllerExtensionName}
@@ -23,26 +35,27 @@ plugin {
     view {
       layoutRootPath = {$plugin.tx_t3vcontent.view.layoutRootPath}
 
-      # Used to define several paths for layouts, which will be tried in reversed order (the paths are searched from
-      # bottom to top). The first folder where the desired layout is found, is used. If the array keys are numeric,
-      # they are first sorted and then tried in reversed order.
+      # Defines several paths for layouts, which will be tried in reversed order (the paths are searched from bottom to top).
+      # The first folder where the desired layout is found, is used. If the array keys are numeric, they are first sorted and then tried in
+      # reversed order.
       layoutRootPaths {
         0 = {$plugin.tx_t3vcontent.view.layoutRootPath}
       }
 
       templateRootPath = {$plugin.tx_t3vcontent.view.templateRootPath}
 
-      # Used to define several paths for templates, which will be tried in reversed order (the paths are searched from
-      # bottom to top). The first folder where the desired layout is found, is used. If the array keys are numeric,
-      # they are first sorted and then tried in reversed order.
+      # Defines several paths for templates, which will be tried in reversed order (the paths are searched from bottom to top).
+      # The first folder where the desired template is found, is used. If the array keys are numeric, they are first sorted and then tried
+      # in reversed order.
       templateRootPaths {
         0 = {$plugin.tx_t3vcontent.view.templateRootPath}
       }
 
       partialRootPath = {$plugin.tx_t3vcontent.view.partialRootPath}
 
-      # Used to define several paths for partials, which will be tried in reversed order. The first folder where the
-      # desired partial is found, is used. The keys of the array define the order.
+      # Defines several paths for partials, which will be tried in reversed order (the paths are searched from bottom to top).
+      # The first folder where the desired partial is found, is used. If the array keys are numeric, they are first sorted and then tried in
+      # reversed order.
       partialRootPaths {
         0 = {$plugin.tx_t3vcontent.view.partialRootPath}
       }
@@ -54,3 +67,5 @@ plugin {
 
 @import './Extensions/setup.typoscript'
 @import './GridElements/setup.typoscript'
+
+# _XXX_T3V_GENERATOR_XXX_

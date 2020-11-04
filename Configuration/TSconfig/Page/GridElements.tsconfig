@@ -4,8 +4,6 @@
 
 # === Imports ===
 
-# _XXX_CE_CREATOR_XXX_
-
 @import './GridElements/AccordionGridElement.tsconfig'
 @import './GridElements/AccordGridElement.tsconfig'
 
@@ -18,3 +16,5 @@
 @import './GridElements/SessionGridElement.tsconfig'
 @import './GridElements/TimeSlotGridElement.tsconfig'
 @import './GridElements/EventGridElement.tsconfig'
+
+# _XXX_T3V_GENERATOR_XXX_

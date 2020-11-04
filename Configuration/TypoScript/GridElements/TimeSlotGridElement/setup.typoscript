@@ -1,6 +1,6 @@
-# ----------------------------------------
-# | Time Slot Grid Element Configuration |
-# ----------------------------------------
+# --------------------------------
+# | Time Slot Grid Element Setup |
+# --------------------------------
 
 tt_content {
   gridelements_pi1 {
