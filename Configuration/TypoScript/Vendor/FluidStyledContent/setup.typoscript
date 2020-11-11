@@ -1,6 +1,6 @@
-# ------------------------------
-# | Fluid Styled Content Setup |
-# ------------------------------
+# ------------------------------------------
+# | T3v Content Fluid Styled Content Setup |
+# ------------------------------------------
 
 # === Imports ===
 
@@ -81,7 +81,7 @@ lib {
 
 # tt_content {
 #   stdWrap {
-#     # Setup the edit panel for all content elements
+#     # Setup the edit panel for all content elements:
 #     editPanel = 1
 #     editPanel {
 #       allow = move, new, edit, hide, delete

@@ -1,6 +1,6 @@
-# --------------------------------
-# | Time Slot Grid Element Setup |
-# --------------------------------
+# --------------------------------------------
+# | T3v Content Time Slot Grid Element Setup |
+# --------------------------------------------
 
 # === Grid Element Configuration ===
 
@@ -13,15 +13,20 @@ tt_content {
           t3vContentTimeSlot {
             cObject = FLUIDTEMPLATE
             cObject {
-              file = EXT:t3v_content/Resources/Private/Templates/GridElements/TimeSlotGridElement.html
-
-              layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
-
-              partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+              file = {$plugin.tx_t3vcontent.settings.gridElements.timeSlotGridElement.cObject.file}
+              layoutRootPath = {$plugin.tx_t3vcontent.settings.gridElements.timeSlotGridElement.cObject.layoutRootPath}
+              partialRootPath = {$plugin.tx_t3vcontent.settings.gridElements.timeSlotGridElement.cObject.partialRootPath}
 
               dataProcessing {
-                10 = T3v\T3vBase\DataProcessing\GridElement\StyleProcessor
+                10 = T3v\T3vBase\DataProcessing\GridElement\ThemeProcessor
                 10 {
+                  default {
+                    as = theme
+                  }
+                }
+
+                20 = T3v\T3vBase\DataProcessing\GridElement\StyleProcessor
+                20 {
                   default {
                     as = styles
                   }
@@ -29,7 +34,7 @@ tt_content {
               }
             }
 
-            outerWrap = |
+            outerWrap = {$plugin.tx_t3vcontent.settings.gridElements.timeSlotGridElement.outerWrap}
           }
         }
       }

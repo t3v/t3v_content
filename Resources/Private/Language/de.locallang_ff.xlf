@@ -63,6 +63,11 @@
         <target>Benutzerdefiniert</target>
       </trans-unit>
 
+      <trans-unit id="settings.handle.label">
+        <source>Handle</source>
+        <target>Kurzname</target>
+      </trans-unit>
+
       <trans-unit id="settings.layout.label">
         <source>Layout</source>
         <target>Layout</target>

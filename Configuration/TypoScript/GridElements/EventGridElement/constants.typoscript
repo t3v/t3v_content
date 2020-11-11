@@ -1,3 +1,23 @@
-# --------------------------------
-# | Event Grid Element Constants |
-# --------------------------------
+# --------------------------------------------
+# | T3v Content Event Grid Element Constants |
+# --------------------------------------------
+
+# === Plugin Constants ===
+
+plugin {
+  tx_t3vcontent {
+    settings {
+      gridElements {
+        eventGridElement {
+          cObject {
+            file = EXT:t3v_content/Resources/Private/Templates/GridElements/EventGridElement.html
+            layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+            partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+          }
+
+          outerWrap = |
+        }
+      }
+    }
+  }
+}

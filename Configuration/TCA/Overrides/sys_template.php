@@ -9,7 +9,7 @@ defined('TYPO3_MODE') or die();
 
 // === Variables ===
 
-$extensionKey   = 't3v_content';
+$extensionKey = 't3v_content';
 $extensionTitle = 'T3v Content';
 
 // === TypoScript ===

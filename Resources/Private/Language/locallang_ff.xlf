@@ -52,6 +52,10 @@
         <source>Custom</source>
       </trans-unit>
 
+      <trans-unit id="settings.handle.label">
+        <source>Handle</source>
+      </trans-unit>
+
       <trans-unit id="settings.layout.label">
         <source>Layout</source>
       </trans-unit>

@@ -1,3 +1,23 @@
-# -----------------------------------
-# | Carousel Grid Element Constants |
-# -----------------------------------
+# -----------------------------------------------
+# | T3v Content Carousel Grid Element Constants |
+# -----------------------------------------------
+
+# === Plugin Constants ===
+
+plugin {
+  tx_t3vcontent {
+    settings {
+      gridElements {
+        carouselGridElement {
+          cObject {
+            file = EXT:t3v_content/Resources/Private/Templates/GridElements/CarouselGridElement.html
+            layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+            partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+          }
+
+          outerWrap = |
+        }
+      }
+    }
+  }
+}

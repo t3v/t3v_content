@@ -1,3 +1,23 @@
-# ----------------------------------
-# | Session Grid Element Constants |
-# ----------------------------------
+# ----------------------------------------------
+# | T3v Content Session Grid Element Constants |
+# ----------------------------------------------
+
+# === Plugin Constants ===
+
+plugin {
+  tx_t3vcontent {
+    settings {
+      gridElements {
+        sessionGridElement {
+          cObject {
+            file = EXT:t3v_content/Resources/Private/Templates/GridElements/SessionGridElement.html
+            layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+            partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+          }
+
+          outerWrap = |
+        }
+      }
+    }
+  }
+}

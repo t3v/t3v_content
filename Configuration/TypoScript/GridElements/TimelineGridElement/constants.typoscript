@@ -1,3 +1,23 @@
 # -----------------------------------
 # | Timeline Grid Element Constants |
 # -----------------------------------
+
+# === Plugin Constants ===
+
+plugin {
+  tx_t3vcontent {
+    settings {
+      gridElements {
+        timelineGridElement {
+          cObject {
+            file = EXT:t3v_content/Resources/Private/Templates/GridElements/TimelineGridElement.html
+            layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+            partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+          }
+
+          outerWrap = |
+        }
+      }
+    }
+  }
+}

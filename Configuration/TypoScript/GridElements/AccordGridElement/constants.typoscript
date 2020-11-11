@@ -1,3 +1,23 @@
-# ---------------------------------
-# | Accord Grid Element Constants |
-# ---------------------------------
+# ---------------------------------------------
+# | T3v Content Accord Grid Element Constants |
+# ---------------------------------------------
+
+# === Plugin Constants ===
+
+plugin {
+  tx_t3vcontent {
+    settings {
+      gridElements {
+        accordGridElement {
+          cObject {
+            file = EXT:t3v_content/Resources/Private/Templates/GridElements/AccordGridElement.html
+            layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+            partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+          }
+
+          outerWrap = |
+        }
+      }
+    }
+  }
+}

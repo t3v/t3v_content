@@ -1,3 +1,23 @@
-# ---------------------------------
-# | Slider Grid Element Constants |
-# ---------------------------------
+# ---------------------------------------------
+# | T3v Content Slider Grid Element Constants |
+# ---------------------------------------------
+
+# === Plugin Constants ===
+
+plugin {
+  tx_t3vcontent {
+    settings {
+      gridElements {
+        sliderGridElement {
+          cObject {
+            file = EXT:t3v_content/Resources/Private/Templates/GridElements/SliderGridElement.html
+            layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+            partialRootPath = EXT:t3v_content/Resources/Private/Partials/
+          }
+
+          outerWrap = |
+        }
+      }
+    }
+  }
+}
