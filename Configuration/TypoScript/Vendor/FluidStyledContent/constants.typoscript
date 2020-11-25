@@ -119,4 +119,32 @@ styles {
       partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/10.4/
     }
   }
-[global]
+[compatVersion("9.5")]
+  styles {
+    templates {
+      # The root path where the Fluid layouts are stored for all defined content elements:
+      layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/FluidStyledContent/9.5/
+
+      # The root path where the Fluid templates are stored for all defined content elements:
+      templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/FluidStyledContent/9.5/
+
+      # The root path where the Fluid partials are stored for all defined content elements:
+      partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/9.5/
+    }
+  }
+[end]
+
+[compatVersion("10.4")]
+  styles {
+    templates {
+      # The root path where the Fluid layouts are stored for all defined content elements:
+      layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/Vendor/FluidStyledContent/10.4/
+
+      # The root path where the Fluid templates are stored for all defined content elements:
+      templateRootPath = EXT:t3v_content/Resources/Private/Templates/Vendor/FluidStyledContent/10.4/
+
+      # The root path where the Fluid partials are stored for all defined content elements:
+      partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/10.4/
+    }
+  }
+[end]
