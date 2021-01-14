@@ -63,4 +63,15 @@ plugin {
   }
 }
 
-# _XXX_T3V_GENERATOR_XXX_
+# === Module Configuration ===
+
+module {
+  tx_t3vcontent {
+    persistence < plugin.tx_t3vcontent.persistence
+    resources < plugin.tx_t3vcontent.resources
+    settings < plugin.tx_t3vcontent.settings
+    view < plugin.tx_t3vcontent.view
+  }
+}
+
+# === T3v Generator ===
