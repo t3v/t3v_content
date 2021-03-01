@@ -19,10 +19,9 @@ class ContentElementUtility {
     if (strpos($contentElementIdentifier, '_') ||
         strpos($contentElementIdentifier, '-') ||
         strpos($contentElementIdentifier, ' ')) {
-      $contentElementIdentifier    = mb_strtolower($contentElementKey);
-      $contentElementIdentifier    = str_replace('_', ' ', $contentElementIdentifier);
-      $contentElementIdentifier    = str_replace('-', ' ', $contentElementIdentifier);
-      $contentElementIdentifier    = str_replace(' ', '', ucwords($contentElementIdentifier));
+      $contentElementIdentifier = mb_strtolower($contentElementKey);
+      $contentElementIdentifier = str_replace(['_', '-'], ' ', $contentElementIdentifier);
+      $contentElementIdentifier = str_replace(' ', '', ucwords($contentElementIdentifier));
     }
 
     if ($contentElementIdentifier[0]) {
@@ -50,9 +49,7 @@ class ContentElementUtility {
    * @return string The content element signature
    */
   public static function contentElementSignature(string $extensionIdentifier, string $contentElementIdentifier): string {
-    $contentElementSignature = mb_strtolower($extensionIdentifier . '_' . $contentElementIdentifier);
-
-    return $contentElementSignature;
+    return mb_strtolower($extensionIdentifier . '_' . $contentElementIdentifier);
   }
 
   /**
