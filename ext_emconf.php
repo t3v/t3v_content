@@ -17,11 +17,7 @@ $EM_CONF[$_EXTKEY] = [
         'depends' => [
             'typo3' => '9.5.0-11.5.99',
             'fluid_styled_content' => '9.5.0-11.5.99',
-            'gridelements' => '',
-            'sms_responsive_images' => '',
-            'vhs' => '',
-            't3v_core' => '',
-            't3v_translations' => ''
+            't3v_base' => ''
         ],
         'conflicts' => [
             'css_styled_content' => '9.5.0-11.5.99'
