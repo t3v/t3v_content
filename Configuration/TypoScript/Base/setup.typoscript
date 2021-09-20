@@ -8,9 +8,7 @@ plugin {
   tx_t3vcontent {
     persistence {
       enableAutomaticCacheClearing = {$plugin.tx_t3vcontent.persistence.enableAutomaticCacheClearing}
-
       storagePid = {$plugin.tx_t3vcontent.persistence.storagePid}
-
       updateReferenceIndex = {$plugin.tx_t3vcontent.persistence.updateReferenceIndex}
     }
 

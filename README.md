@@ -1,8 +1,6 @@
 [T3v Content]
 =============
 
-[![Travis CI Status][Travis CI Status]][Travis CI]
-
 **The content extension of [TYPO3voilà].**
 
 Grid Elements
@@ -75,20 +73,19 @@ Development
 
 ### Setup
 
-```
-$ ./Scripts/Setup.sh
+```sh
+git clone https://github.com/t3v/t3v_content.git && cd t3v_content
+
+./Scripts/Setup.sh
 ```
 
-### Run Unit Tests
+### Testing
 
-```
-$ ./Scripts/Tests/Unit.sh
-```
-
-### Run Functional Tests
-
-```
-$ ./Scripts/Tests/Functional.sh
+```sh
+./Scripts/Tests.sh
+./Scripts/Tests/Unit.sh
+./Scripts/Tests/Functional.sh
+./Scripts/Tests/Migrate.sh
 ```
 
 Bug Reports
@@ -138,7 +135,5 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Smashicons]: https://www.flaticon.com/authors/smashicons "Smashicons"
 [T3v Content]: https://t3v.github.io/t3v_content/ "The content extension of TYPO3voilà."
 [Timeline icon]: https://www.flaticon.com/free-icon/timeline_292332 "Timeline icon"
-[Travis CI]: https://travis-ci.org/t3v/t3v_content "T3v Content at Travis CI"
-[Travis CI Status]: https://img.shields.io/travis/t3v/t3v_content.svg?style=flat "Travis CI Status"
 [TYPO3voilà]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
 [Unit Testing TYPO3]: https://wiki.typo3.org/Unit_Testing_TYPO3 "Unit testing TYPO3"
