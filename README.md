@@ -63,10 +63,7 @@ Dependencies
 
 * TYPO3 CMS 9.5 or greater
 * Fluid Styled Content extension
-* Grid Elements extension
-* SMS Responsive Images extension
-* VHS extension
-* T3v Core extension
+* T3v Base extension
 
 Development
 -----------
