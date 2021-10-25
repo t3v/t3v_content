@@ -1,23 +1,16 @@
 <html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
-  <v:variable.set name="signature" value="ge--t3v-content-event" />
+  <v:variable.set name="signature" value="ge--t3v-content-column-layout" />
   <v:variable.set name="tag" value="div" />
   <v:variable.set name="uid" value="{v:variable.convert(value: data.uid, type: 'integer', default: 0)}" />
   <v:variable.set name="id" value="c{uid}" />
+  <v:variable.set name="spread" value="{v:variable.convert(value: data.flexform_spread, type: 'string', default: '50-50')}" />
+  <v:variable.set name="breakpoint" value="{v:variable.convert(value: data.flexform_breakpoint, type: 'string', default: 'default')}" />
   <v:variable.set name="container" value="{v:variable.convert(value: data.flexform_container, type: 'string', default: 'none')}" />
   <v:variable.set name="passthrough" value="{v:variable.convert(value: data.flexform_passthrough, type: 'boolean', default: false)}" />
 
-  <v:tag name="{tag}" id="{id}" class="{signature} ge" hideIfEmpty="false" forceClosingTag="true">
-    <f:if condition="{container} != 'none'">
-      <f:then>
-        <v:tag name="div" class="ge__container container--{container} container" hideIfEmpty="true">
-          <f:render section="GridElement" arguments="{_all}" />
-        </v:tag>
-      </f:then>
-
-      <f:else>
-        <f:render section="GridElement" arguments="{_all}" />
-      </f:else>
-    </f:if>
+  <v:tag name="{tag}" id="{id}" class="{signature}--{spread} {signature}--{breakpoint} {signature} ge" hideIfEmpty="false"
+         forceClosingTag="true">
+    <f:render section="GridElement" arguments="{_all}" />
   </v:tag>
 </html>

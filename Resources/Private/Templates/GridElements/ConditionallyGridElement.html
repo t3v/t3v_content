@@ -1,19 +1,19 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3vCore="http://typo3.org/ns/T3v/T3vCore/ViewHelpers"
-      xmlns:t3vContent="http://typo3.org/ns/T3v/T3vContent/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
-      data-namespace-typo3-fluid="true">
-  <f:layout name="ConditionallyGridElement" />
+<html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:t3vCore="http://typo3.org/ns/T3v/T3vCore/ViewHelpers" xmlns:t3vContent="http://typo3.org/ns/T3v/T3vContent/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <f:layout name="GridElements/ConditionallyGridElement" />
 
   <f:section name="GridElement">
     <f:if condition="{data.flexform_languageUid} >= 0">
       <v:variable.set name="languageUid" value="{t3vCore:page.languageUid(default: '0')}" />
 
-      <f:if condition="{languageUid} == {data.flexform_languageUid}">
+      <f:if condition="{data.flexform_languageUid} == {languageUid}">
         <f:then>
-          <f:format.raw>{t3vContent:viewColumn(viewColumn: 101, data: data)}</f:format.raw>
+          <f:format.raw>{t3vContent:viewColumn(viewColumn: 101, data: data, passthrough: passthrough)}</f:format.raw>
         </f:then>
 
         <f:else>
-          <f:format.raw>{t3vContent:viewColumn(viewColumn: 102, data: data)}</f:format.raw>
+          <f:format.raw>{t3vContent:viewColumn(viewColumn: 102, data: data, passthrough: passthrough)}</f:format.raw>
         </f:else>
       </f:if>
     </f:if>

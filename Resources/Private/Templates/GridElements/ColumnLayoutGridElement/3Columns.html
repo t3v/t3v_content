@@ -1,22 +1,24 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers"
       xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
-  <f:layout name="ColumnLayoutGridElement/3Columns" />
+  <f:layout name="GridElements/ColumnLayoutGridElement" />
 
   <f:section name="GridElement">
-    <v:variable.set name="container" value="{f:cObject(typoscriptObjectPath: 'lib.plugin.tx_t3vcontent.gridElements.columnLayoutGridElement.3Columns.container')}" />
+    <f:render partial="GridElements/Shared/Header" arguments="{data: data, passthrough: passthrough}" />
 
-    <f:if condition="{data.flexform_container}">
-      <v:variable.set name="container" value="{data.flexform_container}" />
+    <f:if condition="{container} != 'none'">
+      <f:then>
+        <v:tag name="div" class="ge__container container--{container} container" data="{type: container}" hideIfEmpty="true">
+          <f:render section="Columns" arguments="{_all}" />
+        </v:tag>
+      </f:then>
+
+      <f:else>
+        <f:render section="Columns" arguments="{_all}" />
+      </f:else>
     </f:if>
-
-    <f:render partial="Shared/Header" arguments="{data: data}" />
-
-    <v:tag name="div" class="ge__container container--{container} container" hideIfEmpty="true">
-      <f:render section="Container" arguments="{data: data}" />
-    </v:tag>
   </f:section>
 
-  <f:section name="Container">
+  <f:section name="Columns">
     <div class="ge__column">
       <f:format.raw>{t3v:viewColumn(viewColumn: 101, data: data)}</f:format.raw>
     </div>

@@ -10,7 +10,7 @@
     <el>
       <languageUid>
         <TCEforms type="array">
-          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.languageUid.label</label>
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.languageUid.label</label>
           <config type="array">
             <type>select</type>
             <renderType>selectSingle</renderType>
@@ -18,12 +18,12 @@
             <foreign_table_where>ORDER BY sys_language.title</foreign_table_where>
             <items type="array">
               <numIndex index="0" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.languageUid.none.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.languageUid.none.label</numIndex>
                 <numIndex index="1"></numIndex>
               </numIndex>
 
               <numIndex index="1" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:gridElements.shared.settings.languageUid.default.label</numIndex>
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.languageUid.default.label</numIndex>
                 <numIndex index="1">0</numIndex>
               </numIndex>
             </items>
@@ -37,6 +37,16 @@
           </config>
         </TCEforms>
       </languageUid>
+
+      <passthrough>
+        <TCEforms type="array">
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.passthrough.label</label>
+          <config type="array">
+            <type>check</type>
+            <default>0</default>
+          </config>
+        </TCEforms>
+      </passthrough>
     </el>
   </ROOT>
 </T3DataStructure>

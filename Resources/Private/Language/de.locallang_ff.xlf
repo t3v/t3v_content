@@ -4,233 +4,258 @@
     <header />
 
     <body>
-      <!-- === Grid Elements === -->
+      <!-- === Settings === -->
 
-      <!-- Document Section Grid Element -->
-
-      <trans-unit id="gridElements.documentSectionGridElement.settings.abstract.label">
+      <trans-unit id="settings.abstract.label">
         <source>Abstract</source>
         <target>Zusammenfassung</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.documentSectionGridElement.settings.slug.label">
-        <source>Slug</source>
-        <target>Identifikation</target>
-      </trans-unit>
-
-      <!-- Viewport Grid Element -->
-
-      <trans-unit id="gridElements.viewportGridElement.settings.visibility.label">
-        <source>Visibility</source>
-        <target>Sichtbarkeit</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.viewportGridElement.settings.visibility.mobileOnly.label">
-        <source>Mobile only</source>
-        <target>Nur Mobil</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.viewportGridElement.settings.visibility.desktopOnly.label">
-        <source>Desktop only</source>
-        <target>Nur Desktop</target>
-      </trans-unit>
-
-      <!-- Shared -->
-
-      <trans-unit id="gridElements.shared.settings.breakpoint.label">
+      <trans-unit id="settings.breakpoint.label">
         <source>Breakpoint</source>
         <target>Breakpoint</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.breakpoint.default.label">
+      <trans-unit id="settings.breakpoint.default.label">
         <source>Default</source>
         <target>Standard</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.breakpoint.small.label">
+      <trans-unit id="settings.breakpoint.small.label">
         <source>Small</source>
         <target>Klein</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.breakpoint.moderate.label">
+      <trans-unit id="settings.breakpoint.moderate.label">
         <source>Moderate</source>
         <target>Moderat</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.breakpoint.medium.label">
+      <trans-unit id="settings.breakpoint.medium.label">
         <source>Medium</source>
         <target>Medium</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.breakpoint.large.label">
+      <trans-unit id="settings.breakpoint.large.label">
         <source>Large</source>
         <target>Groß</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.breakpoint.big.label">
+      <trans-unit id="settings.breakpoint.big.label">
         <source>Big</source>
         <target>Beträchtlich</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.breakpoint.great.label">
+      <trans-unit id="settings.breakpoint.great.label">
         <source>Great</source>
         <target>Riesig</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.breakpoint.custom.label">
+      <trans-unit id="settings.breakpoint.custom.label">
         <source>Custom</source>
         <target>Benutzerdefiniert</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.container.label">
+      <trans-unit id="settings.container.label">
         <source>Container</source>
         <target>Container</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.container.none.label">
+      <trans-unit id="settings.container.none.label">
         <source>None</source>
         <target>Ohne</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.container.default.label">
+      <trans-unit id="settings.container.default.label">
         <source>Default</source>
         <target>Standard</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.container.small.label">
+      <trans-unit id="settings.container.small.label">
         <source>Small</source>
         <target>Klein</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.container.moderate.label">
+      <trans-unit id="settings.container.moderate.label">
         <source>Moderate</source>
         <target>Moderat</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.container.medium.label">
+      <trans-unit id="settings.container.medium.label">
         <source>Medium</source>
         <target>Medium</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.container.large.label">
+      <trans-unit id="settings.container.large.label">
         <source>Large</source>
         <target>Groß</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.container.big.label">
+      <trans-unit id="settings.container.big.label">
         <source>Big</source>
         <target>Beträchtlich</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.container.great.label">
+      <trans-unit id="settings.container.great.label">
         <source>Great</source>
         <target>Riesig</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.container.custom.label">
+      <trans-unit id="settings.container.custom.label">
         <source>Custom</source>
         <target>Benutzerdefiniert</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.settings.languageUid.label">
-        <source>Language</source>
-        <target>Sprache</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.shared.settings.languageUid.none.label">
-        <source>Choose a language</source>
-        <target>Bitte wählen Sie eine Sprache aus</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.shared.settings.languageUid.default.label">
-        <source>Default language</source>
-        <target>Standardsprache</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.shared.settings.spread.label">
-        <source>Spread</source>
-        <target>Verteilung</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.shared.settings.spread.5050.label">
-        <source>50% 50%</source>
-        <target>50% 50%</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.shared.settings.spread.7525.label">
-        <source>75% 25%</source>
-        <target>75% 25%</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.shared.settings.spread.2575.label">
-        <source>25% 75%</source>
-        <target>25% 75%</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.shared.settings.spread.333333.label">
-        <source>33% 33% 33%</source>
-        <target>33% 33% 33%</target>
-      </trans-unit>
-
-      <!-- === Content Elements === -->
-
-      <!-- Spacer Content Element -->
-
-      <trans-unit id="contentElements.spacerContentElement.settings.customHeight.label">
+      <trans-unit id="settings.customHeight.label">
         <source>Custom height in pixel</source>
         <target>Benutzerdefinierte Höhe in Pixel</target>
       </trans-unit>
 
-      <!-- Shared -->
-
-      <trans-unit id="contentElements.shared.settings.sheetTitle">
-        <source>Settings</source>
-        <target>Einstellungen</target>
+      <trans-unit id="settings.languageUid.label">
+        <source>Language</source>
+        <target>Sprache</target>
       </trans-unit>
 
-      <trans-unit id="contentElements.shared.settings.type.label">
+      <trans-unit id="settings.languageUid.none.label">
+        <source>Choose a language</source>
+        <target>Bitte wählen Sie eine Sprache aus</target>
+      </trans-unit>
+
+      <trans-unit id="settings.languageUid.default.label">
+        <source>Default language</source>
+        <target>Standardsprache</target>
+      </trans-unit>
+
+      <trans-unit id="settings.passthrough.label">
+        <source>Passthrough elements</source>
+        <target>Elemente durchreichen</target>
+      </trans-unit>
+
+      <trans-unit id="settings.spread.label">
+        <source>Spread</source>
+        <target>Verteilung</target>
+      </trans-unit>
+
+      <trans-unit id="settings.spread.5050.label">
+        <source>50% 50%</source>
+        <target>50% 50%</target>
+      </trans-unit>
+
+      <trans-unit id="settings.spread.7525.label">
+        <source>75% 25%</source>
+        <target>75% 25%</target>
+      </trans-unit>
+
+      <trans-unit id="settings.spread.2575.label">
+        <source>25% 75%</source>
+        <target>25% 75%</target>
+      </trans-unit>
+
+      <trans-unit id="settings.spread.333333.label">
+        <source>33% 33% 33%</source>
+        <target>33% 33% 33%</target>
+      </trans-unit>
+
+      <trans-unit id="settings.slug.label">
+        <source>Slug</source>
+        <target>Identifikation</target>
+      </trans-unit>
+
+      <trans-unit id="settings.type.label">
         <source>Type</source>
         <target>Typ</target>
       </trans-unit>
 
-      <trans-unit id="contentElements.shared.settings.type.default.label">
+      <trans-unit id="settings.type.default.label">
         <source>Default</source>
         <target>Standard</target>
       </trans-unit>
 
-      <trans-unit id="contentElements.shared.settings.type.small.label">
+      <trans-unit id="settings.type.small.label">
         <source>Small</source>
         <target>Klein</target>
       </trans-unit>
 
-      <trans-unit id="contentElements.shared.settings.type.moderate.label">
+      <trans-unit id="settings.type.moderate.label">
         <source>Moderate</source>
         <target>Moderat</target>
       </trans-unit>
 
-      <trans-unit id="contentElements.shared.settings.type.medium.label">
+      <trans-unit id="settings.type.medium.label">
         <source>Medium</source>
         <target>Medium</target>
       </trans-unit>
 
-      <trans-unit id="contentElements.shared.settings.type.large.label">
+      <trans-unit id="settings.type.large.label">
         <source>Large</source>
         <target>Groß</target>
       </trans-unit>
 
-      <trans-unit id="contentElements.shared.settings.type.big.label">
+      <trans-unit id="settings.type.big.label">
         <source>Big</source>
         <target>Beträchtlich</target>
       </trans-unit>
 
-      <trans-unit id="contentElements.shared.settings.type.great.label">
+      <trans-unit id="settings.type.great.label">
         <source>Great</source>
         <target>Riesig</target>
       </trans-unit>
 
-      <trans-unit id="contentElements.shared.settings.type.custom.label">
+      <trans-unit id="settings.type.custom.label">
         <source>Custom</source>
         <target>Benutzerdefiniert</target>
+      </trans-unit>
+
+      <trans-unit id="settings.visibility.label">
+        <source>Visibility</source>
+        <target>Sichtbarkeit</target>
+      </trans-unit>
+
+      <trans-unit id="settings.visibility.mobileOnly.label">
+        <source>Mobile only</source>
+        <target>Nur Mobil</target>
+      </trans-unit>
+
+      <trans-unit id="settings.visibility.desktopOnly.label">
+        <source>Desktop only</source>
+        <target>Nur Desktop</target>
+      </trans-unit>
+
+      <!-- === Sheets === -->
+
+      <trans-unit id="sheets.access.title">
+        <source>Publish Dates and Access Rights</source>
+        <target>Veröffentlichungsdaten und Zugriffsrechte</target>
+      </trans-unit>
+
+      <trans-unit id="sheets.appearance.title">
+        <source>Appearance</source>
+        <target>Erscheinungsbild</target>
+      </trans-unit>
+
+      <trans-unit id="sheets.general.title">
+        <source>General</source>
+        <target>Allgemein</target>
+      </trans-unit>
+
+      <trans-unit id="sheets.language.title">
+        <source>Language</source>
+        <target>Sprache</target>
+      </trans-unit>
+
+      <trans-unit id="sheets.legacy.title">
+        <source>Legacy</source>
+        <target>Vermächtnis</target>
+      </trans-unit>
+
+      <trans-unit id="sheets.settings.title">
+        <source>Settings</source>
+        <target>Einstellungen</target>
+      </trans-unit>
+
+      <trans-unit id="sheets.visibility.title">
+        <source>Visibility</source>
+        <target>Sichtbarkeit</target>
       </trans-unit>
     </body>
   </file>

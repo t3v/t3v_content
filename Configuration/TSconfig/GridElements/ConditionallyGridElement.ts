@@ -4,11 +4,8 @@ tx_gridelements {
   setup {
     t3vContentConditionally {
       title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.conditionallyGridElement.title
-
       description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.conditionallyGridElement.description
-
       flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/ConditionallyGridElement.xml
-
       iconIdentifier = t3v_content-conditionally_grid_element
 
       # Use a colored frame as in the record form:
@@ -18,13 +15,13 @@ tx_gridelements {
       # `3` = blue
       # frame = 0
 
-      # If this option is set, the Grid Element can be set as top level only.
+      # The Grid Element can be set as top level only:
       # topLevelLayout = 1
 
-      # A list of IDs of layouts, that should not be available in this branch of the page tree.
-      # excludeLayoutIds = 1,2,3
+      # A list of IDs of layouts that should not be available in this branch of the page tree:
+      # excludeLayoutIds = 1, 2, 3
 
-      # Set this value to `1`, when you want TSconfig settings to have precendence over layout records with the same ID.
+      # The TSconfig settings have precedence over the layout records with the same ID:
       # overruleRecords = 1
 
       config {
@@ -36,19 +33,15 @@ tx_gridelements {
             columns {
               1 {
                 name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.conditionallyGridElement.rows.1.columns.1.name
-
                 colPos = 101
-
-                # allowed          =
+                # allowed =
                 # allowedGridTypes =
               }
 
               2 {
                 name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.conditionallyGridElement.rows.1.columns.2.name
-
                 colPos = 102
-
-                # allowed          =
+                # allowed =
                 # allowedGridTypes =
               }
             }

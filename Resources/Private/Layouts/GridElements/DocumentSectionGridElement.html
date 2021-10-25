@@ -1,15 +1,24 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vCore/ViewHelpers"
-      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
-  <v:variable.set name="container" value="{f:cObject(typoscriptObjectPath: 'lib.plugin.tx_t3vcontent.gridElements.documentSectionGridElement.container')}" />
+<html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:t3v="http://typo3.org/ns/T3v/T3vCore/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <v:variable.set name="signature" value="document-section" />
+  <v:variable.set name="tag" value="section" />
+  <v:variable.set name="uid" value="{v:variable.convert(value: data.uid, type: 'integer', default: 0)}" />
+  <v:variable.set name="id" value="c{uid}" />
   <v:variable.set name="slug" value="{t3v:slug(value: data.flexform_slug)}" />
+  <v:variable.set name="container" value="{v:variable.convert(value: data.flexform_container, type: 'string', default: 'none')}" />
+  <v:variable.set name="passthrough" value="{v:variable.convert(value: data.flexform_passthrough, type: 'boolean', default: false)}" />
 
-  <f:if condition="{data.flexform_container}">
-    <v:variable.set name="container" value="{data.flexform_container}" />
-  </f:if>
+  <v:tag name="{tag}" id="{id}" class="{signature}--{slug} {signature}" hideIfEmpty="false" forceClosingTag="true">
+    <f:if condition="{container} != 'none'">
+      <f:then>
+        <v:tag name="div" class="{signature}__container container--{container} container" hideIfEmpty="true">
+          <f:render section="GridElement" arguments="{_all}" />
+        </v:tag>
+      </f:then>
 
-  <div id="c{data.uid}" class="document-section--{slug} document-section">
-    <v:tag name="div" class="document-section__container container--{container} container" hideIfEmpty="true">
-      <f:render section="GridElement" arguments="{data: data}" />
-    </v:tag>
-  </div>
+      <f:else>
+        <f:render section="GridElement" arguments="{_all}" />
+      </f:else>
+    </f:if>
+  </v:tag>
 </html>

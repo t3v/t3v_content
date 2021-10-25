@@ -1,16 +1,16 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers"
-      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
-  <f:layout name="DocumentSectionGridElement" />
+<html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <f:layout name="GridElements/DocumentSectionGridElement" />
 
   <f:section name="GridElement">
-    <f:render partial="DocumentSectionGridElement/Header" arguments="{data: data}" />
+    <f:render partial="GridElements/DocumentSectionGridElement/Header" arguments="{data: data}" />
 
     <v:tag name="div" class="document-section__abstract" hideIfEmpty="true">
       <f:render section="Abstract" arguments="{data: data}" />
     </v:tag>
 
     <v:tag name="div" class="document-section__main" hideIfEmpty="true">
-      <f:render section="Main" arguments="{data: data}" />
+      <f:render section="Main" arguments="{data: data, passthrough: passthrough}" />
     </v:tag>
   </f:section>
 
@@ -19,6 +19,6 @@
   </f:section>
 
   <f:section name="Main">
-    <f:format.raw>{t3v:viewColumn(viewColumn: 10, data: data)}</f:format.raw>
+    <f:format.raw>{t3v:viewColumn(viewColumn: 10, data: data, passthrough: passthrough)}</f:format.raw>
   </f:section>
 </html>

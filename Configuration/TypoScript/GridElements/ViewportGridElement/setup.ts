@@ -10,10 +10,8 @@ tt_content {
             cObject = FLUIDTEMPLATE
             cObject {
               file = EXT:t3v_content/Resources/Private/Templates/GridElements/ViewportGridElement.html
-
-              layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/GridElements/
-
-              partialRootPath = EXT:t3v_content/Resources/Private/Partials/GridElements/
+              layoutRootPath = EXT:t3v_content/Resources/Private/Layouts/
+              partialRootPath = EXT:t3v_content/Resources/Private/Partials/
             }
 
             outerWrap = |

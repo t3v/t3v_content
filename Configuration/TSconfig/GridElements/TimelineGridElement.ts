@@ -4,11 +4,8 @@ tx_gridelements {
   setup {
     t3vContentTimeline {
       title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.timelineGridElement.title
-
       description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.timelineGridElement.description
-
       flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/TimelineGridElement.xml
-
       iconIdentifier = t3v_content-timeline_grid_element
 
       # Use a colored frame as in the record form:
@@ -18,13 +15,13 @@ tx_gridelements {
       # `3` = blue
       # frame = 0
 
-      # If this option is set, the Grid Element can be set as top level only.
+      # The Grid Element can be set as top level only:
       # topLevelLayout = 1
 
-      # A list of IDs of layouts, that should not be available in this branch of the page tree.
-      # excludeLayoutIds = 1,2,3
+      # A list of IDs of layouts that should not be available in this branch of the page tree:
+      # excludeLayoutIds = 1, 2, 3
 
-      # Set this value to `1`, when you want TSconfig settings to have precendence over layout records with the same ID.
+      # The TSconfig settings have precedence over the layout records with the same ID:
       # overruleRecords = 1
 
       config {
@@ -36,10 +33,8 @@ tx_gridelements {
             columns {
               1 {
                 name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.timelineGridElement.rows.1.columns.1.name
-
                 colPos = 10
-
-                allowed          = gridelements_pi1
+                allowed = gridelements_pi1
                 allowedGridTypes = t3vContentEvent
               }
             }
@@ -50,11 +45,8 @@ tx_gridelements {
 
     t3vContentEvent {
       title = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.eventGridElement.title
-
       description = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.eventGridElement.description
-
       flexformDS = FILE:EXT:t3v_content/Configuration/FlexForms/GridElements/EventGridElement.xml
-
       iconIdentifier = t3v_content-event_grid_element
 
       # Use a colored frame as in the record form:
@@ -64,13 +56,13 @@ tx_gridelements {
       # `3` = blue
       # frame = 0
 
-      # If this option is set, the Grid Element can be set as top level only.
+      # The Grid Element can be set as top level only:
       # topLevelLayout = 1
 
-      # A list of IDs of layouts, that should not be available in this branch of the page tree.
-      # excludeLayoutIds = 1,2,3
+      # A list of IDs of layouts that should not be available in this branch of the page tree:
+      # excludeLayoutIds = 1, 2, 3
 
-      # Set this value to `1`, when you want TSconfig settings to have precendence over layout records with the same ID.
+      # The TSconfig settings have precedence over the layout records with the same ID:
       # overruleRecords = 1
 
       config {
@@ -82,10 +74,8 @@ tx_gridelements {
             columns {
               1 {
                 name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.eventGridElement.rows.1.columns.1.name
-
                 colPos = 10
-
-                # allowed          =
+                # allowed =
                 # allowedGridTypes =
               }
             }
@@ -95,10 +85,8 @@ tx_gridelements {
             columns {
               1 {
                 name = LLL:EXT:t3v_content/Resources/Private/Language/locallang_ttc.xlf:gridElements.eventGridElement.rows.2.columns.1.name
-
                 colPos = 20
-
-                # allowed          =
+                # allowed =
                 # allowedGridTypes =
               }
             }
