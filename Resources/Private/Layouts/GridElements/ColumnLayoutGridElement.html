@@ -7,7 +7,7 @@
   <v:variable.set name="spread" value="{v:variable.convert(value: data.flexform_spread, type: 'string', default: '50-50')}" />
   <v:variable.set name="breakpoint" value="{v:variable.convert(value: data.flexform_breakpoint, type: 'string', default: 'default')}" />
   <v:variable.set name="container" value="{v:variable.convert(value: data.flexform_container, type: 'string', default: 'none')}" />
-  <v:variable.set name="passthrough" value="{v:variable.convert(value: data.flexform_passthrough, type: 'boolean', default: false)}" />
+  <v:variable.set name="filterViewChildren" value="{v:variable.convert(value: data.flexform_filterViewChildren, type: 'boolean', default: true)}" />
 
   <v:tag name="{tag}" id="{id}" class="{signature}--{spread} {signature}--{breakpoint} {signature} ge" hideIfEmpty="false"
          forceClosingTag="true">

@@ -9,11 +9,11 @@
 
       <f:if condition="{data.flexform_languageUid} == {languageUid}">
         <f:then>
-          <f:format.raw>{t3vContent:viewColumn(viewColumn: 101, data: data, passthrough: passthrough)}</f:format.raw>
+          <f:format.raw>{t3vContent:viewColumn(viewColumn: 101, data: data, filterViewChildren: filterViewChildren)}</f:format.raw>
         </f:then>
 
         <f:else>
-          <f:format.raw>{t3vContent:viewColumn(viewColumn: 102, data: data, passthrough: passthrough)}</f:format.raw>
+          <f:format.raw>{t3vContent:viewColumn(viewColumn: 102, data: data, filterViewChildren: filterViewChildren)}</f:format.raw>
         </f:else>
       </f:if>
     </f:if>

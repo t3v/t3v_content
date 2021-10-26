@@ -111,6 +111,11 @@
         <target>Benutzerdefinierte Höhe in Pixel</target>
       </trans-unit>
 
+      <trans-unit id="settings.filterViewChildren.label">
+        <source>Filter view children</source>
+        <target>Ansichtskinder werden gefiltert</target>
+      </trans-unit>
+
       <trans-unit id="settings.languageUid.label">
         <source>Language</source>
         <target>Sprache</target>
@@ -124,11 +129,6 @@
       <trans-unit id="settings.languageUid.default.label">
         <source>Default language</source>
         <target>Standardsprache</target>
-      </trans-unit>
-
-      <trans-unit id="settings.passthrough.label">
-        <source>Passthrough elements</source>
-        <target>Elemente durchreichen</target>
       </trans-unit>
 
       <trans-unit id="settings.spread.label">

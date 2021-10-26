@@ -67,15 +67,15 @@
         </TCEforms>
       </container>
 
-      <passthrough>
+      <filterViewChildren>
         <TCEforms type="array">
-          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.passthrough.label</label>
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.filterViewChildren.label</label>
           <config type="array">
             <type>check</type>
-            <default>0</default>
+            <default>1</default>
           </config>
         </TCEforms>
-      </passthrough>
+      </filterViewChildren>
     </el>
   </ROOT>
 </T3DataStructure>

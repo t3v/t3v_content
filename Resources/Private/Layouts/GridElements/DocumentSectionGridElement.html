@@ -6,7 +6,7 @@
   <v:variable.set name="id" value="c{uid}" />
   <v:variable.set name="slug" value="{t3v:slug(value: data.flexform_slug)}" />
   <v:variable.set name="container" value="{v:variable.convert(value: data.flexform_container, type: 'string', default: 'none')}" />
-  <v:variable.set name="passthrough" value="{v:variable.convert(value: data.flexform_passthrough, type: 'boolean', default: false)}" />
+  <v:variable.set name="filterViewChildren" value="{v:variable.convert(value: data.flexform_filterViewChildren, type: 'boolean', default: true)}" />
 
   <v:tag name="{tag}" id="{id}" class="{signature}--{slug} {signature}" hideIfEmpty="false" forceClosingTag="true">
     <f:if condition="{container} != 'none'">

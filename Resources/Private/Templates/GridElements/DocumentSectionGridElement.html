@@ -10,7 +10,7 @@
     </v:tag>
 
     <v:tag name="div" class="document-section__main" hideIfEmpty="true">
-      <f:render section="Main" arguments="{data: data, passthrough: passthrough}" />
+      <f:render section="Main" arguments="{data: data, filterViewChildren: filterViewChildren}" />
     </v:tag>
   </f:section>
 
@@ -19,6 +19,6 @@
   </f:section>
 
   <f:section name="Main">
-    <f:format.raw>{t3v:viewColumn(viewColumn: 10, data: data, passthrough: passthrough)}</f:format.raw>
+    <f:format.raw>{t3v:viewColumn(viewColumn: 10, data: data, filterViewChildren: filterViewChildren)}</f:format.raw>
   </f:section>
 </html>

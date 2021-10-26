@@ -23,15 +23,15 @@ class ViewColumnViewHelper extends AbstractViewHelper {
    *
    * @param int $viewColumn The UID of the view column
    * @param array $data The page data
-   * @param bool $passthrough If the view children should be passed through and not filtered
+   * @param bool $filterViewChildren If the view children should be filtered
    * @return string The rendered content of the view column
    */
-  public function render(int $viewColumn, array $data, bool $passthrough = false): string {
+  public function render(int $viewColumn, array $data, bool $filterViewChildren = true): string {
     $output       = '';
     $viewChildren = $data['tx_gridelements_view_children'];
     $viewChildren = $this->filterViewChildrenByViewColumn($viewChildren, $viewColumn);
 
-    if (!$passthrough) {
+    if ($filterViewChildren) {
       if ($this->extensionService->runningInStrictMode()) {
         $viewChildren = $this->filterViewChildrenBySysLanguage($viewChildren);
       }

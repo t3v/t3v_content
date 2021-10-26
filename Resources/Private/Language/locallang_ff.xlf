@@ -90,6 +90,10 @@
         <source>Custom height in pixel</source>
       </trans-unit>
 
+      <trans-unit id="settings.filterViewChildren.label">
+        <source>Filter view children</source>
+      </trans-unit>
+
       <trans-unit id="settings.languageUid.label">
         <source>Language</source>
       </trans-unit>
@@ -100,10 +104,6 @@
 
       <trans-unit id="settings.languageUid.default.label">
         <source>Default language</source>
-      </trans-unit>
-
-      <trans-unit id="settings.passthrough.label">
-        <source>Passthrough elements</source>
       </trans-unit>
 
       <trans-unit id="settings.spread.label">
