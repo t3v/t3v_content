@@ -5,7 +5,7 @@
   <v:variable.set name="tag" value="div" />
   <v:variable.set name="id" value="c{uid}" />
   <v:variable.set name="container" value="{v:variable.convert(value: data.flexform_container, type: 'string', default: 'none')}" />
-  <v:variable.set name="permeable" value="{v:variable.convert(value: data.flexform_permeable, type: 'boolean', default: true)}" />
+  <v:variable.set name="mode" value="{v:variable.convert(value: data.flexform_mode, type: 'string', default: 'strict')}" />
 
   <v:tag name="{tag}" id="{id}" class="{signature} ge" hideIfEmpty="false" forceClosingTag="true">
     <f:if condition="{container} != 'none'">
