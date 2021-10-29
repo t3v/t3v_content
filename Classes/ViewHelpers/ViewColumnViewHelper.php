@@ -13,8 +13,7 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   /**
    * The extension service.
    *
-   * @var \T3v\T3vContent\Service\ExtensionService
-   * @inject
+   * @var ExtensionService
    */
   protected $extensionService;
 
@@ -22,24 +21,22 @@ class ViewColumnViewHelper extends AbstractViewHelper {
    * The view helper render function.
    *
    * @param int $viewColumn The UID of the view column
-   * @param array $data The page data
-   * @param bool $filterViewChildren If the view children should be filtered
+   * @param array $data The data
+   * @param string $mode The optional mode, defaults to `strict`
    * @return string The rendered content of the view column
    */
-  public function render(int $viewColumn, array $data, bool $filterViewChildren = true): string {
+  public function render(int $viewColumn, array $data, string $mode = 'strict'): string {
     $output       = '';
     $viewChildren = $data['tx_gridelements_view_children'];
     $viewChildren = $this->filterViewChildrenByViewColumn($viewChildren, $viewColumn);
 
-    if ($filterViewChildren) {
-      if ($this->extensionService->runningInStrictMode()) {
-        $viewChildren = $this->filterViewChildrenBySysLanguage($viewChildren);
-      }
+    if ($mode === 'strict' && $this->extensionService->runningInStrictMode()) {
+      $viewChildren = $this->filterViewChildrenBySysLanguage($viewChildren);
     }
 
     foreach($viewChildren as $viewChild) {
       $uid              = $viewChild['uid'];
-      $viewChildId      = "tx_gridelements_view_child_{$uid}";
+      $viewChildId      = "tx_gridelements_view_child_$uid";
       $viewChildContent = $data[$viewChildId];
 
       if (!empty($viewChildContent)) {
@@ -48,6 +45,16 @@ class ViewColumnViewHelper extends AbstractViewHelper {
     }
 
     return $output;
+  }
+
+  /**
+   * Injects the extension service.
+   *
+   * @var ExtensionService The extension service
+   */
+  public function injectExtensionService(ExtensionService $extensionService): void
+  {
+    $this->extensionService = $extensionService;
   }
 
   /**
@@ -60,9 +67,9 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   protected function filterViewChildrenByViewColumn(array $viewChildren, int $viewColumn): array {
     $result = [];
 
-    if ($viewChildren) {
+    if (!empty($viewChildren)) {
       foreach($viewChildren as $viewChild) {
-        if (intval($viewChild['tx_gridelements_columns']) == $viewColumn) {
+        if ((int)$viewChild['tx_gridelements_columns'] === $viewColumn) {
           $result[] = $viewChild;
         }
       }
@@ -80,11 +87,11 @@ class ViewColumnViewHelper extends AbstractViewHelper {
   protected function filterViewChildrenBySysLanguage(array $viewChildren): array {
     $result = [];
 
-    if ($viewChildren) {
+    if (!empty($viewChildren)) {
       $sysLanguageUid = $this->getSysLanguageUid();
 
       foreach($viewChildren as $viewChild) {
-        if (intval($viewChild['sys_language_uid']) == $sysLanguageUid) {
+        if ((int)$viewChild['sys_language_uid'] === $sysLanguageUid) {
           $result[] = $viewChild;
         }
       }

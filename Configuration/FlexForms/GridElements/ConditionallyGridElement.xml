@@ -18,11 +18,6 @@
             <foreign_table_where>ORDER BY sys_language.title</foreign_table_where>
             <items type="array">
               <numIndex index="0" type="array">
-                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.languageUid.none.label</numIndex>
-                <numIndex index="1"></numIndex>
-              </numIndex>
-
-              <numIndex index="1" type="array">
                 <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.languageUid.default.label</numIndex>
                 <numIndex index="1">0</numIndex>
               </numIndex>
@@ -38,15 +33,29 @@
         </TCEforms>
       </languageUid>
 
-      <filterViewChildren>
+      <mode>
         <TCEforms type="array">
-          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.filterViewChildren.label</label>
+          <label>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.mode.label</label>
           <config type="array">
-            <type>check</type>
-            <default>1</default>
+            <type>select</type>
+            <renderType>selectSingle</renderType>
+            <items type="array">
+              <numIndex index="0" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.mode.strict.label</numIndex>
+                <numIndex index="1">strict</numIndex>
+              </numIndex>
+
+              <numIndex index="1" type="array">
+                <numIndex index="0">LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:settings.mode.extended.label</numIndex>
+                <numIndex index="1">extended</numIndex>
+              </numIndex>
+            </items>
+            <minitems>1</minitems>
+            <maxitems>1</maxitems>
+            <default>strict</default>
           </config>
         </TCEforms>
-      </filterViewChildren>
+      </mode>
     </el>
   </ROOT>
 </T3DataStructure>

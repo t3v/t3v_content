@@ -1,11 +1,11 @@
 <html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <v:variable.set name="uid" value="{v:variable.convert(value: data.uid, type: 'integer', default: 0)}" />
   <v:variable.set name="signature" value="ge--t3v-content-panel" />
   <v:variable.set name="tag" value="div" />
-  <v:variable.set name="uid" value="{v:variable.convert(value: data.uid, type: 'integer', default: 0)}" />
   <v:variable.set name="id" value="c{uid}" />
   <v:variable.set name="container" value="{v:variable.convert(value: data.flexform_container, type: 'string', default: 'none')}" />
-  <v:variable.set name="filterViewChildren" value="{v:variable.convert(value: data.flexform_filterViewChildren, type: 'boolean', default: true)}" />
+  <v:variable.set name="mode" value="{v:variable.convert(value: data.flexform_mode, type: 'string', default: 'strict')}" />
 
   <v:tag name="{tag}" id="{id}" class="{signature} ge" hideIfEmpty="false" forceClosingTag="true">
     <f:if condition="{container} != 'none'">

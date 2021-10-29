@@ -5,20 +5,20 @@
   <f:section name="GridElement">
     <f:render partial="GridElements/DocumentSectionGridElement/Header" arguments="{data: data}" />
 
-    <v:tag name="div" class="document-section__abstract" hideIfEmpty="true">
-      <f:render section="Abstract" arguments="{data: data}" />
-    </v:tag>
+    <f:render section="Abstract" arguments="{data: data}" />
 
-    <v:tag name="div" class="document-section__main" hideIfEmpty="true">
-      <f:render section="Main" arguments="{data: data, filterViewChildren: filterViewChildren}" />
-    </v:tag>
+    <f:render section="Main" arguments="{data: data, mode: mode}" />
   </f:section>
 
   <f:section name="Abstract">
-    <f:format.raw>{data.flexform_abstract}</f:format.raw>
+    <v:tag name="div" class="document-section__abstract" hideIfEmpty="true">
+      <f:format.raw>{data.flexform_abstract}</f:format.raw>
+    </v:tag>
   </f:section>
 
   <f:section name="Main">
-    <f:format.raw>{t3v:viewColumn(viewColumn: 10, data: data, filterViewChildren: filterViewChildren)}</f:format.raw>
+    <v:tag name="div" class="document-section__main" hideIfEmpty="true">
+      <f:format.raw>{t3v:viewColumn(viewColumn: 10, data: data, mode: mode)}</f:format.raw>
+    </v:tag>
   </f:section>
 </html>

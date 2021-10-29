@@ -90,10 +90,6 @@
         <source>Custom height in pixel</source>
       </trans-unit>
 
-      <trans-unit id="settings.filterViewChildren.label">
-        <source>Filter view children</source>
-      </trans-unit>
-
       <trans-unit id="settings.languageUid.label">
         <source>Language</source>
       </trans-unit>
@@ -104,6 +100,18 @@
 
       <trans-unit id="settings.languageUid.default.label">
         <source>Default language</source>
+      </trans-unit>
+
+      <trans-unit id="settings.mode.label">
+        <source>Mode</source>
+      </trans-unit>
+
+      <trans-unit id="settings.mode.strict.label">
+        <source>Strict</source>
+      </trans-unit>
+
+      <trans-unit id="settings.mode.extended.label">
+        <source>Extended</source>
       </trans-unit>
 
       <trans-unit id="settings.spread.label">
@@ -168,6 +176,10 @@
 
       <trans-unit id="settings.visibility.label">
         <source>Visibility</source>
+      </trans-unit>
+
+      <trans-unit id="settings.visibility.default.label">
+        <source>Default</source>
       </trans-unit>
 
       <trans-unit id="settings.visibility.mobileOnly.label">

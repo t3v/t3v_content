@@ -3,25 +3,25 @@
   <f:layout name="GridElements/EventGridElement" />
 
   <f:section name="GridElement">
-    <f:render partial="GridElements/EventGridElement/Header" arguments="{data: data, filterViewChildren: filterViewChildren}" />
+    <f:render partial="GridElements/EventGridElement/Header" arguments="{data: data, mode: mode}" />
 
-    <v:tag name="div" class="ge__abstract" hideIfEmpty="true">
-      <f:render section="Abstract" arguments="{data: data, filterViewChildren: filterViewChildren}" />
-    </v:tag>
+    <f:render section="Abstract" arguments="{data: data, mode: mode}" />
 
-    <v:tag name="div" class="ge__main" hideIfEmpty="true">
-      <f:render section="Main" arguments="{data: data, filterViewChildren: filterViewChildren}" />
-    </v:tag>
+    <f:render section="Main" arguments="{data: data, mode: mode}" />
 
     <f:render section="Toggle" />
   </f:section>
 
   <f:section name="Abstract">
-    <f:format.raw>{t3v:viewColumn(viewColumn: 10, data: data, filterViewChildren: filterViewChildren)}</f:format.raw>
+    <v:tag name="div" class="ge__abstract" hideIfEmpty="true">
+      <f:format.raw>{t3v:viewColumn(viewColumn: 10, data: data, mode: mode)}</f:format.raw>
+    </v:tag>
   </f:section>
 
   <f:section name="Main">
-    <f:format.raw>{t3v:viewColumn(viewColumn: 20, data: data, filterViewChildren: filterViewChildren)}</f:format.raw>
+    <v:tag name="div" class="ge__main" hideIfEmpty="true">
+      <f:format.raw>{t3v:viewColumn(viewColumn: 20, data: data, mode: mode)}</f:format.raw>
+    </v:tag>
   </f:section>
 
   <f:section name="Toggle">

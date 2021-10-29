@@ -111,11 +111,6 @@
         <target>Benutzerdefinierte Höhe in Pixel</target>
       </trans-unit>
 
-      <trans-unit id="settings.filterViewChildren.label">
-        <source>Filter view children</source>
-        <target>Ansichtskinder werden gefiltert</target>
-      </trans-unit>
-
       <trans-unit id="settings.languageUid.label">
         <source>Language</source>
         <target>Sprache</target>
@@ -129,6 +124,21 @@
       <trans-unit id="settings.languageUid.default.label">
         <source>Default language</source>
         <target>Standardsprache</target>
+      </trans-unit>
+
+      <trans-unit id="settings.mode.label">
+        <source>Mode</source>
+        <target>Modus</target>
+      </trans-unit>
+
+      <trans-unit id="settings.mode.strict.label">
+        <source>Strict</source>
+        <target>Strikt</target>
+      </trans-unit>
+
+      <trans-unit id="settings.mode.extended.label">
+        <source>Extended</source>
+        <target>Erweitert</target>
       </trans-unit>
 
       <trans-unit id="settings.spread.label">
@@ -209,6 +219,11 @@
       <trans-unit id="settings.visibility.label">
         <source>Visibility</source>
         <target>Sichtbarkeit</target>
+      </trans-unit>
+
+      <trans-unit id="settings.visibility.default.label">
+        <source>Default</source>
+        <target>Standard</target>
       </trans-unit>
 
       <trans-unit id="settings.visibility.mobileOnly.label">

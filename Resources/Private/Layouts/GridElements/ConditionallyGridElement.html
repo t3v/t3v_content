@@ -1,6 +1,6 @@
 <html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
-  <v:variable.set name="filterViewChildren" value="{v:variable.convert(value: data.flexform_filterViewChildren, type: 'boolean', default: true)}" />
+  <v:variable.set name="mode" value="{v:variable.convert(value: data.flexform_mode, type: 'string', default: 'strict')}" />
 
-  <f:render section="GridElement" arguments="{data: data, filterViewChildren: filterViewChildren}" />
+  <f:render section="GridElement" arguments="{data: data, mode: mode}" />
 </html>

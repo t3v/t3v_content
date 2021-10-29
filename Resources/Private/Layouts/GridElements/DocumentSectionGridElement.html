@@ -1,12 +1,12 @@
 <html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       xmlns:t3v="http://typo3.org/ns/T3v/T3vCore/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <v:variable.set name="uid" value="{v:variable.convert(value: data.uid, type: 'integer', default: 0)}" />
   <v:variable.set name="signature" value="document-section" />
   <v:variable.set name="tag" value="section" />
-  <v:variable.set name="uid" value="{v:variable.convert(value: data.uid, type: 'integer', default: 0)}" />
   <v:variable.set name="id" value="c{uid}" />
   <v:variable.set name="slug" value="{t3v:slug(value: data.flexform_slug)}" />
   <v:variable.set name="container" value="{v:variable.convert(value: data.flexform_container, type: 'string', default: 'none')}" />
-  <v:variable.set name="filterViewChildren" value="{v:variable.convert(value: data.flexform_filterViewChildren, type: 'boolean', default: true)}" />
+  <v:variable.set name="mode" value="{v:variable.convert(value: data.flexform_mode, type: 'string', default: 'strict')}" />
 
   <v:tag name="{tag}" id="{id}" class="{signature}--{slug} {signature}" hideIfEmpty="false" forceClosingTag="true">
     <f:if condition="{container} != 'none'">
