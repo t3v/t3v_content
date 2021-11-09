@@ -5,7 +5,7 @@
   <v:variable.set name="tag" value="section" />
   <v:variable.set name="id" value="c{uid}" />
   <v:variable.set name="slug" value="{t3v:slug(value: data.flexform_slug)}" />
-  <v:variable.set name="container" value="{v:variable.convert(value: data.flexform_container, type: 'string', default: 'none')}" />
+  <v:variable.set name="container" value="{v:variable.convert(value: data.flexform_container, type: 'string', default: 'default')}" />
   <v:variable.set name="mode" value="{v:variable.convert(value: data.flexform_mode, type: 'string', default: 'strict')}" />
 
   <v:tag name="{tag}" id="{id}" class="{signature}--{slug} {signature}" hideIfEmpty="false" forceClosingTag="true">
