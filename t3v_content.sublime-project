@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "name": "t3v_content",
+      "name": "@t3v/t3v_content",
       "path": "./",
       "folder_exclude_patterns": [
         ".build",
