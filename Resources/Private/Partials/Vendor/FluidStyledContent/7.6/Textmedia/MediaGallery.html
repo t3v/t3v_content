@@ -1,4 +1,5 @@
-<html xmlns:ce="http://typo3.org/ns/TYPO3/CMS/FluidStyledContent/ViewHelpers" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<html data-namespace-typo3-fluid="true" lang="en" xmlns:ce="http://typo3.org/ns/TYPO3/CMS/FluidStyledContent/ViewHelpers"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
   <f:if condition="{gallery.rows}">
     <div class="ce__media">
       <div class="media-gallery--{gallery.position.horizontal} media-gallery--{gallery.position.vertical} media-gallery--{gallery.count.columns}-columns {f:if(condition: data.imageheight, then: 'media-gallery--image-height', else: 'media-gallery--no-image-height')} {f:if(condition: data.imagewidth, then: 'media-gallery--image-width', else: 'media-gallery--no-image-width')} {f:if(condition: data.imageborder, then: 'media-gallery--border')} media-gallery"
@@ -99,7 +100,8 @@
       <f:then>
         <f:if condition="{data.imagewidth} >= 1">
           <f:then>
-            <f:media file="{column.media}" height="{data.imageheight}c" width="{data.imagewidth}c" title="{column.media.title}" alt="{column.media.alternative}" />
+            <f:media file="{column.media}" height="{data.imageheight}c" width="{data.imagewidth}c" title="{column.media.title}"
+                     alt="{column.media.alternative}" />
           </f:then>
 
           <f:else>
@@ -115,7 +117,8 @@
           </f:then>
 
           <f:else>
-            <f:media file="{column.media}" height="{column.dimensions.height}" width="{column.dimensions.width}" title="{column.media.title}" alt="{column.media.alternative}" />
+            <f:media file="{column.media}" height="{column.dimensions.height}" width="{column.dimensions.width}"
+                     title="{column.media.title}" alt="{column.media.alternative}" />
           </f:else>
         </f:if>
       </f:else>
