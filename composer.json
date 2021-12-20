@@ -1,7 +1,7 @@
 {
   "name": "t3v/t3v_content",
   "type": "typo3-cms-extension",
-  "description": "The content extension of TYPO3Voila.",
+  "description": "The content extension of TYPO3voilà.",
   "authors": [
     {
       "name": "Maik Kempe",
@@ -9,7 +9,15 @@
       "homepage": "https://bitaculous.com"
     }
   ],
-  "keywords": ["CMS", "Content", "Extension", "T3v", "TYPO3", "TYPO3voila", "UH LÁLÁ"],
+  "keywords": [
+    "CMS",
+    "Content",
+    "Extension",
+    "T3v",
+    "TYPO3",
+    "TYPO3voila",
+    "UH LÁLÁ"
+  ],
   "homepage": "https://t3v.github.io/t3v_content/",
   "support": {
     "issues": "https://github.com/t3v/t3v_content/issues"
@@ -28,7 +36,7 @@
     { "type": "composer", "url": "https://composer.typo3.org" }
   ],
   "require": {
-    "php": ">= 7.0 < 7.4",
+    "php": ">= 7.2",
     "typo3/cms-core": "^8.7",
     "typo3/cms-fluid-styled-content": "^8.7",
     "gridelementsteam/gridelements": "dev-8-0",
@@ -56,7 +64,9 @@
   },
   "extra": {
     "typo3/cms": {
+      "app-dir": ".build",
       "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "extension-key": "t3v_content",
       "web-dir": ".build/web"
     }
   },
