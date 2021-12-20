@@ -153,5 +153,6 @@ T3v Content is released under the [MIT License (MIT)], see [LICENSE].
 [Smashicons]: https://www.flaticon.com/authors/smashicons "Smashicons"
 [T3v Content]: https://t3v.github.io/t3v_content/ "The content extension of TYPO3voilà."
 [Timeline free icon]: https://www.flaticon.com/free-icon/timeline_292332 "Timeline free icon"
+[TYPO3voilà]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
 [Unit Testing TYPO3]: https://wiki.typo3.org/Unit_Testing_TYPO3 "Unit testing TYPO3"
 [Vectors Market]: https://www.flaticon.com/authors/vectors-market "Vectors Market"
