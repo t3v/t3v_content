@@ -3,6 +3,7 @@
 namespace T3v\T3vContent\ViewHelpers\Format;
 
 use T3v\T3vCore\ViewHelpers\AbstractViewHelper;
+use T3v\T3vCore\ViewHelpers\Traits\LocalizationTrait;
 
 /**
  * The file size view helper class.
@@ -11,6 +12,9 @@ use T3v\T3vCore\ViewHelpers\AbstractViewHelper;
  */
 class FileSizeViewHelper extends AbstractViewHelper
 {
+
+  use LocalizationTrait;
+
   const SUFFIXES = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
 
   public function initializeArguments()
