@@ -1,8 +1,10 @@
 <?php
 namespace T3v\T3vContent\ViewHelpers;
 
+use T3v\T3vCore\Service\SettingsService;
 use T3v\T3vCore\ViewHelpers\AbstractViewHelper;
-use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;
+use T3v\T3vCore\ViewHelpers\Traits\LocalizationTrait;
+use TYPO3\CMS\Extbase\Object\Exception;
 
 /**
  * The view column view helper class.
@@ -11,34 +13,116 @@ use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;
  */
 class ViewColumnViewHelper extends AbstractViewHelper
 {
+    /**
+     * The extension service.
+     *
+     * @var SettingsService
+     */
+    protected $settingsService;
 
-  /**
-   * @return void
-   */
-  public function initializeArguments()
-  {
-    $this->registerArgument('viewColumn', 'int', 'The UID of the view column', true);
-    $this->registerArgument('data', 'array', 'The page data', true, null);
-  }
+    /**
+     * Use the localization trait.
+     */
+    use LocalizationTrait;
 
-  /**
-   * The view helper render static function.
-   *
-   * @param array $arguments
-   * @param \Closure $renderChildrenClosure
-   * @param RenderingContextInterface $renderingContext
-   * @return mixed
-   */
-  public static function renderStatic(array $arguments, \Closure $renderChildrenClosure, RenderingContextInterface $renderingContext)
-  {
-    $data = $arguments['data'];
-    $viewColumn = $arguments['viewColumn'];
-    $key = 'tx_gridelements_view_column_' . $viewColumn;
+    /**
+     * @return void
+     */
+    public function initializeArguments(): void
+    {
+        parent::initializeArguments();
 
-    if (array_key_exists($key, $data)) {
-      return $data[$key];
+        $this->registerArgument('viewColumn', 'int', 'The UID of the view column', true);
+        $this->registerArgument('data', 'array', 'The data', true);
+        $this->registerArgument('mode', 'array', 'The mode', false, 'strict');
     }
 
-    return '';
-  }
+    /**
+     * The view helper render function.
+     *
+     * @return string
+     * @throws Exception
+     */
+    public function render(): string
+    {
+        $output = '';
+        $viewColumn = $this->arguments['viewColumn'];
+        $data = $this->arguments['data'];
+        $mode = $this->arguments['mode'];
+
+        $viewChildren = $data['tx_gridelements_view_children'];
+        $viewChildren = $this->filterViewChildrenByViewColumn($viewChildren, $viewColumn);
+
+        # if ($mode === 'strict' && $this->settingsService->runningInStrictMode()) {
+        #     $viewChildren = $this->filterViewChildrenBySysLanguage($viewChildren);
+        # }
+
+        foreach ($viewChildren as $viewChild) {
+            $uid = $viewChild['uid'];
+            $viewChildId = "tx_gridelements_view_child_$uid";
+            $viewChildContent = $data[$viewChildId];
+
+            if (!empty($viewChildContent)) {
+                $output .= $viewChildContent;
+            }
+        }
+
+        return $output;
+    }
+
+    /**
+     * Injects the settings service.
+     *
+     * @var SettingsService The settings service
+     */
+    public function injectSettingsService(SettingsService $settingsService): void
+    {
+        $this->settingsService = $settingsService;
+    }
+
+    /**
+     * Filters the view children by a view column.
+     *
+     * @param array $viewChildren The view children
+     * @param int $viewColumn The UID of the view column
+     * @return array The filtered view children
+     */
+    protected function filterViewChildrenByViewColumn(array $viewChildren, int $viewColumn): array
+    {
+        $result = [];
+
+        if (!empty($viewChildren)) {
+            foreach ($viewChildren as $viewChild) {
+                if ((int)$viewChild['tx_gridelements_columns'] === $viewColumn) {
+                    $result[] = $viewChild;
+                }
+            }
+        }
+
+        return $result;
+    }
+
+    /**
+     * Filters the view children by the current system language.
+     *
+     * @param array $viewChildren The view children
+     * @return array The filtered view children
+     * @throws Exception
+     */
+    protected function filterViewChildrenBySysLanguage(array $viewChildren): array
+    {
+        $result = [];
+
+        if (!empty($viewChildren)) {
+            $sysLanguageUid = $this->getSysLanguageUid();
+
+            foreach ($viewChildren as $viewChild) {
+                if ((int)$viewChild['sys_language_uid'] === $sysLanguageUid) {
+                    $result[] = $viewChild;
+                }
+            }
+        }
+
+        return $result;
+    }
 }
