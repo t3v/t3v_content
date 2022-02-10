@@ -9,7 +9,7 @@
     <sDEF>
       <ROOT>
         <TCEforms type="array">
-          <sheetTitle>LLL:EXT:dopag_website/Resources/Private/Language/locallang_ff.xlf:sheets.general.title</sheetTitle>
+          <sheetTitle>LLL:EXT:t3v_content/Resources/Private/Language/locallang_ff.xlf:sheets.general.title</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
