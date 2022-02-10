@@ -1,9 +1,9 @@
 <?php
 namespace T3v\T3vContent\ViewHelpers;
 
-use T3v\T3vCore\Service\SettingsService;
 use T3v\T3vCore\ViewHelpers\AbstractViewHelper;
 use T3v\T3vCore\ViewHelpers\Traits\LocalizationTrait;
+use T3v\T3vCore\ViewHelpers\Traits\SettingsTrait;
 use TYPO3\CMS\Extbase\Object\Exception;
 
 /**
@@ -14,16 +14,14 @@ use TYPO3\CMS\Extbase\Object\Exception;
 class ViewColumnViewHelper extends AbstractViewHelper
 {
     /**
-     * The extension service.
-     *
-     * @var SettingsService
-     */
-    protected $settingsService;
-
-    /**
      * Use the localization trait.
      */
     use LocalizationTrait;
+
+    /**
+     * Use the settings trait.
+     */
+    use SettingsTrait;
 
     /**
      * @return void
@@ -40,8 +38,8 @@ class ViewColumnViewHelper extends AbstractViewHelper
     /**
      * The view helper render function.
      *
-     * @return string
-     * @throws Exception
+     * @return string The rendered grid element view children
+     * @throws Exception A generic object exception
      */
     public function render(): string
     {
@@ -49,13 +47,12 @@ class ViewColumnViewHelper extends AbstractViewHelper
         $viewColumn = $this->arguments['viewColumn'];
         $data = $this->arguments['data'];
         $mode = $this->arguments['mode'];
-
         $viewChildren = $data['tx_gridelements_view_children'];
         $viewChildren = $this->filterViewChildrenByViewColumn($viewChildren, $viewColumn);
 
-        # if ($mode === 'strict' && $this->settingsService->runningInStrictMode()) {
-        #     $viewChildren = $this->filterViewChildrenBySysLanguage($viewChildren);
-        # }
+        if ($mode === 'strict' && $this->settingsService->runningInStrictMode()) {
+            $viewChildren = $this->filterViewChildrenBySysLanguage($viewChildren);
+        }
 
         foreach ($viewChildren as $viewChild) {
             $uid = $viewChild['uid'];
@@ -68,16 +65,6 @@ class ViewColumnViewHelper extends AbstractViewHelper
         }
 
         return $output;
-    }
-
-    /**
-     * Injects the settings service.
-     *
-     * @var SettingsService The settings service
-     */
-    public function injectSettingsService(SettingsService $settingsService): void
-    {
-        $this->settingsService = $settingsService;
     }
 
     /**
