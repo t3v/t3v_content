@@ -11,10 +11,12 @@ Unreleased
 * Moved `ContentElementController` to T3v Core (breaking change)
 * Moved `ContentElementUtility` to T3v Core (breaking change)
 * Updated translations
+* Integrated `t3v/t3v_testing` which is based on `typo3/testing-framework`
+* Support for TYPO3 CMS 9.5 or greater
 * Dropped support for TYPO3 8.x (breaking change)
+* PSR-12: Extended Coding Style
 * Updated Travis CI and AppVeyor configuration
 * Updated dependencies
-* Refactoring
 * Cleaned up
 
 7.3.0
