@@ -1,7 +1,8 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
-  <v:variable.set name="contentElement" value="t3v-content-bullets-content-element" />
-  <v:variable.set name="uid" value="{data.uid}" />
-  <v:variable.set name="type" value="{data.bullets_type}" />
+<html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <f:variable name="contentElement" value="t3v-content-bullets-content-element" />
+  <f:variable name="uid" value="{data.uid}" />
+  <f:variable name="type" value="{data.bullets_type}" />
 
   <f:spaceless>
     <v:tag name="{contentElement}" id="c{uid}" class="{contentElement} content-element" additionalAttributes="{type: type}">
