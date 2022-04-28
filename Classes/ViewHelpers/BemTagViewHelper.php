@@ -1,13 +1,16 @@
 <?php
+declare(strict_types=1);
+
 namespace T3v\T3vContent\ViewHelpers;
 
-use T3v\T3vCore\ViewHelpers\Helpers\ArgumentTypeHelper;
 use FluidTYPO3\Vhs\ViewHelpers\TagViewHelper;
+use T3v\T3vCore\ViewHelpers\Helpers\ArgumentTypeHelper;
 
 /**
  * The BEM tag view helper class.
  *
  * @package T3v\T3vContent\ViewHelpers
+ * @deprecated Use `T3v\T3vBase\ViewHelpers\Render\BemTagViewHelper` instead, will be removed in a next major version.
  */
 class BemTagViewHelper extends TagViewHelper
 {
@@ -21,29 +24,26 @@ class BemTagViewHelper extends TagViewHelper
         $this->registerArgument(
             'block',
             ArgumentTypeHelper::TYPE_STRING,
-            'The Css Class prefix',
-            false
+            'The standalone entity that is meaningful on its own'
         );
         $this->registerArgument(
             'element',
             ArgumentTypeHelper::TYPE_STRING,
-            'Subclass = everything after __',
-            false
+            'The part of a block that has no standalone meaning and is semantically tied to its block'
         );
         $this->registerArgument(
             'modifier',
             ArgumentTypeHelper::TYPE_STRING,
-            'Modifier = everything after --',
-            false
+            'The flag on a block or element, use them to change appearance or behavior'
         );
     }
 
     /**
      * The view helper render function.
      *
-     * @return string
+     * @return string The rendered BEM tag
      */
-    public function render()
+    public function render(): string
     {
         $this->arguments['class'] = trim((string)$this->arguments['class']);
         $this->arguments['class'] = str_replace(',', ' ', $this->arguments['class']);

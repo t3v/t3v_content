@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 namespace T3v\T3vContent\ViewHelpers\Format;
 
@@ -9,91 +10,111 @@ use T3v\T3vCore\ViewHelpers\Traits\LocalizationTrait;
  * The file size view helper class.
  *
  * @package T3v\T3vContent\ViewHelpers\Format
+ * @deprecated Use `T3v\T3vBase\ViewHelpers\Format\FileSizeViewHelper` instead, will be removed in a next major version.
  */
 class FileSizeViewHelper extends AbstractViewHelper
 {
+    /**
+     * The size suffixes.
+     */
+    public const SUFFIXES = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
 
-  use LocalizationTrait;
+    /**
+     * Use the localization trait.
+     */
+    use LocalizationTrait;
 
-  const SUFFIXES = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+    /**
+     * Initializes the arguments.
+     */
+    public function initializeArguments(): void
+    {
+        parent::initializeArguments();
 
-  public function initializeArguments()
-  {
-    $this->registerArgument('fileSize', 'int', 'The file size in bytes', true);
-    $this->registerArgument('base', 'int', 'The optional base unit to calculate the file size, defaults to `1000`', false, 1000);
-    $this->registerArgument('precision', 'int', ' The optional precision, defaults to `2`', false, 2);
-    $this->registerArgument('decimalSeparator', 'int', 'The optional decimal separator, defaults to `null`', false, null);
-    $this->registerArgument('thousandsSeparator', 'int', 'The optional thousands separator, defaults to `null`', false, null);
-
-  }
-
-  /**
-   * The view helper render function.
-   *
-   * @return string The formatted / human readable file size
-   */
-  public function render()
-  {
-
-    $fileSize = (int)$this->arguments['fileSize'];
-    $base = (int)$this->arguments['base'];
-    $precision = (int)$this->arguments['precision'];
-    $decimalSeparator = (int)$this->arguments['decimalSeparator'];
-    $thousandsSeparator = (int)$this->arguments['thousandsSeparator'];
-
-    $decimalSeparator = $decimalSeparator ?: $this->getDecimalSeparator();
-    $thousandsSeparator = $thousandsSeparator ?: $this->getThousandsSeparator();
-
-    $pow = floor(($fileSize ? log($fileSize) : 0) / log($base));
-    $pow = min($pow, count(self::SUFFIXES) - 1);
-    $fileSize /= (1 << (10 * $pow));
-
-    return sprintf(
-      '%s %s',
-      number_format(round($fileSize, 4 * $precision), $precision, $decimalSeparator, $thousandsSeparator),
-      self::SUFFIXES[$pow]
-    );
-  }
-
-  /**
-   * Gets the decimal separator based on the current language.
-   *
-   * @return string The decimal separator
-   */
-  protected function getDecimalSeparator()
-  {
-    $decimalSeparator = '.';
-
-    switch ($this->getLanguage()) {
-      case 'de':
-        $decimalSeparator = ',';
-
-        break;
-      default:
-        $decimalSeparator = '.';
+        $this->registerArgument(
+            'fileSize',
+            'int',
+            'The file size in bytes',
+            true
+        );
+        $this->registerArgument(
+            'base',
+            'int',
+            'The optional base unit to calculate the file size, defaults to `1000`',
+            false,
+            1000
+        );
+        $this->registerArgument(
+            'precision',
+            'int',
+            ' The optional precision, defaults to `2`',
+            false,
+            2
+        );
+        $this->registerArgument(
+            'decimalSeparator',
+            'int',
+            'The optional decimal separator, defaults to `null`'
+        );
+        $this->registerArgument(
+            'thousandsSeparator',
+            'int',
+            'The optional thousands separator, defaults to `null`'
+        );
     }
 
-    return $decimalSeparator;
-  }
+    /**
+     * The view helper render function.
+     *
+     * @return string The formatted or human-readable file size
+     */
+    public function render(): string
+    {
+        $fileSize = $this->arguments['fileSize'];
+        $base = $this->arguments['base'];
+        $precision = $this->arguments['precision'];
+        $decimalSeparator = $this->arguments['decimalSeparator'];
+        $thousandsSeparator = $this->arguments['thousandsSeparator'];
 
-  /**
-   * Gets the thousands separator based on the current language.
-   *
-   * @return string The thousands separator
-   */
-  protected function getThousandsSeparator()
-  {
-    $thousandsSeparator = ',';
+        $decimalSeparator = $decimalSeparator ?: $this->getDecimalSeparator();
+        $thousandsSeparator = $thousandsSeparator ?: $this->getThousandsSeparator();
 
-    switch ($this->getLanguage()) {
-      case 'de':
-        $thousandsSeparator = '.';
+        $pow = floor(($fileSize ? log($fileSize) : 0) / log($base));
+        $pow = min($pow, count(self::SUFFIXES) - 1);
+        $fileSize /= (1 << (10 * $pow));
 
-        break;
-      default:
-        $thousandsSeparator = ',';
+        return sprintf(
+            '%s %s',
+            number_format(round($fileSize, 4 * $precision), $precision, $decimalSeparator, $thousandsSeparator),
+            self::SUFFIXES[$pow]
+        );
     }
 
-    return $thousandsSeparator;
-  }
+    /**
+     * Gets the decimal separator based on the current language.
+     *
+     * @return string The decimal separator
+     */
+    protected function getDecimalSeparator(): string
+    {
+        if ($this->getLanguage() === 'de') {
+            return ',';
+        }
+
+        return '.';
+    }
+
+    /**
+     * Gets the thousands separator based on the current language.
+     *
+     * @return string The thousands separator
+     */
+    protected function getThousandsSeparator(): string
+    {
+        if ($this->getLanguage() === 'de') {
+            return '.';
+        }
+
+        return ',';
+    }
 }

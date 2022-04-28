@@ -6,6 +6,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Moved remaining view helpers to `T3vBase`
+* Removed header and *headline view helpers (breaking change)
 * Moved `Spacer` content element to T3v Base (breaking change)
 * Moved `ExtensionService` to T3v Core (breaking change)
 * Moved `ContentElementController` to T3v Core (breaking change)
@@ -18,7 +20,7 @@ Unreleased
 * Updated Travis CI and AppVeyor configuration
 * Updated dependencies
 * Cleaned up
-
+* 
 7.3.0
 -----
 

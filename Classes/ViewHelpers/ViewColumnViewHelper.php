@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 namespace T3v\T3vContent\ViewHelpers;
 
 use T3v\T3vCore\ViewHelpers\AbstractViewHelper;
@@ -10,6 +12,7 @@ use TYPO3\CMS\Extbase\Object\Exception;
  * The view column view helper class.
  *
  * @package T3v\T3vContent\ViewHelpers
+ * @deprecated Use `T3v\T3vBase\ViewHelpers\Render\ViewColumnViewHelper` instead, will be removed in a next major version.
  */
 class ViewColumnViewHelper extends AbstractViewHelper
 {
