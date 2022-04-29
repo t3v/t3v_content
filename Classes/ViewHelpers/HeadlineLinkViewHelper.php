@@ -58,9 +58,9 @@ class HeadlineLinkViewHelper extends AbstractTagBasedViewHelper
     public function render(): string
     {
         $headline = '';
-        $content = $this->arguments['content'];
-        $layout = $this->arguments['layout'];
-        $cssClass = $this->arguments['cssClass'];
+        $content = (string)$this->arguments['content'];
+        $layout = (int)$this->arguments['layout'];
+        $cssClass = (string)$this->arguments['cssClass'];
 
         if (empty($content)) {
             $content = $this->renderChildren();
