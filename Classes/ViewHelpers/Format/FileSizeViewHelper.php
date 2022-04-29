@@ -97,11 +97,13 @@ class FileSizeViewHelper extends AbstractViewHelper
      */
     protected function getDecimalSeparator(): string
     {
-        if ($this->getLanguage() === 'de') {
-            return ',';
+        switch ($this->getLanguage()) {
+            case 'ch':
+            case 'de':
+                return ',';
+            default:
+                return '.';
         }
-
-        return '.';
     }
 
     /**
@@ -111,10 +113,12 @@ class FileSizeViewHelper extends AbstractViewHelper
      */
     protected function getThousandsSeparator(): string
     {
-        if ($this->getLanguage() === 'de') {
-            return '.';
+        switch ($this->getLanguage()) {
+            case 'ch':
+            case 'de':
+                return '.';
+            default:
+                return ',';
         }
-
-        return ',';
     }
 }
