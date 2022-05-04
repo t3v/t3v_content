@@ -1,4 +1,5 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
+<html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
   <v:variable.set name="contentElement" value="t3v-content-header-content-element" />
   <v:variable.set name="uid" value="{data.uid}" />
   <v:variable.set name="title" value="{data.header}" />
@@ -11,11 +12,14 @@
   <f:spaceless>
     <f:if condition="{layout} != 0 && {layout} != 100">
       <v:tag name="{contentElement}" id="c{uid}" class="{contentElement} content-element" additionalAttributes="{position: position}">
-        <f:render partial="Shared/Title" arguments="{contentElement: contentElement, title: title, link: link, layout: layout, position: position}" />
+        <f:render partial="Shared/Title"
+                  arguments="{contentElement: contentElement, title: title, link: link, layout: layout, position: position}" />
 
-        <f:render partial="Shared/Subtitle" arguments="{contentElement: contentElement, subtitle: subtitle, layout: layout, position: position}" />
+        <f:render partial="Shared/Subtitle"
+                  arguments="{contentElement: contentElement, subtitle: subtitle, layout: layout, position: position}" />
 
-        <f:render partial="Shared/Date" arguments="{contentElement: contentElement, date: date, position: position}" />
+        <f:render partial="Shared/Date"
+                  arguments="{contentElement: contentElement, date: date, position: position}" />
       </v:tag>
     </f:if>
   </f:spaceless>

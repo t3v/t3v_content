@@ -1,0 +1,34 @@
+<html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <v:variable.set name="contentElement" value="t3v-content-textpic-content-element" />
+  <v:variable.set name="uid" value="{data.uid}" />
+  <v:variable.set name="galleryPositionHorizontal" value="{gallery.position.horizontal}" />
+  <v:variable.set name="galleryPositionVertical" value="{gallery.position.vertical}" />
+  <v:variable.set name="galleryPositionNoWrap" value="{allery.position.noWrap}" />
+
+  <v:tag name="{contentElement}" id="c{uid}" class="{contentElement} content-element">
+    <f:if condition="{data._LOCALIZED_UID}">
+      <a id="c{data._LOCALIZED_UID}"></a>
+    </f:if>
+
+    <f:render section="Before" optional="true">
+      <f:render partial="Shared/DropIn/Before" arguments="{_all}" />
+    </f:render>
+
+    <f:render section="Header" optional="true">
+      <f:render partial="Shared/Header" arguments="{_all}" />
+    </f:render>
+
+    <v:tag name="div" class="{contentElement}__content content-element__content" hideIfEmpty="true">
+      <f:render section="Content" optional="true" />
+    </v:tag>
+
+    <f:render section="Footer" optional="true">
+      <f:render partial="Shared/Footer" arguments="{_all}" />
+    </f:render>
+
+    <f:render section="After" optional="true">
+      <f:render partial="Shared/DropIn/After" arguments="{_all}" />
+    </f:render>
+  </v:tag>
+</html>

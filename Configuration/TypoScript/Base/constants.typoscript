@@ -1,8 +1,12 @@
-# ------------------------------
-# | T3v Content Base Constants |
-# ------------------------------
+/*
+  ------------------------------
+  | T3v Content Base Constants |
+  ------------------------------
+*/
 
-# === Plugin Constants ===
+/*
+  === Plugin Constants ===
+*/
 
 plugin {
   tx_t3vcontent {
@@ -52,4 +56,6 @@ plugin {
   }
 }
 
-# _XXX_T3V_GENERATOR_XXX_
+/*
+  === T3v Generator ===
+*/

@@ -1,11 +1,17 @@
-# ---------------------
-# | T3v Content Setup |
-# ---------------------
+/*
+  ---------------------
+  | T3v Content Setup |
+  ---------------------
+*/
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
 @import './Base/setup.typoscript'
 @import './Vendor/setup.typoscript'
 @import './GridElements/setup.typoscript'
 
-# _XXX_T3V_GENERATOR_XXX_
+/*
+  === T3v Generator ===
+*/

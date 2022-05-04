@@ -1,8 +1,12 @@
-# ---------------------------------------
-# | T3v Content Grid Elements Constants |
-# ---------------------------------------
+/*
+  ---------------------------------------
+  | T3v Content Grid Elements Constants |
+  ---------------------------------------
+*/
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
 @import './AccordionGridElement/constants.typoscript'
 @import './AccordGridElement/constants.typoscript'

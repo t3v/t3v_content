@@ -1,11 +1,17 @@
-# -------------------------
-# | T3v Content Constants |
-# -------------------------
+/*
+  -------------------------
+  | T3v Content Constants |
+  -------------------------
+*/
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
 @import './Base/constants.typoscript'
 @import './Vendor/constants.typoscript'
 @import './GridElements/constants.typoscript'
 
-# _XXX_T3V_GENERATOR_XXX_
+/*
+  === T3v Generator ===
+*/

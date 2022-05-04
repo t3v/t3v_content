@@ -1,9 +1,15 @@
-# --------------------------------
-# | T3v Content Vendor Constants |
-# --------------------------------
+/*
+  --------------------------------
+  | T3v Content Vendor Constants |
+  --------------------------------
+*/
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
 @import './FluidStyledContent/constants.typoscript'
 
-# _XXX_T3V_GENERATOR_XXX_
+/*
+  === T3v Generator ===
+*/

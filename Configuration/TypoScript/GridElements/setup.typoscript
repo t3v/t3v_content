@@ -1,8 +1,12 @@
-# -----------------------------------
-# | T3v Content Grid Elements Setup |
-# -----------------------------------
+/*
+  -----------------------------------
+  | T3v Content Grid Elements Setup |
+  -----------------------------------
+*/
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
 @import './AccordionGridElement/setup.typoscript'
 @import './AccordGridElement/setup.typoscript'

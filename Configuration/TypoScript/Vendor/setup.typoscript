@@ -1,9 +1,15 @@
-# ----------------------------
-# | T3v Content Vendor Setup |
-# ----------------------------
+/*
+  ----------------------------
+  | T3v Content Vendor Setup |
+  ----------------------------
+*/
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
 @import './FluidStyledContent/setup.typoscript'
+/*
 
-# _XXX_T3V_GENERATOR_XXX_
+  === T3v Generator ===
+*/

@@ -1,8 +1,11 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
-  <v:variable.set name="contentElement" value="t3v-content-divider-content-element" />
-  <v:variable.set name="uid" value="{data.uid}" />
+<html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <v:variable.set name="signature" value="t3v-content-divider-content-element" />
+  <v:variable.set name="uid" value="{v:variable.convert(value: data.uid, type: 'integer')}" />
+  <v:variable.set name="id" value="c{uid}" />
+  <v:variable.set name="tag" value="{signature}" />
 
   <f:spaceless>
-    <v:tag name="hr" id="c{uid}" class="{contentElement} content-element"></v:tag>
+    <v:tag name="{tag}" id="{id}" class="{signature} content-element"></v:tag>
   </f:spaceless>
 </html>

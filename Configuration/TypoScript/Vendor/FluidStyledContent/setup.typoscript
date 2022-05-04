@@ -1,15 +1,21 @@
-# ------------------------------------------
-# | T3v Content Fluid Styled Content Setup |
-# ------------------------------------------
+/*
+  ------------------------------------------
+  | T3v Content Fluid Styled Content Setup |
+  ------------------------------------------
+*/
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
 @import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
 
 # @import 'EXT:fluid_styled_content/Configuration/TypoScript/Helper/ContentElement.typoscript'
 # @import 'EXT:fluid_styled_content/Configuration/TypoScript/Helper/ParseFunc.typoscript'
 
-# --- Typical content elements ---
+/*
+  --- Typical content elements ---
+*/
 
 # @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Bullets.typoscript'
 # @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Div.typoscript'
@@ -24,7 +30,9 @@
 # @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Textpic.typoscript'
 # @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Uploads.typoscript'
 
-# --- Menu content elements ---
+/*
+  --- Menu content elements ---
+*/
 
 # @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuAbstract.typoscript'
 # @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuCategorizedContent.typoscript'
@@ -38,7 +46,31 @@
 # @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuSitemap.typoscript'
 # @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuSitemapPages.typoscript'
 
-# === Overrides ===
+/*
+  --- Content element rendering ---
+*/
+
+/*
+tt_content {
+  stdWrap {
+    # Setup the edit panel for all content elements:
+    editPanel = 1
+    editPanel {
+      allow = move, new, edit, hide, delete
+      edit {
+        displayRecord = 1
+      }
+      label = %s
+      onlyCurrentPid = 1
+      previewBorder = 1
+    }
+  }
+}
+*/
+
+/*
+  === Overrides ===
+*/
 
 lib {
   contentElement {
@@ -49,7 +81,6 @@ lib {
     # reversed order.
     layoutRootPaths {
       0 = EXT:fluid_styled_content/Resources/Private/Layouts/
-
       10 = {$styles.templates.layoutRootPath}
     }
 
@@ -60,7 +91,6 @@ lib {
     # reversed order.
     templateRootPaths {
       0 = EXT:fluid_styled_content/Resources/Private/Templates/
-
       10 = {$styles.templates.templateRootPath}
     }
 
@@ -71,30 +101,7 @@ lib {
     # reversed order.
     partialRootPaths {
       0 = EXT:fluid_styled_content/Resources/Private/Partials/
-
       10 = {$styles.templates.partialRootPath}
     }
   }
 }
-
-# --- Content element rendering ---
-
-# tt_content {
-#   stdWrap {
-#     # Setup the edit panel for all content elements:
-#     editPanel = 1
-#     editPanel {
-#       allow = move, new, edit, hide, delete
-#
-#       label = %s
-#
-#       onlyCurrentPid = 1
-#
-#       previewBorder = 1
-#
-#       edit {
-#         displayRecord = 1
-#       }
-#     }
-#   }
-# }
