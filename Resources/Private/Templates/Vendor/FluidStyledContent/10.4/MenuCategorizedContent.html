@@ -1,15 +1,15 @@
 <html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
-  <f:layout name="MenuCategorizedContent" />
+  <f:layout name="Default" />
 
   <f:section name="Content">
     <f:if condition="{content}">
       <ul>
         <f:for each="{content}" as="element">
-          <li>
-            <f:link.page pageUid="{element.data.pid}" section="{element.data.uid}" title="{element.data.header}">
-              <span>{element.data.header}</span>
-            </f:link.page>
-          </li>
+            <li>
+              <f:link.page pageUid="{element.data.pid}" section="{element.data.uid}" title="{element.data.header}">
+                <span>{element.data.header}</span>
+              </f:link.page>
+            </li>
         </f:for>
       </ul>
     </f:if>

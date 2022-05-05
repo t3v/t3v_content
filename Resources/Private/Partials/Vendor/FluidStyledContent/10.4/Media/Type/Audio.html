@@ -1,13 +1,12 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-  <figure class="figure--audio figure">
-    <div class="embed--audio embed">
-      <f:render partial="Media/Rendering/Audio" arguments="{file: file, dimensions: dimensions, settings: settings}" />
+<figure class="audio">
+    <div class="audio-embed">
+        <f:render partial="Media/Rendering/Audio" arguments="{file: file, dimensions: dimensions, settings: settings}" />
     </div>
-
     <f:if condition="{file.description}">
-      <figcaption class="figcaption--audio figcaption">
-        {file.description}
-      </figcaption>
+        <figcaption class="audio-caption">
+            {file.description -> f:format.nl2br()}
+        </figcaption>
     </f:if>
-  </figure>
+</figure>
 </html>
