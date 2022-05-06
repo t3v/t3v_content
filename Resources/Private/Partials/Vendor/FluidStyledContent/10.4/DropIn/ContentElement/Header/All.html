@@ -1,13 +1,14 @@
 <html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
-  <v:variable.set name="title" value="{v:variable.convert(value: data.header, type: 'string')}" />
-  <v:variable.set name="subtitle" value="{v:variable.convert(value: data.subheader, type: 'string')}" />
-  <v:variable.set name="link" value="{v:variable.convert(value: data.header_link, type: 'string')}" />
-  <v:variable.set name="date" value="{v:variable.convert(value: data.date, type: 'string')}" />
   <v:variable.set name="layout" value="{v:variable.convert(value: data.header_layout, type: 'integer')}" />
-  <v:variable.set name="position" value="{v:variable.convert(value: data.header_position, type: 'string', default: 'default')}" />
 
   <f:if condition="{layout} != 0 && {layout} != 100">
+    <v:variable.set name="title" value="{v:variable.convert(value: data.header, type: 'string')}" />
+    <v:variable.set name="subtitle" value="{v:variable.convert(value: data.subheader, type: 'string')}" />
+    <v:variable.set name="link" value="{v:variable.convert(value: data.header_link, type: 'string')}" />
+    <v:variable.set name="date" value="{v:variable.convert(value: data.date, type: 'string')}" />
+    <v:variable.set name="position" value="{v:variable.convert(value: data.header_position, type: 'string', default: 'default')}" />
+
     <f:if condition="{title} || {subtitle} || {date}">
       <v:tag name="div" class="{signature}__header content-element__header" data="{position: position}" hideIfEmpty="true">
         <f:render partial="DropIn/ContentElement/Header/Title"

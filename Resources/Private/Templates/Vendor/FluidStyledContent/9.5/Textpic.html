@@ -3,7 +3,7 @@
 
   <f:section name="Header">
     <f:if condition="{gallery.position.noWrap} != 1">
-      <f:render partial="Header/All" arguments="{_all}" />
+      <f:render partial="DropIn/ContentElement/Header/All" arguments="{_all}" />
     </f:if>
   </f:section>
 
@@ -14,9 +14,9 @@
 
     <f:if condition="{data.bodytext}">
       <f:then>
-        <div class="content-element__bodytext">
+        <div class="{signature}__bodytext content-element__bodytext">
           <f:if condition="{gallery.position.noWrap}">
-            <f:render partial="Header/All" arguments="{_all}" />
+            <f:render partial="DropIn/ContentElement/Header/All" arguments="{_all}" />
           </f:if>
 
           <f:format.html>{data.bodytext}</f:format.html>
@@ -26,8 +26,8 @@
       <f:else>
         <f:if condition="{gallery.position.noWrap}">
           <f:if condition="{data.header}">
-            <div class="content-element__bodytext">
-              <f:render partial="Header/All" arguments="{_all}" />
+            <div class="{signature}__bodytext content-element__bodytext">
+              <f:render partial="DropIn/ContentElement/Header/All" arguments="{_all}" />
             </div>
           </f:if>
         </f:if>
