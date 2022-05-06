@@ -13,40 +13,8 @@
           <f:for each="{row.columns}" as="column">
             <f:if condition="{column.media}">
               <div class="media-gallery__column">
-                <f:if condition="{column.media.description}">
-                  <f:then>
-                    <figure class="figure">
-                  </f:then>
-
-                  <f:else>
-                    <div class="media-gallery__media">
-                  </f:else>
-                </f:if>
-
-                <f:switch expression="{column.media.type}">
-                  <f:case value="3">
-                    <f:render section="AudioType" arguments="{_all}" />
-                  </f:case>
-
-                  <f:case value="4">
-                    <f:render section="VideoType" arguments="{_all}" />
-                  </f:case>
-
-                  <f:defaultCase>
-                    <f:render section="ImageType" arguments="{_all}" />
-                  </f:defaultCase>
-                </f:switch>
-
-                <f:if condition="{column.media.description}">
-                  <f:then>
-                      <figcaption class="figcaption">{column.media.description}</figcaption>
-                    </figure>
-                  </f:then>
-
-                  <f:else>
-                    </div>
-                  </f:else>
-                </f:if>
+                <f:render partial="Media/Type"
+                          arguments="{file: column.media, dimensions: column.dimensions, data: data, settings: settings}" />
               </div>
             </f:if>
           </f:for>
@@ -59,66 +27,4 @@
       </f:if>
     </div>
   </f:if>
-
-  <f:section name="AudioType">
-    <f:render section="Media" arguments="{_all}" />
-  </f:section>
-
-  <f:section name="ImageType">
-    <f:if condition="{column.media.link}">
-      <f:then>
-        <f:link.typolink parameter="{column.media.link}">
-          <f:render section="Media" arguments="{_all}" />
-        </f:link.typolink>
-      </f:then>
-
-      <f:else>
-        <f:if condition="{data.image_zoom}">
-          <f:then>
-            <c:link.clickEnlarge image="{column.media}" configuration="{settings.media.popup}">
-              <f:render section="Media" arguments="{_all}" />
-            </c:link.clickEnlarge>
-          </f:then>
-
-          <f:else>
-            <f:render section="Media" arguments="{_all}" />
-          </f:else>
-        </f:if>
-      </f:else>
-    </f:if>
-  </f:section>
-
-  <f:section name="VideoType">
-    <f:render section="Media" arguments="{_all}" />
-  </f:section>
-
-  <f:section name="Media">
-    <f:if condition="{data.imageheight} >= 1">
-      <f:then>
-        <f:if condition="{data.imagewidth} >= 1">
-          <f:then>
-            <f:media file="{column.media}" height="{data.imageheight}c" width="{data.imagewidth}c" title="{column.media.title}"
-                     alt="{column.media.alternative}" />
-          </f:then>
-
-          <f:else>
-            <f:media file="{column.media}" height="{data.imageheight}c" title="{column.media.title}" alt="{column.media.alternative}" />
-          </f:else>
-        </f:if>
-      </f:then>
-
-      <f:else>
-        <f:if condition="{data.imagewidth} >= 1">
-          <f:then>
-            <f:media file="{column.media}" width="{data.imagewidth}c" title="{column.media.title}" alt="{column.media.alternative}" />
-          </f:then>
-
-          <f:else>
-            <f:media file="{column.media}" height="{column.dimensions.height}" width="{column.dimensions.width}"
-                     title="{column.media.title}" alt="{column.media.alternative}" />
-          </f:else>
-        </f:if>
-      </f:else>
-    </f:if>
-  </f:section>
 </html>
