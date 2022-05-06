@@ -1,25 +1,28 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:ce="http://typo3.org/ns/TYPO3/CMS/FluidStyledContent/ViewHelpers" data-namespace-typo3-fluid="true">
-<f:if condition="{gallery.rows}">
-    <div class="ce-gallery{f:if(condition: data.imageborder, then: ' ce-border')}" data-ce-columns="{gallery.count.columns}" data-ce-images="{gallery.count.files}">
-        <f:if condition="{gallery.position.horizontal} == 'center'">
-            <div class="ce-outer">
-                <div class="ce-inner">
-        </f:if>
-        <f:for each="{gallery.rows}" as="row">
-            <div class="ce-row">
-                <f:for each="{row.columns}" as="column">
-                    <f:if condition="{column.media}">
-                        <div class="ce-column">
-                            <f:render partial="Media/Type" arguments="{file: column.media, dimensions: column.dimensions, data: data, settings: settings}" />
-                        </div>
-                    </f:if>
-                </f:for>
-            </div>
-        </f:for>
-        <f:if condition="{gallery.position.horizontal} == 'center'">
-                </div>
-            </div>
-        </f:if>
+<html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+  <f:if condition="{gallery.rows}">
+    <div class="media-gallery--{gallery.position.horizontal} media-gallery--{gallery.position.vertical} media-gallery--{gallery.count.columns}-columns {f:if(condition: data.imageheight, then: 'media-gallery--image-height', else: 'media-gallery--no-image-height')} {f:if(condition: data.imagewidth, then: 'media-gallery--image-width', else: 'media-gallery--no-image-width')} {f:if(condition: data.imageborder, then: 'media-gallery--border')} media-gallery"
+         data-media-gallery-columns="{gallery.count.columns}" data-media-gallery-files="{gallery.count.files}">
+      <f:if condition="{gallery.position.horizontal} == 'center'">
+        <div class="media-gallery__outer">
+          <div class="media-gallery__inner">
+      </f:if>
+
+      <f:for each="{gallery.rows}" as="row">
+        <div class="media-gallery__row">
+          <f:for each="{row.columns}" as="column">
+            <f:if condition="{column.media}">
+              <div class="media-gallery__column">
+                <f:render partial="Media/Type" arguments="{file: column.media, dimensions: column.dimensions, data: data, settings: settings}" />
+              </div>
+            </f:if>
+          </f:for>
+        </div>
+      </f:for>
+
+      <f:if condition="{gallery.position.horizontal} == 'center'">
+          </div>
+        </div>
+      </f:if>
     </div>
-</f:if>
+  </f:if>
 </html>

@@ -8,21 +8,21 @@
           </f:if>
 
           <f:render section="Before" optional="true">
-            <f:render partial="Frame/DropIn/Before" arguments="{_all}" />
+            <f:render partial="DropIn/Before/All" arguments="{_all}" />
           </f:render>
 
           <f:render section="Header" optional="true">
-            <f:render partial="Frame/Header" arguments="{_all}" />
+            <f:render partial="Header/All" arguments="{_all}" />
           </f:render>
 
           <f:render section="Main" optional="true" />
 
           <f:render section="Footer" optional="true">
-            <f:render partial="Frame/Footer" arguments="{_all}" />
+            <f:render partial="Footer/All" arguments="{_all}" />
           </f:render>
 
           <f:render section="After" optional="true">
-            <f:render partial="Frame/DropIn/After" arguments="{_all}" />
+            <f:render partial="DropIn/After/All" arguments="{_all}" />
           </f:render>
         </div>
       </f:then>
@@ -39,21 +39,21 @@
         </f:if>
 
         <f:render section="Before" optional="true">
-          <f:render partial="Frame/DropIn/Before" arguments="{_all}" />
+          <f:render partial="DropIn/Before/All" arguments="{_all}" />
         </f:render>
 
         <f:render section="Header" optional="true">
-          <f:render partial="Frame/Header" arguments="{_all}" />
+          <f:render partial="Header/All" arguments="{_all}" />
         </f:render>
 
         <f:render section="Main" optional="true" />
 
         <f:render section="Footer" optional="true">
-          <f:render partial="Frame/Footer" arguments="{_all}" />
+          <f:render partial="Footer/All" arguments="{_all}" />
         </f:render>
 
         <f:render section="After" optional="true">
-          <f:render partial="Frame/DropIn/After" arguments="{_all}" />
+          <f:render partial="DropIn/After/All" arguments="{_all}" />
         </f:render>
 
         <f:if condition="{data.space_after_class}">

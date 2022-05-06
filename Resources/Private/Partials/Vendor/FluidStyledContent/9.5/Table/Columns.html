@@ -49,14 +49,10 @@
     </f:else>
   </f:if>
 
-  <f:if condition="{cell}">
-    <f:then>
-      <f:format.nl2br>{cell}</f:format.nl2br>
-    </f:then>
+  <f:if condition="{cell} != ''">
+    <f:then>{cell -> f:format.nl2br()}</f:then>
 
-    <f:else>
-      &nbsp;
-    </f:else>
+    <f:else>&nbsp;</f:else>
   </f:if>
 
   <f:if condition="{rowIterator.isFirst}">

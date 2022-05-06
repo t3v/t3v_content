@@ -13,13 +13,18 @@
 
   <f:spaceless>
     <f:if condition="{layout} != 0 && {layout} != 100">
-      <v:tag name="{tag}" id="{id}" class="{signature} content-element" additionalAttributes="{position: position}">
-        <f:render partial="Shared/Title" arguments="{signature: signature, title: title, link: link, layout: layout, position: position}" />
+      <f:if condition="{title} || {subtitle} || {date}">
+        <v:tag name="{tag}" id="{id}" class="{signature} content-element" additionalAttributes="{position: position}">
+          <f:render partial="DropIn/ContentElement/Header/Title"
+                    arguments="{signature: signature, title: title, link: link, layout: layout, position: position}" />
 
-        <f:render partial="Shared/Subtitle" arguments="{signature: signature, subtitle: subtitle, layout: layout, position: position}" />
+          <f:render partial="DropIn/ContentElement/Header/Subtitle"
+                    arguments="{signature: signature, subtitle: subtitle, layout: layout, position: position}" />
 
-        <f:render partial="Shared/Date" arguments="{signature: signature, date: date, position: position}" />
-      </v:tag>
+          <f:render partial="DropIn/ContentElement/Header/Date"
+                    arguments="{signature: signature, date: date, position: position}" />
+        </v:tag>
+      </f:if>
     </f:if>
   </f:spaceless>
 </html>

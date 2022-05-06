@@ -6,7 +6,8 @@
   <v:variable.set name="tag" value="{signature}" />
   <v:variable.set name="type" value="abstract" />
 
-  <v:tag name="{tag}" id="{id}" class="{signature} content-element" additionalAttributes="{type: type}">
+  <v:tag name="{tag}" id="{id}" class="{signature} content-element" additionalAttributes="{type: type}" hideIfEmpty="false"
+         forceClosingTag="true">
     <f:if condition="{data._LOCALIZED_UID}">
       <a id="c{data._LOCALIZED_UID}"></a>
     </f:if>
@@ -16,7 +17,7 @@
     </f:render>
 
     <f:render section="Header" optional="true">
-      <f:render partial="Header/All" arguments="{_all}" />
+      <f:render partial="DropIn/ContentElement/Header/All" arguments="{_all}" />
     </f:render>
 
     <v:tag name="div" class="{signature}__content content-element__content" hideIfEmpty="true">
@@ -24,7 +25,7 @@
     </v:tag>
 
     <f:render section="Footer" optional="true">
-      <f:render partial="Footer/All" arguments="{_all}" />
+      <f:render partial="DropIn/ContentElement/Footer/All" arguments="{_all}" />
     </f:render>
 
     <f:render section="After" optional="true">

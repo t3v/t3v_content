@@ -10,11 +10,14 @@
   <f:if condition="{layout} != 0 && {layout} != 100">
     <f:if condition="{title} || {subtitle} || {date}">
       <v:tag name="div" class="{signature}__header content-element__header" data="{position: position}" hideIfEmpty="true">
-        <f:render partial="Header/Title" arguments="{signature: signature, title: title, link: link, layout: layout, position: position}" />
+        <f:render partial="DropIn/ContentElement/Header/Title"
+                  arguments="{signature: signature, title: title, link: link, layout: layout, position: position}" />
 
-        <f:render partial="Header/Subtitle" arguments="{signature: signature, subtitle: subtitle, layout: layout, position: position}" />
+        <f:render partial="DropIn/ContentElement/Header/Subtitle"
+                  arguments="{signature: signature, subtitle: subtitle, layout: layout, position: position}" />
 
-        <f:render partial="Header/Date" arguments="{signature: signature, date: date, position: position}" />
+        <f:render partial="DropIn/ContentElement/Header/Date"
+                  arguments="{signature: signature, date: date, position: position}" />
       </v:tag>
     </f:if>
   </f:if>

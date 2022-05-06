@@ -12,12 +12,17 @@
   <v:variable.set name="position" value="{v:variable.convert(value: data.header_position, type: 'string', default: 'default')}" />
 
   <f:if condition="{layout} != 0 && {layout} != 100">
-    <v:tag name="{tag}" id="{id}" class="{signature} content-element" additionalAttributes="{position: position}">
-      <f:render partial="Header/Title" arguments="{signature: signature, title: title, link: link, layout: layout, position: position}" />
+    <f:if condition="{title} || {subtitle} || {date}">
+      <v:tag name="{tag}" id="{id}" class="{signature} content-element" additionalAttributes="{position: position}">
+        <f:render partial="DropIn/ContentElement/Header/Title"
+                  arguments="{signature: signature, title: title, link: link, layout: layout, position: position}" />
 
-      <f:render partial="Header/Subtitle" arguments="{signature: signature, subtitle: subtitle, layout: layout, position: position}" />
+        <f:render partial="DropIn/ContentElement/Header/Subtitle"
+                  arguments="{signature: signature, subtitle: subtitle, layout: layout, position: position}" />
 
-      <f:render partial="Header/Date" arguments="{signature: signature, date: date, position: position}" />
-    </v:tag>
+        <f:render partial="DropIn/ContentElement/Header/Date"
+                  arguments="{signature: signature, date: date, position: position}" />
+      </v:tag>
+    </f:if>
   </f:if>
 </html>
