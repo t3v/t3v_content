@@ -1,0 +1,34 @@
+<html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <v:variable.set name="signature" value="t3v-content-bullets-content-element" />
+  <v:variable.set name="uid" value="{v:variable.convert(value: data.uid, type: 'integer')}" />
+  <v:variable.set name="id" value="c{uid}" />
+  <v:variable.set name="tag" value="{signature}" />
+  <v:variable.set name="type" value="{data.bullets_type}" />
+
+  <v:tag name="{tag}" id="{id}" class="{signature} content-element" additionalAttributes="{type: type}">
+    <f:if condition="{data._LOCALIZED_UID}">
+      <a id="c{data._LOCALIZED_UID}"></a>
+    </f:if>
+
+    <f:render section="Before" optional="true">
+      <f:render partial="DropIn/Before/All" arguments="{_all}" />
+    </f:render>
+
+    <f:render section="Header" optional="true">
+      <f:render partial="Header/All" arguments="{_all}" />
+    </f:render>
+
+    <v:tag name="div" class="{signature}__content content-element__content" hideIfEmpty="true">
+      <f:render section="Content" optional="true" />
+    </v:tag>
+
+    <f:render section="Footer" optional="true">
+      <f:render partial="Footer/All" arguments="{_all}" />
+    </f:render>
+
+    <f:render section="After" optional="true">
+      <f:render partial="DropIn/After/All" arguments="{_all}" />
+    </f:render>
+  </v:tag>
+</html>

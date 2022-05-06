@@ -1,12 +1,12 @@
 <html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
-  <f:layout name="Default" />
+  <f:layout name="MenuSectionPages" />
 
   <f:section name="Content">
     <f:if condition="{menu}">
       <ul>
         <f:for each="{menu}" as="page">
           <li>
-            <a href="{page.link}"{f:if(condition: page.target, then: ' target="{page.target}"')} title="{page.title}">
+            <a href="{page.link}" title="{page.title}" {f:if(condition: page.target, then: 'target="{page.target}"')}>
               <span>{page.title}</span>
             </a>
 
@@ -14,7 +14,7 @@
               <ul>
                 <f:for each="{page.content}" as="element">
                   <li>
-                    <a href="{page.link}#c{element.data.uid}"{f:if(condition: page.target, then: ' target="{page.target}"')} title="{element.data.header}">
+                    <a href="{page.link}#c{element.data.uid}" title="{element.data.header}" {f:if(condition: page.target, then: 'target="{page.target}"')}>
                       <span>{element.data.header}</span>
                     </a>
                   </li>

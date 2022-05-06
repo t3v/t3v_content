@@ -1,11 +1,13 @@
-<html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+<html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
-  <v:variable.set name="contentElement" value="t3v-content-menu-content-element" />
-  <v:variable.set name="uid" value="{data.uid}" />
+  <v:variable.set name="signature" value="t3v-content-menu-content-element" />
+  <v:variable.set name="uid" value="{v:variable.convert(value: data.uid, type: 'integer')}" />
+  <v:variable.set name="id" value="c{uid}" />
+  <v:variable.set name="tag" value="{signature}" />
   <v:variable.set name="type" value="categorized-pages" />
 
   <f:spaceless>
-    <v:tag name="{contentElement}" id="c{uid}" class="{contentElement} content-element" additionalAttributes="{type: type}">
+    <v:tag name="{tag}" id="{id}" class="{signature} content-element" additionalAttributes="{type: type}">
       <f:if condition="{data._LOCALIZED_UID}">
         <a id="c{data._LOCALIZED_UID}"></a>
       </f:if>
@@ -18,7 +20,7 @@
         <f:render partial="Shared/Header" arguments="{_all}" />
       </f:render>
 
-      <v:tag name="div" class="{contentElement}__content content-element__content" hideIfEmpty="true">
+      <v:tag name="div" class="{signature}__content content-element__content" hideIfEmpty="true">
         <f:render section="Content" optional="true" />
       </v:tag>
 

@@ -1,10 +1,8 @@
 <html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
-  <v:tag name="div" class="{contentElement}__footer content-element__footer" hideIfEmpty="true">
+  <v:tag name="div" class="{signature}__footer content-element__footer" hideIfEmpty="true">
     <f:if condition="{data.linkToTop}">
-      <a class="{contentElement}__to-top content-element__to-top" href="#top">
-        <f:translate key="toTop" extensionName="fluid_styled_content" />
-      </a>
+      <a href="#top">{f:translate(key: 'toTop', extensionName: 'fluid_styled_content')}</a>
     </f:if>
   </v:tag>
 </html>

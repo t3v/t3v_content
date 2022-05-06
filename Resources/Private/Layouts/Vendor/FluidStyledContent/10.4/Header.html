@@ -1,0 +1,23 @@
+<html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+  <v:variable.set name="signature" value="foo-bar-foobar-content-element" />
+  <v:variable.set name="uid" value="{v:variable.convert(value: data.uid, type: 'integer')}" />
+  <v:variable.set name="id" value="c{uid}" />
+  <v:variable.set name="tag" value="{signature}" />
+  <v:variable.set name="title" value="{v:variable.convert(value: data.header, type: 'string')}" />
+  <v:variable.set name="subtitle" value="{v:variable.convert(value: data.subheader, type: 'string')}" />
+  <v:variable.set name="link" value="{v:variable.convert(value: data.header_link, type: 'string')}" />
+  <v:variable.set name="date" value="{v:variable.convert(value: data.date, type: 'string')}" />
+  <v:variable.set name="layout" value="{v:variable.convert(value: data.header_layout, type: 'integer')}" />
+  <v:variable.set name="position" value="{v:variable.convert(value: data.header_position, type: 'string', default: 'default')}" />
+
+  <f:if condition="{layout} != 0 && {layout} != 100">
+    <v:tag name="{tag}" id="{id}" class="{signature} content-element" additionalAttributes="{position: position}">
+      <f:render partial="Header/Title" arguments="{signature: signature, title: title, link: link, layout: layout, position: position}" />
+
+      <f:render partial="Header/Subtitle" arguments="{signature: signature, subtitle: subtitle, layout: layout, position: position}" />
+
+      <f:render partial="Header/Date" arguments="{signature: signature, date: date, position: position}" />
+    </v:tag>
+  </f:if>
+</html>

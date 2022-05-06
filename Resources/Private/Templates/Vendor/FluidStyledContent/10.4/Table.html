@@ -1,11 +1,11 @@
 <html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
-  <f:layout name="Default" />
+  <f:layout name="Table" />
 
   <f:section name="Content">
     <f:if condition="{table}">
-      <table class="ce-table{f:if(condition: data.table_class, then: ' ce-table-{data.table_class}')}">
+      <table class="{f:if(condition: data.table_class, then: 'table--{data.table_class}')} table">
         <f:if condition="{data.table_caption}">
-          <caption>{data.table_caption}</caption>
+          <caption class="caption">{data.table_caption}</caption>
         </f:if>
 
         <f:for each="{table}" as="row" iteration="rowIterator">

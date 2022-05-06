@@ -1,7 +1,7 @@
 <html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
   <f:if condition="{date}">
-    <v:tag name="div" class="{contentElement}__date content-element__date" data="{position: position}" hideIfEmpty="true">
+    <v:tag name="div" class="{signature}__date content-element__date" data="{position: position}" hideIfEmpty="true">
       <time datetime="{date -> f:format.date(format: '%Y-%m-%d')}">
         <f:format.date format="%B %e, %Y">{date}</f:format.date>
       </time>
