@@ -10,98 +10,22 @@
 
 @import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
 
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/Helper/ContentElement.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/Helper/ParseFunc.typoscript'
-
-/*
-  --- Typical content elements ---
-*/
-
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Bullets.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Div.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Header.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Html.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Image.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/List.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Shortcut.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Table.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Text.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Textmedia.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Textpic.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/Uploads.typoscript'
-
-/*
-  --- Menu content elements ---
-*/
-
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuAbstract.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuCategorizedContent.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuCategorizedPages.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuPages.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuSubpages.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuSection.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuSectionPages.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuRecentlyUpdated.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuRelatedPages.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuSitemap.typoscript'
-# @import 'EXT:fluid_styled_content/Configuration/TypoScript/ContentElement/MenuSitemapPages.typoscript'
-
 /*
   --- Content element rendering ---
 */
 
-/*
-tt_content {
-  stdWrap {
-    # Setup the edit panel for all content elements:
-    editPanel = 1
-    editPanel {
-      allow = move, new, edit, hide, delete
-      edit {
-        displayRecord = 1
-      }
-      label = %s
-      onlyCurrentPid = 1
-      previewBorder = 1
-    }
-  }
-}
-*/
-
-/*
-  === Overrides ===
-*/
-
-lib {
-  contentElement {
-    layoutRootPath = {$styles.templates.layoutRootPath}
-
-    # Defines several paths for layouts, which will be tried in reversed order (the paths are searched from bottom to top).
-    # The first folder where the desired layout is found, is used. If the array keys are numeric, they are first sorted and then tried in
-    # reversed order.
-    layoutRootPaths {
-      0 = EXT:fluid_styled_content/Resources/Private/Layouts/
-      10 = {$styles.templates.layoutRootPath}
-    }
-
-    templateRootPath = {$styles.templates.templateRootPath}
-
-    # Defines several paths for templates, which will be tried in reversed order (the paths are searched from bottom to top).
-    # The first folder where the desired template is found, is used. If the array keys are numeric, they are first sorted and then tried in
-    # reversed order.
-    templateRootPaths {
-      0 = EXT:fluid_styled_content/Resources/Private/Templates/
-      10 = {$styles.templates.templateRootPath}
-    }
-
-    partialRootPath = {$styles.templates.partialRootPath}
-
-    # Defines several paths for partials, which will be tried in reversed order (the paths are searched from bottom to top).
-    # The first folder where the desired partial is found, is used. If the array keys are numeric, they are first sorted and then tried in
-    # reversed order.
-    partialRootPaths {
-      0 = EXT:fluid_styled_content/Resources/Private/Partials/
-      10 = {$styles.templates.partialRootPath}
-    }
-  }
-}
+# tt_content {
+#   stdWrap {
+#     # Setup the edit panel for all content elements:
+#     editPanel = 1
+#     editPanel {
+#       allow = move, new, edit, hide, delete
+#       edit {
+#         displayRecord = 1
+#       }
+#       label = %s
+#       onlyCurrentPid = 1
+#       previewBorder = 1
+#     }
+#   }
+# }

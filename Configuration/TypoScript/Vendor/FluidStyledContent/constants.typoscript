@@ -22,19 +22,19 @@ styles {
     # The default header type or the number of the header layout to be used by default:
     # defaultHeaderType = 2
 
-    links {
-      # The target for external links:
-      # extTarget = _blank
+    # links {
+    #   # The target for external links:
+    #   # extTarget = _blank
+    #
+    #   # The parts to keep when building links: Comma separated list of the link parts to show when building the link-text: `scheme`, `path`
+    #   # or `query`. Example: `` (empty) => `www.example.com`, `scheme, path` => `http://www.example.com`.
+    #   # keep = path
+    # }
 
-      # The parts to keep when building links: Comma separated list of the link parts to show when building the link-text: `scheme`, `path`
-      # or `query`. Example: `` (empty) => `www.example.com`, `scheme, path` => `http://www.example.com`.
-      # keep = path
-    }
-
-    shortcut {
-      # The list of accepted tables:
-      # tables = tt_content
-    }
+    # shortcut {
+    #   # The list of accepted tables:
+    #   # tables = tt_content
+    # }
 
     textmedia {
       # --- Dimensions ---
@@ -123,4 +123,4 @@ styles {
       partialRootPath = EXT:t3v_content/Resources/Private/Partials/Vendor/FluidStyledContent/9.5/
     }
   }
-[end]
+[END]
