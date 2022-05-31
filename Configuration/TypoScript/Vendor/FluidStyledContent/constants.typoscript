@@ -43,16 +43,19 @@ styles {
       # maxW = 600
 
       # Same as above, but this is the maximum width when text is wrapped around an block of media elements.
+      #
       # The default is 50% of the normal max media item width.
       # maxWInText = 300
 
       # --- Layout ---
 
       # The horizontal distance between media elements in a block in content elements of type `Media & Images`.
+      #
       # If you change this manually in your CSS, you need to adjust this setting accordingly.
       # columnSpacing = 10
 
       # The vertical distance after each media elements row in content elements of type `Text & Media`.
+      #
       # If you change this manually in your CSS, you need to adjust this setting accordingly.
       # rowSpacing = 10
 
