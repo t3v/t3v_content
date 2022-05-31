@@ -4,11 +4,9 @@
     <header />
 
     <body>
-      <!-- _XXX_CE_CREATOR_XXX_ -->
-
       <!-- === Grid Elements === -->
 
-      <!-- Carousel Grid Element -->
+      <!-- ‐‐‐ Carousel Grid Element ‐‐‐ -->
 
       <trans-unit id="gridElements.carouselGridElement.controls.previous.label">
         <source>Previous</source>
@@ -30,7 +28,7 @@
         <target>Nächstes Element</target>
       </trans-unit>
 
-      <!-- Event Grid Element -->
+      <!-- ‐‐‐ Event Grid Element ‐‐‐ -->
 
       <trans-unit id="gridElements.eventGridElement.controls.toggle.label">
         <source>Toggle</source>
@@ -42,7 +40,7 @@
         <target>Umschalten</target>
       </trans-unit>
 
-      <!-- Slider Grid Element -->
+      <!-- ‐‐‐ Slider Grid Element ‐‐‐ -->
 
       <trans-unit id="gridElements.sliderGridElement.controls.previous.label">
         <source>Previous</source>
@@ -63,6 +61,8 @@
         <source>Next slide</source>
         <target>Nächste Folie</target>
       </trans-unit>
+
+      <!-- === T3v Generator === -->
     </body>
   </file>
 </xliff>

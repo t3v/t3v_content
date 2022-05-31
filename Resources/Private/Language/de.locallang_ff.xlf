@@ -4,8 +4,6 @@
     <header />
 
     <body>
-      <!-- _XXX_CE_CREATOR_XXX_ -->
-
       <!-- === Settings === -->
 
       <trans-unit id="settings.autoplay.label">
@@ -182,6 +180,8 @@
         <source>Teaser</source>
         <target>Teaser</target>
       </trans-unit>
+
+      <!-- === T3v Generator === -->
     </body>
   </file>
 </xliff>

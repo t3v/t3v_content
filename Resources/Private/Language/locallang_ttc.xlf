@@ -4,101 +4,99 @@
     <header />
 
     <body>
-      <!-- _XXX_CE_CREATOR_XXX_ -->
-
       <!-- === Grid Elements === -->
 
-      <!-- Accordion Grid Element -->
+      <!-- ‐‐‐ Accordion Grid Element ‐‐‐ -->
 
       <trans-unit id="gridElements.accordionGridElement.title">
         <source>Accordion</source>
       </trans-unit>
 
       <trans-unit id="gridElements.accordionGridElement.description">
-        <source>An Accordion Grid Element.</source>
+        <source>Groups accord elements together.</source>
       </trans-unit>
 
-      <!-- Accord Grid Element -->
+      <!-- ‐‐‐ Accord Grid Element ‐‐‐ -->
 
       <trans-unit id="gridElements.accordGridElement.title">
         <source>Accord</source>
       </trans-unit>
 
       <trans-unit id="gridElements.accordGridElement.description">
-        <source>A child element for an Accordion Grid Element.</source>
+        <source>Displays elements in an accord that can be collapsed or expanded.</source>
       </trans-unit>
 
-      <!-- Card Grid Element -->
+      <!-- ‐‐‐ Card Grid Element ‐‐‐ -->
 
       <trans-unit id="gridElements.cardGridElement.title">
         <source>Card</source>
       </trans-unit>
 
       <trans-unit id="gridElements.cardGridElement.description">
-        <source>A Card Grid Element.</source>
+        <source>Displays elements as a card.</source>
       </trans-unit>
 
-      <!-- Carousel Grid Element -->
+      <!-- ‐‐‐ Carousel Grid Element ‐‐‐ -->
 
       <trans-unit id="gridElements.carouselGridElement.title">
         <source>Carousel</source>
       </trans-unit>
 
       <trans-unit id="gridElements.carouselGridElement.description">
-        <source>A Carousel Grid Element.</source>
+        <source>Displays elements as a carousel.</source>
       </trans-unit>
 
-      <!-- Slider Grid Element -->
-
-      <trans-unit id="gridElements.sliderGridElement.title">
-        <source>Slider</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.sliderGridElement.description">
-        <source>A Slider Grid Element.</source>
-      </trans-unit>
-
-      <!-- Timeline Grid Element -->
-
-      <trans-unit id="gridElements.timelineGridElement.title">
-        <source>Timeline</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.timelineGridElement.description">
-        <source>A Timeline Grid Element.</source>
-      </trans-unit>
-
-      <!-- Session Grid Element -->
-
-      <trans-unit id="gridElements.sessionGridElement.title">
-        <source>Session</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.sessionGridElement.description">
-        <source>A child element for a Timeline Grid Element.</source>
-      </trans-unit>
-
-      <!-- Time Slot Grid Element -->
-
-      <trans-unit id="gridElements.timeSlotGridElement.title">
-        <source>Time slot</source>
-      </trans-unit>
-
-      <trans-unit id="gridElements.timeSlotGridElement.description">
-        <source>A child element for an Event Grid Element.</source>
-      </trans-unit>
-
-      <!-- Event Grid Element -->
+      <!-- ‐‐‐ Event Grid Element ‐‐‐ -->
 
       <trans-unit id="gridElements.eventGridElement.title">
         <source>Event</source>
       </trans-unit>
 
       <trans-unit id="gridElements.eventGridElement.description">
-        <source>A child element for a Timeline Grid Element.</source>
+        <source>Displays elements as a event. It is a child element of a timeline.</source>
       </trans-unit>
 
-      <!-- Shared -->
+      <!-- ‐‐‐ Session Grid Element ‐‐‐ -->
+
+      <trans-unit id="gridElements.sessionGridElement.title">
+        <source>Session</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.sessionGridElement.description">
+        <source>Displays elements as a session. It is a child element of a timeline.</source>
+      </trans-unit>
+
+      <!-- ‐‐‐ Slider Grid Element ‐‐‐ -->
+
+      <trans-unit id="gridElements.sliderGridElement.title">
+        <source>Slider</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.sliderGridElement.description">
+        <source>Displays elements as a slider.</source>
+      </trans-unit>
+
+      <!-- ‐‐‐ Timeline Grid Element ‐‐‐ -->
+
+      <trans-unit id="gridElements.timelineGridElement.title">
+        <source>Timeline</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timelineGridElement.description">
+        <source>Displays elements a a timeline.</source>
+      </trans-unit>
+
+      <!-- ‐‐‐ Time Slot Grid Element ‐‐‐ -->
+
+      <trans-unit id="gridElements.timeSlotGridElement.title">
+        <source>Time slot</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.timeSlotGridElement.description">
+        <source>Displays elements as a time slote. It is a child element of an event.</source>
+      </trans-unit>
+
+      <!-- ‐‐‐ Shared ‐‐‐ -->
 
       <trans-unit id="gridElements.shared.columns.header.name">
         <source>Header</source>
@@ -119,6 +117,8 @@
       <trans-unit id="gridElements.shared.columns.visuals.name">
         <source>Visuals</source>
       </trans-unit>
+
+      <!-- === T3v Generator === -->
     </body>
   </file>
 </xliff>
