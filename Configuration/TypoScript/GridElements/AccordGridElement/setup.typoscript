@@ -1,8 +1,8 @@
-# -----------------------------------------
-# | T3v Content Accord Grid Element Setup |
-# -----------------------------------------
-
-# === Grid Element Configuration ===
+/*
+  -----------------------------------------
+  | T3v Content Accord Grid Element Setup |
+  -----------------------------------------
+*/
 
 tt_content {
   gridelements_pi1 {
@@ -18,17 +18,17 @@ tt_content {
               partialRootPath = {$plugin.tx_t3vcontent.settings.gridElements.accordGridElement.cObject.partialRootPath}
 
               dataProcessing {
-                10 = T3v\T3vBase\DataProcessing\GridElement\ThemeProcessor
+                10 = T3v\T3vBase\DataProcessing\GridElement\StyleProcessor
                 10 {
                   default {
-                    as = theme
+                    as = styles
                   }
                 }
 
-                20 = T3v\T3vBase\DataProcessing\GridElement\StyleProcessor
+                20 = T3v\T3vBase\DataProcessing\GridElement\ThemeProcessor
                 20 {
                   default {
-                    as = styles
+                    as = theme
                   }
                 }
               }
