@@ -1,9 +1,15 @@
-# -----------------------------
-# | T3v Content Page TSconfig |
-# -----------------------------
+/*
+  -----------------------------
+  | T3v Content Page TSconfig |
+  -----------------------------
+*/
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
 @import './Page/GridElements.tsconfig'
 
-# _XXX_T3V_GENERATOR_XXX_
+/*
+  === T3v Generator ===
+*/

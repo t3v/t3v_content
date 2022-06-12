@@ -1,8 +1,12 @@
-# --------------------------------------
-# | T3v Content Grid Elements TSconfig |
-# --------------------------------------
+/*
+  --------------------------------------
+  | T3v Content Grid Elements TSconfig |
+  --------------------------------------
+*/
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
 @import './GridElements/AccordionGridElement.tsconfig'
 @import './GridElements/AccordGridElement.tsconfig'
@@ -17,4 +21,6 @@
 @import './GridElements/TimeSlotGridElement.tsconfig'
 @import './GridElements/EventGridElement.tsconfig'
 
-# _XXX_T3V_GENERATOR_XXX_
+/*
+  === T3v Generator ===
+*/

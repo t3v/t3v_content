@@ -20,7 +20,7 @@ defined('TYPO3_MODE') or die();
 
 // --- Table Content Element ---
 
-// Set `Top` as default table header position instead of `No header`.
+// Sets `Top` as default table header position instead of `No header`:
 $GLOBALS['TCA']['tt_content']['columns']['table_header_position']['config']['default'] = 1;
 
-/** _XXX_T3V_GENERATOR_XXX_ */
+// === T3v Generator ===

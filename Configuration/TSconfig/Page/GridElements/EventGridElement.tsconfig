@@ -1,8 +1,8 @@
-# -------------------------------------------
-# | T3v Content Event Grid Element TSconfig |
-# -------------------------------------------
-
-# === Grid Element Configuration ===
+/*
+  -------------------------------------------
+  | T3v Content Event Grid Element TSconfig |
+  -------------------------------------------
+*/
 
 tx_gridelements {
   setup {
