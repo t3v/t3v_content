@@ -116,6 +116,21 @@
 
       <!-- ‐‐‐ Shared ‐‐‐ -->
 
+      <trans-unit id="gridElements.shared.columns.abstract.name">
+        <source>Abstract</source>
+        <target>Zusammenfassung</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.columns.description.name">
+        <source>Description</source>
+        <target>Beschreibung</target>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.columns.footer.name">
+        <source>Footer</source>
+        <target>Fußbereich</target>
+      </trans-unit>
+
       <trans-unit id="gridElements.shared.columns.header.name">
         <source>Header</source>
         <target>Kopfbereich</target>
@@ -124,16 +139,6 @@
       <trans-unit id="gridElements.shared.columns.main.name">
         <source>Main</source>
         <target>Hauptbereich</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.shared.columns.footer.name">
-        <source>Footer</source>
-        <target>Fußbereich</target>
-      </trans-unit>
-
-      <trans-unit id="gridElements.shared.columns.description.name">
-        <source>Description</source>
-        <target>Beschreibung</target>
       </trans-unit>
 
       <trans-unit id="gridElements.shared.columns.visuals.name">

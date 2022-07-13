@@ -98,20 +98,24 @@
 
       <!-- ‐‐‐ Shared ‐‐‐ -->
 
-      <trans-unit id="gridElements.shared.columns.header.name">
-        <source>Header</source>
+      <trans-unit id="gridElements.shared.columns.abstract.name">
+        <source>Abstract</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.columns.main.name">
-        <source>Main</source>
+      <trans-unit id="gridElements.shared.columns.description.name">
+        <source>Description</source>
       </trans-unit>
 
       <trans-unit id="gridElements.shared.columns.footer.name">
         <source>Footer</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.shared.columns.description.name">
-        <source>Description</source>
+      <trans-unit id="gridElements.shared.columns.header.name">
+        <source>Header</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.shared.columns.main.name">
+        <source>Main</source>
       </trans-unit>
 
       <trans-unit id="gridElements.shared.columns.visuals.name">
