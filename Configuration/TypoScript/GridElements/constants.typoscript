@@ -20,3 +20,7 @@
 @import './SessionGridElement/constants.typoscript'
 @import './TimeSlotGridElement/constants.typoscript'
 @import './EventGridElement/constants.typoscript'
+
+/*
+  === T3v Generator ===
+*/

@@ -20,3 +20,7 @@
 @import './SessionGridElement/setup.typoscript'
 @import './TimeSlotGridElement/setup.typoscript'
 @import './EventGridElement/setup.typoscript'
+
+/*
+  === T3v Generator ===
+*/
