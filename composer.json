@@ -48,7 +48,7 @@
     }
   ],
   "require": {
-    "php": ">= 7.2",
+    "php": ">= 7.2 <= 7.4",
     "typo3/cms-core": "^9.5.31",
     "typo3/cms-fluid-styled-content": "^9.5.31",
     "t3v/t3v_base": "dev-9-x"

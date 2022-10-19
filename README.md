@@ -61,7 +61,7 @@ Installation
 Dependencies
 ------------
 
-* TYPO3 CMS 9.5 or greater
+* TYPO3 CMS 9.5
 * Fluid Styled Content extension
 * T3v Base extension
 
