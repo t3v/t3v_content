@@ -3,18 +3,18 @@ CHANGELOG
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+8.0.0
+-----
 
-* Deprecated and reimplemented remaining view helpers in `T3vBase` 
-* Deprecated header and *headline view helpers (breaking change)
+* Deprecated and reimplemented remaining view helpers in `T3vBase`
+* Deprecated `Header*` and `Headline*` view helpers (breaking change)
 * Moved `Spacer` content element to T3v Base (breaking change)
 * Moved `ExtensionService` to T3v Core (breaking change)
 * Moved `ContentElementController` to T3v Core (breaking change)
 * Moved `ContentElementUtility` to T3v Core (breaking change)
 * Updated translations
 * Integrated `t3v/t3v_testing` which is based on `typo3/testing-framework`
-* Support for TYPO3 CMS 9.5 or greater
+* Added support for TYPO3 CMS 9.5 or greater
 * Dropped support for TYPO3 8.x (breaking change)
 * PSR-12: Extended Coding Style
 * Updated Travis CI and AppVeyor configuration
