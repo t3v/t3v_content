@@ -3,53 +3,53 @@
 
 **The content extension of [TYPO3voilà].**
 
-Grid Elements
+Grid elements
 -------------
 
-* Accordion Grid Element
-* Accord Grid Element
-* Card Grid Element
-* Carousel Grid Element
-* Slider Grid Element
-* Timeline Grid Element
-* Session Grid Element
-* Time Slot Grid Element
-* Event Grid Element
+* Accordion grid element
+* Accord grid element
+* Card grid element
+* Carousel grid element
+* Slider grid element
+* Timeline grid element
+* Session grid element
+* Time slot grid element
+* Event grid element
 
-Content Elements
+Content elements
 ----------------
 
 ### Typical page content
 
-* Header Only Content Element
-* Regular Text Content Element
-* Text & Images Content Element
-* Images Only Content Element
-* Text & Media Content Element
-* Bullet List Content Element
-* Table Content Element
-* File Links Content Element
+* Header only content element
+* Regular text content element
+* Text & images content element
+* Images only content element
+* Text & media content element
+* Bullet list content element
+* Table content element
+* File links content element
 
 ### Menu
 
-* Abstracts Content Element
-* Categorized content Content Element
-* Categorized pages Content Element
-* Pages Content Element
-* Subpages Content Element
-* Recently updated pages Content Element
-* Related pages Content Element
-* Section index Content Element
-* Section index of subpages from selected pages Content Element
-* Sitemap Content Element
-* Sitemaps of selected pages Content Element
-* Special Menus Content Element
+* Abstracts content element
+* Categorized content content element
+* Categorized pages content element
+* Pages content element
+* Subpages content element
+* Recently updated pages content element
+* Related pages content element
+* Section index content element
+* Section index of subpages from selected pages content element
+* Sitemap content element
+* Sitemaps of selected pages content element
+* Special menus content element
 
 ### Special elements
 
-* Plain HTML Content Element
-* Divider Content Element
-* Insert records Content Element
+* Plain HTML content element
+* Divider content element
+* Insert records content element
 
 Installation
 ------------
@@ -61,7 +61,7 @@ Installation
 Dependencies
 ------------
 
-* TYPO3 CMS 9.5 or greater
+* TYPO3 CMS 10.4 or greater
 * Fluid Styled Content extension
 * T3v Base extension
 
