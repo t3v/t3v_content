@@ -1,20 +1,11 @@
 <?php
+declare(strict_types=1);
+
 /**
  * The `tt_content` TCA override.
- *
- * @noinspection PhpFullyQualifiedNameUsageInspection
  */
 
 defined('TYPO3') or die();
-
-// === Variables ===
-
-// $namespace = 'T3v';
-// $extensionKey = 't3v_content';
-// $extensionIdentifier = \T3v\T3vCore\Utility\ExtensionUtility::getIdentifier($extensionKey);
-// $extensionSignature = \T3v\T3vCore\Utility\ExtensionUtility::getSignature($namespace, $extensionKey);
-// $flexFormsFolder = \T3v\T3vCore\Utility\ExtensionUtility::getFlexFormsFolder($extensionKey);
-// $lll = \T3v\T3vCore\Utility\ExtensionUtility::getLocallang($extensionKey, 'locallang_ttc.xlf');
 
 // === Content Elements ===
 
