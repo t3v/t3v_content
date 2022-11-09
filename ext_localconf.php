@@ -18,8 +18,8 @@ defined('TYPO3') or die();
     // === Variables ===
 
     $extensionKey = 't3v_content';
-    $tsConfigFolder = ExtensionUtility::getTSConfigFolder($extensionKey);
     $iconsFolder = ExtensionUtility::getIconsFolder($extensionKey);
+    $tsConfigFolder = ExtensionUtility::getTSConfigFolder($extensionKey);
 
     // === TSconfig ===
 
