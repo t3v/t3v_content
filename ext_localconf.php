@@ -23,9 +23,7 @@ defined('TYPO3') or die();
 
     // === TSconfig ===
 
-    ExtensionManagementUtility::addPageTSConfig(
-        "<INCLUDE_TYPOSCRIPT: source=\"$tsConfigFolder/Page.tsconfig\">"
-    );
+    ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"$tsConfigFolder/Page.tsconfig\">");
 
     // === Backend ===
 
@@ -47,15 +45,16 @@ defined('TYPO3') or die();
         ];
 
         foreach ($icons as $name => $source) {
-            $iconIdentifier = IconUtility::getIdentifier($name);
-            $iconSignature = IconUtility::getSignature($extensionKey, $iconIdentifier);
+            $iconSignature = IconUtility::getSignature($name);
+            $iconIdentifier = IconUtility::getIdentifier($extensionKey, $iconSignature);
 
             $iconRegistry->registerIcon(
-                $iconSignature,
+                $iconIdentifier,
                 SvgIconProvider::class,
                 ['source' => $source]
             );
         }
     }
+
     // === T3v Generator ===
 })();
