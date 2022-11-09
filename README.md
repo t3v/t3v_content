@@ -3,8 +3,10 @@
 
 **The content extension of [TYPO3voilà].**
 
-Grid elements
--------------
+Overview
+--------
+
+### Grid elements *
 
 * Accordion grid element
 * Accord grid element
@@ -16,10 +18,9 @@ Grid elements
 * Time slot grid element
 * Event grid element
 
-Content elements
-----------------
+### Content elements
 
-### Typical page content
+#### Typical page content
 
 * Header only content element
 * Regular text content element
@@ -30,7 +31,7 @@ Content elements
 * Table content element
 * File links content element
 
-### Menu
+#### Menu
 
 * Abstracts content element
 * Categorized content content element
@@ -45,7 +46,7 @@ Content elements
 * Sitemaps of selected pages content element
 * Special menus content element
 
-### Special elements
+#### Special elements
 
 * Plain HTML content element
 * Divider content element
