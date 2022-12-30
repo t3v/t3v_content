@@ -32,11 +32,11 @@
     { "type": "composer", "url": "https://composer.typo3.org" }
   ],
   "require": {
-    "php": ">= 7.2",
+    "php": ">= 5.5 <= 7.2",
     "typo3/cms-core": "^7.6",
     "typo3/cms-fluid-styled-content": "^7.6",
     "gridelementsteam/gridelements": "dev-7-0",
-    "maxserv/replacecontent": "~2.0.5",
+    "maxserv/replacecontent": "^2.0",
     "fluidtypo3/vhs": "^4.4",
     "t3v/t3v_core": "dev-7-x",
     "t3v/t3v_datamapper": "dev-7-x"
