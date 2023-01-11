@@ -6,11 +6,11 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Moved view helpers to T3v Legacy (breaking change)
-* Migration from Gridelements to Container extension (breaking change)
-* Updated Travis CI configuration
+* Moved legacy view helpers to T3v Legacy (breaking change)
+* Begin migration from Gridelements to Container extension (breaking change)
 * Dropped support for TYPO3 9.5 (breaking change)
 * Dropped support for PHP < 7.4 (breaking change)
+* Updated Travis CI configuration
 * Dropped support for AppVeyor
 
 8.0.0
