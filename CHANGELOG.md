@@ -3,8 +3,8 @@ CHANGELOG
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+9.0.0
+-----
 
 * Moved legacy view helpers to T3v Legacy (breaking change)
 * Begin migration from Gridelements to Container extension (breaking change)
