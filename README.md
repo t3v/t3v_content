@@ -3,6 +3,20 @@
 
 **The content extension of [TYPO3voilà].**
 
+Installation
+------------
+
+1. Add T3v Content as dependency to the [Composer] configuration
+2. Run `composer install` or `composer update` to install all dependencies with Composer
+3. Include the TypoScript for T3v Content
+
+Dependencies
+------------
+
+* TYPO3 CMS 10.4 or greater
+* Fluid Styled Content extension
+* T3v Base extension
+
 Overview
 --------
 
@@ -51,20 +65,6 @@ Overview
 * Plain HTML content element
 * Divider content element
 * Insert records content element
-
-Installation
-------------
-
-1. Add T3v Content as dependency to the [Composer] configuration
-2. Run `composer install` or `composer update` to install all dependencies with Composer
-3. Include the TypoScript for T3v Content
-
-Dependencies
-------------
-
-* TYPO3 CMS 10.4 or greater
-* Fluid Styled Content extension
-* T3v Base extension
 
 Development
 -----------
