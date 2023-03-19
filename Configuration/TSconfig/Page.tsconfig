@@ -5,12 +5,5 @@
 */
 
 /*
-  === Imports ===
-*/
-
-# @import './Page/ContainerElements.tsconfig'
-# @import './Page/GridElements.tsconfig'
-
-/*
   === T3v Generator ===
 */
