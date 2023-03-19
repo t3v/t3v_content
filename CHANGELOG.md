@@ -3,6 +3,14 @@ CHANGELOG
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Load page TSconfig for container or grid elements based on extension loaded
+* Added TypoScript bundles for `container` and `gridelements`
+* Updated Composer configuration
+* Updated dependencies
+
 9.0.0
 -----
 

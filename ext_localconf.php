@@ -25,6 +25,18 @@ defined('TYPO3') or die();
 
     ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"$tsConfigFolder/Page.tsconfig\">");
 
+    if (ExtensionManagementUtility::isLoaded('container')) {
+        ExtensionManagementUtility::addPageTSConfig(
+            "<INCLUDE_TYPOSCRIPT: source=\"$tsConfigFolder/Page/ContainerElements.tsconfig\">"
+        );
+    }
+
+    if (ExtensionManagementUtility::isLoaded('gridelements')) {
+        ExtensionManagementUtility::addPageTSConfig(
+            "<INCLUDE_TYPOSCRIPT: source=\"$tsConfigFolder/Page/GridElements.tsconfig\">"
+        );
+    }
+
     // === Backend ===
 
     if (TYPO3_MODE === 'BE') {

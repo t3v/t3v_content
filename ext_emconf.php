@@ -1,7 +1,5 @@
 <?php
-/** @var string $_EXTKEY */
-
-$EM_CONF[$_EXTKEY] = [
+$EM_CONF['t3v_content'] = [
     'title' => 'T3v Content',
     'description' => 'The content extension of TYPO3voilà.',
     'author' => 'Maik Kempe',

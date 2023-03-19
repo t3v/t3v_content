@@ -1,0 +1,17 @@
+/*
+  ---------------------------------------------
+  | T3v Content With Container Elements Setup |
+  ---------------------------------------------
+*/
+
+/*
+  === Imports ===
+*/
+
+@import '../../Base/setup.typoscript'
+@import '../../Vendor/setup.typoscript'
+@import '../../ContainerElements/setup.typoscript'
+
+/*
+  === T3v Generator ===
+*/

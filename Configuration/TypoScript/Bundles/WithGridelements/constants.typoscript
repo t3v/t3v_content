@@ -1,0 +1,17 @@
+/*
+  --------------------------------------------
+  | T3v Content With Grid Elements Constants |
+  --------------------------------------------
+*/
+
+/*
+  === Imports ===
+*/
+
+@import '../../Base/constants.typoscript'
+@import '../../Vendor/constants.typoscript'
+@import '../../GridElements/constants.typoscript'
+
+/*
+  === T3v Generator ===
+*/

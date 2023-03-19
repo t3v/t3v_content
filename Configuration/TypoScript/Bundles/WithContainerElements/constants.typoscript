@@ -1,0 +1,17 @@
+/*
+  -------------------------------------------------
+  | T3v Content With Container Elements Constants |
+  -------------------------------------------------
+*/
+
+/*
+  === Imports ===
+*/
+
+@import '../../Base/constants.typoscript'
+@import '../../Vendor/constants.typoscript'
+@import '../../ContainerElements/constants.typoscript'
+
+/*
+  === T3v Generator ===
+*/
