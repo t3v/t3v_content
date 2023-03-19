@@ -13,8 +13,13 @@ Installation
 Dependencies
 ------------
 
+### Core
+
 * TYPO3 CMS 10.4 or greater
 * Fluid Styled Content extension
+
+### TYPO3voilà
+
 * T3v Base extension
 
 Overview
