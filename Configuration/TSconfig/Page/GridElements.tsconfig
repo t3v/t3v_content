@@ -20,7 +20,3 @@
 @import './GridElements/SessionGridElement.tsconfig'
 @import './GridElements/TimeSlotGridElement.tsconfig'
 @import './GridElements/EventGridElement.tsconfig'
-
-/*
-  === T3v Generator ===
-*/
