@@ -42,9 +42,9 @@
     "typo3-ter/t3v_content": "self.version"
   },
   "require": {
-    "php": ">= 7.2",
-    "typo3/cms-core": "^10.4.36 || ^11.5.25",
-    "typo3/cms-fluid-styled-content": "^10.4.36 || ^11.5.25",
+    "php": ">= 7.4",
+    "typo3/cms-core": "^10.4.38 || ^11.5.28",
+    "typo3/cms-fluid-styled-content": "^10.4.38 || ^11.5.28",
     "t3v/t3v_base": "dev-develop"
   },
   "require-dev": {
